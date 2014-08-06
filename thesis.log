@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.18)  6 AUG 2014 16:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.18)  6 AUG 2014 18:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -365,6 +365,9 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 (/usr/share/texlive/texmf-dist/tex/latex/carlisle/slashed.sty
 Package: slashed 1997/01/16 v0.01 Feynman Slashed Character Notation (DPC)
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
+)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
@@ -506,27 +509,27 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 68.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 69.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 68.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 69.
 
 (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -600,7 +603,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box34
-Package hyperref Info: Link coloring ON on input line 68.
+Package hyperref Info: Link coloring ON on input line 69.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -610,9 +613,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count128
 )
-LaTeX Info: Redefining \ref on input line 68.
-LaTeX Info: Redefining \pageref on input line 68.
-LaTeX Info: Redefining \nameref on input line 68.
+LaTeX Info: Redefining \ref on input line 69.
+LaTeX Info: Redefining \pageref on input line 69.
+LaTeX Info: Redefining \nameref on input line 69.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write3
@@ -741,11 +744,11 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 
 ])
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 81.
+(Font)              <10> on input line 204.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 81.
+(Font)              <7> on input line 204.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 81.
+(Font)              <5> on input line 204.
  [1] [2
 
 
@@ -775,8 +778,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.92 \chapter
-             {The Standard Model and its extension to Supersymmetry} [1
+l.215 \chapter
+              {The Standard Model and its extension to Supersymmetry} [1
 
 
 
@@ -784,8 +787,8 @@ l.92 \chapter
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.92 \chapter
-             {The Standard Model and its extension to Supersymmetry} [2
+l.215 \chapter
+              {The Standard Model and its extension to Supersymmetry} [2
 
 
 ]
@@ -795,12 +798,45 @@ Chapter 2.
 
 ]
 Chapter 3.
-(./setup.tex) [5] [6
+(./setup.tex (./LHC.tex
+<plots/LHC/LHC_scetch.png, id=210, 1535.7375pt x 1068.99374pt>
+File: plots/LHC/LHC_scetch.png Graphic file (type png)
+
+<use plots/LHC/LHC_scetch.png>
+Package pdftex.def Info: plots/LHC/LHC_scetch.png used on input line 7.
+(pdftex.def)             Requested size: 256.07744pt x 178.23587pt.
+LaTeX Font Info:    Try loading font information for OMS+lmss on input line 12.
+
+LaTeX Font Info:    No file OMSlmss.fd. on input line 12.
 
 
-]
+LaTeX Font Warning: Font shape `OMS/lmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textperiodcentered' on input line 12.
+
+[5 <./plots/LHC/LHC_scetch.png>]
+<plots/LHC/int_lumi_cumulative_pp_2.pdf, id=231, 578.16pt x 433.62pt>
+File: plots/LHC/int_lumi_cumulative_pp_2.pdf Graphic file (type pdf)
+
+<use plots/LHC/int_lumi_cumulative_pp_2.pdf>
+Package pdftex.def Info: plots/LHC/int_lumi_cumulative_pp_2.pdf used on input l
+ine 17.
+(pdftex.def)             Requested size: 209.13013pt x 156.84413pt.
+
+<plots/LHC/peak_lumi_per_day_pp_2012.pdf, id=232, 578.16pt x 433.62pt>
+File: plots/LHC/peak_lumi_per_day_pp_2012.pdf Graphic file (type pdf)
+
+<use plots/LHC/peak_lumi_per_day_pp_2012.pdf>
+Package pdftex.def Info: plots/LHC/peak_lumi_per_day_pp_2012.pdf used on input 
+line 20.
+(pdftex.def)             Requested size: 209.13013pt x 156.84413pt.
+)) [6 <./plots/LHC/int_lumi_cumulative_pp_2.pdf> <./plots/LHC/peak_lumi_per_day
+_pp_2012.pdf>]
 Chapter 4.
-(./ana.tex) [7] [8
+(./ana.tex) [7
+
+
+] [8
 
 
 ]
@@ -825,37 +861,55 @@ Chapter 8.
 
 ]
 Chapter 9.
-No file thesis.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 133.
-[17]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 133.
- (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 133.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 133.
+(./thesis.bbl [17] [18
+
+
+]
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 6.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 25.
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 256.
+ [19]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 256.
+
+(./thesis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 256.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 256.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 55C73B031D4DDBE3165EA4459A2468D9;2308.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 133.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 256.
  ) 
 Here is how much of TeX's memory you used:
- 10608 strings out of 494935
- 160146 string characters out of 6178122
- 295760 words of memory out of 5000000
- 13580 multiletter control sequences out of 15000+600000
- 54928 words of font info for 72 fonts, out of 8000000 for 9000
+ 10848 strings out of 494935
+ 163114 string characters out of 6178122
+ 296757 words of memory out of 5000000
+ 13788 multiletter control sequences out of 15000+600000
+ 63566 words of font info for 76 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 40i,11n,51p,320b,354s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,11n,51p,1301b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share
-/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm
-/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf
-/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss1
-2.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fo
-nts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.
-pfb>
-Output written on thesis.pdf (22 pages, 126689 bytes).
+ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
+/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi1
+0.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/font
+s/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb><
+/usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/p
+ublic/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/type1/public/
+lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
+Output written on thesis.pdf (24 pages, 1375268 bytes).
 PDF statistics:
- 301 PDF objects out of 1000 (max. 8388607)
- 267 compressed objects within 3 object streams
- 53 named destinations out of 1000 (max. 500000)
- 249 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 494 PDF objects out of 1000 (max. 8388607)
+ 402 compressed objects within 5 object streams
+ 64 named destinations out of 1000 (max. 500000)
+ 264 words of extra memory for PDF output out of 10000 (max. 10000000)
 
