@@ -1,0 +1,132 @@
+%%%%%%%%%%%%     Einstellungen      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Grundlegende Einstellungen
+\documentclass[fontsize=10pt,openright,paper=a4]{scrbook}
+\usepackage[bottom=4.0cm, left=3.0cm, right=3.0cm]{geometry} 
+\usepackage[squaren, thinspace ,thinqspace]{SIunits}
+\usepackage[latin2]{inputenc}
+\usepackage[T1]{fontenc}
+\newcommand{\changefont}[3]{
+\fontfamily{#1} \fontseries{#2} \fontshape{#3} \selectfont}
+%\changefont{pbk}{b}{sc}
+\usepackage{lmodern}
+\renewcommand*\familydefault{\sfdefault} %% Only if the base font of the document is to be sans serif
+\usepackage[T1]{fontenc}
+%\changefont{phv}{m}{n}
+\usepackage{amsmath}
+%\usepackage{amsfonts}
+\usepackage{amssymb}
+%\usepackage[english]{babel} % neue deutsche Rechtschreibung
+\usepackage{graphicx}
+%\usepackage{picins}
+\usepackage{wasysym}
+\usepackage{subfigure}
+\usepackage{afterpage}
+\usepackage{color}
+\usepackage{float}
+\usepackage{mathrsfs}
+\usepackage{tabularx}
+\usepackage{slashed}
+%\usepackage{appendix}
+
+
+\usepackage[small]{caption}
+\usepackage[plainheadsepline,automark]{scrpage2}
+
+\captionsetup{font={small}}
+
+% Verlinktes Inhaltsverzeichnis
+\usepackage[bookmarks=true, bookmarksnumbered=false,  
+bookmarksopen=false,colorlinks=true,linkcolor=black]{hyperref}
+
+\setlength{\parindent}{0mm}
+% Header
+\pagestyle{scrheadings}
+% loescht voreingestellte Stile
+\clearscrheadings
+\clearscrplain
+\automark[section]{chapter}
+
+\setheadsepline{1pt}        %Separate Linie im Kopf
+\renewcommand*{\chapterheadstartvskip}{\vspace*{1pt}} % Abstand vor Kapitelüberschriften
+
+\ihead[]{\leftmark}
+\ohead[]{\rightmark}
+\ofoot[\pagemark]{\pagemark}
+
+\cfoot[]{}
+
+\author{Jan-Frederik Schulte}
+\title{CMS Dilepton edge search}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%     Titelseite/Inhalt      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\changefont{pbk}{b}{sc}
+%Dokument
+\begin{document}
+
+
+%Titelseite
+\input{title}
+\pagenumbering{roman}
+
+%\addsec{Zusammenfassung}
+%\input{Zusammenfassung}
+%\addsec{Abstract}
+%\input{Abstract}
+
+%Inhalt
+\tableofcontents
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%     Hauptteil     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+\pagenumbering{arabic}
+\chapter{Introduction}
+%\input{intro}
+\chapter{The Standard Model and its extension to Supersymmetry}
+%\input{SM}
+\chapter{The LHC and the CMS Detector}
+%\input{LHCCMS}
+\chapter{Data triggering and processing}
+%\input{Trigger}
+\chapter{Event reconstruction}
+%\input{RECO}
+%\input{MET}
+
+\chapter{Dilepton final states in supersymmetric models}
+%\input{signal}
+\chapter{Event Selection}
+%\input{selection}
+\chapter{Estimation of Standard Model backgrounds}
+%\input{Backgrounds}
+
+\chapter{Results}
+%\input{results}
+%\chapter{Efficiencies for \Wprime searches}
+%\input{TP}
+\chapter{Systematic Uncertainties}
+%\input{systematics}
+%\chapter{Background Estimation}
+%\input{BackgroundFit}
+\chapter{Statistical Interpretation}
+%\input{Statistics}
+\chapter{Conclusion}
+%\input{conclusion}
+
+%\input{appendix}
+%\bibliographystyle{abbrv}
+\bibliographystyle{unsrt}
+\bibliography{thesis.bib}
+%\input{Literature}
+
+%\input{Erklärung}
+%\input{Danksagung}
+
+
+\end{document}
