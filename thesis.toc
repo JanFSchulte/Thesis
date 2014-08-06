@@ -1,12 +1,31 @@
+\contentsline {section}{\nonumberline Zusammenfassung}{i}{section*.1}
+\contentsline {section}{\nonumberline Abstract}{i}{section*.2}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}The Standard Model and its extension to Supersymmetry}{3}{chapter.2}
-\contentsline {chapter}{\numberline {3}The LHC and the CMS Detector}{5}{chapter.3}
-\contentsline {chapter}{\numberline {4}Data triggering and processing}{7}{chapter.4}
-\contentsline {chapter}{\numberline {5}Event reconstruction}{9}{chapter.5}
-\contentsline {chapter}{\numberline {6}Dilepton final states in supersymmetric models}{11}{chapter.6}
-\contentsline {chapter}{\numberline {7}Event Selection}{13}{chapter.7}
-\contentsline {chapter}{\numberline {8}Estimation of Standard Model backgrounds}{15}{chapter.8}
-\contentsline {chapter}{\numberline {9}Results}{17}{chapter.9}
-\contentsline {chapter}{\numberline {10}Systematic Uncertainties}{19}{chapter.10}
-\contentsline {chapter}{\numberline {11}Statistical Interpretation}{21}{chapter.11}
-\contentsline {chapter}{\numberline {12}Conclusion}{23}{chapter.12}
+\contentsline {section}{\numberline {2.1}The Standard Model of particle physics}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Motivation for extending the Standard Model and Supersymmetry}{3}{section.2.2}
+\contentsline {section}{\numberline {2.3}Production of lepton pairs in supersymmetric models}{3}{section.2.3}
+\contentsline {section}{\numberline {2.4}Kinematic edges in the dilepton invariant mass spectrum}{3}{section.2.4}
+\contentsline {chapter}{\numberline {3}Experimental setup}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}The CERN Large Hadron Collider}{5}{section.3.1}
+\contentsline {section}{\numberline {3.2}The CMS detector}{5}{section.3.2}
+\contentsline {section}{\numberline {3.3}Data acquisition and event reconstruction}{5}{section.3.3}
+\contentsline {chapter}{\numberline {4}Data analysis and event selection}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}Trigger and event processing}{7}{section.4.1}
+\contentsline {section}{\numberline {4.2}Object reconstruction}{7}{section.4.2}
+\contentsline {section}{\numberline {4.3}Datasets}{7}{section.4.3}
+\contentsline {section}{\numberline {4.4}Event selection}{7}{section.4.4}
+\contentsline {chapter}{\numberline {5}Estimation of Standard Model backgrounds}{9}{chapter.5}
+\contentsline {section}{\numberline {5.1}Flavour-symmetric backgrounds}{9}{section.5.1}
+\contentsline {section}{\numberline {5.2}Backgrounds containing a Z boson}{9}{section.5.2}
+\contentsline {section}{\numberline {5.3}Investigation of possible further backgrounds}{9}{section.5.3}
+\contentsline {section}{\numberline {5.4}Search for a kinematic edge with a fit}{9}{section.5.4}
+\contentsline {chapter}{\numberline {6}Results}{11}{chapter.6}
+\contentsline {section}{\numberline {6.1}Result of the counting experiment}{11}{section.6.1}
+\contentsline {section}{\numberline {6.2}Result of the search for a kinematic edge}{11}{section.6.2}
+\contentsline {chapter}{\numberline {7}Interpretation in simplified models}{13}{chapter.7}
+\contentsline {section}{\numberline {7.1}Simplified Models for Supersymmetric Signatures}{13}{section.7.1}
+\contentsline {section}{\numberline {7.2}The T6bblledge and T6bbslepton model}{13}{section.7.2}
+\contentsline {section}{\numberline {7.3}Interpretation of the counting experiment in simplified models}{13}{section.7.3}
+\contentsline {chapter}{\numberline {8}Outlook to LHC Run II}{15}{chapter.8}
+\contentsline {chapter}{\numberline {9}Conclusion}{17}{chapter.9}
