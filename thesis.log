@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.18)  6 AUG 2014 18:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.18)  8 AUG 2014 17:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -796,7 +796,7 @@ Chapter 2.
 ]
 Chapter 3.
 (./setup.tex (./LHC.tex
-<plots/LHC/LHC_scetch.png, id=210, 1535.7375pt x 1068.99374pt>
+<plots/LHC/LHC_scetch.png, id=230, 1535.7375pt x 1068.99374pt>
 File: plots/LHC/LHC_scetch.png Graphic file (type png)
 
 <use plots/LHC/LHC_scetch.png>
@@ -812,7 +812,7 @@ LaTeX Font Warning: Font shape `OMS/lmss/m/n' undefined
 (Font)              for symbol `textperiodcentered' on input line 12.
 
 [5 <./plots/LHC/LHC_scetch.png>]
-<plots/LHC/int_lumi_cumulative_pp_2.pdf, id=231, 578.16pt x 433.62pt>
+<plots/LHC/int_lumi_cumulative_pp_2.pdf, id=251, 578.16pt x 433.62pt>
 File: plots/LHC/int_lumi_cumulative_pp_2.pdf Graphic file (type pdf)
 
 <use plots/LHC/int_lumi_cumulative_pp_2.pdf>
@@ -820,45 +820,80 @@ Package pdftex.def Info: plots/LHC/int_lumi_cumulative_pp_2.pdf used on input l
 ine 17.
 (pdftex.def)             Requested size: 209.13013pt x 156.84413pt.
 
-<plots/LHC/peak_lumi_per_day_pp_2012.pdf, id=232, 578.16pt x 433.62pt>
+<plots/LHC/peak_lumi_per_day_pp_2012.pdf, id=252, 578.16pt x 433.62pt>
 File: plots/LHC/peak_lumi_per_day_pp_2012.pdf Graphic file (type pdf)
 
 <use plots/LHC/peak_lumi_per_day_pp_2012.pdf>
 Package pdftex.def Info: plots/LHC/peak_lumi_per_day_pp_2012.pdf used on input 
 line 20.
 (pdftex.def)             Requested size: 209.13013pt x 156.84413pt.
-)) [6 <./plots/LHC/int_lumi_cumulative_pp_2.pdf> <./plots/LHC/peak_lumi_per_day
-_pp_2012.pdf>]
+) (./CMS.tex
+<plots/CMS/cms_design.png, id=254, 3189.9175pt x 2253.41875pt>
+File: plots/CMS/cms_design.png Graphic file (type png)
+
+<use plots/CMS/cms_design.png>
+Package pdftex.def Info: plots/CMS/cms_design.png used on input line 4.
+(pdftex.def)             Requested size: 256.07744pt x 180.8961pt.
+
+<plots/CMS/Tracker.png, id=259, 589.4522pt x 274.02374pt>
+File: plots/CMS/Tracker.png Graphic file (type png)
+
+<use plots/CMS/Tracker.png>
+Package pdftex.def Info: plots/CMS/Tracker.png used on input line 12.
+(pdftex.def)             Requested size: 256.07744pt x 119.04465pt.
+ [6 <./plots/LHC/int_lumi_cumulative_pp_2.pdf> <./plots/LHC/peak_lumi_per_day_p
+p_2012.pdf>] [7 <./plots/CMS/cms_design.png> <./plots/CMS/Tracker.png>]
+<plots/CMS/TrackerMaterial.png, id=406, 281.55188pt x 292.09125pt>
+File: plots/CMS/TrackerMaterial.png Graphic file (type png)
+
+<use plots/CMS/TrackerMaterial.png>
+Package pdftex.def Info: plots/CMS/TrackerMaterial.png used on input line 28.
+(pdftex.def)             Requested size: 256.07744pt x 265.67863pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 29.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 29.
+
+<plots/CMS/ECAL.png, id=407, 537.50812pt x 392.21532pt>
+File: plots/CMS/ECAL.png Graphic file (type png)
+
+<use plots/CMS/ECAL.png>
+Package pdftex.def Info: plots/CMS/ECAL.png used on input line 36.
+(pdftex.def)             Requested size: 256.07744pt x 186.8548pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8 <./plots/CMS/TrackerMaterial.png>])) [9 <./plots/CMS/ECAL.png>] [10]
 Chapter 4.
-(./ana.tex) [7
+(./ana.tex) [11
 
 
-] [8
+] [12
 
 
 ]
 Chapter 5.
-(./background.tex) [9] [10
+(./background.tex) [13] [14
 
 
 ]
 Chapter 6.
-(./results.tex) [11] [12
+(./results.tex) [15] [16
 
 
 ]
 Chapter 7.
-(./interpretation.tex) [13] [14
+(./interpretation.tex) [17] [18
 
 
 ]
 Chapter 8.
-[15] [16
+[19] [20
 
 
 ]
 Chapter 9.
-(./thesis.bbl [17] [18
+(./thesis.bbl [21] [22
 
 
 ]
@@ -869,14 +904,14 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 25.
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 255.
- [19]
+ [23]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 255.
 
 (./thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 255.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 255.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 55C73B031D4DDBE3165EA4459A2468D9;2308.
+(rerunfilecheck)             Checksum: E4F0ACC1A19C6526D7F99C97EF94A933;2611.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -884,29 +919,33 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 255.
  ) 
 Here is how much of TeX's memory you used:
- 10848 strings out of 494935
- 163114 string characters out of 6178122
- 296708 words of memory out of 5000000
- 13788 multiletter control sequences out of 15000+600000
- 63566 words of font info for 76 fonts, out of 8000000 for 9000
+ 10932 strings out of 494935
+ 164350 string characters out of 6178122
+ 298626 words of memory out of 5000000
+ 13837 multiletter control sequences out of 15000+600000
+ 75682 words of font info for 93 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 40i,11n,51p,1301b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,11n,51p,1327b,416s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
-/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi1
-0.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/font
-s/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb><
-/usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/p
-ublic/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/type1/public/
-lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm
-/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on thesis.pdf (24 pages, 1375268 bytes).
+ips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
+/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
+-mathsy.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.p
+fb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/p
+ublic/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/shar
+e/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.p
+fb></usr/share/texmf/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb>
+</usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type
+1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
+Output written on thesis.pdf (28 pages, 3952084 bytes).
 PDF statistics:
- 494 PDF objects out of 1000 (max. 8388607)
- 402 compressed objects within 5 object streams
- 64 named destinations out of 1000 (max. 500000)
- 264 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 579 PDF objects out of 1000 (max. 8388607)
+ 472 compressed objects within 5 object streams
+ 81 named destinations out of 1000 (max. 500000)
+ 316 words of extra memory for PDF output out of 10000 (max. 10000000)
 
