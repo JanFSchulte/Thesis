@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.18)  8 AUG 2014 17:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.18)  9 AUG 2014 18:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -863,37 +863,61 @@ Package pdftex.def Info: plots/CMS/ECAL.png used on input line 36.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8 <./plots/CMS/TrackerMaterial.png>])) [9 <./plots/CMS/ECAL.png>] [10]
+ [8 <./plots/CMS/TrackerMaterial.png>]
+<plots/CMS/HCAL.png, id=421, 584.93532pt x 392.21532pt>
+File: plots/CMS/HCAL.png Graphic file (type png)
+
+<use plots/CMS/HCAL.png>
+Package pdftex.def Info: plots/CMS/HCAL.png used on input line 55.
+(pdftex.def)             Requested size: 256.07744pt x 171.71347pt.
+ [9 <./plots/CMS/ECAL.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10 <./plots/CMS/HCAL.png>] <plots/CMS/DT.png, id=437, 484.05844pt x 276.28218
+pt>
+File: plots/CMS/DT.png Graphic file (type png)
+
+<use plots/CMS/DT.png>
+Package pdftex.def Info: plots/CMS/DT.png used on input line 72.
+(pdftex.def)             Requested size: 256.07744pt x 146.16325pt.
+ [11]
+<plots/CMS/CSC.png, id=446, 575.14874pt x 286.82156pt>
+File: plots/CMS/CSC.png Graphic file (type png)
+ <use plots/CMS/CSC.png>
+Package pdftex.def Info: plots/CMS/CSC.png used on input line 80.
+(pdftex.def)             Requested size: 256.07744pt x 127.7074pt.
+
+[12 <./plots/CMS/DT.png> <./plots/CMS/CSC.png>])) [13] [14
+
+
+]
 Chapter 4.
-(./ana.tex) [11
-
-
-] [12
+(./ana.tex) [15] [16
 
 
 ]
 Chapter 5.
-(./background.tex) [13] [14
+(./background.tex) [17] [18
 
 
 ]
 Chapter 6.
-(./results.tex) [15] [16
+(./results.tex) [19] [20
 
 
 ]
 Chapter 7.
-(./interpretation.tex) [17] [18
+(./interpretation.tex) [21] [22
 
 
 ]
 Chapter 8.
-[19] [20
+[23] [24
 
 
 ]
 Chapter 9.
-(./thesis.bbl [21] [22
+(./thesis.bbl [25] [26
 
 
 ]
@@ -904,7 +928,7 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 25.
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 255.
- [23]
+ [27]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 255.
 
 (./thesis.aux)
@@ -919,13 +943,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 255.
  ) 
 Here is how much of TeX's memory you used:
- 10932 strings out of 494935
- 164350 string characters out of 6178122
- 298626 words of memory out of 5000000
- 13837 multiletter control sequences out of 15000+600000
+ 10966 strings out of 494935
+ 164842 string characters out of 6178122
+ 298892 words of memory out of 5000000
+ 13853 multiletter control sequences out of 15000+600000
  75682 words of font info for 93 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 40i,11n,51p,1327b,416s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,11n,51p,1561b,416s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
@@ -942,10 +966,10 @@ fb></usr/share/texmf/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb>
 </usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type
 1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on thesis.pdf (28 pages, 3952084 bytes).
+Output written on thesis.pdf (32 pages, 4463582 bytes).
 PDF statistics:
- 579 PDF objects out of 1000 (max. 8388607)
- 472 compressed objects within 5 object streams
- 81 named destinations out of 1000 (max. 500000)
- 316 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 617 PDF objects out of 1000 (max. 8388607)
+ 502 compressed objects within 6 object streams
+ 96 named destinations out of 1000 (max. 500000)
+ 331 words of extra memory for PDF output out of 10000 (max. 10000000)
 
