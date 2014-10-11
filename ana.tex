@@ -1,4 +1,14 @@
 \section{Trigger and event processing}
 \section{Object reconstruction}
+The physics objects relevant to this analysis are electrons, muons, jets and the missing transverse energy \MET. Here the reconstruction of these objects from the information provided by the CMS detector is described. While the electron and muon candidates used here are reconstructed independent of each other with dedicated algorithms, jets and \MET are provided by the particle flow (PF) algorithm. It combines information from all subdetectors to achieve a consistent description of the full event. 
+\subsection{Muon reconstruction and selection}
+The track of a muon is reconstructed separately in the inner tracker and the muon system, resulting in a $\textit{tracker track}$ and a $\textit{standalone muon}$. Tracks in the inner tracker are reconstructed  
+\subsection{Electron reconstruction and selection}
+The signature of an electron in the CMS detector is a track reconstructed by the tracking detectors that leads to a matching cluster of energy reconstructed in the ECAL. In practice this is complicated by the large material budget of the tracking detectors, resulting in a high probability of an electron to loose energy in form of bremsstrahlung. About 35\% of all electrons loose more than 70\% of their energy and for 10\% the energy loss exceeds 95\%~\cite{Baffioni:2006cd}. The reconstruction is further complicated by the large solenoidal magnetic field, which bends the electron's trajectory away from the radiated photons. This has to be taken into account both in the tracking algorithms and the clustering of the energy deposits in the ECAL. 
+
+In the ECAL two different algorithms are used to group the energy deposits into clusters and clusters of clusters, called super clusters (SCs), in the barrel and endcap regions of the detector. Both are designed to group together
+
+\subsection{Particle Flow}
+\subsubsection{The algorithm}
 \section{Datasets}
 \section{Event selection}

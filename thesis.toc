@@ -9,27 +9,31 @@
 \contentsline {chapter}{\numberline {3}Experimental setup}{5}{chapter.3}
 \contentsline {section}{\numberline {3.1}The CERN Large Hadron Collider}{5}{section.3.1}
 \contentsline {section}{\numberline {3.2}The CMS detector}{6}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}The tracking system}{6}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}The electromagnetic calorimeter}{9}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.1}The tracking system}{7}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}The electromagnetic calorimeter}{8}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}The hadron calorimeter}{10}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}The muon system}{11}{subsection.3.2.4}
-\contentsline {section}{\numberline {3.3}Data acquisition and event reconstruction}{13}{section.3.3}
-\contentsline {chapter}{\numberline {4}Data analysis and event selection}{15}{chapter.4}
-\contentsline {section}{\numberline {4.1}Trigger and event processing}{15}{section.4.1}
-\contentsline {section}{\numberline {4.2}Object reconstruction}{15}{section.4.2}
-\contentsline {section}{\numberline {4.3}Datasets}{15}{section.4.3}
-\contentsline {section}{\numberline {4.4}Event selection}{15}{section.4.4}
-\contentsline {chapter}{\numberline {5}Estimation of Standard Model backgrounds}{17}{chapter.5}
-\contentsline {section}{\numberline {5.1}Flavour-symmetric backgrounds}{17}{section.5.1}
-\contentsline {section}{\numberline {5.2}Backgrounds containing a Z boson}{17}{section.5.2}
-\contentsline {section}{\numberline {5.3}Investigation of possible further backgrounds}{17}{section.5.3}
-\contentsline {section}{\numberline {5.4}Search for a kinematic edge with a fit}{17}{section.5.4}
-\contentsline {chapter}{\numberline {6}Results}{19}{chapter.6}
-\contentsline {section}{\numberline {6.1}Result of the counting experiment}{19}{section.6.1}
-\contentsline {section}{\numberline {6.2}Result of the search for a kinematic edge}{19}{section.6.2}
-\contentsline {chapter}{\numberline {7}Interpretation in simplified models}{21}{chapter.7}
-\contentsline {section}{\numberline {7.1}Simplified Models for Supersymmetric Signatures}{21}{section.7.1}
-\contentsline {section}{\numberline {7.2}The T6bblledge and T6bbslepton model}{21}{section.7.2}
-\contentsline {section}{\numberline {7.3}Interpretation of the counting experiment in simplified models}{21}{section.7.3}
-\contentsline {chapter}{\numberline {8}Outlook to LHC Run II}{23}{chapter.8}
-\contentsline {chapter}{\numberline {9}Conclusion}{25}{chapter.9}
+\contentsline {subsection}{\numberline {3.2.4}The muon system}{12}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}Trigger and data acquisition}{14}{section.3.3}
+\contentsline {chapter}{\numberline {4}Data analysis and event selection}{17}{chapter.4}
+\contentsline {section}{\numberline {4.1}Trigger and event processing}{17}{section.4.1}
+\contentsline {section}{\numberline {4.2}Object reconstruction}{17}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Electron reconstruction}{17}{subsection.4.2.1}
+\contentsline {subsubsection}{\nonumberline ECAL energy clustering}{17}{section*.26}
+\contentsline {subsection}{\numberline {4.2.2}Particle Flow}{17}{subsection.4.2.2}
+\contentsline {subsubsection}{\nonumberline The algorithm}{17}{section*.27}
+\contentsline {section}{\numberline {4.3}Datasets}{17}{section.4.3}
+\contentsline {section}{\numberline {4.4}Event selection}{17}{section.4.4}
+\contentsline {chapter}{\numberline {5}Estimation of Standard Model backgrounds}{19}{chapter.5}
+\contentsline {section}{\numberline {5.1}Flavour-symmetric backgrounds}{19}{section.5.1}
+\contentsline {section}{\numberline {5.2}Backgrounds containing a Z boson}{19}{section.5.2}
+\contentsline {section}{\numberline {5.3}Investigation of possible further backgrounds}{19}{section.5.3}
+\contentsline {section}{\numberline {5.4}Search for a kinematic edge with a fit}{19}{section.5.4}
+\contentsline {chapter}{\numberline {6}Results}{21}{chapter.6}
+\contentsline {section}{\numberline {6.1}Result of the counting experiment}{21}{section.6.1}
+\contentsline {section}{\numberline {6.2}Result of the search for a kinematic edge}{21}{section.6.2}
+\contentsline {chapter}{\numberline {7}Interpretation in simplified models}{23}{chapter.7}
+\contentsline {section}{\numberline {7.1}Simplified Models for Supersymmetric Signatures}{23}{section.7.1}
+\contentsline {section}{\numberline {7.2}The T6bblledge and T6bbslepton model}{23}{section.7.2}
+\contentsline {section}{\numberline {7.3}Interpretation of the counting experiment in simplified models}{23}{section.7.3}
+\contentsline {chapter}{\numberline {8}Outlook to LHC Run II}{25}{chapter.8}
+\contentsline {chapter}{\numberline {9}Conclusion}{27}{chapter.9}
