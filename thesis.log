@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.30)  9 OCT 2014 17:34
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.30)  11 OCT 2014 18:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -799,7 +799,7 @@ Chapter 2.
 ]
 Chapter 3.
 (./setup.tex (./LHC.tex
-<plots/LHC/LHC_scetch.png, id=244, 1535.7375pt x 1068.99374pt>
+<plots/LHC/LHC_scetch.png, id=249, 1535.7375pt x 1068.99374pt>
 File: plots/LHC/LHC_scetch.png Graphic file (type png)
 
 <use plots/LHC/LHC_scetch.png>
@@ -815,7 +815,7 @@ LaTeX Font Warning: Font shape `OMS/lmss/m/n' undefined
 (Font)              for symbol `textperiodcentered' on input line 12.
 
 [5 <./plots/LHC/LHC_scetch.png>]
-<plots/LHC/int_lumi_cumulative_pp_2.pdf, id=264, 578.16pt x 433.62pt>
+<plots/LHC/int_lumi_cumulative_pp_2.pdf, id=269, 578.16pt x 433.62pt>
 File: plots/LHC/int_lumi_cumulative_pp_2.pdf Graphic file (type pdf)
 
 <use plots/LHC/int_lumi_cumulative_pp_2.pdf>
@@ -823,7 +823,7 @@ Package pdftex.def Info: plots/LHC/int_lumi_cumulative_pp_2.pdf used on input l
 ine 17.
 (pdftex.def)             Requested size: 209.13013pt x 156.84413pt.
 
-<plots/LHC/peak_lumi_per_day_pp_2012.pdf, id=265, 578.16pt x 433.62pt>
+<plots/LHC/peak_lumi_per_day_pp_2012.pdf, id=270, 578.16pt x 433.62pt>
 File: plots/LHC/peak_lumi_per_day_pp_2012.pdf Graphic file (type pdf)
 
 <use plots/LHC/peak_lumi_per_day_pp_2012.pdf>
@@ -831,14 +831,14 @@ Package pdftex.def Info: plots/LHC/peak_lumi_per_day_pp_2012.pdf used on input
 line 20.
 (pdftex.def)             Requested size: 209.13013pt x 156.84413pt.
 ) (./CMS.tex
-<plots/CMS/cms_design.png, id=267, 3189.9175pt x 2253.41875pt>
+<plots/CMS/cms_design.png, id=272, 3189.9175pt x 2253.41875pt>
 File: plots/CMS/cms_design.png Graphic file (type png)
 
 <use plots/CMS/cms_design.png>
 Package pdftex.def Info: plots/CMS/cms_design.png used on input line 4.
 (pdftex.def)             Requested size: 256.07744pt x 180.8961pt.
 
-<plots/CMS/Tracker.png, id=272, 589.4522pt x 274.02374pt>
+<plots/CMS/Tracker.png, id=277, 589.4522pt x 274.02374pt>
 File: plots/CMS/Tracker.png Graphic file (type png)
 
 <use plots/CMS/Tracker.png>
@@ -849,7 +849,7 @@ p_2012.pdf>]
 Underfull \vbox (badness 7981) has occurred while \output is active []
 
  [7 <./plots/CMS/cms_design.png> <./plots/CMS/Tracker.png>]
-<plots/CMS/TrackerMaterial.png, id=418, 281.55188pt x 292.09125pt>
+<plots/CMS/TrackerMaterial.png, id=423, 281.55188pt x 292.09125pt>
 File: plots/CMS/TrackerMaterial.png Graphic file (type png)
 
 <use plots/CMS/TrackerMaterial.png>
@@ -860,41 +860,41 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 29.
 
-<plots/CMS/ECAL.png, id=419, 537.50812pt x 392.21532pt>
+<plots/CMS/ECAL.png, id=424, 537.50812pt x 392.21532pt>
 File: plots/CMS/ECAL.png Graphic file (type png)
 
 <use plots/CMS/ECAL.png>
 Package pdftex.def Info: plots/CMS/ECAL.png used on input line 36.
 (pdftex.def)             Requested size: 256.07744pt x 186.8548pt.
  [8] [9 <./plots/CMS/TrackerMaterial.png>]
-<plots/CMS/HCAL.png, id=440, 584.93532pt x 392.21532pt>
+<plots/CMS/HCAL.png, id=445, 584.93532pt x 392.21532pt>
 File: plots/CMS/HCAL.png Graphic file (type png)
 
 <use plots/CMS/HCAL.png>
 Package pdftex.def Info: plots/CMS/HCAL.png used on input line 55.
 (pdftex.def)             Requested size: 256.07744pt x 171.71347pt.
  [10 <./plots/CMS/ECAL.png>] [11 <./plots/CMS/HCAL.png>] <plots/CMS/DT.png, id=
-455, 484.05844pt x 276.28218pt>
+460, 484.05844pt x 276.28218pt>
 File: plots/CMS/DT.png Graphic file (type png)
  <use plots/CMS/DT.png>
 Package pdftex.def Info: plots/CMS/DT.png used on input line 72.
 (pdftex.def)             Requested size: 256.07744pt x 146.16325pt.
 
-<plots/CMS/CSC.png, id=457, 575.14874pt x 286.82156pt>
+<plots/CMS/CSC.png, id=462, 575.14874pt x 286.82156pt>
 File: plots/CMS/CSC.png Graphic file (type png)
  <use plots/CMS/CSC.png>
 Package pdftex.def Info: plots/CMS/CSC.png used on input line 80.
 (pdftex.def)             Requested size: 256.07744pt x 127.7074pt.
 
 [12]) [13 <./plots/CMS/DT.png> <./plots/CMS/CSC.png>] (./DAQTrig.tex [14]
-<plots/CMS/L1Schema.png, id=486, 392.96812pt x 291.33844pt>
+<plots/CMS/L1Schema.png, id=491, 392.96812pt x 291.33844pt>
 File: plots/CMS/L1Schema.png Graphic file (type png)
 
 <use plots/CMS/L1Schema.png>
 Package pdftex.def Info: plots/CMS/L1Schema.png used on input line 18.
 (pdftex.def)             Requested size: 209.13013pt x 155.04878pt.
 
-<plots/CMS/DAQ.png, id=487, 2003.23407pt x 1072.75781pt>
+<plots/CMS/DAQ.png, id=492, 2003.23407pt x 1072.75781pt>
 File: plots/CMS/DAQ.png Graphic file (type png)
 
 <use plots/CMS/DAQ.png>
@@ -910,55 +910,65 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 30.
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))) [16 <./plots/CMS/L1Schema.png> <./plots/CMS/DAQ.png>]
 Chapter 4.
-(./ana.tex) [17
-
-
-] [18
+(./ana.tex
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 5.
+ [17
 
 
 ]
+Overfull \hbox (8.77509pt too wide) in paragraph at lines 13--48
+[]\T1/lmss/m/n/10.95 Muons se-lected in this anal-y-sis are re-quired to be re-
+con-structed as $[]$, $[]$ and $[]$
+ []
+
+[18])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+[20]
 Chapter 5.
-(./background.tex) [19] [20
+(./background.tex) [21
+
+
+] [22
 
 
 ]
 Chapter 6.
-(./results.tex) [21] [22
+(./results.tex) [23] [24
 
 
 ]
 Chapter 7.
-(./interpretation.tex) [23] [24
+(./interpretation.tex) [25] [26
 
 
 ]
 Chapter 8.
-[25] [26
+[27] [28
 
 
 ]
 Chapter 9.
-(./thesis.bbl [27] [28
+(./thesis.bbl [29] [30
 
 
 ]
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 6.
-
 Underfull \hbox (badness 1067) in paragraph at lines 4--7
 []\T1/lmss/m/n/10.95 Lyndon Evans and Philip Bryant.  LHC Ma-chine.  \T1/lmss/m
 /sl/10.95 Jour-nal of In-stru-men-ta-tion\T1/lmss/m/n/10.95 ,
  []
 
-)
+[31])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 256.
- [29]
+ [32]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 256.
  (./thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 256.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 256.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 83917E6AEE637ADBA016F98F2BDA1551;2742.
+(rerunfilecheck)             Checksum: 12BE58E37694226011659DF6586EB146;2843.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -966,13 +976,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 256.
  ) 
 Here is how much of TeX's memory you used:
- 11041 strings out of 494935
- 165986 string characters out of 6178122
- 299567 words of memory out of 5000000
- 13906 multiletter control sequences out of 15000+600000
- 80906 words of font info for 103 fonts, out of 8000000 for 9000
+ 11067 strings out of 494935
+ 166450 string characters out of 6178122
+ 299936 words of memory out of 5000000
+ 13920 multiletter control sequences out of 15000+600000
+ 86514 words of font info for 105 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 40i,11n,51p,1681b,416s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,13n,51p,1681b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
@@ -988,10 +998,10 @@ onts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx1
 0.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fon
 ts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb
 ></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on thesis.pdf (35 pages, 4741592 bytes).
+Output written on thesis.pdf (38 pages, 4760415 bytes).
 PDF statistics:
- 655 PDF objects out of 1000 (max. 8388607)
- 537 compressed objects within 6 object streams
- 111 named destinations out of 1000 (max. 500000)
- 357 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 698 PDF objects out of 1000 (max. 8388607)
+ 577 compressed objects within 6 object streams
+ 122 named destinations out of 1000 (max. 500000)
+ 365 words of extra memory for PDF output out of 10000 (max. 10000000)
 

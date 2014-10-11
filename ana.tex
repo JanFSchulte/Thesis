@@ -2,11 +2,57 @@
 \section{Object reconstruction}
 The physics objects relevant to this analysis are electrons, muons, jets and the missing transverse energy \MET. Here the reconstruction of these objects from the information provided by the CMS detector is described. While the electron and muon candidates used here are reconstructed independent of each other with dedicated algorithms, jets and \MET are provided by the particle flow (PF) algorithm. It combines information from all subdetectors to achieve a consistent description of the full event. 
 \subsection{Muon reconstruction and selection}
-The track of a muon is reconstructed separately in the inner tracker and the muon system, resulting in a $\textit{tracker track}$ and a $\textit{standalone muon}$. Tracks in the inner tracker are reconstructed  
-\subsection{Electron reconstruction and selection}
-The signature of an electron in the CMS detector is a track reconstructed by the tracking detectors that leads to a matching cluster of energy reconstructed in the ECAL. In practice this is complicated by the large material budget of the tracking detectors, resulting in a high probability of an electron to loose energy in form of bremsstrahlung. About 35\% of all electrons loose more than 70\% of their energy and for 10\% the energy loss exceeds 95\%~\cite{Baffioni:2006cd}. The reconstruction is further complicated by the large solenoidal magnetic field, which bends the electron's trajectory away from the radiated photons. This has to be taken into account both in the tracking algorithms and the clustering of the energy deposits in the ECAL. 
+The track of a muon is reconstructed separately in the inner tracker and the muon system, resulting in a $\textit{tracker track}$ and a $\textit{standalone muon}$. 
 
-In the ECAL two different algorithms are used to group the energy deposits into clusters and clusters of clusters, called super clusters (SCs), in the barrel and endcap regions of the detector. Both are designed to group together
+Tracks in the inner tracker are reconstructed using a method called Combinatorial Track Finder (CTF)~\cite{Chatrchyan:2014fea}, which performs pattern recognition and track fitting employing a Kalman filter technique~\cite{Fruhwirth1987444}. The track is described by a five-dimensional state vector, whose initial parameters are taken from track seeds, determined from three hits or two hits and a vertex constraint in the pixel detector or the innermost layers of the strip detector. The state vector is extrapolated to the next tracker layer taking into account uncertainties and energy losses due to interactions with the tracker. If tracker hits are found in the modules where they are expected from the extrapolation, they are added to the track candidate. If no hits are found, a ghost hit is added to the track to account for inefficiencies in the hit reconstruction. A track fit is then performed to all hits associated with the track candidate, using again Kalman filtering and smoothing. This procedure is performed iteratively, each time removing the hits already associated to a track candidate and relaxing the requirements on the track seeds to allow for reconstruction of track with low \pt or not originating from the primary interaction. In the reconstruction of the data taken in 2012, seven iterations were performed~\cite{SWGuideIterativeTracking}. 
+
+For the reconstruction of $\textit{standalone muons}$ in the muon system, the hits inside the individual muon chambers are fitted to generate track segments, providing first estimates of the track parameters under the hypothesis that the muon was created in the interaction region and was travelling through the muon system from the inside out. These segments are used as starting points for a track reconstruction using all hits from the DTs, CSCs and RPCs, again using the Kalman filtering technique~\cite{1748-0221-5-03-T03022}.
+
+Tracker tracks are promoted to $\textit{tracker muons}$ when they can be matched to a track segment in the muon detector. $\textit{Standalone muons}$ are matched to tracks from the inner tracker. If a compatible track is found a combined fit to all hits of the track and the $\textit{standalone muon}$ is performed, resulting in a $\textit{global muon}$. The PF algorithm applies further selection requirements to the reconstructed $\textit{global}$ and $\textit{track muons}$, introducing a fourth category, the $\textit{particle flow muon}$~\cite{CMS-PAS-PFT-10-003}. 
+
+Muons selected in this analysis are required to be reconstructed as $\textit{tracker}$, $\textit{global}$ and $\textit{particle flow}$ muons. The $\chi^2$ per degrees of freedom of the track fit must not exceed 10. Several requirements on the information available for the different track fits are made: At least one muon chamber hit must be included in the track fit of the $\textit{global muon}$. For the fit of the $\textit{tracker muon}$ at least one hit in the pixel detector and six layers with hits in the strip detector have to be available. Also the track from the inner tracker has to be matched to at least two track segments in the muon chambers. To ensure that the muon originates from the primary interaction and to suppress backgrounds from cosmic muons the impact parameter of the track with respect to the primary vertex must not exceed $\unit{0.02}{\centi\meter}$ in the $x$-$y$ plane and $\unit{0.1}{\centi\meter}$ in $z$ direction. Selected are muons with a \pt larger than $\unit{10}{\giga\electronvolt}$ and $|\eta|$ less than 2.4. The muon selection is summarized in Table~\ref{tab:muonID}.
+\begin{table}
+\begin{center}
+\begin{tabular}{c|c}
+Criterion & Selection \\
+\hline \hline 
+\multicolumn{2}{c}{Acceptance} \\
+\hline
+\pt & $> \unit{10}{\giga\electronvolt}$ \\
+$|\eta|$ & $< 2.4$ \\
+\hline
+\multicolumn{2}{c}{Muon ID} \\
+\hline
+Required to be a & $\textit{tracker muon}$ \\
+ & $\textit{global muon}$ \\
+ & $\textit{particle flow muon}$ \\
+ \hline
+ \multicolumn{2}{c}{Track quality} \\
+ \hline
+  $\chi^2/N_{dof}$ & $< 10 $ \\
+  valid muon hits & $> 0 $ \\
+  matched stations & $> 1 $ \\
+  valid pixel hits & $ > 0 $ \\
+  tracker layers with hits & $ > 6 $ \\
+\hline
+  \multicolumn{2}{c}{Impact parameter} \\
+\hline
+	$d0 = \sqrt{dx^2 + dy^2}$ & $< \unit{0.02}{\centi\meter}$ \\
+	dz & $ < \unit{0.1}{\centi\meter}$ \\  
+\end{tabular}
+\caption{Summary of requirements of the muon selection.}
+\label{tab:muonID}
+\end{center}
+
+\end{table}
+\subsection{Electron reconstruction and selection}
+The signature of an electron in the CMS detector is a track reconstructed by the tracking detectors that leads to a matching cluster of energy reconstructed in the ECAL. In practice this is complicated by the large material budget of the tracking detectors, resulting in a high probability of an electron to loose energy in form of bremsstrahlung. About 35\% of all electrons loose more than 70\% of their energy and for 10\% the energy loss exceeds 95\%~\cite{Baffioni:2006cd}. The reconstruction is further complicated by the large solenoidal magnetic field, which bends the electron's trajectory away from the radiated photons, leading to a spread of the energy in $\phi$ direction. This has to be taken into account both in the tracking algorithms and the clustering of the energy deposits in the ECAL. 
+
+In the ECAL two different algorithms are used to group the energy deposits into clusters and clusters of clusters, called super clusters (SCs), in the barrel and endcap regions of the detector. Both are designed to group together the energy deposits of the electron itself and those of the bremsstrahlung photons. In the of $1.6 < |\eta| < 2.6$ the preshower is located in front of the ECAL and electrons will deposit a fraction of their energy there. The energy deposited in the strips of the preshower between an SC in the ECAL and the primary vertex is summed and added to the energy of this SC~\cite{Anderson:1365024}. ADD SC position calculation! 
+
+In the track reconstruction with Kalman filters as discussed above energy losses due to interactions of the particles with the tracker material are considered to be Gaussian. For electrons, however, this is not sufficient because the dominant energy loss due to bremsstrahlung is a non-gaussian contribution. Electron candidate tracks are therefore fitted with a Gaussian Sum Filtern (GSF) algorithm~\cite{FruhwirtGSFCMS}, which models the non-Gaussian components as a sum of Gaussian distributions. GSF tracking is initiated in two ways. $\textit{ECAL driven seeding}$ requires the presence of a track seed that matches the position of an SC when extrapolating backwards from the ECAL to track~\cite{Baffioni:2006cd}. Alternatively, $\textit{tracker driven seeding}$ is started by tracks that either match the position of ECAL clusters when extrapolated to the ECAL surface, covering the case of no bremsstrahlung, or are of poor quality with only few associated hits~\cite{Chatrchyan:2014fea}. The GSF track and the energy measurement in the ECAL are combined into the final electron candidate. 
+
+Electrons are selected requiring \pt larger than $\unit{10}{\giga\electronvolt}$ and $|\eta| < 2.5$. The gap region between ECAL barrel and endcaps of $1.442 < |eta| < 1.566$ is exluded. To suppress background from muons that radiate photons electrons with a distance of $\Delta R = \sqrt{\Delta\phi^2 + \Delta \eta^2}$ to the nearest $\textit{global}$ or $textit{tracker muon}$ less than 0.1 are rejected. Backgrounds from photon conversion, decays of heavy flavour quarks  or charged hadrons are suppressed by a set of selection criteria. The matching of track and supercluster is quantified by the differences between the supercluster position and the parameters of the track extraploated from the vertex to the ECAL surface in $\Delta\phi$ and $\Delta\eta$. As the energy of the electron is contained in the ECAL, the ratio of hadronic energy deposited in the HCAL inside a cone of $\Delta R = 0.15$ around the position of the electron to the electron's energy is required to be small. NEW HE definition. 
 
 \subsection{Particle Flow}
 \subsubsection{The algorithm}
