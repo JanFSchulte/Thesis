@@ -52,9 +52,74 @@ In the ECAL two different algorithms are used to group the energy deposits into 
 
 In the track reconstruction with Kalman filters as discussed above energy losses due to interactions of the particles with the tracker material are considered to be Gaussian. For electrons, however, this is not sufficient because the dominant energy loss due to bremsstrahlung is a non-gaussian contribution. Electron candidate tracks are therefore fitted with a Gaussian Sum Filtern (GSF) algorithm~\cite{FruhwirtGSFCMS}, which models the non-Gaussian components as a sum of Gaussian distributions. GSF tracking is initiated in two ways. $\textit{ECAL driven seeding}$ requires the presence of a track seed that matches the position of an SC when extrapolating backwards from the ECAL to track~\cite{Baffioni:2006cd}. Alternatively, $\textit{tracker driven seeding}$ is started by tracks that either match the position of ECAL clusters when extrapolated to the ECAL surface, covering the case of no bremsstrahlung, or are of poor quality with only few associated hits~\cite{Chatrchyan:2014fea}. The GSF track and the energy measurement in the ECAL are combined into the final electron candidate. 
 
-Electrons are selected requiring \pt larger than $\unit{10}{\giga\electronvolt}$ and $|\eta| < 2.5$. The gap region between ECAL barrel and endcaps of $1.442 < |eta| < 1.566$ is exluded. To suppress background from muons that radiate photons electrons with a distance of $\Delta R = \sqrt{\Delta\phi^2 + \Delta \eta^2}$ to the nearest $\textit{global}$ or $textit{tracker muon}$ less than 0.1 are rejected. Backgrounds from photon conversion, decays of heavy flavour quarks  or charged hadrons are suppressed by a set of selection criteria. The matching of track and supercluster is quantified by the differences between the supercluster position and the parameters of the track extraploated from the vertex to the ECAL surface in $\Delta\phi$ and $\Delta\eta$. As the energy of the electron is contained in the ECAL, the ratio of hadronic energy deposited in the HCAL inside a cone of $\Delta R = 0.15$ around the position of the electron to the electron's energy is required to be small. NEW HE definition. 
+Electrons are selected requiring \pt larger than $\unit{10}{\giga\electronvolt}$ and $|\eta| < 2.5$. The gap region between ECAL barrel and endcaps of $1.442 < |\eta| < 1.566$ is exluded. To suppress background from muons that radiate photons electrons with a distance of $\Delta R = \sqrt{\Delta\phi^2 + \Delta \eta^2}$ to the nearest $\textit{global}$ or $\textit{tracker muon}$ less than 0.1 are rejected. Backgrounds from photon conversion, decays of heavy flavour quarks  or charged hadrons are suppressed by a set of selection criteria. The matching of track and supercluster is quantified by the differences between the supercluster position and the parameters of the track extraploated from the vertex to the ECAL surface in $\Delta\phi$ and $\Delta\eta$. As the energy of the electron is contained in the ECAL, the ratio of hadronic energy deposited in the HCAL behind the electron candidate must be small. The energy spread in the ECAL due to bremsstrahlung occurs in $\phi$ direction. Therefore no significant spread of the energy in $\eta$, parametrized as
+\begin{equation}
+\sigma_{i\eta i\eta} = \frac{\sum\limits_i^{5\times 5} w_i\cdot (\eta_i - \bar{\eta}_{5\times 5})^2}{\sum\limits_{i}^{5\times 5} w_i},
+\end{equation}
+\begin{equation}
+w_i = max(0,4.7 + ln(\frac{E_i}{E_{5 \times 5}})),
+\end{equation}
+is expected, where for $5\times 5$ crystals around the seed crystal the distance in $\eta$ from the mean $\eta$ of the cluster is summed, weighted by the energy deposit in each crystal. For a well measured electron there is good agreement between the energy deposited in the ECAL and the track momentum measured at the vertex. Therefore the value of $| \frac{1}{E} - \frac{1}{p}|$ must be small. Requirements on the impact parameter of the track with the respect to the vertex are made. Two requirements are applied to reject electrons from converted photons. Only one pixel layer with missing hit is allowed, rejecting most conversions occurring after the first layer of the pixel detectors. To reject also conversion in this first layer and in the beam pipe, vertex fits for the electron track with neighbouring tracks are performed in order to reconstruct the point of conversion. For a prompt electron, the probability of these fits is low. Some of these requirements are already applied on HLT level. In order to select electrons for which the trigger is fully efficient, selections at least as strict are applied at analysis level. The specific requirements are listed in Table~\ref{tab:eleID}, separately for barrel and endcap when appropriate. 
+\begin{table}
+\begin{center}
+\begin{tabular}{c|c|c|c|c}
+Criterion & \multicolumn{2}{c|}{Selection at HLT}  & \multicolumn{2}{c}{Selection at Analysis Level}  \\
+ & EB & EE & EB & EE \\
+\hline \hline 
+\multicolumn{5}{c}{Acceptance} \\
+\hline
+\pt & \multicolumn{2}{c|}{trigger dependent} &  \multicolumn{2}{c}{$> \unit{10}{\giga\electronvolt}$} \\
+$|\eta|$ & \multicolumn{2}{c|}{$< 2.5 $} & \multicolumn{2}{c}{$< 2.5 $, excluding $1.442 < |\eta| < 1.566$}  \\
 
-\subsection{Particle Flow}
+\hline
+\multicolumn{5}{c}{ID variables} \\
+\hline
+$|\Delta \eta |$ & 0.01 & 0.01 & 0.007 & 0.009  \\
+$|\Delta \phi |$ & 0.15 & 0.10 & 0.15 & 0.10  \\
+$\sigma_{i\eta i\eta}$ & 0.011 & 0.031 & 0.01 & 0.03  \\
+$H/E$ & 0.10 & 0.075 & 0.12 & 0.10 \\ 
+$|\frac{1}{E} - \frac{1}{p}|$ & \multicolumn{2}{c|}{-} & 0.05 & 0.05 \\
+\hline
+\multicolumn{5}{c}{Conversion rejection} \\
+\hline
+ missing pixel hits & \multicolumn{2}{c|}{-} & $\leq1$  & $\leq1$ \\
+ vertex fit probability & \multicolumn{2}{c|}{-} & $< 10^{-6}$ & $< 10^{-6}$ \\ 
+ \hline
+  \multicolumn{5}{c}{Impact parameter} \\
+\hline
+	$d0 = \sqrt{dx^2 + dy^2}$ & \multicolumn{2}{c|}{-} & $< \unit{0.02}{\centi\meter}$ & $< \unit{0.02}{\centi\meter}$\\
+	dz & \multicolumn{2}{c|}{-} & $ < \unit{0.1}{\centi\meter}$ & $ < \unit{0.1}{\centi\meter}$\\  
+\end{tabular}
+\caption{Summary of requirements of the electron selection.}
+\label{tab:eleID}
+\end{center}
+	
+\end{table}
+\subsection{Observables reconstructed with Particle Flow}
 \subsubsection{The algorithm}
+The particle flow (PF) algorithm is designed to combine information from all subdetectors to reconstruct a consistent description of the event, resulting in a list of reconstructed particles. The basic building blocks are PF elements, which are reconstructed in each subdetector separately: Tracks of charged particles in the tracker, energy clusters in the calorimeters and muon tracks in the muon system. A linking algorithm then combines elements into blocks based on their geometrical distance, for example by extrapolating a track into the ECAL and HCAL and searching for compatible clusters. Similarly, calorimeter clusters are linked between the preshower, ECAL, and HCAL and tracks from the tracker are associated with those from the muon system. The reconstruction of $\textit{particle candidates}$ is performed on the elements inside a block. Muons are reconstructed first, followed by electrons, for which, similar to the standard algorithm described above, a refit of the track with the GSF algorithm is performed and bremsstrahlung photons are collected in the ECAL. Lastly, calorimeter clusters compatible with a track are identified as charged hadron, while clusters without a matching track are either categorized as neutral hadrons, or, if no or only small energy deposits in the HCAL exist, as photons~\cite{CMS-PAS-PFT-09-001}. 
+\subsubsection{Jets}
+The jets of particles produced in the hadronization of quarks and gluons are grouped together by clustering algorithms. An anti-$k_T$ algorithm~\cite{Cacciari:2008gp}, performed using a fast implementation~\cite{Cacciari:2011ma,Cacciari:2005hq}, is used in this analysis.  Input to the clustering are the $\textit{particle candidates}$ reconstructed by the particle flow algorithm.
+
+The anti-$k_T$ algorithm is a sequential clustering algorithm. Two distance measures are introduced, the first between two particles or pseudo-jets $i$ and $j$ and the second between particle or pseudo-jet $i$ and the beam axis: 
+\begin{equation}
+d_{ij} = min(k_{Ti}^{-2},k_{Tj}^{-2})\frac{\Delta^2_{ij}}{R^2},
+\end{equation}
+\begin{equation}
+d_{iB} = k_{ti}^{-2},
+\end{equation}
+with $\Delta_{ij}^2 = (y_i-y_j)^2 + (\phi_i - \phi_j)^2$ and $k_{Ti}$, $y_i$, and $\phi_i$ being the transverse momentum, rapidity and azimuth of a particle. For an entity (particle, pseudo-jet) $i$ all distances are calculated. If the smallest is a $d_{ij}$, $i$ and $j$ are combined in a new pseudo-jet. If the smallest distance if the distance to the beam $d_{iB}$, the pseudo-jet is considered a final jet and removed from the list of particles available for clustering. 
+
+The measured jet energy has to be corrected for energy offsets and the non-uniform and non-linear response of the detector. Each component of the jet's four-momentum vector is corrected by a multiplicative factor~\cite{1748-0221-6-11-P11002}
+\begin{equation}
+p_{\mu}^{cor} = C \cdot p_{\mu}^{raw}.
+\end{equation} 
+The correction is applied as a sequence of different factors: 
+\begin{equation}
+C = C^{L1}_{\text{offset}}(p_T^{raw})\cdot C^{L2L3}_{MC}(p_T^{\prime},\eta)\cdot C^{L2Residual}_{rel}(\eta) \cdot C^{L3Residual}_{abs}(p_T^{\prime\prime}).
+\end{equation}
+The L1 correction, applied to the raw jet, corrects for offsets due to the underlying event and pileup. The L2L3 corrections, derived from Simulation, corrects for the non-linearities and non-uniformities of the detector response to jets of different $\pt$ and $\eta$ and is applied to the offset-corrected jet. To correct for the differences between Simulation and real data, jets in data events are further corrected for the residual differences between the two.  
+
+In this analysis, the \pt of a jet is required to exceed $\unit{40}{\giga\electronvolt}$ and jets are required to lie inside the fiducial volume of the ECAL of $|\eta| < 3.0$. A set of loose quality selections is applied to suppress jets reconstructed because of detector noise, ensuring that the jet is reconstructed in more than one subdetector and has more than one constituent. As the jet clustering is performed using all reconstructed $\textit{particle candidates}$, jets within $\Delta R = 0.4$ to leptons identified with the criteria described above are rejected. 
 \section{Datasets}
 \section{Event selection}
