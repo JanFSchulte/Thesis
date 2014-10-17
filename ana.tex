@@ -164,6 +164,28 @@ The calculation of the isolation is distorted by pileup if PF candidates origina
 \end{equation}
 For electrons the correction is similar to the L1 offset correction for jets described above. As a measure for the pileup contribution in the isolation cone the median \pt density in the event $\rho$ is multiplied by the effective area of the electron in the detector, which is calculated in bins of $\eta$. The pileup correction is therefore defined as $\sum\limits_{\text{neutral PU}} E_T = \rho\cdot A^{eff}_{\text{electron}}$. For muons $\Delta \beta$ corrections are applied. Here it is utilized that on average the contribution of neutral particles from pileup is half that of charged particles, leading to a correction defined as $\sum\limits_{\text{neutral PU}} E_T = 0.5\cdot \sum\limits_{\text{charged PU}} E_T$. Because of the stochastic nature of these approaches, overcorrection is possible. Therefore, no negative contribution from neutral particles is allowed in equation~\ref{eq:iso}. ADD PLOTS SHOWING ISO VS NVTX
 
-For both electrons and muons the isolation sum must not exceed $0.15\cdot \pt$ of the lepton candidate. MAKE FANCY PLOTS SHOWING WHY THIS IS A GOOD CHOICE
+For both electrons and muons the isolation sum must not exceed $0.15\cdot \pt$ of the lepton candidate. \TODO{make plots illustrating the choise}
 \section{Datasets}
 \section{Event selection}
+A series of selection criteria are applied to the events to select signal-like topologies and reduce the contributions from Standard Model backgrounds to the final sample. Also requirements are defined to select control regions enriched in certain SM processes for the purpose of background prediction and the validation of methods. Additionally, events are reject that exhibit signs of detector noise or are otherwise not suited for analysis. 
+\subsection{Event cleaning}
+As a first step in the selection of reconstructed events, a series of quality requirements is applied. 
+The quality of the data recorded by the CMS detector is assessed in several automated or manual steps, summarised as $\textit{Data quality monitoring (DQM)}$~\cite{DQM}. For each lumi section this results in a binary decision, flagging it as either $\textit{good}$ or $\textit{bad}$, accepting only those lumi sections for which all subdetectors were fully operational during data taking and no known problems occurred in the reconstruction of the events.
+
+To reject non-collision events, vertex information is used. To reconstruct vertices, tracks fulfilling certain quality requirements are clustered into vertices with a deterministic annealing algorithm~\cite{DertermisiticAnnealing,Chatrchyan:2014fea}. The vertex position is fitted using an adaptive vertex fitter~\cite{Fruehwirth:1027031}, where a weight $w_i$ between 0 and 1 is assigned to every track, based on the likelihood of that track being correctly associated with the vertex. The presence of at least one primary vertex is required whose distance to the interaction point is less than $\unit{24}{\centi\meter}$ in $z$ direction and $\unit{2}{\centi\meter}$ in the $x$-$y$ plane. Also the number of degrees of freedom, defined as~\cite{Chatrchyan:2014fea}:
+\begin{equation}
+n_{dof} = -3 + 2 \sum\limits_{i=1}^{N_{tracks}} w_i,
+\end{equation}
+is required to be greater than four.  
+
+As it relies on the balance of all reconstructed objects, \MET is especially sensitive to distortions of the event reconstruction by noise or particles not originating from the proton proton collisions. Several sources of these distortions have been identified during the data taking and filters have been developed in CMS to reject events matching their signatures~\cite{CMS-PAS-JME-12-002}. This includes filters for signal produced by interactions of the beam with gas molecules in the beam pipe or of protons in the beam halo with the LHC infrastructure, anomalous noise in the HCAL or ECAL, dead ECAL cells, calibration lasers mistakenly firing during collision events, or failures of the tracking algorithms. The effect of these filters on the tails of the \MET distribution in dijet events is shown in Figure~\ref{fig:METFilters}, where it can be seen that it is dominated by events that are rejected by the filters for \MET larger than $\unit{300}{\giga\electronvolt}$.
+\begin{figure}
+\begin{center}
+\includegraphics[scale=0.5]{plots/SELECTION/metFilter.pdf}
+\caption{Distribution of \MET in dijet events in 2012 data. The open data points show all events, while the black points show the data after application of \MET filters. Simulated Standard Model processes are shown as filled histograms.~\cite{CMS-PAS-JME-12-002}.}
+\label{fig:METFilters}
+\end{center}
+\end{figure}
+
+
+\subsection{Inclusive dilepton selection}

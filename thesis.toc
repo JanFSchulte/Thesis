@@ -26,6 +26,7 @@
 \contentsline {subsubsection}{\nonumberline Lepton isolation}{23}{section*.33}
 \contentsline {section}{\numberline {4.3}Datasets}{25}{section.4.3}
 \contentsline {section}{\numberline {4.4}Event selection}{25}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Event cleaning}{25}{subsection.4.4.1}
 \contentsline {chapter}{\numberline {5}Estimation of Standard Model backgrounds}{27}{chapter.5}
 \contentsline {section}{\numberline {5.1}Flavour-symmetric backgrounds}{27}{section.5.1}
 \contentsline {section}{\numberline {5.2}Backgrounds containing a Z boson}{27}{section.5.2}
