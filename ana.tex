@@ -181,7 +181,7 @@ is required to be greater than four.
 As it relies on the balance of all reconstructed objects, \MET is especially sensitive to distortions of the event reconstruction by noise or particles not originating from the proton proton collisions. Several sources of these distortions have been identified during the data taking and filters have been developed in CMS to reject events matching their signatures~\cite{CMS-PAS-JME-12-002}. This includes filters for signal produced by interactions of the beam with gas molecules in the beam pipe or of protons in the beam halo with the LHC infrastructure, anomalous noise in the HCAL or ECAL, dead ECAL cells, calibration lasers mistakenly firing during collision events, or failures of the tracking algorithms. The effect of these filters on the tails of the \MET distribution in dijet events is shown in Figure~\ref{fig:METFilters}, where it can be seen that it is dominated by events that are rejected by the filters for \MET larger than $\unit{300}{\giga\electronvolt}$.
 \begin{figure}
 \begin{center}
-\includegraphics[scale=0.5]{plots/SELECTION/metFilter.pdf}
+\includegraphics[scale=0.4]{plots/SELECTION/metFilter.pdf}
 \caption{Distribution of \MET in dijet events in 2012 data. The open data points show all events, while the black points show the data after application of \MET filters. Simulated Standard Model processes are shown as filled histograms.~\cite{CMS-PAS-JME-12-002}.}
 \label{fig:METFilters}
 \end{center}
@@ -189,3 +189,42 @@ As it relies on the balance of all reconstructed objects, \MET is especially sen
 
 
 \subsection{Inclusive dilepton selection}
+Events are selected containing two leptons with opposite electric charge, \pt larger than $\unit{20}{\giga\electronvolt}$, and $|\eta|$ smaller than 2.4. The \pt requirement is driven by the thresholds of the dilepton triggers, as discussed in Section~\ref{sec:trigEffs}, while the $|\eta|$ restriction is imposed  by the coverage of the muon system. The acceptance for electrons could in principle be extended to $|\eta| =$ 2.5, but is chosen to be the same for both lepton flavours. Lepton pairs are required to be selected by the corresponding trigger, e.g. a pair of electrons has to have fired the dielectron trigger. If there is more than one pair of leptons fulfilling this basic requirements in one event, the pair with the largest sum of lepton \pt is chosen. 
+
+As the symmetry between lepton flavours is a key ingredient of the methods to estimate the backgrounds from Standard Model processes, events for which these symmetries are potentially violated are rejected.
+
+As the efficiency to reconstruct electrons is reduced in the overlap region between the barrel and endcap detectors of the ECAL, the relative event yield for events with electrons with $|\eta|$ between 1.4 and 1.6 is reduced compared to those with muons in this range. This distribution of the $|\eta|$ of the leading lepton in \EE and  \MM events is shown in Figure~\ref{fig:cutJustification} (left), illustrating the greatly increased difference between the event yields for electrons and muons in the overlap region. Events containing a lepton with a pseudorapidity of $1.4<|\eta|<1.6$ are therefore rejected. Also an increasing difference between electrons and muons can be seen for events were the leading leptons is in the endcap region of the detector. This is one of the reasons for splitting the event sample in two categories: $\textit{central}$, where both leptons are reconstructed with $|\eta| < 1.4$ and $\textit{forward}$, where at least one leptons has to be reconstructed with $|\eta| > 1.6$.  
+
+Leptons with small spatial separation can interfere with each other's reconstruction and isolation. These effects are different for electrons and muons, which can be seen in Figure~\ref{fig:cutJustification} (right). The ratio of electrons to muons first rises for lower values of $\Delta R(ll)$ before dropping for values below $0.1$. The leptons are therefore required to be separated in $\Delta R(ll)$ by more than 0.3. Some differences between electrons and muons can also be observed for very high values of $\Delta R(ll)$, but they are less pronounced and this region is less populated.  
+
+\begin{figure}[htbp]
+\centering
+\begin{minipage}[t]{0.49\textwidth}
+  \includegraphics[width=\textwidth]{plots/SELECTION/gapJustification.pdf}
+\end{minipage}
+\begin{minipage}[t]{0.49\textwidth}
+\includegraphics[width=\textwidth]{plots/SELECTION/dRJustification_eeVSmm.pdf}
+\end{minipage}
+\caption{istribution of $|\eta|$ (left) and $\Delta R(ll)$ (right) for the leading lepton for \MM (black dots) and \EE (red dots) events in a simulation of $t\bar{t}$ events. Both distributions are normalized to the same area.}
+\label{fig:cutJustification}
+\end{figure}    
+
+As an additional requirement, to avoid possible reconstruction problems events with low lepton momenta and to avoid contamination from dilepton production in the decay of the bottonium resonances, the dilepton invariant mass \mll is required to be greater than $\unit{20}{\giga\electronvolt}$. 
+
+\subsection{Selections in \MET and jet multiplicity}
+Three subsets of the event sample obtained with the inclusive dilepton selection are defined, resulting in samples enriched in different processes. The variables used in the definitions of these regions are \MET and the number of selected jets $N_{jets}$. The selections are illustrated in the plots of Figure~\ref{fig:sigRegionBG}, which also show the distribution of $t\bar{t}$ (left) and Drell-Yan (right) events in the \MET-$N_{jets}$ plane. 
+ 
+The signal region, in which the search will be performed, is defined by requiring either $N_{jets} \geq 3$ and $\MET > \unit{100}{\giga\electronvolt}$ or $N_{jets} \geq 3$ and $\MET > \unit{100}{\giga\electronvolt}$. This definition allows to select signal events for points in the parameter space where more energy is distributed to the jets and less to the invisible component of the signature and vice versa. At the same time the rejection of background events with both lower $N_{jets}$ and \MET is maintained. A control region dominated by flavour-symmetric processes is defined by selecting events with $N_{jets} = 2$ and $\unit{100}{\giga\electronvolt} < \MET < \unit{150}{\giga\electronvolt}$. 
+
+To study lepton pairs produced via the Drell-Yan process and to obtain a high statistics sample of leptons for efficiency measurements, events with $N_{jets} \geq 2$ and $\MET < \unit{50}{\giga\electronvolt}$ are selected. The $N_{jet}$ requirement greatly reduces the statistics and the purity of this event sample. However, because of the large cross section of the Drell-Yan process, the event yield is still sufficient for the purposes of this analysis and Drell-Yan events dominate over those from $t\bar{t}$ production by two orders of magnitude. This allows to select events with kinematics close to those of the signal selection in terms of jet multiplicity.
+\begin{figure}[htbp]
+\centering
+\begin{minipage}[t]{0.49\textwidth}
+  \includegraphics[width=\textwidth]{plots/SELECTION/metJetsScatter_ttbar.pdf}
+\end{minipage}
+\begin{minipage}[t]{0.49\textwidth}
+\includegraphics[width=\textwidth]{plots/SELECTION/metJetsScatter_DY.pdf}
+\end{minipage}
+\caption{Distribution of backgrounds events in the \MET-$N_{jets}$ plane for $t\bar{t}$ (left) and Drell-Yan (right) events from Simulation. The events are weighted according to the cross section of the process and the size of the generated event sample, assuming an integrated luminosity of \lumi. The three regions defined in the plane are indicated by lines.}
+\label{fig:sigRegionBG}
+\end{figure}    

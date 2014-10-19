@@ -27,17 +27,19 @@
 \contentsline {section}{\numberline {4.3}Datasets}{25}{section.4.3}
 \contentsline {section}{\numberline {4.4}Event selection}{25}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}Event cleaning}{25}{subsection.4.4.1}
-\contentsline {chapter}{\numberline {5}Estimation of Standard Model backgrounds}{27}{chapter.5}
-\contentsline {section}{\numberline {5.1}Flavour-symmetric backgrounds}{27}{section.5.1}
-\contentsline {section}{\numberline {5.2}Backgrounds containing a Z boson}{27}{section.5.2}
-\contentsline {section}{\numberline {5.3}Investigation of possible further backgrounds}{27}{section.5.3}
-\contentsline {section}{\numberline {5.4}Search for a kinematic edge with a fit}{27}{section.5.4}
-\contentsline {chapter}{\numberline {6}Results}{29}{chapter.6}
-\contentsline {section}{\numberline {6.1}Result of the counting experiment}{29}{section.6.1}
-\contentsline {section}{\numberline {6.2}Result of the search for a kinematic edge}{29}{section.6.2}
-\contentsline {chapter}{\numberline {7}Interpretation in simplified models}{31}{chapter.7}
-\contentsline {section}{\numberline {7.1}Simplified Models for Supersymmetric Signatures}{31}{section.7.1}
-\contentsline {section}{\numberline {7.2}The T6bblledge and T6bbslepton model}{31}{section.7.2}
-\contentsline {section}{\numberline {7.3}Interpretation of the counting experiment in simplified models}{31}{section.7.3}
-\contentsline {chapter}{\numberline {8}Outlook to LHC Run II}{33}{chapter.8}
-\contentsline {chapter}{\numberline {9}Conclusion}{35}{chapter.9}
+\contentsline {subsection}{\numberline {4.4.2}Inclusive dilepton selection}{26}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Selections in \ensuremath {E_{T}^{miss}}\xspace and jet multiplicity}{27}{subsection.4.4.3}
+\contentsline {chapter}{\numberline {5}Estimation of Standard Model backgrounds}{29}{chapter.5}
+\contentsline {section}{\numberline {5.1}Flavour-symmetric backgrounds}{29}{section.5.1}
+\contentsline {section}{\numberline {5.2}Backgrounds containing a Z boson}{29}{section.5.2}
+\contentsline {section}{\numberline {5.3}Investigation of possible further backgrounds}{29}{section.5.3}
+\contentsline {section}{\numberline {5.4}Search for a kinematic edge with a fit}{29}{section.5.4}
+\contentsline {chapter}{\numberline {6}Results}{31}{chapter.6}
+\contentsline {section}{\numberline {6.1}Result of the counting experiment}{31}{section.6.1}
+\contentsline {section}{\numberline {6.2}Result of the search for a kinematic edge}{31}{section.6.2}
+\contentsline {chapter}{\numberline {7}Interpretation in simplified models}{33}{chapter.7}
+\contentsline {section}{\numberline {7.1}Simplified Models for Supersymmetric Signatures}{33}{section.7.1}
+\contentsline {section}{\numberline {7.2}The T6bblledge and T6bbslepton model}{33}{section.7.2}
+\contentsline {section}{\numberline {7.3}Interpretation of the counting experiment in simplified models}{33}{section.7.3}
+\contentsline {chapter}{\numberline {8}Outlook to LHC Run II}{35}{chapter.8}
+\contentsline {chapter}{\numberline {9}Conclusion}{37}{chapter.9}
