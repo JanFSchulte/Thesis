@@ -29,6 +29,7 @@
 \usepackage{tabularx}
 \usepackage{slashed}
 \usepackage{xspace}
+\usepackage{rotating}
 %\usepackage{ptdr-definitions}
 
 \usepackage[small]{caption}
@@ -83,13 +84,15 @@
 \newcommand{\Red}{\color{red}}
 \newcommand{\Zmumu}{\ensuremath{Z\rightarrow \mu\mu}}
 \newcommand{\Zee}{\ensuremath{Z\rightarrow ee}}
+\newcommand{\Ztautau}{\ensuremath{Z\rightarrow \tau\tau}}
+\newcommand{\Zll}{\ensuremath{Z\rightarrow ee,\mu\mu}}
 \newcommand{\JZB}{\ensuremath{\textrm{JZB}}\xspace}
 \newcommand{\jzb}{\JZB}
 \newcommand{\mll}{\ensuremath{m_{\ell\ell}}\xspace}
 \newcommand{\pt}{\ensuremath{p_{T}}\xspace}
 \newcommand{\Et}{\ensuremath{E_{T}}\xspace}
 % processes
-\newcommand{\Ztautau}{\ensuremath{\Z\to\tau\tau}}
+%\newcommand{\Ztautau}{\ensuremath{\Z\to\tau\tau}}
 \newcommand{\zjets}{\ensuremath{Z+\textrm{jets}}\xspace}
 \newcommand{\Wjets}{\ensuremath{\PW+\text{jets}}\xspace}
 \newcommand{\DYjets}{\ensuremath{\text{DY}+\text{jets}}\xspace}
@@ -99,7 +102,11 @@
 
 \newcommand{\cls}{\ensuremath{\mathrm{CL_S}}}
 \newcommand{\tauh}{\ensuremath{\tau_\text{h}}}
-\newcommand{\rmue}{\ensuremath{r_{\Pgm{}\Pe}}\xspace}
+\newcommand{\effeet}{\ensuremath{\epsilon_{ee}^T}\xspace}
+\newcommand{\effmmt}{\ensuremath{\epsilon_{\mu\mu}^T}\xspace}
+\newcommand{\effemt}{\ensuremath{\epsilon_{e\mu}^T}\xspace}
+\newcommand{\rmuestar}{\ensuremath{r_{\mu e}^{*}}\xspace}
+\newcommand{\rmue}{\ensuremath{r_{\mu e}}\xspace}
 \newcommand{\RT}{\ensuremath{R_\mathrm{T}}\xspace}
 \newcommand{\nvert}{\ensuremath{N_\text{Vertices}}}
 \newcommand{\njets}{\ensuremath{N_\text{Jets}}}
@@ -107,7 +114,7 @@
 \newcommand{\eps}{\ensuremath{\epsilon}}
 \newcommand{\CLS}{\cls}
 \newcommand{\Rinout}{\ensuremath{R_\text{in/out}}\xspace}
-\newcommand{\Rsfof}{\ensuremath{R\text{(SF/OF)}}\xspace}
+\newcommand{\Rsfof}{\ensuremath{R_{SF/OF}}\xspace}
 \newcommand{\Rmmof}{\ensuremath{R\text{($\Pgm\Pgm$/OF)}}\xspace}
 \newcommand{\Reeof}{\ensuremath{R\text{($\Pe\Pe$/OF)}}\xspace}
 \newcommand{\etalep}{\ensuremath{\eta_\text{lep}}\xspace}
@@ -246,8 +253,8 @@
 \chapter{Outlook to LHC Run II}
 \chapter{Conclusion}
 %\input{conclusion}
-
-%\input{appendix}
+\appendix
+\input{appendixSamples}
 %\bibliographystyle{abbrv}
 \bibliographystyle{unsrt}
 \bibliography{thesis.bib}

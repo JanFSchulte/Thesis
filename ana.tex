@@ -1,4 +1,3 @@
-\section{Trigger and event processing}
 \section{Object reconstruction}
 The physics objects relevant to this analysis are electrons, muons, jets and the missing transverse energy \MET. Here the reconstruction of these objects from the information provided by the CMS detector is described. While the electron and muon candidates used here are reconstructed independent of each other with dedicated algorithms, jets and \MET are provided by the particle flow (PF) algorithm. It combines information from all subdetectors to achieve a consistent description of the full event. 
 \subsection{Muon reconstruction and selection}
@@ -165,7 +164,122 @@ The calculation of the isolation is distorted by pileup if PF candidates origina
 For electrons the correction is similar to the L1 offset correction for jets described above. As a measure for the pileup contribution in the isolation cone the median \pt density in the event $\rho$ is multiplied by the effective area of the electron in the detector, which is calculated in bins of $\eta$. The pileup correction is therefore defined as $\sum\limits_{\text{neutral PU}} E_T = \rho\cdot A^{eff}_{\text{electron}}$. For muons $\Delta \beta$ corrections are applied. Here it is utilized that on average the contribution of neutral particles from pileup is half that of charged particles, leading to a correction defined as $\sum\limits_{\text{neutral PU}} E_T = 0.5\cdot \sum\limits_{\text{charged PU}} E_T$. Because of the stochastic nature of these approaches, overcorrection is possible. Therefore, no negative contribution from neutral particles is allowed in equation~\ref{eq:iso}. ADD PLOTS SHOWING ISO VS NVTX
 
 For both electrons and muons the isolation sum must not exceed $0.15\cdot \pt$ of the lepton candidate. \TODO{make plots illustrating the choise}
-\section{Datasets}
+
+
+\section{Event processing and datasets}
+Events accepted by the HLT are reconstructed using the algorithms described above, implemented in the $\textbf{CMS}$ $\textbf{S}$oft$\textbf{w}$are (CMSSW)\TODO{Add reference} framework. While a first reconstruction is performed immediately after it is recorded, making it available to analysis within a few days, the full dataset recorded by CMS in 2012 has been reprocessed in a second reconstruction with updated calibrations and detector alignment in the first months of 2013. The software version used for this purpose was \verb+CMSSW_5_3_7_patch6+\TODO{Check version number}. The events are stored in the $\textbf{A}$nalysis $\textbf{O}$bject $\textbf{D}$ata (AOD) format, which contains mostly high level objects, such as electrons and muons, and does not provide access to detailed detector information such as energy deposits, which are not of interest in many analyses. This allows to reduce the event size to $\unit{\approx0.1}{\mega\byte}$, compared to about $\unit{2}{\mega\byte}$ for the raw detector output. 
+
+The data analysis in this analysis is split into two parts. As a first step, dilepton events are selected based on the identification criteria described above and the properties of the lepton pairs, together with other event characteristics, are stored  in \verb+ROOT+\TODO{Add reference} trees. This is done with version \TODO{Tag current version and add version number} of the \verb+SuSyAachen+ framework, which utilizes tools provided within the CMSSW framework, notably the $textbf{P}$hysics $\textbf{A}$nalysis $\textbf{T}$oolkit (PAT)\TODO{add reference}, and is written in \verb|C++|\TODO{Add reference}. All datasets used in this analysis have been processed using \verb+CMSSW_5_3_8_patch3+. Detector calibrations and alignment constant to be used in the processing of events in CMSSW are specified in so called \verb+Global Tags+. The tags used in this analysis are\TODO{Check config and add information}.
+In the second step the results of this analysis are produced on the basis of the \verb+ROOT+ trees using various tools written in +\verb+Python+\TODO{Add reference}. \verb+ROOT+ version \verb+5.34.xx+ has been used in the production of the results.  
+
+\subsection{Primary datasets}
+
+Events are sorted into different primary datasets based on the HLT decisions, grouping together events accepted by related triggers. As this allows for events to appear in several of theses datasets, precautions against double counting have to taken when combining different data streams in one analysis. The primary datasets most relevant to this analysis are \verb+DoubleElectron+, \verb+DoubleMu+, and \verb+MuEG+, containing, amongst others, events triggered by the different dilepton triggers. As auxiliary datasets, events from primary datasets triggered by hadronic activity (\verb+HT+,\verb+JetHT+), single leptons (\verb+SingleElectron+,\verb+SingleMu+), and the $\alpha_T$ variable\TODO{Explain $\alpha_T$,restructure sentence} (\verb+HT+,\verb+HTMHT+) are used. Each primary dataset is split into four subsets, labelled \verb+Run2012A+ to \verb+Run2012D+, each run defined by the run period of the LHC between two technical stops. The primary datasets are summarized in Table~\ref{tab:datasets}, showing also the main purpose the datasets serve in the analysis.   
+
+\begin{table}
+
+\begin{center}
+\begin{tabular}{c|c|c}
+ Primary dataset & purpose & dataset \\
+\hline 
+\verb+DoubleElectron+ & Signal & \verb+/DoubleElectron/Run2012A-22Jan2013-v1/AOD+\\
+ &  & \verb+/DoubleElectron/Run2012B-22Jan2013-v1/AOD+\\
+ &  & \verb+/DoubleElectron/Run2012C-22Jan2013-v1/AOD+\\
+ &  & \verb+/DoubleElectron/Run2012D-22Jan2013-v1/AOD+\\
+\hline 
+\verb+DoubleMu+ & Signal & \verb+/DoubleMu/Run2012A-22Jan2013-v1/AOD+\\
+ &  & \verb+/DoubleMuParked/Run2012B-22Jan2013-v1/AOD+\\
+ &  & \verb+/DoubleMuParked/Run2012C-22Jan2013-v1/AOD+\\
+ &  & \verb+/DoubleMuParked/Run2012D-22Jan2013-v1/AOD+\\
+\hline 
+MuEG & Background prediction & \verb+/MuEG/Run2012A-22Jan2013-v1/AOD+\\
+ &  & \verb+/MuEG/Run2012B-22Jan2013-v1/AOD+\\
+ &  & \verb+/MuEG/Run2012C-22Jan2013-v1/AOD+\\
+ &  & \verb+/MuEG/Run2012D-22Jan2013-v1/AOD+\\
+\hline 
+\verb+HT+, \verb+JetHT+ & trigger efficiencies & \verb+/HT/Run2012A-22Jan2013-v1/AOD+\\
+ &  & \verb+/JetHT/Run2012B-22Jan2013-v1/AOD+\\
+ &  & \verb+/JetHT/Run2012C-22Jan2013-v1/AOD+\\
+ &  & \verb+/JetHT/Run2012D-22Jan2013-v1/AOD+\\
+\hline 
+\verb+HTMHT+ & additional trigger studies & \verb+/HTMHTParked/Run2012B-22Jan2013-v1/AOD+\\
+ &  & \verb+/HTMHTParked/Run2012C-22Jan2013-v1/AOD+\\
+ &  & \verb+/HTMHTParked/Run2012D-22Jan2013-v1/AOD+\\
+\hline 
+\verb+SingleElectron+ & additional trigger studies & \verb+/SingleElectron/Run2012A-22Jan2013-v1/AOD+\\
+ &  & \verb+/SingleElectron/Run2012B-22Jan2013-v1/AOD+\\
+ &  & \verb+/SingleElectron/Run2012C-22Jan2013-v1/AOD+\\
+ &  & \verb+/SingleElectron/Run2012D-22Jan2013-v1/AOD+\\
+\hline 
+\verb+SingleMu+ & additional trigger studies & \verb+/SingleMu/Run2012A-22Jan2013-v1/AOD+\\
+ &  & \verb+/SingleMu/Run2012B-22Jan2013-v1/AOD+\\
+ &  & \verb+/SingleMu/Run2012C-22Jan2013-v1/AOD+\\
+ &  & \verb+/SingleMu/Run2012D-22Jan2013-v1/AOD+\\
+
+\end{tabular}
+
+
+\caption{List of primary datasets used in the analysis. Additionally, the main purpose of the dataset and the names of the individual samples in DBS are given.}
+\label{tab:datasets}
+\end{center}
+\end{table}
+
+
+
+\subsection{Simulated datasets}
+\begin{table}
+\small
+\begin{center}
+\begin{tabular}{c|c|c|c|c|c}
+category & process & generator &  cross section [pb] & processed events & weight\\
+\hline 
+$t\bar{t}$ & $t\bar{t} \rightarrow b\bar{b}l\nu l\nu$ & Madgraph & 22.40 & 11952631 & 0.04 \\
+ & $t\bar{t} \rightarrow b\bar{b}q\bar{q}l\nu$ & Madgraph & 88.60 & 24913744 & 0.07 \\
+ & $t\bar{t} \rightarrow b\bar{b}q\bar{q}q\bar{q}$ & Madgraph & 88.80 & 31172356 & 0.06 \\
+\hline 
+Drell-Yan & $Z/\gamma^{*} \rightarrow l^{+}l^{-}$ 10 GeV $< m_{ll} <$ 50 GeV & Madgraph & 876.80 & 7132223 & 2.43 \\
+ & $Z/\gamma^{*} \rightarrow l^{+}l^{-}$ $m_{ll} >$ 50 GeV & Madgraph & 3532.80 & 30000624 & 2.33 \\
+\hline 
+W & $W \rightarrow l\nu$ & Madgraph & 37509.00 & 55996720 & 13.26 \\
+\hline 
+WW,WZ,ZZ & $ZZ \rightarrow l^{+}l^{-}q\bar{q}$ & Madgraph & 2.45 & 1936727 & 0.03 \\
+ & $ZZ \rightarrow l^{+}l^{-}\nu\nu$ & Madgraph & 0.36 & 954911 & 0.01 \\
+ & $ZZ \rightarrow l^{+}l^{-}l^{+}l^{-}$ & Madgraph & 0.18 & 4789250 & 0.00 \\
+ & $WZ \rightarrow l\nu l^{+}l^{-}$ & Madgraph & 1.06 & 2017979 & 0.01 \\
+ & $WZ \rightarrow qq'l^{+}l^{-}$ & Madgraph & 2.32 & 3205557 & 0.01 \\
+ & $WW \rightarrow l\nu l\nu$ & Madgraph & 5.81 & 1933235 & 0.06 \\
+\hline 
+single top & $t$ s-Channel & Powheg & 3.79 & 259961 & 0.29 \\
+ & $t$ t-Channel & Powheg & 56.40 & 3746457 & 0.30 \\
+ & $t$ tW-Channel & Powheg & 11.10 & 497658 & 0.44 \\
+ & $\bar{t}$ s-Channel & Powheg & 1.76 & 139974 & 0.25 \\
+ & $\bar{t}$ t-Channel & Powheg & 30.70 & 1935072 & 0.31 \\
+ & $\bar{t}$ tW-Channel & Powheg & 11.10 & 493460 & 0.45 \\
+\hline 
+Other SM & $WWW$ & Madgraph & 0.08 & 220549 & 0.01 \\
+ & $WW\gamma$ & Madgraph & 0.53 & 215121 & 0.05 \\
+ & $WWZ$ & Madgraph & 0.06 & 222234 & 0.01 \\
+ & $WZZ$ & Madgraph & 0.02 & 219835 & 0.00 \\
+ & $t\bar{t}\gamma$ & Madgraph & 2.17 & 71598 & 0.60 \\
+ & $t\bar{t}W$ & Madgraph & 0.23 & 196046 & 0.02 \\
+ & $t\bar{t}Z$ & Madgraph & 0.21 & 210160 & 0.02 \\
+ & $t\bar{t}WW$ & Madgraph & 0.00 & 217820 & 0.00 \\
+\hline 
+$t\bar{t}$ Systematics & $t\bar{t}$ & Madgraph & 227.00 & 6923750 & 0.65 \\
+ & $t\bar{t}$, $m_{top} =$ 166.5 GeV & Madgraph & 227.00 & 4469095 & 1.01 \\
+ & $t\bar{t}$, $m_{top} =$ 169.5 GeV & Madgraph & 227.00 & 5202817 & 0.86 \\
+ & $t\bar{t}$, $m_{top} =$ 175.5 GeV & Madgraph & 227.00 & 5186494 & 0.87 \\
+ & $t\bar{t}$, $m_{top} =$ 178.5 GeV & Madgraph & 227.00 & 4723379 & 0.95 \\
+ & $t\bar{t}$, Matching scale up & Madgraph & 227.00 & 5393645 & 0.83 \\
+ & $t\bar{t}$, Matching scale down & Madgraph & 227.00 & 5467170 & 0.82 \\
+ & $t\bar{t}$, Factorization scale up & Madgraph & 227.00 & 5009488 & 0.90 \\
+ & $t\bar{t}$, Factorization scale down & Madgraph & 227.00 & 5377388 & 0.84 \\
+
+\end{tabular}
+\caption{Simulated datasets used in the analysis. The samples are grouped by physics processes and information about the generator, the cross section of the processes, the number of processed events, and the resulting weight used to scale the simulation to the recorded luminosity are given.}
+\label{tab:MCSamples}
+\end{center}
+\end{table}
 \section{Event selection}
 A series of selection criteria are applied to the events to select signal-like topologies and reduce the contributions from Standard Model backgrounds to the final sample. Also requirements are defined to select control regions enriched in certain SM processes for the purpose of background prediction and the validation of methods. Additionally, events are reject that exhibit signs of detector noise or are otherwise not suited for analysis. 
 \subsection{Event cleaning}
