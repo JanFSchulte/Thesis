@@ -25,17 +25,19 @@
 \contentsline {subsubsection}{\nonumberline Lepton isolation}{23}{section*.33}
 \contentsline {section}{\numberline {4.2}Event processing and datasets}{25}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Primary datasets}{25}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Simulated datasets}{27}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Event selection}{27}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Event cleaning}{27}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Inclusive dilepton selection}{29}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Selections in \ensuremath {E_{T}^{miss}}\xspace and jet multiplicity}{30}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.2.2}Simulated datasets}{26}{subsection.4.2.2}
+\contentsline {subsubsection}{\nonumberline Simulation of the hard scattering and parton density functions}{27}{section*.35}
+\contentsline {subsubsection}{\nonumberline Hadronization}{29}{section*.36}
+\contentsline {section}{\numberline {4.3}Event selection}{29}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Event cleaning}{29}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Inclusive dilepton selection}{30}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Selections in \ensuremath {E_{T}^{miss}}\xspace and jet multiplicity}{31}{subsection.4.3.3}
 \contentsline {chapter}{\numberline {5}Estimation of Standard Model backgrounds}{33}{chapter.5}
 \contentsline {section}{\numberline {5.1}Flavour-symmetric backgrounds}{33}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Direct measurement of \ensuremath {R_{SF/OF}}\xspace }{34}{subsection.5.1.1}
 \contentsline {subsection}{\numberline {5.1.2}Determination of \ensuremath {R_{SF/OF}}\xspace with the factorization method}{34}{subsection.5.1.2}
-\contentsline {subsubsection}{\nonumberline Measurement of \ensuremath {r_{\mu e}}\xspace }{35}{section*.39}
-\contentsline {subsubsection}{\nonumberline Measurement of \ensuremath {R_\mathrm {T}}\xspace }{35}{section*.40}
+\contentsline {subsubsection}{\nonumberline Measurement of \ensuremath {r_{\mu e}}\xspace }{35}{section*.41}
+\contentsline {subsubsection}{\nonumberline Measurement of \ensuremath {R_\mathrm {T}}\xspace }{35}{section*.42}
 \contentsline {section}{\numberline {5.2}Backgrounds containing a Z boson}{35}{section.5.2}
 \contentsline {section}{\numberline {5.3}Investigation of possible further backgrounds}{35}{section.5.3}
 \contentsline {section}{\numberline {5.4}Search for a kinematic edge with a fit}{35}{section.5.4}

@@ -167,14 +167,15 @@ For both electrons and muons the isolation sum must not exceed $0.15\cdot \pt$ o
 
 
 \section{Event processing and datasets}
-Events accepted by the HLT are reconstructed using the algorithms described above, implemented in the $\textbf{CMS}$ $\textbf{S}$oft$\textbf{w}$are (CMSSW)\TODO{Add reference} framework. While a first reconstruction is performed immediately after it is recorded, making it available to analysis within a few days, the full dataset recorded by CMS in 2012 has been reprocessed in a second reconstruction with updated calibrations and detector alignment in the first months of 2013. The software version used for this purpose was \verb+CMSSW_5_3_7_patch6+\TODO{Check version number}. The events are stored in the $\textbf{A}$nalysis $\textbf{O}$bject $\textbf{D}$ata (AOD) format, which contains mostly high level objects, such as electrons and muons, and does not provide access to detailed detector information such as energy deposits, which are not of interest in many analyses. This allows to reduce the event size to $\unit{\approx0.1}{\mega\byte}$, compared to about $\unit{2}{\mega\byte}$ for the raw detector output. 
+Events accepted by the HLT are reconstructed using the algorithms described above, implemented in the $\textbf{CMS}$ $\textbf{S}$oft$\textbf{w}$are (CMSSW) framework~\cite{PTDR1,SWGuideCMSSW}. While a first reconstruction is performed immediately after it is recorded, making it available to analysis within a few days, the full dataset recorded by CMS in 2012 has been reprocessed in a second reconstruction with updated calibrations and detector alignment in the first months of 2013. The software version used for this purpose was \verb+CMSSW_5_3_7_patch6+. The events are stored in the $\textbf{A}$nalysis $\textbf{O}$bject $\textbf{D}$ata (AOD) format, which contains mostly high level objects, such as electrons and muons, and does not provide access to detailed detector information such as energy deposits, which are not of interest in many analyses. This allows to reduce the event size to $\unit{\approx0.1}{\mega\byte}$, compared to about $\unit{2}{\mega\byte}$ for the raw detector output. 
 
-The data analysis in this analysis is split into two parts. As a first step, dilepton events are selected based on the identification criteria described above and the properties of the lepton pairs, together with other event characteristics, are stored  in \verb+ROOT+\TODO{Add reference} trees. This is done with version \TODO{Tag current version and add version number} of the \verb+SuSyAachen+ framework, which utilizes tools provided within the CMSSW framework, notably the $textbf{P}$hysics $\textbf{A}$nalysis $\textbf{T}$oolkit (PAT)\TODO{add reference}, and is written in \verb|C++|\TODO{Add reference}. All datasets used in this analysis have been processed using \verb+CMSSW_5_3_8_patch3+. Detector calibrations and alignment constant to be used in the processing of events in CMSSW are specified in so called \verb+Global Tags+. The tags used in this analysis are\TODO{Check config and add information}.
-In the second step the results of this analysis are produced on the basis of the \verb+ROOT+ trees using various tools written in +\verb+Python+\TODO{Add reference}. \verb+ROOT+ version \verb+5.34.xx+ has been used in the production of the results.  
+The data processing in this analysis is split into two parts. As a first step, the events in AOD format are processed utilizing the resources of the $\textbf{W}$orldwide $\textbf{L}$HC $\textbf{C}$omputing $\textbf{G}$rid (WLCG)~\cite{doi:10.1146/annurev-nucl-102010-130059,WLCG}, a system of cross-linked computing centres providing storage and computing capacities to the LHC experiments.  Datasets stored on grid sites can be accessed through the $\textbf{C}$MS $\textbf{r}$emote $\textbf{a}$nalysis $\textbf{b}$uilder (CRAB)~\cite{CRAB}. At this stage, dilepton events are selected based on the identification criteria described above and the properties of the lepton pairs, together with other event characteristics, are stored. This is done with version \TODO{Tag current version and add version number} of the \verb+SuSyAachen+ framework, which utilizes tools provided within the CMSSW framework, notably the $\textbf{P}$hysics $\textbf{A}$nalysis $\textbf{T}$oolkit (PAT)~\cite{PATNote}. All datasets used in this analysis have been processed using \verb+CMSSW_5_3_8_patch3+. Detector calibrations and alignment constant to be used in the processing of events in CMSSW are specified in so called \verb+Global Tags+. The tags used in this analysis are \verb+FT53_V21A_AN6+ for data and \verb+START53_V27+ for simulation.
+
+The second part consists of all further analysis performed on the events selected in the previous processing. As the event size is much reduced, it can be performed using conventional desktop PCs. Throughout the event processing chain, the ROOT framework ~\cite{ROOT} for data analysis in particle physics is frequently used. In the final analysis steps, ROOT version \verb+5.34.21+ is used.  
 
 \subsection{Primary datasets}
 
-Events are sorted into different primary datasets based on the HLT decisions, grouping together events accepted by related triggers. As this allows for events to appear in several of theses datasets, precautions against double counting have to taken when combining different data streams in one analysis. The primary datasets most relevant to this analysis are \verb+DoubleElectron+, \verb+DoubleMu+, and \verb+MuEG+, containing, amongst others, events triggered by the different dilepton triggers. As auxiliary datasets, events from primary datasets triggered by hadronic activity (\verb+HT+,\verb+JetHT+), single leptons (\verb+SingleElectron+,\verb+SingleMu+), and the $\alpha_T$ variable\TODO{Explain $\alpha_T$,restructure sentence} (\verb+HT+,\verb+HTMHT+) are used. Each primary dataset is split into four subsets, labelled \verb+Run2012A+ to \verb+Run2012D+, each run defined by the run period of the LHC between two technical stops. The primary datasets are summarized in Table~\ref{tab:datasets}, showing also the main purpose the datasets serve in the analysis.   
+Events are sorted into different primary datasets based on the HLT decisions, grouping together events accepted by related triggers. As this allows for events to appear in several of theses datasets, precautions against double counting have to taken when combining different data streams in one analysis. The primary datasets most relevant to this analysis are \verb+DoubleElectron+, \verb+DoubleMu+, and \verb+MuEG+, containing, amongst others, events triggered by the different dilepton triggers. As auxiliary datasets, events from primary datasets triggered by hadronic activity (\verb+HT+,\verb+JetHT+), single leptons (\verb+SingleElectron+,\verb+SingleMu+), and the $\alpha_T$ variable\TODO{Explain $\alpha_T$,restructure sentence} (\verb+HT+,\verb+HTMHT+) are used. Each primary dataset is split into four subsets, labelled \verb+Run2012A+ to \verb+Run2012D+, each run defined by the run period of the LHC between two technical stops. The primary datasets are summarized in Table~\ref{tab:datasets}, where also the datasetpaths by which the samples can be accessed in the CMS bookkeeping system (DBS)~\cite{1742-6596-119-7-072001} is given.   
 
 \begin{table}
 
@@ -219,7 +220,7 @@ MuEG & Background prediction & \verb+/MuEG/Run2012A-22Jan2013-v1/AOD+\\
 \end{tabular}
 
 
-\caption{List of primary datasets used in the analysis. Additionally, the main purpose of the dataset and the names of the individual samples in DBS are given.}
+\caption{List of primary datasets used in the analysis. Additionally, the main purpose of the dataset and datasetpaths in DBS are given.}
 \label{tab:datasets}
 \end{center}
 \end{table}
@@ -227,6 +228,27 @@ MuEG & Background prediction & \verb+/MuEG/Run2012A-22Jan2013-v1/AOD+\\
 
 
 \subsection{Simulated datasets}
+Simulated datasets of Standard Model processes and SUSY models are used throughout the analysis in the design and validation of methods and the interpretation of the results in terms of potential signals. Dedicated methods are used for the different steps needed to achieve a complete model of the proton-proton interactions and the detector response. 
+\subsubsection{Simulation of the physical processes}
+Monte Carlo methods are used to generate events according to the properties of physics processes~\cite{PDG}.
+At the beginning of the description of a process stands the calculation of the cross section for the given hard scattering of fundamental particles, using pertubation theory (see for example~\cite{HalzenMartin}). For many Standard Model processes and also some BSM models, calculations in next-to-leading (NLO) or next-to-next-to-leading (NNLO) order have been performed. The automated calculations performed in the event generators used for the simulation in this analysis are however mostly restricted to leading-order (LO) accuracy. 
+
+At a hadron collider, the total cross section for a process is given by the cross section for the hard scattering $\hat{\sigma}$, convolved with the parton density functions (PDFs) $f^p_i(x,Q^2)$, which give the probability that a parton $i$ with a fraction $x$ of the proton's momentum at the momentum scale $Q^2$ of the interaction will take part in the interaction. Considering all possible combinations of partons (three valence quarks, sea quarks and gluons), the total cross section is given by
+\begin{equation}
+\sigma (pp \rightarrow C)  = \sum\limits_{i,j} \int dx_1 dx_2 f^p_i (x_1,Q^2) f^p_j(x_2,Q^2) \hat{\sigma}(ij\rightarrow C).
+\end{equation} 
+The PDFs have to be inferred from data and have been studied in numerous fixed-target experiments and, most importantly, in deep-inelastic electron-proton scattering at the HERA collider~\cite{Aaron:2009aa}. Different approaches are used by several groups to parametrize the PDFs based on the available data. In the generation of simulated datasets for CMS analyses, the CTEQ6L1~\cite{Pumplin:2002vw} PDF set has been used. To study systematic effects introduced by the choice of PDF set, the NNPDF2.3~\cite{Ball:2012cx},MSTW2008~\cite{Martin:2009iq}, and CT10~\cite{Lai:2010vv} PDF sets are used. The dependence of the PDFs on the momentum scale is described by the DGLAP (Dokshitzer, Gribov, Lipatov, Altarelli, Parisi) evolution equations~\cite{Gribov,Altarelli:1977zs,Dokshitzer}, which are used to extrapolate them to the regime of the LHC. 
+
+For most processes, Madgraph~\cite{Madgraph1,Madgraph2} is used to calculate the hard scattering process, together with additional emissions of partons as part of initial and final state radiation (ISR and FSR). The inclusion of these emissions at matrix element level allows for the modelling of the radiation of hard partons that are well separated from other final state particles. However, this treatment breaks down for soft or collinear emissions, which can in turn be described by dedicated parton shower models. For this, Pythia~\cite{Pythia} has been used for all samples relevant to this analysis. To achieve a consistent description of the parton shower, events are rejected in which the parton shower in Pythia produces jets in the phase space already covered by the emissions in Madgraph, using the MLM matching scheme~\cite{Hoche:2006ph}. 
+
+The production of single top quarks is simulated using Powheg~\cite{Powheg,Alioli:2009je,Re:2010bp} at NLO in pertubative QCD. For these samples, a similar matching of the parton showers in Powheg and Pythia is applied.  
+
+The hadronization of coloured particles produced in the hard scattering or the parton shower is a non-pertubative processes which can only be described by phenomenological models. \TODO{Describe hadronization without looking into Daniels thesis! Add Pileup simulation}
+
+
+\subsubsection{Simulation of the detector response}
+
+\subsubsection{Background Samples} 
 \begin{table}
 \small
 \begin{center}
@@ -280,6 +302,9 @@ $t\bar{t}$ Systematics & $t\bar{t}$ & Madgraph & 227.00 & 6923750 & 0.65 \\
 \label{tab:MCSamples}
 \end{center}
 \end{table}
+
+\subsubsection{Signal Samples}
+
 \section{Event selection}
 A series of selection criteria are applied to the events to select signal-like topologies and reduce the contributions from Standard Model backgrounds to the final sample. Also requirements are defined to select control regions enriched in certain SM processes for the purpose of background prediction and the validation of methods. Additionally, events are reject that exhibit signs of detector noise or are otherwise not suited for analysis. 
 \subsection{Event cleaning}
