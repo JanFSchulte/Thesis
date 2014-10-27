@@ -230,6 +230,7 @@ MuEG & Background prediction & \verb+/MuEG/Run2012A-22Jan2013-v1/AOD+\\
 \subsection{Simulated datasets}
 Simulated datasets of Standard Model processes and SUSY models are used throughout the analysis in the design and validation of methods and the interpretation of the results in terms of potential signals. Dedicated methods are used for the different steps needed to achieve a complete model of the proton-proton interactions and the detector response. 
 \subsubsection{Simulation of the physical processes}
+\label{sec:MCGen}
 Monte Carlo methods are used to generate events according to the properties of physics processes~\cite{PDG}.
 At the beginning of the description of a process stands the calculation of the cross section for the given hard scattering of fundamental particles, using pertubation theory (see for example~\cite{HalzenMartin}). For many Standard Model processes and also some BSM models, calculations in next-to-leading (NLO) or next-to-next-to-leading (NNLO) order have been performed. The automated calculations performed in the event generators used for the simulation in this analysis are however mostly restricted to leading-order (LO) accuracy. 
 
@@ -243,11 +244,14 @@ For most processes, Madgraph~\cite{Madgraph1,Madgraph2} is used to calculate the
 
 The production of single top quarks is simulated using Powheg~\cite{Powheg,Alioli:2009je,Re:2010bp} at NLO in pertubative QCD. For these samples, a similar matching of the parton showers in Powheg and Pythia is applied.  
 
-The hadronization of coloured particles produced in the hard scattering or the parton shower is a non-pertubative processes which can only be described by phenomenological models. \TODO{Describe hadronization without looking into Daniels thesis! Add Pileup simulation}
+The hadronization of colour-charged particles produced in the hard scattering or the parton shower is a non-pertubative processes which can only be described by phenomenological models. The $\textit{string fragmentation}$ model, as used in Pythia, is based on the idea of colour strings connecting the colour-charged particles. The energy stored in the strings increases linearly with the distance between the  particles, until the string breaks and a $q\bar{q}$ pair is created, allowing for the formation of colour-singlets. These singlets may in turn break, until there no longer enough energy available to continue with this process~\cite{Pythia}. The hadronization model, as well as the description of the underlying event and multi-parton interactions, has to be tuned to best describe existing data. For all samples used in this analysis, the tune $Z2{*}$~\cite{Field:2011iq} is used. 
 
+To simulate the effects of pileup, several simulated proton-proton interactions from a sample containing mostly soft QCD processes are added to the simulated events. The distribution of the number of additional interactions had to be estimated before the data taking took place and therefore differs from that contained in the recorded dataset. 
 
 \subsubsection{Simulation of the detector response}
+A model of the CMS detector has been created using the GEANT4 toolkit~\cite{Agostinelli:2002hh}. It allows for a detailed description of the detector geometry and material budget and simulates the interactions of particles with the detector material. It also models the propagation of the particles inside different materials, taking into account for example the magnetic field inside the CMS solenoid. 
 
+As this detailed simulation is quite time consuming, a fast simulation of the CMS detector has been developed~\cite{1742-6596-331-3-032049}. Trading some accuracy for large gains in processing time, the fast simulation is used in cases where large numbers of events have to generated, for example in scans of the parameter space of a new physics model.   
 \subsubsection{Background Samples} 
 \begin{table}
 \small
