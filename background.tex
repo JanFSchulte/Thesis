@@ -98,7 +98,35 @@ The systematic uncertainties of the measurement 10\% for the central and 20\% fo
 \label{fig:rmueDependencies}
 \end{figure} 
 \subsubsection{Measurement of \RT}
-
+\label{sec:triggerEffs}
+The trigger efficiencies are measured utilizing an event sample collected with PF $H_T$ triggers. Lepton pairs corresponding to the flavour combination of the trigger in question are selected. To ensure that only correctly reconstructed events are considered in the calculation of the trigger efficiencies, the events are required to have $H_T > \unit{200}{\giga\electronvolt}$, which corresponds to the lowest threshold applied in one of the PF $H_T$ trigger. To ensure that the factorization method is performed on event samples complete orthogonal to the signal region and the $t\bar{t}$ enriched control region, events with $N_{jets} \geq 2$ and $\MET > \unit{100}{\giga\electronvolt}$ are rejected. As the offline lepton selection has more strict requirements compared to the one applied at HLT level, the dilepton trigger should have accepted all these events. The trigger efficiency is therefore defined as the ratio of these event that were accepted by the trigger by the total number of events:
+\begin{equation}
+\epsilon_{ll}^T = \frac{N_{events}(\text{PF }H_T\text{trigger} \cap \text{dilepton selection} \cap \text{dilepton trigger})}{N_{events}(\text{PF }H_T\text{trigger} \cap \text{dilepton selection})}.
+\end{equation}
+In the case of \MM and OF events, two triggers are used in the event selection. Therefore their combined efficiency is measured, requesting the logical OR of both. The resulting efficiencies are summarized in Table~\ref{tab:triggerEffs}, separately for the central and forward lepton selection. The trigger efficiencies for \EE and \MM are about 97\% in both the central and forward selection. The efficiency for OF events is lower, about 95\% in the central and 90\% in the forward selection. This shows how the flavour symmetry is broken at trigger level by the \verb+HLT_Mu17_TkMu8+ trigger, which recovers efficiency for the trailing muon leg of the trigger and is not present in the OF triggers.   
+\begin{table}
+\begin{center}
+\input{tab/table_TriggerEffsExclusive_Seperated_PFHT.tex}
+\caption{Efficiency of the dilepton triggers measured on the PF $H_T$ datasets, separately for the central and forward lepton selection.}
+\label{tab:triggerEffs}
+\end{center}
+\end{table}
+To asses the systematic uncertainties of the trigger efficiency measurement, potential biases due to the choice of the orthogonal trigger  are studied on simulation, using dileptonic $t\bar{t}$ events. On simulation the efficiency can be measured without the requirement of the PF $H_T$ triggers, as no trigger is needed to select the events. The ratio of this true trigger efficiencies to those measured with the PF $H_T$ triggers as a function of \mll is shown in Figure~\ref{fig:triggerEffBias}, separately for SF and OF events. In both cases all deviations from one are in the order of 0.1\% and well compatible with it inside the statistical uncertainties. No bias of the efficiency measurement due to the PF $H_T$ triggers is observed and therefore no systematic uncertainty due to this choice is assigned to the measurement.
+\begin{figure}
+\begin{center}
+\includegraphics[scale=0.35]{plots/BG/trigger/Triggereff_AlphaTSyst_HT_Barrel_HighHTExclusive_MC_Mll_pt2020.pdf}
+\caption{Ratio of true trigger efficiencies to those calculated using the PF $H_T$ triggers separately for SF and OF events.}
+\label{fig:triggerEffBias}
+\end{center}
+\end{figure}
+The turnon of the triggers at low lepton \pt is of particular interest because asymmetries between the lepton flavours are more likely to occur in this difficult environment. The dependence of the trigger efficiency on the \pt of the trailing lepton can be studied using datasets trigger by single lepton triggers. Triggers with \pt thresholds of $\unit{24(27)}{\giga\electronvolt}$ for muons (electrons) are available. These thresholds are relatively low for single lepton triggers, resulting in very strict selection criteria being applied on HLT level in these triggers. Dilepton events are selected in which the leading lepton is geometrically matched to the trigger object that fired the single lepton trigger. The trailing lepton is matched to trigger objects that have fired the trailing leg of the dilepton trigger. The efficiency is defined as the number of events in which such a match can be found to the total number of dilepton events.
+\begin{figure}
+\begin{center}
+\includegraphics[scale=0.35]{plots/BG/trigger/Triggereff_Muon_Inclusive_Inclusive_Full2012_pt1_leadingPt20.pdf}
+\caption{Ratio of true trigger efficiencies to those calculated using the PF $H_T$ triggers separately for SF and OF events.}
+\label{fig:triggerEffBias}
+\end{center}
+\end{figure} 
 \section{Backgrounds containing a Z boson}
 \section{Investigation of possible further backgrounds}
 \section{Search for a kinematic edge with a fit}

@@ -40,17 +40,17 @@
 \contentsline {subsection}{\numberline {5.1.2}Determination of \ensuremath {R_{SF/OF}}\xspace with the factorization method}{36}{subsection.5.1.2}
 \contentsline {subsubsection}{\nonumberline Measurement of \ensuremath {r_{\mu e}}\xspace }{37}{section*.43}
 \contentsline {subsubsection}{\nonumberline Measurement of \ensuremath {R_\mathrm {T}}\xspace }{38}{section*.47}
-\contentsline {section}{\numberline {5.2}Backgrounds containing a Z boson}{38}{section.5.2}
-\contentsline {section}{\numberline {5.3}Investigation of possible further backgrounds}{38}{section.5.3}
-\contentsline {section}{\numberline {5.4}Search for a kinematic edge with a fit}{38}{section.5.4}
-\contentsline {chapter}{\numberline {6}Results}{41}{chapter.6}
-\contentsline {section}{\numberline {6.1}Result of the counting experiment}{41}{section.6.1}
-\contentsline {section}{\numberline {6.2}Result of the search for a kinematic edge}{41}{section.6.2}
-\contentsline {chapter}{\numberline {7}Interpretation in simplified models}{43}{chapter.7}
-\contentsline {section}{\numberline {7.1}Simplified Models for Supersymmetric Signatures}{43}{section.7.1}
-\contentsline {section}{\numberline {7.2}The T6bblledge and T6bbslepton model}{43}{section.7.2}
-\contentsline {section}{\numberline {7.3}Interpretation of the counting experiment in simplified models}{43}{section.7.3}
-\contentsline {chapter}{\numberline {8}Outlook to LHC Run II}{45}{chapter.8}
-\contentsline {chapter}{\numberline {9}Conclusion}{47}{chapter.9}
-\contentsline {chapter}{\numberline {A}Data and Monte Carlo Samples}{49}{appendix.A}
-\contentsline {chapter}{\numberline {B}Dependencies of \ensuremath {r_{\mu e}}\xspace }{51}{appendix.B}
+\contentsline {section}{\numberline {5.2}Backgrounds containing a Z boson}{41}{section.5.2}
+\contentsline {section}{\numberline {5.3}Investigation of possible further backgrounds}{41}{section.5.3}
+\contentsline {section}{\numberline {5.4}Search for a kinematic edge with a fit}{41}{section.5.4}
+\contentsline {chapter}{\numberline {6}Results}{43}{chapter.6}
+\contentsline {section}{\numberline {6.1}Result of the counting experiment}{43}{section.6.1}
+\contentsline {section}{\numberline {6.2}Result of the search for a kinematic edge}{43}{section.6.2}
+\contentsline {chapter}{\numberline {7}Interpretation in simplified models}{45}{chapter.7}
+\contentsline {section}{\numberline {7.1}Simplified Models for Supersymmetric Signatures}{45}{section.7.1}
+\contentsline {section}{\numberline {7.2}The T6bblledge and T6bbslepton model}{45}{section.7.2}
+\contentsline {section}{\numberline {7.3}Interpretation of the counting experiment in simplified models}{45}{section.7.3}
+\contentsline {chapter}{\numberline {8}Outlook to LHC Run II}{47}{chapter.8}
+\contentsline {chapter}{\numberline {9}Conclusion}{49}{chapter.9}
+\contentsline {chapter}{\numberline {A}Data and Monte Carlo Samples}{51}{appendix.A}
+\contentsline {chapter}{\numberline {B}Dependencies of \ensuremath {r_{\mu e}}\xspace }{53}{appendix.B}

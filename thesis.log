@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.30)  28 OCT 2014 18:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.30)  28 OCT 2014 22:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -519,7 +519,11 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip62
 )
-(./thesis.aux)
+(./thesis.aux
+
+LaTeX Warning: Label `fig:triggerEffBias' multiply defined.
+
+)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
@@ -1127,35 +1131,68 @@ Full2012.pdf used on input line 95.
 
 [36] [37 <./plots/BG/rmue/DrellYanControl_Mll_Full2012_MuMu_TopReweighted.pdf, 
 page is rotated 90 degrees> <./plots/BG/rmue/DrellYanControl_Mll_Full2012_EE_To
-pReweighted.pdf, page is rotated 90 degrees>]) [38] [39 <./plots/BG/rmue/8TeVrR
-atioDataVsMCControl_mll_Central_Full2012.pdf, page is rotated 90 degrees> <./pl
-ots/BG/rmue/8TeVrRatioDataVsMCControl_mll_Forward_Full2012.pdf, page is rotated
- 90 degrees> <./plots/BG/rmue/8TeVrRatioDataVsMCControl_met_Central_Full2012.pd
-f, page is rotated 90 degrees> <./plots/BG/rmue/8TeVrRatioDataVsMCControl_met_F
-orward_Full2012.pdf, page is rotated 90 degrees> <./plots/BG/rmue/8TeVrRatioDat
-aVsMCControl_nJets_Central_Full2012.pdf, page is rotated 90 degrees> <./plots/B
-G/rmue/8TeVrRatioDataVsMCControl_nJets_Forward_Full2012.pdf, page is rotated 90
- degrees>] [40
+pReweighted.pdf, page is rotated 90 degrees>]
+(./tab/table_TriggerEffsExclusive_Seperated_PFHT.tex
+Overfull \hbox (11.55287pt too wide) in paragraph at lines 3--18
+ [] 
+ []
+
+)
+<plots/BG/trigger/Triggereff_AlphaTSyst_HT_Barrel_HighHTExclusive_MC_Mll_pt2020
+.pdf, id=1144, 569.12625pt x 553.06625pt>
+File: plots/BG/trigger/Triggereff_AlphaTSyst_HT_Barrel_HighHTExclusive_MC_Mll_p
+t2020.pdf Graphic file (type pdf)
+
+<use plots/BG/trigger/Triggereff_AlphaTSyst_HT_Barrel_HighHTExclusive_MC_Mll_pt
+2020.pdf>
+Package pdftex.def Info: plots/BG/trigger/Triggereff_AlphaTSyst_HT_Barrel_HighH
+TExclusive_MC_Mll_pt2020.pdf used on input line 117.
+(pdftex.def)             Requested size: 199.19717pt x 193.57608pt.
+
+<plots/BG/trigger/Triggereff_Muon_Inclusive_Inclusive_Full2012_pt1_leadingPt20.
+pdf, id=1145, 569.12625pt x 553.06625pt>
+File: plots/BG/trigger/Triggereff_Muon_Inclusive_Inclusive_Full2012_pt1_leading
+Pt20.pdf Graphic file (type pdf)
+
+<use plots/BG/trigger/Triggereff_Muon_Inclusive_Inclusive_Full2012_pt1_leadingP
+t20.pdf>
+Package pdftex.def Info: plots/BG/trigger/Triggereff_Muon_Inclusive_Inclusive_F
+ull2012_pt1_leadingPt20.pdf used on input line 125.
+(pdftex.def)             Requested size: 199.19717pt x 193.57608pt.
+ [38] [39 <./plots/BG/rmue/8TeVrRatioDataVsMCControl_mll_Central_Full2012.pdf, 
+page is rotated 90 degrees> <./plots/BG/rmue/8TeVrRatioDataVsMCControl_mll_Forw
+ard_Full2012.pdf, page is rotated 90 degrees> <./plots/BG/rmue/8TeVrRatioDataVs
+MCControl_met_Central_Full2012.pdf, page is rotated 90 degrees> <./plots/BG/rmu
+e/8TeVrRatioDataVsMCControl_met_Forward_Full2012.pdf, page is rotated 90 degree
+s> <./plots/BG/rmue/8TeVrRatioDataVsMCControl_nJets_Central_Full2012.pdf, page 
+is rotated 90 degrees> <./plots/BG/rmue/8TeVrRatioDataVsMCControl_nJets_Forward
+_Full2012.pdf, page is rotated 90 degrees>])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40 <./plots/BG/trigger/Triggereff_AlphaTSyst_HT_Barrel_HighHTExclusive_MC_Mll
+_pt2020.pdf, page is rotated 90 degrees>] [41 <./plots/BG/trigger/Triggereff_Mu
+on_Inclusive_Inclusive_Full2012_pt1_leadingPt20.pdf, page is rotated 90 degrees
+>] [42
 
 
 ]
 Chapter 6.
-(./results.tex) [41] [42
+(./results.tex) [43] [44
 
 
 ]
 Chapter 7.
-(./interpretation.tex) [43] [44
+(./interpretation.tex) [45] [46
 
 
 ]
 Chapter 8.
-[45] [46
+[47] [48
 
 
 ]
 Chapter 9.
-(./appendixSamples.tex [47] [48
+(./appendixSamples.tex [49] [50
 
 
 ]
@@ -1165,7 +1202,7 @@ Overfull \hbox (78.02802pt too wide) in paragraph at lines 6--52
 [][] 
  []
 
-) (./appendixRmue.tex [49] [50]
+) (./appendixRmue.tex [51] [52]
 Appendix B.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1176,7 +1213,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\mu' on input line 1.
 
 
-<plots/BG/rmue/8TeVrRatioDataVsMCControl_pt1_Central_Full2012.pdf, id=1459, 569
+<plots/BG/rmue/8TeVrRatioDataVsMCControl_pt1_Central_Full2012.pdf, id=1561, 569
 .12625pt x 412.54124pt>
 File: plots/BG/rmue/8TeVrRatioDataVsMCControl_pt1_Central_Full2012.pdf Graphic 
 file (type pdf)
@@ -1186,7 +1223,7 @@ Package pdftex.def Info: plots/BG/rmue/8TeVrRatioDataVsMCControl_pt1_Central_Fu
 ll2012.pdf used on input line 6.
 (pdftex.def)             Requested size: 209.13013pt x 151.59291pt.
 
-<plots/BG/rmue/8TeVrRatioDataVsMCControl_pt1_Forward_Full2012.pdf, id=1460, 569
+<plots/BG/rmue/8TeVrRatioDataVsMCControl_pt1_Forward_Full2012.pdf, id=1562, 569
 .12625pt x 412.54124pt>
 File: plots/BG/rmue/8TeVrRatioDataVsMCControl_pt1_Forward_Full2012.pdf Graphic 
 file (type pdf)
@@ -1196,7 +1233,7 @@ Package pdftex.def Info: plots/BG/rmue/8TeVrRatioDataVsMCControl_pt1_Forward_Fu
 ll2012.pdf used on input line 9.
 (pdftex.def)             Requested size: 209.13013pt x 151.59291pt.
 
-<plots/BG/rmue/8TeVrRatioDataVsMCControl_pt2_Central_Full2012.pdf, id=1461, 569
+<plots/BG/rmue/8TeVrRatioDataVsMCControl_pt2_Central_Full2012.pdf, id=1563, 569
 .12625pt x 412.54124pt>
 File: plots/BG/rmue/8TeVrRatioDataVsMCControl_pt2_Central_Full2012.pdf Graphic 
 file (type pdf)
@@ -1206,7 +1243,7 @@ Package pdftex.def Info: plots/BG/rmue/8TeVrRatioDataVsMCControl_pt2_Central_Fu
 ll2012.pdf used on input line 12.
 (pdftex.def)             Requested size: 209.13013pt x 151.59291pt.
 
-<plots/BG/rmue/8TeVrRatioDataVsMCControl_pt2_Forward_Full2012.pdf, id=1462, 569
+<plots/BG/rmue/8TeVrRatioDataVsMCControl_pt2_Forward_Full2012.pdf, id=1564, 569
 .12625pt x 412.54124pt>
 File: plots/BG/rmue/8TeVrRatioDataVsMCControl_pt2_Forward_Full2012.pdf Graphic 
 file (type pdf)
@@ -1216,7 +1253,7 @@ Package pdftex.def Info: plots/BG/rmue/8TeVrRatioDataVsMCControl_pt2_Forward_Fu
 ll2012.pdf used on input line 15.
 (pdftex.def)             Requested size: 209.13013pt x 151.59291pt.
 
-<plots/BG/rmue/8TeVrRatioDataVsMCControl_eta1_Central_Full2012.pdf, id=1463, 56
+<plots/BG/rmue/8TeVrRatioDataVsMCControl_eta1_Central_Full2012.pdf, id=1565, 56
 9.12625pt x 412.54124pt>
 File: plots/BG/rmue/8TeVrRatioDataVsMCControl_eta1_Central_Full2012.pdf Graphic
  file (type pdf)
@@ -1226,7 +1263,7 @@ Package pdftex.def Info: plots/BG/rmue/8TeVrRatioDataVsMCControl_eta1_Central_F
 ull2012.pdf used on input line 18.
 (pdftex.def)             Requested size: 209.13013pt x 151.59291pt.
 
-<plots/BG/rmue/8TeVrRatioDataVsMCControl_eta1_Forward_Full2012.pdf, id=1464, 56
+<plots/BG/rmue/8TeVrRatioDataVsMCControl_eta1_Forward_Full2012.pdf, id=1566, 56
 9.12625pt x 412.54124pt>
 File: plots/BG/rmue/8TeVrRatioDataVsMCControl_eta1_Forward_Full2012.pdf Graphic
  file (type pdf)
@@ -1236,7 +1273,7 @@ Package pdftex.def Info: plots/BG/rmue/8TeVrRatioDataVsMCControl_eta1_Forward_F
 ull2012.pdf used on input line 21.
 (pdftex.def)             Requested size: 209.13013pt x 151.59291pt.
 
-<plots/BG/rmue/8TeVrRatioDataVsMCControl_deltaR_Central_Full2012.pdf, id=1465, 
+<plots/BG/rmue/8TeVrRatioDataVsMCControl_deltaR_Central_Full2012.pdf, id=1567, 
 569.12625pt x 412.54124pt>
 File: plots/BG/rmue/8TeVrRatioDataVsMCControl_deltaR_Central_Full2012.pdf Graph
 ic file (type pdf)
@@ -1246,7 +1283,7 @@ Package pdftex.def Info: plots/BG/rmue/8TeVrRatioDataVsMCControl_deltaR_Central
 _Full2012.pdf used on input line 30.
 (pdftex.def)             Requested size: 209.13013pt x 151.59291pt.
 
-<plots/BG/rmue/8TeVrRatioDataVsMCControl_deltaR_Forward_Full2012.pdf, id=1466, 
+<plots/BG/rmue/8TeVrRatioDataVsMCControl_deltaR_Forward_Full2012.pdf, id=1568, 
 569.12625pt x 412.54124pt>
 File: plots/BG/rmue/8TeVrRatioDataVsMCControl_deltaR_Forward_Full2012.pdf Graph
 ic file (type pdf)
@@ -1256,7 +1293,7 @@ Package pdftex.def Info: plots/BG/rmue/8TeVrRatioDataVsMCControl_deltaR_Forward
 _Full2012.pdf used on input line 33.
 (pdftex.def)             Requested size: 209.13013pt x 151.59291pt.
 
-<plots/BG/rmue/8TeVrRatioDataVsMCControl_ht_Central_Full2012.pdf, id=1467, 569.
+<plots/BG/rmue/8TeVrRatioDataVsMCControl_ht_Central_Full2012.pdf, id=1569, 569.
 12625pt x 412.54124pt>
 File: plots/BG/rmue/8TeVrRatioDataVsMCControl_ht_Central_Full2012.pdf Graphic f
 ile (type pdf)
@@ -1266,7 +1303,7 @@ Package pdftex.def Info: plots/BG/rmue/8TeVrRatioDataVsMCControl_ht_Central_Ful
 l2012.pdf used on input line 36.
 (pdftex.def)             Requested size: 209.13013pt x 151.59291pt.
 
-<plots/BG/rmue/8TeVrRatioDataVsMCControl_ht_Forward_Full2012.pdf, id=1468, 569.
+<plots/BG/rmue/8TeVrRatioDataVsMCControl_ht_Forward_Full2012.pdf, id=1570, 569.
 12625pt x 412.54124pt>
 File: plots/BG/rmue/8TeVrRatioDataVsMCControl_ht_Forward_Full2012.pdf Graphic f
 ile (type pdf)
@@ -1276,8 +1313,8 @@ Package pdftex.def Info: plots/BG/rmue/8TeVrRatioDataVsMCControl_ht_Forward_Ful
 l2012.pdf used on input line 39.
 (pdftex.def)             Requested size: 209.13013pt x 151.59291pt.
 
-<plots/BG/rmue/8TeVrRatioDataVsMCControl_nVertices_Central_Full2012.pdf, id=146
-9, 569.12625pt x 412.54124pt>
+<plots/BG/rmue/8TeVrRatioDataVsMCControl_nVertices_Central_Full2012.pdf, id=157
+1, 569.12625pt x 412.54124pt>
 File: plots/BG/rmue/8TeVrRatioDataVsMCControl_nVertices_Central_Full2012.pdf Gr
 aphic file (type pdf)
 
@@ -1286,8 +1323,8 @@ Package pdftex.def Info: plots/BG/rmue/8TeVrRatioDataVsMCControl_nVertices_Cent
 ral_Full2012.pdf used on input line 42.
 (pdftex.def)             Requested size: 209.13013pt x 151.59291pt.
 
-<plots/BG/rmue/8TeVrRatioDataVsMCControl_nVertices_Forward_Full2012.pdf, id=147
-0, 569.12625pt x 412.54124pt>
+<plots/BG/rmue/8TeVrRatioDataVsMCControl_nVertices_Forward_Full2012.pdf, id=157
+2, 569.12625pt x 412.54124pt>
 File: plots/BG/rmue/8TeVrRatioDataVsMCControl_nVertices_Forward_Full2012.pdf Gr
 aphic file (type pdf)
 
@@ -1296,17 +1333,17 @@ Package pdftex.def Info: plots/BG/rmue/8TeVrRatioDataVsMCControl_nVertices_Forw
 ard_Full2012.pdf used on input line 45.
 (pdftex.def)             Requested size: 209.13013pt x 151.59291pt.
 )
-(./thesis.bbl [51
+(./thesis.bbl [53
 
 
-] [52 <./plots/BG/rmue/8TeVrRatioDataVsMCControl_pt1_Central_Full2012.pdf, page
+] [54 <./plots/BG/rmue/8TeVrRatioDataVsMCControl_pt1_Central_Full2012.pdf, page
  is rotated 90 degrees> <./plots/BG/rmue/8TeVrRatioDataVsMCControl_pt1_Forward_
 Full2012.pdf, page is rotated 90 degrees> <./plots/BG/rmue/8TeVrRatioDataVsMCCo
 ntrol_pt2_Central_Full2012.pdf, page is rotated 90 degrees> <./plots/BG/rmue/8T
 eVrRatioDataVsMCControl_pt2_Forward_Full2012.pdf, page is rotated 90 degrees> <
 ./plots/BG/rmue/8TeVrRatioDataVsMCControl_eta1_Central_Full2012.pdf, page is ro
 tated 90 degrees> <./plots/BG/rmue/8TeVrRatioDataVsMCControl_eta1_Forward_Full2
-012.pdf, page is rotated 90 degrees>] [53 <./plots/BG/rmue/8TeVrRatioDataVsMCCo
+012.pdf, page is rotated 90 degrees>] [55 <./plots/BG/rmue/8TeVrRatioDataVsMCCo
 ntrol_deltaR_Central_Full2012.pdf, page is rotated 90 degrees> <./plots/BG/rmue
 /8TeVrRatioDataVsMCControl_deltaR_Forward_Full2012.pdf, page is rotated 90 degr
 ees> <./plots/BG/rmue/8TeVrRatioDataVsMCControl_ht_Central_Full2012.pdf, page i
@@ -1314,7 +1351,7 @@ s rotated 90 degrees> <./plots/BG/rmue/8TeVrRatioDataVsMCControl_ht_Forward_Ful
 l2012.pdf, page is rotated 90 degrees> <./plots/BG/rmue/8TeVrRatioDataVsMCContr
 ol_nVertices_Central_Full2012.pdf, page is rotated 90 degrees> <./plots/BG/rmue
 /8TeVrRatioDataVsMCControl_nVertices_Forward_Full2012.pdf, page is rotated 90 d
-egrees>] [54
+egrees>] [56
 
 
 ]
@@ -1323,19 +1360,19 @@ Underfull \hbox (badness 1067) in paragraph at lines 4--7
 /sl/10.95 Jour-nal of In-stru-men-ta-tion\T1/lmss/m/n/10.95 ,
  []
 
-[55]
+[57]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [56]
+ [58]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [57]
+ [59]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [58])
+ [60])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 268.
 
-[59]
+[61]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 268.
  (./thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 268.
@@ -1349,13 +1386,16 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 268.
  ) 
 Here is how much of TeX's memory you used:
- 11548 strings out of 494935
- 179248 string characters out of 6178122
- 319096 words of memory out of 5000000
- 14232 multiletter control sequences out of 15000+600000
+ 11575 strings out of 494935
+ 180531 string characters out of 6178122
+ 319494 words of memory out of 5000000
+ 14246 multiletter control sequences out of 15000+600000
  92369 words of font info for 108 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  40i,13n,51p,1953b,472s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1377,10 +1417,10 @@ usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1
 /public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmtt10.pfb>
-Output written on thesis.pdf (65 pages, 5591229 bytes).
+Output written on thesis.pdf (67 pages, 5640177 bytes).
 PDF statistics:
- 2172 PDF objects out of 2487 (max. 8388607)
- 1356 compressed objects within 14 object streams
- 247 named destinations out of 1000 (max. 500000)
- 569 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2278 PDF objects out of 2487 (max. 8388607)
+ 1407 compressed objects within 15 object streams
+ 253 named destinations out of 1000 (max. 500000)
+ 579 words of extra memory for PDF output out of 10000 (max. 10000000)
 
