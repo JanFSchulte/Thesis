@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.30)  27 OCT 2014 22:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.30)  28 OCT 2014 13:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -970,67 +970,66 @@ Overfull \hbox (39.27817pt too wide) in paragraph at lines 183--221
  []
 
 [26] [27]
-Overfull \hbox (81.38943pt too wide) in paragraph at lines 259--305
+Overfull \hbox (81.38943pt too wide) in paragraph at lines 264--310
  [] 
  []
 
-[28] [29] <plots/SELECTION/metFilter.pdf, id=741, 569.12625pt x 552.0625pt>
+[28] [29] [30]
+<plots/SELECTION/metFilter.pdf, id=762, 569.12625pt x 552.0625pt>
 File: plots/SELECTION/metFilter.pdf Graphic file (type pdf)
 
 <use plots/SELECTION/metFilter.pdf>
-Package pdftex.def Info: plots/SELECTION/metFilter.pdf used on input line 327.
+Package pdftex.def Info: plots/SELECTION/metFilter.pdf used on input line 332.
 (pdftex.def)             Requested size: 227.64647pt x 220.82108pt.
 
 
-LaTeX Warning: Reference `sec:trigEffs' on page 30 undefined on input line 335.
+LaTeX Warning: Reference `sec:trigEffs' on page 31 undefined on input line 340.
 
 
-[30] <plots/SELECTION/gapJustification.pdf, id=755, 569.12625pt x 553.06625pt>
+[31 <./plots/SELECTION/metFilter.pdf, page is rotated 90 degrees>]
+<plots/SELECTION/gapJustification.pdf, id=818, 569.12625pt x 553.06625pt>
 File: plots/SELECTION/gapJustification.pdf Graphic file (type pdf)
 
 <use plots/SELECTION/gapJustification.pdf>
 Package pdftex.def Info: plots/SELECTION/gapJustification.pdf used on input lin
-e 346.
+e 351.
 (pdftex.def)             Requested size: 209.13013pt x 203.23041pt.
 
-<plots/SELECTION/dRJustification_eeVSmm.pdf, id=756, 569.12625pt x 553.06625pt>
+<plots/SELECTION/dRJustification_eeVSmm.pdf, id=819, 569.12625pt x 553.06625pt>
 File: plots/SELECTION/dRJustification_eeVSmm.pdf Graphic file (type pdf)
 <use plots/SELECTION/dRJustification_eeVSmm.pdf>
 Package pdftex.def Info: plots/SELECTION/dRJustification_eeVSmm.pdf used on inp
-ut line 349.
+ut line 354.
 (pdftex.def)             Requested size: 209.13013pt x 203.23041pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 357.
+(hyperref)                removing `subscript' on input line 362.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 357.
+(hyperref)                removing `superscript' on input line 362.
 
-[31 <./plots/SELECTION/metFilter.pdf, page is rotated 90 degrees>]
-<plots/SELECTION/metJetsScatter_ttbar.pdf, id=807, 569.12625pt x 553.06625pt>
+[32]
+<plots/SELECTION/metJetsScatter_ttbar.pdf, id=827, 569.12625pt x 553.06625pt>
 File: plots/SELECTION/metJetsScatter_ttbar.pdf Graphic file (type pdf)
 
 <use plots/SELECTION/metJetsScatter_ttbar.pdf>
 Package pdftex.def Info: plots/SELECTION/metJetsScatter_ttbar.pdf used on input
- line 366.
+ line 371.
 (pdftex.def)             Requested size: 209.13013pt x 203.23041pt.
 
-<plots/SELECTION/metJetsScatter_DY.pdf, id=808, 569.12625pt x 553.06625pt>
+<plots/SELECTION/metJetsScatter_DY.pdf, id=828, 569.12625pt x 553.06625pt>
 File: plots/SELECTION/metJetsScatter_DY.pdf Graphic file (type pdf)
 
 <use plots/SELECTION/metJetsScatter_DY.pdf>
 Package pdftex.def Info: plots/SELECTION/metJetsScatter_DY.pdf used on input li
-ne 369.
+ne 374.
 (pdftex.def)             Requested size: 209.13013pt x 203.23041pt.
-) [32 <./plots/SELECTION/gapJustification.pdf, page is rotated 90 degrees> <./p
-lots/SELECTION/dRJustification_eeVSmm.pdf, page is rotated 90 degrees>] [33 <./
+) [33 <./plots/SELECTION/gapJustification.pdf, page is rotated 90 degrees> <./p
+lots/SELECTION/dRJustification_eeVSmm.pdf, page is rotated 90 degrees>] [34 <./
 plots/SELECTION/metJetsScatter_ttbar.pdf, page is rotated 90 degrees> <./plots/
-SELECTION/metJetsScatter_DY.pdf, page is rotated 90 degrees>] [34
-
-
-]
+SELECTION/metJetsScatter_DY.pdf, page is rotated 90 degrees>]
 Chapter 5.
 (./background.tex
 
@@ -1041,7 +1040,10 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `subscript' on input line 13.
 
-[35]) [36] [37] [38
+[35
+
+
+]) [36] [37] [38
 
 
 ]
@@ -1086,10 +1088,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [50]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [51])
+ [51]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [52])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 267.
 
-[52]
+[53]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 267.
  (./thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 267.
@@ -1106,13 +1111,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 267.
  ) 
 Here is how much of TeX's memory you used:
- 11407 strings out of 494935
- 172005 string characters out of 6178122
- 314173 words of memory out of 5000000
- 14135 multiletter control sequences out of 15000+600000
+ 11422 strings out of 494935
+ 172255 string characters out of 6178122
+ 317431 words of memory out of 5000000
+ 14142 multiletter control sequences out of 15000+600000
  92369 words of font info for 108 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 40i,13n,51p,1681b,472s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,13n,51p,2041b,472s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
 c/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/s
 hare/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/l
@@ -1131,10 +1136,10 @@ usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1
 /public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmtt10.pfb>
-Output written on thesis.pdf (58 pages, 5237134 bytes).
+Output written on thesis.pdf (59 pages, 5243497 bytes).
 PDF statistics:
- 1225 PDF objects out of 1440 (max. 8388607)
- 940 compressed objects within 10 object streams
- 227 named destinations out of 1000 (max. 500000)
+ 1246 PDF objects out of 1440 (max. 8388607)
+ 960 compressed objects within 10 object streams
+ 235 named destinations out of 1000 (max. 500000)
  461 words of extra memory for PDF output out of 10000 (max. 10000000)
 
