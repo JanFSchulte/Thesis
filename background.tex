@@ -161,7 +161,7 @@ To asses the systematic uncertainties of the trigger efficiency measurement, the
 \subsubsection{Results of the factorization method}
 The results of the factorization methods are summarized in Table~\ref{tab:factorization}. The factor $R_T$ is calculated from the trigger efficiencies in Table~\ref{tab:EffValues_Seperated} as $R_T = \sqrt{\frac{\epsilon_{ee}^{T}\cdot\epsilon_{\mu\mu}^{T} }{\epsilon_{e\mu}^{T}}}$. The resulting correction factors \Rsfof, \Reeof, and \Rmmof are calculated as described in equations~\ref{eq:nee}-\ref{eq:nsf}.  
 \input{tab/table_factorization_result.tex}
-As for the direct measurements in the control region, the observed deviations of \Rsfof from one are small and inside the uncertainties of the method. Because the uncertainty on \rmue cancels out to a large degree in the calculation \Rsfof, the total uncertainty is dominated by the uncertainty on $R_T$, while for \Reeof and \Rmmof the uncertainty of \rmue is the dominant one. This results in much larger uncertainties on the latter two factors. The dependency of \Rsfof on \rmue and $R_T$ is illustrated in Figure~\ref{fig:rmuePropaganda}. The measured values of \rmue and \Rsfof are shown as straight lines, surrounded by bands indicating their uncertainties. The red line shows the value of \Rsfof corresponding to a given \rmue, under the assumption that the trigger efficiencies stay constant. It can be seen that 
+As for the direct measurements in the control region, the observed deviations of \Rsfof from one are small and inside the uncertainties of the method. Because the uncertainty on \rmue cancels out to a large degree in the calculation \Rsfof, the total uncertainty is dominated by the uncertainty on $R_T$, while for \Reeof and \Rmmof the uncertainty of \rmue is the dominant one. This results in much larger uncertainties on the latter two factors. The dependency of \Rsfof on \rmue and $R_T$ is illustrated in Figure~\ref{fig:rmuePropaganda}. The measured values of \rmue and \Rsfof are shown as straight lines, surrounded by bands indicating their uncertainties. The red line shows the value of \Rsfof corresponding to a given \rmue, under the assumption that the trigger efficiencies stay constant. The dashed black lines show the impact that the uncertainties on the trigger efficiencies have on the resulting \Rsfof. It can be seen that variations of \rmue inside its systematic uncertainties have only little effect on \Rsfof, while changes in the trigger efficiencies have a much larger impact. 
 
 
 \begin{figure}[htbp]
@@ -177,11 +177,68 @@ As for the direct measurements in the control region, the observed deviations of
 \label{fig:rmuePropaganda}
 \end{figure} 
 
-\subsection{Resulting background estimates}
+\subsection{Combined correction factors and resulting background estimates}
+An overview of the resulting corrections factors of the measurement in the control region and the factorization method are shown in Table~\ref{tab:combinedRSFOF}. In all cases the results of the two methods agree very well within their uncertainties. Given the fact that they are performed on exclusive datasets and under the assumption that their uncertainties follow a Gaussian distribution, which is justified by the fact that they are either statistical in nature or assigned to cover statistical fluctuations in the dependency studies of \rmue and $R_T$, they can be combined using a weighted average. 
 \input{tab/table_rSFOF_combination_result.tex} 
+A precision of about 4\% and 6\% on the translation from opposite flavour to same flavour is reached in the central and forward dilepton selection, respectively. Separating the lepton flavours, the uncertainty in \Reeof and \Rmmof is about 6\% for central and 9-10\% for forward leptons. This increase is caused by the missing cancellation of the uncertainty on \rmue and the increased statistical uncertainty in the direct measurement in the control region. Given that the weighted average is calculated separately for each flavour combination, \Reeof and \Rmmof do not add up exactly to \Rsfof, which in turn means that the sum of the background estimates for flavour-symmetric backgrounds in the \EE and \MM channels does not equal that in the SF channel. The OF yields in the \mll bins of the counting experiment together with the resulting background estimates in the different dilepton channels are shown in Table~\ref{tab:FlavSymBackgrounds}. 
+\input{tab/table_cutNCount_FlavSymBkgs.tex}
 \section{Backgrounds containing a Z boson}
-To estimate the contribution of backgrounds containing a Z boson to the event sample in the signal region, both the JZB and \MET template methods are used. The first studies the balance of the Z boson against the jets in the event and is therefore called Jet-Z-balance (JZB). In the \MET template method, the \MET distribution of $\gamma$+jets events are used to estimate that of Z+jets events. As the development and application of these methods have not been part of the work covered in this thesis, only a short description will be given. 
+To estimate the contribution of backgrounds containing a Z boson to the event sample in the signal region, both the Jet-Z-balance (JZB) and \MET templates methods~\cite{Chatrchyan:2012qka} are used. The first studies the balance of the Z boson against the jets in the event. In the \MET template method, the \MET distribution of $\gamma$+jets events are used to estimate that of Z+jets events. As the development and application of these methods have not been part of the work covered in this thesis, only a short description will be given.
 \subsection{JZB method}
+The \JZB variable is defined as the balance of the \pt of the jets in the event with the \pt of the Z candidate. To avoid biases due to jet selection, \METVec is used as a measure of the hadronic recoil of the \Z:
+\begin{equation}
+\JZB = | \sum\limits_{\mathrm{jets}}\vec{p}_{\mathrm{T}}| - | \vec{p}_{\mathrm{T}}^{\text{ }\mathrm{Z}}| \approx | \vec{E}_{\mathrm{T}}^{\mathrm{miss}} -  \vec{p}_{\mathrm{T}}^{\text{ }\mathrm{ Z}}| - |\vec{p}_{\mathrm{T}}^{\text{ }\mathrm{Z}}| .
+\end{equation}
+For SM processes such as \zjets, where \MET is caused by mismeasurements of the jets, the \JZB distribution is symmetric around 0. For BSM processes, where the \Z boson is produced correlated with invisible particles, the \JZB distribution is expected to be asymmetric, favouring positive sign especially for large values of \JZB and by extension high \MET. Therefore it is possible to predict the contribution of SM processes containing a \Z boson at high \MET from the events in that region with negative values of \JZB, after subtraction of flavour-symmetric processes from OF events. The assumption that the \JZB distribution is symmetric around 0 for SM processes with only instrumental \MET is studied in MC and 20\% systematic uncertainty are assigned.\fixme{Add reference to 2012 paper}.
+\subsection{\MET templates method}
+The \MET templates method utilizes the similarity of \zjets and \gjets events, especially mismeasurement as only source of \MET. Therefore, after corrections for residual kinematic differences, the contribution of \zjets events at high \MET can be estimated from \gjets events passing the same selection. The dominant systematic uncertainties are assigned based on tests of the method on simulation and are in the order of 15-100\% for \MET values falling into the signal selection of this analysis. The large uncertainties for higher \MET values are driven the available MC statistics to validate the method. 
+
+In contrast to the \JZB method, the \MET templates method does account only for \zjets events. Other backgrounds containing \Z bosons, such as WZ, ZZ or more rare SM processes like $t\bar{t}Z$ or Triboson production are estimated from simulation and assigned 50\% uncertainty. 
+\subsection{Extrapolation for off-Z regions}
+Both methods described above result in background estimates for the on-\Z region of 81\GeV $< \mll < $ 101\GeV. Contributions to the low-Mass and high-Mass selections from off-Shell \Z bosons or the Drell--Yan continuum are estimated by applying an extrapolation factor \Routin to the on-Z prediction. \Routin is measured in the Drell--Yan control region, separately for the low-Mass and high-Mass region as well as \EE, \MM and SF leptons. It is defined as the ratio of the event yield in the mass region in question (\textit{out}) by that in the on-Z mass region (\textit{in}), after subtraction of contribution from flavour-symmetric processes from the OF sample:
+\begin{equation}
+\Routin = \frac{\mathrm{N}_{\mathrm{out}}^{\mathrm{SF}} - \mathrm{N}_{\mathrm{out}}^{\mathrm{OF}}\Rsfof}{ \mathrm{N}_{\mathrm{in}}^{\mathrm{SF}} - \mathrm{N}_{\mathrm{in}}^{\mathrm{OF}}\Rsfof},
+\end{equation} 
+where the SF is substituted for \EE or \MM according to the desired lepton flavour. The \mll distribution in the Drell--Yan control region is shown in Figure~\ref{fig:rOutIn}. The resulting values range from about 6-8\% for the low-Mass region to 2-3\% for the high-Mass region, as summarized in Table~\ref{tab:rOutIn}.
+\begin{figure}[htbp]
+\centering
+\begin{minipage}[t]{0.49\textwidth}
+  \includegraphics[width=\textwidth]{plots/BG/rOutIn/rOutIn_SF_DrellYanControlCentral_Full2012.pdf}
+\end{minipage}
+\begin{minipage}[t]{0.49\textwidth}
+\includegraphics[width=\textwidth]{plots/BG/rOutIn/rOutIn_SF_DrellYanControlForward_Full2012.pdf}
+\end{minipage}
+
+\caption{The \mll distribution in the Drell--Yan control region in the central (left) and forward (right) dielepton selection. SF data is shown as the black points while OF data is shown as the blue histogram. The black lines indicate the boundaries of the two \textit{out} regions and the dark red lines those of the \textit{in} region.}
+\label{fig:rOutIn}
+\end{figure} 
+\input{tab/table_ROutIn.tex}
+The validity of applying the \Routin as measured in the Drell--Yan control region in the signal region is checked by studying the behaviour of the quantity as a function of \MET and \njets. The results for the low-Mass selection and the case of SF leptons is shown in Figure~\ref{fig:ROutInDependencies} for both the central and forward lepton selections. In neither selection a clear dependency on \MET is observed. However, above 70\GeV there is not enough statistics left after subtraction of the flavour-symmetric backgrounds, so it is not possible to judge the behaviour all the way up to the signal region. The value of \Routin clearly increases with the number of jets. As the requirement on \njets is the same between the Drell--Yan control region and the signal region, the events do not differ much in terms of jet multiplicity and this dependency does not significantly restrict the applicability of the \Routin factors in the signal region. In total, an systematic uncertainty of 25\% is assigned to cover the observed effects. Consistent results are observed also for the high-Mass region and for the split into \EE and \MM, as can be seen in Appendix~\fixme{Make routin appendix and refer to it.}
+
+\begin{figure}[htbp]
+\centering
+\begin{minipage}[t]{0.49\textwidth}
+  \includegraphics[width=\textwidth]{plots/BG/rOutIn/rOutInSyst_DrellYanControlCentral_Full2012_MET_LowMass_SF_None.pdf}
+\end{minipage}
+\begin{minipage}[t]{0.49\textwidth}
+\includegraphics[width=\textwidth]{plots/BG/rOutIn/rOutInSyst_DrellYanControlCentral_Full2012_NJets_LowMass_SF_None.pdf}
+\end{minipage}
+\begin{minipage}[t]{0.49\textwidth}
+  \includegraphics[width=\textwidth]{plots/BG/rOutIn/rOutInSyst_DrellYanControlForward_Full2012_MET_LowMass_SF_None.pdf}
+\end{minipage}
+\begin{minipage}[t]{0.49\textwidth}
+\includegraphics[width=\textwidth]{plots/BG/rOutIn/rOutInSyst_DrellYanControlForward_Full2012_NJets_LowMass_SF_None.pdf}
+\end{minipage}
+\caption{Dependencies of \Routin on \MET (left) and $N_{jets}$ (right) for the central (top) and forward (bottom) lepton selection. The results on data are shown in black. The central value is shown as a black dashed line while the systematic uncertainty is shown as an orange band.}
+\label{fig:ROutInDependencies}
+\end{figure} 
+
+
+\subsection{Resulting background prediction}
+The predictions for the on-\Z region from the \JZB and \MET templates methods agree within their uncertainties. As for the \Rsfof factor, a weighted average is used to combine the two estimates. The results of both methods as well as the combination are shown in Table~\ref{tab:dyResults}. Shown there are also the \Routin values and the resulting estimates for the low- and high-Mass regions. For this, the on-Z predictions, which are derived on the PromptReco, are scaled by 1.03$\pm$0.03 to take into account the slight increase in jet multiplicity in the ReReco dataset. 
+\input{tab/table_cutNCount_ZBkgs.tex}
+
+
 
 \section{Investigation of possible further backgrounds}
 \section{Search for a kinematic edge with a fit}

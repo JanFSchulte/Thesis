@@ -33,7 +33,7 @@
 \contentsline {section}{\numberline {4.3}Event selection}{29}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Event cleaning}{29}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Inclusive dilepton selection}{31}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Selections in \ensuremath {E_{T}^{miss}}\xspace and jet multiplicity}{33}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.3}Selections in \ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}\xspace and jet multiplicity}{33}{subsection.4.3.3}
 \contentsline {chapter}{\numberline {5}Estimation of Standard Model backgrounds}{35}{chapter.5}
 \contentsline {section}{\numberline {5.1}Flavour-symmetric backgrounds}{35}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Direct measurement of \ensuremath {R_{\text {SF/OF}}}\xspace }{36}{subsection.5.1.1}
@@ -41,20 +41,23 @@
 \contentsline {subsubsection}{\nonumberline Measurement of \ensuremath {r_{\mu e}}\xspace }{39}{section*.46}
 \contentsline {subsubsection}{\nonumberline Measurement of \ensuremath {R_\mathrm {T}}\xspace }{40}{section*.50}
 \contentsline {subsubsection}{\nonumberline Results of the factorization method}{44}{section*.55}
-\contentsline {subsection}{\numberline {5.1.3}Resulting background estimates}{44}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}Backgrounds containing a Z boson}{44}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}JZB method}{47}{subsection.5.2.1}
-\contentsline {section}{\numberline {5.3}Investigation of possible further backgrounds}{47}{section.5.3}
-\contentsline {section}{\numberline {5.4}Search for a kinematic edge with a fit}{47}{section.5.4}
-\contentsline {chapter}{\numberline {6}Results}{49}{chapter.6}
-\contentsline {section}{\numberline {6.1}Result of the counting experiment}{49}{section.6.1}
-\contentsline {section}{\numberline {6.2}Result of the search for a kinematic edge}{50}{section.6.2}
-\contentsline {chapter}{\numberline {7}Interpretation in simplified models}{53}{chapter.7}
-\contentsline {section}{\numberline {7.1}Simplified Models for Supersymmetric Signatures}{53}{section.7.1}
-\contentsline {section}{\numberline {7.2}The T6bblledge and T6bbslepton model}{53}{section.7.2}
-\contentsline {section}{\numberline {7.3}Interpretation of the counting experiment in simplified models}{53}{section.7.3}
-\contentsline {chapter}{\numberline {8}Outlook to LHC Run II}{55}{chapter.8}
-\contentsline {chapter}{\numberline {9}Conclusion}{57}{chapter.9}
-\contentsline {chapter}{\numberline {A}Data and Monte Carlo Samples}{59}{appendix.A}
-\contentsline {chapter}{\numberline {B}Dependencies of \ensuremath {r_{\mu e}}\xspace }{61}{appendix.B}
-\contentsline {chapter}{\numberline {C}Dependencies of $R_T$}{65}{appendix.C}
+\contentsline {subsection}{\numberline {5.1.3}Combined correction factors and resulting background estimates}{44}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}Backgrounds containing a Z boson}{46}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}JZB method}{48}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}\ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}\xspace templates method}{48}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Extrapolation for off-Z regions}{48}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Resulting background prediction}{49}{subsection.5.2.4}
+\contentsline {section}{\numberline {5.3}Investigation of possible further backgrounds}{51}{section.5.3}
+\contentsline {section}{\numberline {5.4}Search for a kinematic edge with a fit}{51}{section.5.4}
+\contentsline {chapter}{\numberline {6}Results}{53}{chapter.6}
+\contentsline {section}{\numberline {6.1}Result of the counting experiment}{53}{section.6.1}
+\contentsline {section}{\numberline {6.2}Result of the search for a kinematic edge}{54}{section.6.2}
+\contentsline {chapter}{\numberline {7}Interpretation in simplified models}{57}{chapter.7}
+\contentsline {section}{\numberline {7.1}Simplified Models for Supersymmetric Signatures}{57}{section.7.1}
+\contentsline {section}{\numberline {7.2}The T6bblledge and T6bbslepton model}{57}{section.7.2}
+\contentsline {section}{\numberline {7.3}Interpretation of the counting experiment in simplified models}{57}{section.7.3}
+\contentsline {chapter}{\numberline {8}Outlook to LHC Run II}{59}{chapter.8}
+\contentsline {chapter}{\numberline {9}Conclusion}{61}{chapter.9}
+\contentsline {chapter}{\numberline {A}Data and Monte Carlo Samples}{63}{appendix.A}
+\contentsline {chapter}{\numberline {B}Dependencies of \ensuremath {r_{\mu e}}\xspace }{65}{appendix.B}
+\contentsline {chapter}{\numberline {C}Dependencies of $R_T$}{69}{appendix.C}
