@@ -7,70 +7,70 @@ No significant deviation from flavour-symmetry has been observed in the decays o
 \begin{equation}
 N_{SF}^{pred} = \Rsfof \cdot N_{OF}.
 \end{equation}
-Two independent methods are utilized to measure \Rsfof on data. In the first approach is is directly measured as the ratio of SF to OF events in the control region for flavour-symmetric backgrounds. The second approach studies the lepton efficiencies and derives \Rsfof factorized into the effects of trigger efficiencies and reconstruction and identification efficiencies.  
+Similarly, the factors \Reeof and \Rmmof are used to derive separate background estimates for the \EE and \MM channel separately. Two independent methods are utilized to measure \Rsfof on data. In the first approach is is directly measured as the ratio of SF to OF events in the control region for flavour-symmetric backgrounds. The second approach studies the lepton efficiencies and derives \Rsfof factorized into the effects of trigger efficiencies and reconstruction and identification efficiencies.  
 
 \subsection{Direct measurement of \Rsfof}
-The ratio of SF to OF events as a function of \mll in simulation is shown in Figure~\ref{fig:controlRatioMC}, separately for the central and forward lepton selection. The ratio is close to one, independent of \mll, allowing for the same value of \Rsfof to be applied over the full mass range. In data however there are contributions from non-flavour-symmetric processes containing Z bosons at the Z peak. Therefore the on-Z mass bin is excluded from the calculation and only events in the mass regions $\unit{20}{\giga\electronvolt}< \mll < \unit{70}{\giga\electronvolt}$ and $\mll > \unit{120}{\giga\electronvolt}$ are considered.   	
+The ratio of SF to OF events as a function of \mll in simulation is shown in Figure~\ref{fig:controlRatioMC}, separately for the central and forward lepton selection. The ratio is very close to on and independent of \mll, except at the \Z peak. It can be concluded that an universal factor can be applied for flavour-symmetric backgrounds over the full mass range. To exclude the \Z peak from the calculation only events in the mass regions $\unit{20}{\giga\electronvolt}< \mll < \unit{70}{\giga\electronvolt}$ and $\mll > \unit{120}{\giga\electronvolt}$ are considered.   	
 \begin{figure}
 \begin{center}
-\includegraphics[scale=0.35]{plots/BG/control/rSFOF_ControlCentral_Full2012_Mll_None_MC.pdf}\\
-\includegraphics[scale=0.35]{plots/BG/control/rSFOF_ControlForward_Full2012_Mll_None_MC.pdf}
-\caption{Ratio of SF to OF events as a function of \mll in the $t\bar{t}$ control region for the dileptonic $t\bar{t}$ sample. Shown are the results for the central (top) and forward (bottom) lepton selection.}
+\includegraphics[scale=0.4]{plots/BG/control/rSFOF_ControlCentral_Full2012_Mll_None_MC.pdf}\\
+\includegraphics[scale=0.4]{plots/BG/control/rSFOF_ControlForward_Full2012_Mll_None_MC.pdf}
+\caption{Ratio of SF to OF events as a function of \mll in the $t\bar{t}$ control region in simulation. Shown are the results for the central (top) and forward (bottom) lepton selection.}
 \label{fig:controlRatioMC}
 \end{center}
 \end{figure}
-The observed ratio on data as a functions of \mll is shown in Figure~\ref{fig:controlRatio}. No dependence on \mll is observed.
+The observed ratio on data as a functions of \mll is shown in Figure~\ref{fig:controlRatio}. Also here no significant dependence on \mll is observed both in the central and forward signal lepton selection.
 \begin{figure}
 \begin{center}
-\includegraphics[scale=0.35]{plots/BG/control/rSFOF_ControlCentral_Full2012_Mll_None.pdf}\\
-\includegraphics[scale=0.35]{plots/BG/control/rSFOF_ControlForward_Full2012_Mll_None.pdf}
-\caption{Ratio of SF to OF events as a function of \mll in the $t\bar{t}$ control region on data. Shown are the results for the central (top) and forward (bottom) lepton selection.}
+\includegraphics[scale=0.4]{plots/BG/control/rSFOF_ControlCentral_Full2012_Mll_None.pdf}\\
+\includegraphics[scale=0.4]{plots/BG/control/rSFOF_ControlForward_Full2012_Mll_None.pdf}
+\caption{Ratio of SF to OF events as a function of \mll in the $t\bar{t}$ control region in data. Shown are the results for the central (top) and forward (bottom) lepton selection.}
 \label{fig:controlRatio}
 \end{center}
 \end{figure}
-The numerical results are summarized in Table~\ref{tab:rsofControl}
+The numerical results are summarized in Table~\ref{tab:rSFOF} for \Rsfof as well as \Reeof and \Rmmof. Good agreement between the values measured in data and simulation is observed. The extrapolation of the measured value of \Rsfof into the signal region is studied in simulation. No deviation of the values measured in the signal region from those obtained in the control region is observed within the statistical uncertainties of the simulation. This uncertainty is therefore assigned as an systematic uncertainty of the method. 
 
 \input{tab/table_Rsfof_full.tex}
 
 \subsection{Determination of \Rsfof with the factorization method}
 \label{sec:rmue}
-Asymmetries between the lepton flavours introduced by differing reconstruction and selection efficiencies can be corrected for if the ratio of efficiencies for muons and electrons $\rmue = \frac{\epsilon_{\mu}}{\epsilon_{e}}$ is known. Under the assumption that the efficiencies for the two leptons in the event factorize, i.e. $\epsilon_{ll} = \epsilon_{l}\cdot\epsilon_{l}$, the number of dielectron and dimuon events can be estimated from the opposite-flavour events using the relations
+Asymmetries between the lepton flavours introduced by differing reconstruction and selection efficiencies can be corrected for if the ratio of efficiencies for muons and electrons $\rmuestar = \frac{\epsilon_{\mu}}{\epsilon_{e}}$ is known. Here and in the following, the $^{*}$ indicates quantities that do not consider the effect of trigger efficiencies. They have therefore to be expressed in terms of the measurable event yields which include these effects. Under the assumption that the efficiencies for the two leptons in the event factorize, i.e. $\epsilon_{ll} = \epsilon_{l}\cdot\epsilon_{l}$, the number of dielectron and dimuon events can be expressed in terms of the the opposite-flavour yield using the relations
 \begin{equation}
-n_{ee}^{*} = \frac{1}{2}\cdot \frac{n_{OF}^{*}}{\rmuestar}
+N_{ee}^{*} = \frac{1}{2}\cdot \frac{N_{OF}^{*}}{\rmuestar}
 \end{equation}
 and 
 \begin{equation}
-n_{\mu\mu}^{*} = \frac{1}{2} \cdot \rmuestar \cdot n_{OF}^{*},
+N_{\mu\mu}^{*} = \frac{1}{2} \cdot \rmuestar \cdot N_{OF}^{*}.
 \end{equation}
-the $^{*}$ indicating that these are the values unaffected by trigger efficiencies.
-The prediction of the combined same-flavour yield is therefore given by
+The combined same-flavour yield is therefore given by
 \begin{equation}
-n_{SF}^{*} = \frac{1}{2}\cdot \left( \rmuestar + \frac{1}{\rmuestar} \right) n_{OF}^{*}.
+N_{SF}^{*} = \frac{1}{2}\cdot \left( \rmuestar + \frac{1}{\rmuestar} \right) N_{OF}^{*}.
 \end{equation}
-In practice, all measured quantities are affected by the efficiencies of the different dilepton triggers. The measured number of SF events will therefore be
+In practice, all measured quantities are affected by the efficiencies of the different dilepton triggers. The observable SF yield is therefore given by
 \begin{equation}
-n_{SF} = \effeet \cdot n_{ee}^{*} + \effmmt \cdot n_{\mu\mu}^{*},
+N_{SF} = \effeet \cdot N_{ee}^{*} + \effmmt \cdot N_{\mu\mu}^{*},
 \end{equation}
 where $\epsilon_{ll}^T$ denotes the trigger efficiency for the given dilepton combination.\\
-Also the predictions for $n_{ee}^{*}$ and $n_{\mu\mu}^{*}$ have to include the trigger efficiencies. Here \rmuestar is expressed in terms of the measured value \rmue, which is derived from the \EE and \MM event yields in the Drell-Yan control region (see Section~\ref{sec:rmue}) as 
+The trigger efficiencies also affect the calculation of $N_{ee}^{*}$ and $N_{\mu\mu}^{*}$. To take this into account, \rmuestar is expressed in terms of the measured value \rmue, which is derived from the \EE and \MM event yields in the Drell-Yan control region (see Section~\ref{sec:rmue}) as 
 \begin{equation}
 \rmue  = \sqrt{\frac{N_{\mu\mu}}{N_{ee}}} \approx \sqrt{\frac{\epsilon_{\mu}^2 \effmmt}{\epsilon_{e}^2 \effeet}} = \rmuestar \cdot \sqrt{\frac{\effmmt}{\effeet}}.
 \end{equation}
-Taking into account also that the measured event yield in the OF channel is $n_{OF} = \effemt \cdot n_{OF}^{*}$, the estimate for the yields in the same-flavour channel becomes
+As a final step, it has to be considered, that the measured yield in the OF channel also includes the trigger efficiencies. Therefore, using $N_{OF} = \effemt \cdot N_{OF}^{*}$, the final expression for the yields in the same-flavour channels become
 \begin{equation}
-n_{ee} = \frac{1}{2\rmue} \cdot \frac{\sqrt{\effeet \effmmt}}{\effemt} n_{OF} = \Reeof n_{OF}
+N_{ee} = \frac{1}{2\rmue} \cdot \frac{\sqrt{\effeet \effmmt}}{\effemt} N_{OF} = \Reeof N_{OF}
 \label{eq:nee}
 \end{equation} 
 and
 \begin{equation}
-n_{\mu\mu} = \frac{1}{2}\rmue  \cdot \frac{\sqrt{\effeet \effmmt}}{\effemt} n_{OF} = \Rmmof n_{OF}.
+N_{\mu\mu} = \frac{1}{2}\rmue  \cdot \frac{\sqrt{\effeet \effmmt}}{\effemt} N_{OF} = \Rmmof N_{OF}.
 \label{eq:nmm}
 \end{equation} 
 Finally, the combined prediction of the SF yield is
 \begin{equation}
-n_{SF} = \frac{1}{2}\left(\rmue + \frac{1}{\rmue}\right) \cdot \frac{\sqrt{\effeet \effmmt}}{\effemt}  n_{OF} = \Rsfof n_{OF}.
+N_{SF} = \frac{1}{2}\left(\rmue + \frac{1}{\rmue}\right) \cdot \frac{\sqrt{\effeet \effmmt}}{\effemt}  N_{OF} = \Rsfof N_{OF}.
 \label{eq:nsf}
 \end{equation}
+The factor $\frac{\sqrt{\effeet \effmmt}}{\effemt}$ is denoted $R_{\text{T}}$ in the following.
 \subsubsection{Measurement of \rmue}
 The measurement of \rmue is performed in the Drell-Yan control region as the ratio of \MM to \EE events on the Z peak, requiring $\unit{60}{\giga\electronvolt} < \mll < \unit{120}{\giga\electronvolt}$. A comparison of the recorded data to the different contributions  from Standard Model processes, estimated from simulation, is shown in Figure~\ref{fig:rmueMll}. The Drell-Yan process is the dominating source of events in this selection. Good agreement between data and simulation is observed, indicating a good understanding of this kinematic region by CMS.   
 \begin{figure}[htbp]
@@ -84,9 +84,9 @@ The measurement of \rmue is performed in the Drell-Yan control region as the rat
 \caption{Distribution of \mll in the Drell-Yan control region for \MM events (left) and \EE events (right). The data is shown as the black dots, while the contributions from Standard Model processes, estimated from simulation, are shown as the stacked histograms.}
 \label{fig:rmueMll}
 \end{figure} 
-The results of the calculation of \rmue are shown in Table~\ref{tab:RValuesControl}. Given are the observed yields for \MM and \EE events and the resulting value of \rmue with statistical and systematic uncertainties. In the central lepton selection, the \MM yield is about 18\% higher than the \EE yield. Similar results are observed on Drell-Yan simulation. For events with leptons in the forward region, a larger asymmetry between muons and electrons is observed, here the \MM yield is about 40\% higher than the \EE yield. 
+The results of the calculation of \rmue are shown in Table~\ref{tab:rMuE}. Given are the observed yields for \MM and \EE events and the resulting value of \rmue with statistical and systematic uncertainties. In the central lepton selection, the \MM yield is about 18\% higher than the \EE yield. Similar results are observed on Drell-Yan simulation. For events with leptons in the forward region, a larger asymmetry between muons and electrons is observed, here the \MM yield is about 40\% higher than the \EE yield. 
 \input{tab/table_rMuE_result.tex}
-The systematic uncertainties of the measurement 10\% for the central and 20\% for the forward lepton selection. These values are obtained from studies of the dependency of \rmue on relevant observables. These are on the one hand properties of the lepton pairs, while on the other hand the jet multiplicity and \MET are studied to asses potential biases introduced when applying \Rsfof in the signal region. The dependencies of \rmue on \mll, \MET, and $N_{jets}$ are shown in Figure~\ref{fig:rmueDependencies}. Some dependency is observed in the case of \mll, where the values are higher for low \mll below the Z peak. This can be traced back to a dependency on the \pt of the leptons, where the efficiency for muons has a sharper turnon compared to electrons, for example for the dilepton triggers. In data, there is a strong effect visible around the Z peak for forward leptons. This is caused by a systematic shift of the position of the Z peak between electron and muons and is not a general property of \rmue, as is evident from the comparison with $t\bar{t}$ simulation shown in the upper right of Figure~\ref{fig:rmueDependencies}. No strong dependencies can be observed for \MET and $N_{jets}$ within the statistical uncertainties. All observed deviations from the central values are covered by the systematic uncertainties assigned to the measurement. Further information on the dependency studies can be found in Appendix~\ref{app:rmue}
+The systematic uncertainties assigned to the measured values of \rmue are 10\% for the central and 20\% for the forward lepton selection. These values are obtained by studying the dependency of \rmue on relevant observables. These are on the one hand properties of the lepton pairs, while on the other hand event properties as the jet multiplicity and \MET are studied to ensure the applicability of \rmue in the signal region. The dependencies of \rmue on \mll, \MET, and $N_{jets}$ are shown in Figure~\ref{fig:rmueDependencies}. Some dependency is observed in the case of \mll, where the values are higher for low \mll below the Z peak. This can be traced back to a dependency on the \pt of the leptons, where the efficiencies for muons have sharper turnons compared to electrons. In data, there is a strong effect visible around the Z peak for forward leptons. This is caused by a systematic shift of the position of the Z peak between electron and muons and is not a general property of \rmue, as is evident from the comparison with $t\bar{t}$ simulation shown in the upper right of Figure~\ref{fig:rmueDependencies}. No strong dependencies can be observed for \MET and $N_{jets}$ within the statistical uncertainties. All observed deviations from the central values are covered by the systematic uncertainties assigned to the measurement. Further information on the dependency studies can be found in Appendix~\ref{app:rmue}.
 \begin{figure}[htbp]
 \centering
 \begin{minipage}[t]{0.49\textwidth}
@@ -112,16 +112,16 @@ The systematic uncertainties of the measurement 10\% for the central and 20\% fo
 \end{figure} 
 \subsubsection{Measurement of \RT}
 \label{sec:triggerEffs}
-The trigger efficiencies are measured utilizing an event sample collected with PF $H_T$ triggers. Lepton pairs corresponding to the flavour combination of the trigger in question are selected. To ensure that only correctly reconstructed events are considered in the calculation of the trigger efficiencies, the events are required to have $H_T > \unit{200}{\giga\electronvolt}$, which corresponds to the lowest threshold applied in one of the PF $H_T$ trigger. To ensure that the factorization method is performed on event samples complete orthogonal to the signal region and the $t\bar{t}$ enriched control region, events with $N_{jets} \geq 2$ and $\MET > \unit{100}{\giga\electronvolt}$ are rejected. As the offline lepton selection has more strict requirements compared to the one applied at HLT level, the dilepton trigger should have accepted all these events. The trigger efficiency is therefore defined as the ratio of these event that were accepted by the trigger by the total number of events:
+The trigger efficiencies are measured utilizing an event sample collected with PF $H_T$ triggers. Lepton pairs corresponding to the flavour combination of the trigger in question are selected. To ensure that only correctly reconstructed events are considered in the calculation of the trigger efficiencies, the events are required to have $H_T > \unit{200}{\giga\electronvolt}$, which corresponds to the lowest threshold applied in one of the PF $H_T$ trigger. To ensure that the factorization method is performed on event samples complete orthogonal to the signal region and the $t\bar{t}$ enriched control region, events with $N_{jets} \geq 2$ and $\MET > \unit{100}{\giga\electronvolt}$ are rejected. As the offline lepton selection has more strict requirements compared to the one applied at HLT level, the dilepton triggers should have accepted all these events. The trigger efficiency is therefore defined as the ratio of accepted events by the total number of events:
 \begin{equation}
 \epsilon_{ll}^T = \frac{N_{events}(\text{PF }H_T\text{trigger} \cap \text{dilepton selection} \cap \text{dilepton trigger})}{N_{events}(\text{PF }H_T\text{trigger} \cap \text{dilepton selection})}.
 \end{equation}
-In the case of \MM and OF events, two triggers are used in the event selection. Therefore their combined efficiency is measured, requesting the logical OR of both. The resulting efficiencies are summarized in Table~\ref{tab:triggerEffs}, separately for the central and forward lepton selection. The trigger efficiencies for \EE and \MM are about 97\% in both the central and forward selection. The efficiency for OF events is lower, about 95\% in the central and 90\% in the forward selection. This shows how the flavour symmetry is broken at trigger level by the \verb+HLT_Mu17_TkMu8+ trigger, which recovers efficiency for the trailing muon leg of the trigger and is not present in the OF triggers.   
+In the case of \MM and OF events, two triggers are used in the event selection. Therefore their combined efficiency is measured, requesting the logical OR of both. The resulting efficiencies are summarized in Table~\ref{tab:triggerEffs}, separately for the central and forward lepton selection. The trigger efficiencies for \EE and \MM are about 97\% in both the central and forward selection. The efficiency for OF events is lower, about 95\% in the central and 90\% in the forward selection. This shows how the flavour symmetry is broken at trigger level by the inclusion of the \verb+HLT_Mu17_TkMu8+ trigger, which recovers efficiency for the trailing muon leg of the trigger and is not present in the OF triggers.   
 \input{tab/table_TriggerEffsExclusive_Seperated.tex}
 To asses the systematic uncertainties of the trigger efficiency measurement, potential biases due to the choice of the orthogonal trigger  are studied on simulation, using dileptonic $t\bar{t}$ events. On simulation the efficiency can be measured without the requirement of the PF $H_T$ triggers, as no trigger is needed to select the events. The ratio of this true trigger efficiencies to those measured with the PF $H_T$ triggers as a function of \mll is shown in Figure~\ref{fig:triggerEffBias}, separately for SF and OF events. In both cases all deviations from one are in the order of 0.1\% and well compatible with it inside the statistical uncertainties. No bias of the efficiency measurement due to the PF $H_T$ triggers is observed and therefore no systematic uncertainty due to this choice is assigned to the measurement.
 \begin{figure}
 \begin{center}
-\includegraphics[scale=0.35]{plots/BG/trigger/Triggereff_AlphaTSyst_PFHT_HighHTExclusive_Full2012_HT_None.pdf}
+\includegraphics[scale=0.35]{plots/BG/trigger/Triggereff_AlphaTSyst_PFHT_HighHTExclusive_Full2012_Mll_None.pdf}
 \caption{Ratio of true trigger efficiencies to those calculated using the PF $H_T$ triggers separately for SF and OF events.}
 \label{fig:triggerEffBias}
 \end{center}
@@ -182,6 +182,86 @@ An overview of the resulting corrections factors of the measurement in the contr
 \input{tab/table_rSFOF_combination_result.tex} 
 A precision of about 4\% and 6\% on the translation from opposite flavour to same flavour is reached in the central and forward dilepton selection, respectively. Separating the lepton flavours, the uncertainty in \Reeof and \Rmmof is about 6\% for central and 9-10\% for forward leptons. This increase is caused by the missing cancellation of the uncertainty on \rmue and the increased statistical uncertainty in the direct measurement in the control region. Given that the weighted average is calculated separately for each flavour combination, \Reeof and \Rmmof do not add up exactly to \Rsfof, which in turn means that the sum of the background estimates for flavour-symmetric backgrounds in the \EE and \MM channels does not equal that in the SF channel. The OF yields in the \mll bins of the counting experiment together with the resulting background estimates in the different dilepton channels are shown in Table~\ref{tab:FlavSymBackgrounds}. 
 \input{tab/table_cutNCount_FlavSymBkgs.tex}
+
+
+
+
+\subsection{Validation of background estimates}
+To judge the performance of the estimation methods for flavour-symmetric backgrounds, they are applied to simulation. In Table~\ref{tab:MCClosure} the resulting SF and OF yields after application of the signal selection are shown separately for the central and forward dilepton selection. The OF yields are corrected with the \Rsfof values derived for MC shown in Table~\ref{tab:combinedRSFOF}. For completely flavour-symmetric processes, such as \ttbar, Drell--Yan production decaying to $\tau\tau$ or single top-quark production, the difference between the SF and OF yields is compatible with zero within the statistical uncertainties of the simulation and the systematic uncertainties of the method. Other systematic uncertainties affecting the simulation are the same for SF and OF lepton pairs and are therefore not considered here. 
+\input{tab/table_MC_SFOF_Full2012.tex}
+ As expected, deviations from flavour-symmetry are observed only for processes containing a \Z boson, most notable Drell--Yan production decaying to light leptons, but also WZ or ZZ production and more rare processes like $t\bar{t}$Z production. It can therefore be concluded that the background prediction for flavour-symmetric processes performs well within the uncertainties of the methods presented above. The validity of this cross check is restricted to processes well modelled in simulation. As the modelling of non-prompt leptons is in general less reliable, more detailed studies are performed on data to ensure that flavour-symmetry also holds for the small contribution of non-prompt leptons to the final event selection.
+\subsubsection*{Study of non-prompt leptons}
+As a preface to studies performed on data, the contribution of non-prompt leptons is examined using MC truth information. A data driven estimate for this contribution is derived from leptons with relaxed isolation criteria.
+\paragraph*{Non-prompt leptons in simulation}
+The origin of the leptons in the events contribution to the signal selection is studied in simulation by matching the reconstructed lepton to the generated particles with the smallest spatial separation $\Delta R$. The difference in generated and reconstructed \pt must not exceed twice the generated \pt. The parentage of the matched generated particle is used to determine of the lepton originates from a prompt decay, a heavy flavour decay inside a jet, or a jet that was misreconstructed as a lepton. The contribution of non-prompt leptons to the signal selection is studied in \ttbar events, where the two b-jets are a source for leptons from heavy flavour decays. 
+
+All events where at least one of the leptons is not matched to a generated electron or muon and/or does not originate directly or via and intermediate $\tau$ lepton from a W boson are considered non-prompt. The resulting \mll distributions are shown in Figure~\ref{fig:nonPromptMC} for an inclusive dilepton selection on the left and the combined central and forward signal selection on the right. Good agreement between SF and OF pairs can be seen, with a slight tendency towards OF. 
+\begin{figure}[htbp]
+\centering
+\begin{minipage}[t]{0.49\textwidth}
+  \includegraphics[width=\textwidth]{plots/BG/nonPrompt/nonPromptMC_Inclusive_Full2012_Mll_None.pdf}
+\end{minipage}
+\begin{minipage}[t]{0.49\textwidth}
+\includegraphics[width=\textwidth]{plots/BG/nonPrompt/nonPromptMC_SignalInclusive_Full2012_Mll_None.pdf}
+\end{minipage}
+\caption{Distribution of \mll for lepton pairs with at least one non-prompt lepton in simulation for an inclusive dilepton selection (left) and the signal selection (right). The contributions of \EE, \MM, and \EM pairs are shown as red, green, and blue lines, respectively. The combined SF pairs are shown as the black points.}
+\label{fig:nonPromptMC}
+\end{figure} 
+The event yields are summarized in Table~\ref{tab:nonPromptTableMC}. It can be seen that the contribution of non-prompt electrons exceeds that of non-prompt muons. The event yields for SF and OF lepton pairs are very similar, with a slight preference to OF leptons. This indicates that this type of backgrounds is covered by the estimates for flavour-symmetric backgrounds, at least in simulation.
+\input{tab/table_nonPromptMC}
+
+\paragraph*{Estimate of non-prompt contributions with tight-to-loose ratios}
+The contribution of non-prompt leptons to the signal selection can be estimated on data from control samples enriched in non-prompt leptons.\fixme{Reference origin of method. Can I cite ANs?} These samples are obtained by relaxing the isolation requirements on the leptons from requiring the relative isolation to be $<$ 0.15 to $<$ 1.0. The probability of a prompt or non-prompt lepton that passes this ``loose'' selection to also pass the default ``tight'' selection allows to calculate the different contributions of prompt-prompt, prompt-non-prompt and non-prompt-non-prompt dilepton events to the signal selection. 
+
+The probability for a non-prompt loose lepton to pass also the tight selection, often referred to as ``fake rate'' $f$ is calculated in an event sample enriched in non-prompt leptons. It is collected by prescaled low-\pt single lepton trigger, see section \fixme{add this somewhere}. At least one jet with $\pt > \unit{50}{\giga\electronvolt}$ is required. To reject prompt leptons from \Wjets events, \MET and the transverse mass of the lepton-\MET system are both required to be $\unit{<20}{\giga\electronvolt}$. The resulting fake rates as a function of lepton \pt and $\eta$ are shown in Figure~\ref{fig:fakeRate}. For low \pt, the value for electrons is about 0.25 while for muons it is about 0.07. Dependencies on both \pt and $\eta$ are observed. The fake rate is therefore measured and applied as a function of both variables. The increase for higher \pt is however understood as arising from an increasing contamination from prompt leptons. Therefore for all leptons with $\unit{\pt > 40}{\giga\electronvolt}$, the values measured between $\unit{35}{\giga\electronvolt}$ and $\unit{40}{\electronvolt}$ are used.  
+\begin{figure}[htbp]
+\centering
+\begin{minipage}[t]{0.49\textwidth}
+  \includegraphics[width=\textwidth]{plots/BG/nonPrompt/fakeRate_ele_Inclusive_Full2012_TrailingPt_range100.pdf}
+\end{minipage}
+\begin{minipage}[t]{0.49\textwidth}
+\includegraphics[width=\textwidth]{plots/BG/nonPrompt/fakeRate_mu_Inclusive_Full2012_TrailingPt_range100.pdf}
+\end{minipage}
+\begin{minipage}[t]{0.49\textwidth}
+\includegraphics[width=\textwidth]{plots/BG/nonPrompt/fakeRate_ele_Inclusive_Full2012_TrailingEta_None.pdf}
+\end{minipage}
+\begin{minipage}[t]{0.49\textwidth}
+\includegraphics[width=\textwidth]{plots/BG/nonPrompt/fakeRate_mu_Inclusive_Full2012_TrailingEta_None.pdf}
+\end{minipage}
+\caption{Measured fake rate for electrons (left) and muons (right) as a function of the \pt (top) and $\eta$ (bottom) of the trailing lepton.}
+\label{fig:fakeRate}
+\end{figure} 
+Similarly, to calculate the probability of a loose prompt lepton to be also a tight lepton, a sample enriched in prompt lepton is selected by requiring exactly two reconstructed leptons, of which the leading one is required to be a tight lepton which the trailing one is a loose lepton. To further enrich the sample in prompt lepton from Z boson decays, \mll is required to be within $\unit{15}{\giga\electronvolt}$ of the Z boson mass and \MET is required to be $\unit{<20}{\giga\electronvolt}$. The resulting prompt ratios $p$ are shown in Figure~\ref{fig:promptRate}. They are again applied as functions of \pt $\eta$. The systematic uncertainty assigned to the tight-to-loose ratios in the sources cited above is 50\%. As the definition of loose electrons differs from that used in said analyses and modifications have been made to the definition of the control samples in which the ratios are measured, this number is not directly applicable here. As the overall normalization of the non-prompt background is not the focus of this study, the uncertainty is increased to 100\%. 
+
+\begin{figure}[htbp]
+\centering
+\begin{minipage}[t]{0.49\textwidth}
+  \includegraphics[width=\textwidth]{plots/BG/nonPrompt/promptRate_ele_Inclusive_Full2012_TrailingPt_range100.pdf}
+\end{minipage}
+\begin{minipage}[t]{0.49\textwidth}
+\includegraphics[width=\textwidth]{plots/BG/nonPrompt/promptRate_mu_Inclusive_Full2012_TrailingPt_range100.pdf}
+\end{minipage}
+\begin{minipage}[t]{0.49\textwidth}
+\includegraphics[width=\textwidth]{plots/BG/nonPrompt/promptRate_ele_Inclusive_Full2012_TrailingEta_None.pdf}
+\end{minipage}
+\begin{minipage}[t]{0.49\textwidth}
+\includegraphics[width=\textwidth]{plots/BG/nonPrompt/promptRate_mu_Inclusive_Full2012_TrailingEta_None.pdf}
+\end{minipage}
+\caption{Measured prompt rate for electrons (left) and muons (right) as a function of the \pt (top) and $\eta$ (bottom) of the trailing lepton.}
+
+
+\label{fig:promptRate}
+\end{figure} 
+Using the measured fake and prompt rates $f$ and $p$, the contributions of the four possible combination of prompt and non-prompt lepton (prompt-prompt, prompt-non-prompt, non-prompt-prompt, and non-prompt-non-prompt) are calculated using the following formulas
+\begin{eqnarray*}
+N_{pp} = N_{tt}\cdot(f_1 -1)(f2-1)p_1p_2 + N_{tl}\cdot(f_1 -1)f_2p_1p_2 + N_{lt}\cdot (f_2-1)f_1p_1p_2 + N_{ll}\cdot f_1f_2p_1p_2,\\
+N_{pn} = N_{tt}\cdot(f_1 -1)(1-p_2)p_1f_2 - N_{tl}\cdot(f_1 -1)f_2p_1p_2 + N_{lt}\cdot (1-p_2)f_1p_1f_2 - N_{ll}\cdot f_1f_2p_1p_2,\\
+N_{np} = N_{tt}\cdot(1 - p_1)(f_2 - 1)f_1p_2 + N_{tl}\cdot(1-p_1)f_2f_1p_2 - N_{lt}\cdot (f_2-1)f_1p_1p_2 - N_{ll}\cdot f_1f_2p_1p_2,\\
+N_{nn} = N_{tt}\cdot(1-p_1)(1-p_2)f_1f_2 - N_{tl}\cdot (1-p_1)f_2f_1p_2 - N_{lt}\cdot (1-p_2)f_1p_1f_2 + N_{ll}\cdot f_1f_2p_1p_2,\\
+\end{eqnarray*}
+where each of the contributions has to be weighted by $(f_1-p_1)(f_2-p_2)$. As the fake and prompt rates depend on \pt and $\eta$ of the leptons, in practice each event is assigned a weight based on whether the leptons are tight and loose and their kinematic properties according to the formulas above. The estimates for $N_{pp}$, $N_{pn}$, $N_{np}$, and $N_{nn}$ are obtained as the sum of these weights. The total contribution of non-prompt backgrounds is than given by the sum of $N_{pn}$, $N_{np}$, and $N_{nn}$. The resulting estimates in the central and forward signal regions are shown in Table~\ref{tab:nonPromptTable}. 
+\input{tab/table_nonPrompt.tex}
+It can be seen that the contribution of non-prompt leptons is small compared to the total number of tight lepton pairs and that the estimates are well compatible between SF and OF events within the statistical uncertainties. This type of backgrounds is therefore accounted for by the background estimates for flavour-symmetric backgrounds.
 \section{Backgrounds containing a Z boson}
 To estimate the contribution of backgrounds containing a Z boson to the event sample in the signal region, both the Jet-Z-balance (JZB) and \MET templates methods~\cite{Chatrchyan:2012qka} are used. The first studies the balance of the Z boson against the jets in the event. In the \MET template method, the \MET distribution of $\gamma$+jets events are used to estimate that of Z+jets events. As the development and application of these methods have not been part of the work covered in this thesis, only a short description will be given.
 \subsection{JZB method}
@@ -240,5 +320,6 @@ The predictions for the on-\Z region from the \JZB and \MET templates methods ag
 
 
 
-\section{Investigation of possible further backgrounds}
+
+
 \section{Search for a kinematic edge with a fit}
