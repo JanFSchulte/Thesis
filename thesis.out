@@ -37,16 +37,22 @@
 \BOOKMARK [2][-]{subsection.5.2.2}{ETmiss templates method}{section.5.2}% 37
 \BOOKMARK [2][-]{subsection.5.2.3}{Extrapolation for off-Z regions}{section.5.2}% 38
 \BOOKMARK [2][-]{subsection.5.2.4}{Resulting background prediction}{section.5.2}% 39
-\BOOKMARK [1][-]{section.5.3}{Search for a kinematic edge with a fit}{chapter.5}% 40
-\BOOKMARK [0][-]{chapter.6}{Results}{}% 41
-\BOOKMARK [1][-]{section.6.1}{Result of the counting experiment}{chapter.6}% 42
-\BOOKMARK [1][-]{section.6.2}{Result of the search for a kinematic edge}{chapter.6}% 43
-\BOOKMARK [0][-]{chapter.7}{Interpretation in simplified models}{}% 44
-\BOOKMARK [1][-]{section.7.1}{Simplified Models for Supersymmetric Signatures}{chapter.7}% 45
-\BOOKMARK [1][-]{section.7.2}{The T6bblledge and T6bbslepton model}{chapter.7}% 46
-\BOOKMARK [1][-]{section.7.3}{Interpretation of the counting experiment in simplified models}{chapter.7}% 47
-\BOOKMARK [0][-]{chapter.8}{Outlook to LHC Run II}{}% 48
-\BOOKMARK [0][-]{chapter.9}{Conclusion}{}% 49
-\BOOKMARK [0][-]{appendix.A}{Data and Monte Carlo Samples}{}% 50
-\BOOKMARK [0][-]{appendix.B}{Dependencies of re}{}% 51
-\BOOKMARK [0][-]{appendix.C}{Dependencies of RT}{}% 52
+\BOOKMARK [0][-]{chapter.6}{Results of the counting experiment}{}% 40
+\BOOKMARK [1][-]{section.6.1}{Results and further studies}{chapter.6}% 41
+\BOOKMARK [1][-]{section.6.2}{Interpretation in simplified models}{chapter.6}% 42
+\BOOKMARK [2][-]{subsection.6.2.1}{``Fixed-edge'' and ``slepton-edge'' models}{section.6.2}% 43
+\BOOKMARK [2][-]{subsection.6.2.2}{Statistical interpretation}{section.6.2}% 44
+\BOOKMARK [0][-]{chapter.7}{Search for an kinematic edge}{}% 45
+\BOOKMARK [1][-]{section.7.1}{Background and signal models}{chapter.7}% 46
+\BOOKMARK [2][-]{subsection.7.1.1}{Model for Z backgrounds}{section.7.1}% 47
+\BOOKMARK [2][-]{subsection.7.1.2}{Model for flavour-symmetric backgrounds}{section.7.1}% 48
+\BOOKMARK [2][-]{subsection.7.1.3}{Signal model}{section.7.1}% 49
+\BOOKMARK [1][-]{section.7.2}{Combined model}{chapter.7}% 50
+\BOOKMARK [1][-]{section.7.3}{Fit validation}{chapter.7}% 51
+\BOOKMARK [2][-]{subsection.7.3.1}{Fit performance studies using toy MC}{section.7.3}% 52
+\BOOKMARK [1][-]{section.7.4}{Results}{chapter.7}% 53
+\BOOKMARK [0][-]{chapter.8}{Outlook to LHC Run II}{}% 54
+\BOOKMARK [0][-]{chapter.9}{Conclusion}{}% 55
+\BOOKMARK [0][-]{appendix.A}{Data and Monte Carlo Samples}{}% 56
+\BOOKMARK [0][-]{appendix.B}{Dependencies of re}{}% 57
+\BOOKMARK [0][-]{appendix.C}{Dependencies of RT}{}% 58
