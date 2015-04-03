@@ -19,9 +19,42 @@ A_{i} = \left(\frac{n_{i}}{|\alpha_{i}|}\right)^{n_{i}} \cdot \textrm{exp}\left(
 \end{eqnarray*}
 Taking into account also the exponential function described the Drell--Yan continuum, the full description is therefore 
 \begin{eqnarray*}
-\mathcal{P}_{DY} (m_{\ell\ell}) = f_{exp}\mathcal{P}_{exp}(m_{\ell\ell})+(1-f_{exp})\int \mathcal{P}_{DSCB}(m_{\ell\ell})\mathcal{P}_{BW}(m_{\ell\ell}-m') dm',
+\mathcal{P}_{DY} (m_{\ell\ell}) = (1-f_{exp})\mathcal{P}_{exp}(m_{\ell\ell})+ f_{exp}\int \mathcal{P}_{DSCB}(m_{\ell\ell})\mathcal{P}_{BW}(m_{\ell\ell}-m') dm',
 \end{eqnarray*}
-where $f_{exp}$ is the fraction that the exponential component contributes to the full PDF. 
+where $f_{exp}$ is the fraction that the exponential component contributes to the full PDF. A full list of the parameters of the model is given in Table~\ref{tab:Fit_Par_Overview_Z}.
+
+
+\begin{table}[htbp]
+\begin{center}
+ \renewcommand{\arraystretch}{1.3}
+ \caption{List of all parameters of the model for Drell--Yan backgrounds for the fit in the Drell--Yan control region. Given are intial values, allowed ranges and the status of the parameters. A set of these parameters exists for both the central and forward dilepton selection.\label{tab:Fit_Par_Overview_Z}}
+\begin{tabular}{l|c|c|c|c|ccccccccccccccccccccc}
+& parameter & status & initial value & minimum & maximum \\ \hline
+\multirow{10}{*}{$\mathbf{p}_{Z}^{ee}$} & $m_{\mathrm{Z}} [\mathrm{GeV}]$ & fixed & 91.1876 & - & - \\ 
+& $\sigma_{\mathrm{Z}}  [\mathrm{GeV}]$ & fixed & 2.4952 & - & - \\
+& $\mu_{CB}^{ee} [\mathrm{GeV}]$ & floating & 3.0 & -10 & 10 \\ 
+& $\sigma_{CB}^{ee}$ & floating & 1.6 & 0 & 20 \\
+& $\alpha_{1}^{ee}$ & floating & 1.16 & 0 & 10 \\
+& $\alpha_{2}^{ee}$ & floating & 2.5 & 0 & 10 \\
+& $n_{1}^{ee}$ & floating & 2.9 & 0 & 20 \\
+& $n_{2}^{ee}$ & floating & 1.04 & 0 & 20 \\
+& $f_{exp}^{ee}$ & floating & 0.9 & 0 & 1 \\
+& $\mu_{exp}^{ee} [\mathrm{GeV}^{-1}]$ & floating & -0.02& -0.1 & 0 \\ \hline
+\multirow{10}{*}{$\mathbf{p}_{Z}^{\mu\mu}$} & $m_{\mathrm{Z}} [\mathrm{GeV}]$ & fixed & 91.1876 & - & - \\ 
+& $\sigma_{\mathrm{Z}} [\mathrm{GeV}]$  & fixed & 2.4952 & - & - \\
+& $\mu_{CB}^{\mu\mu} [\mathrm{GeV}]$ & floating & 3.0 & -10 & 10 \\
+&  $\sigma_{CB}^{\mu\mu}$ & floating & 1.6 & 0 & 20 \\
+&  $\alpha_{1}^{\mu\mu}$ & floating & 1.16 & 0 & 10 \\
+&  $\alpha_{2}^{\mu\mu}$ & floating & 2.5 & 0 & 10 \\
+&  $n_{1}^{\mu\mu}$ & floating & 2.9 & 0 & 20 \\
+&  $n_{2}^{\mu\mu}$ & floating & 1.04 & 0 & 20 \\
+&  $f_{exp}^{\mu\mu}$ & floating & 0.9 & 0 & 1 \\
+&  $\mu_{exp}^{\mu\mu} [\mathrm{GeV}^{-1}]$& floating & -0.02 & -0.1 & 0 \\ 
+\end{tabular}
+
+\end{center}
+\end{table}
+
 
 This model is fitted to the data in the Drell--Yan control region separately for \EE and \MM events after flavour-symmetric backgrounds are subtracted using OF events. Afterwards, all parameters of the model are fixed and only the normalization is left floating in the fit in the signal region. The resulting fits are shown in Figure~\ref{fig:dyFits} and are a good description of the distribution in all cases. 
 
@@ -42,6 +75,24 @@ This model is fitted to the data in the Drell--Yan control region separately for
 \caption{Fit to the \mll distribution in the Drell--Yan control region separately for \EE (left) and \MM (right) events in the central (top) and forward (bottom) dilepton selection. The data is shown as black points while the resulting fit is shown in blue. The red and green lines show the contributions of the continuum model and the peak model to the combined fit.}
 \label{fig:dyFits}
 \end{figure}
+From the Gaussian core component of the double-sided crystal ball the \mll resolution in the different channels is obtained, which is used as an input in the modelling of a potential signal. The resulting resolution values are shown in Table~\ref{tab:mllReso}. The fitted values range form about $\unit{1.4}{\giga\electronvolt}$ to $\unit{2.7}{\giga\electronvolt}$ depending on lepton flavour and rapidity. In general it is smaller for \MM pairs and for lepton pairs in the central part of the detector.  
+
+\begin{table}
+\centering
+\caption{Fitted \mll resolution in the central and forward dilepton selections for \EE and \MM pairs.}
+\label{tab:mllReso}
+\begin{tabular}{l|c|c}
+ & \EE & \MM \\
+ \hline
+ Central & $\unit{1.71\pm0.03}{\giga\electronvolt}$  & $\unit{1.44\pm0.01}{\giga\electronvolt}$\\
+ Forward & $\unit{2.70\pm0.04}{\giga\electronvolt}$ & $\unit{2.01\pm0.03}{\giga\electronvolt}$\\
+
+\end{tabular}
+\end{table}
+
+
+
+
 
 
 \subsection{Model for flavour-symmetric backgrounds}
@@ -55,7 +106,24 @@ Flavour-symmetric models are described with a model consisting of three parts. T
 {\mathcal{P}}_{FS,3}(m_{\ell\ell}) = c_{3}\cdot e^{-\beta m_{\ell\ell}} & \mbox{if } m_{\ell\ell}^{(2)}<m_{\ell\ell}<300\GeV \\
 \end{cases} 
 \end{eqnarray*}
-where $m_{\ell\ell}^{(1)}$ and $m_{\ell\ell}^{(2)}$ are the transition points between the different parts of the model. The model is required to be normalized and also to be continuously differentiable in $m_{\ell\ell}^{(1)}$ and $m_{\ell\ell}^{(2)}$, reducing the number of free parameters to five: $\mathbf{p}_{FS} = (m_{\ell\ell}^{(1)},m_{\ell\ell}^{(2)},c_{2,0},c_{2,1},c_{2,3})$. 
+where $m_{\ell\ell}^{(1)}$ and $m_{\ell\ell}^{(2)}$ are the transition points between the different parts of the model. The model is required to be normalized and also to be continuously differentiable in $m_{\ell\ell}^{(1)}$ and $m_{\ell\ell}^{(2)}$, reducing the number of free parameters to five. A full list of the parameters and their properties is given in Table~\ref{tab:Fit_Par_Overview_FS}.
+
+\begin{table}[htbp]
+\begin{center}
+ \renewcommand{\arraystretch}{1.3}
+ \caption{List of all parameters of the model for flavour-symmetric backgrounds. Given are intial values, allowed ranges and the status of the parameters. A set of these parameters exists for both the central and forward dilepton selection.\label{tab:Fit_Par_Overview_FS}}
+\begin{tabular}{l|c|c|c|c|ccccccccccccccccccccc}
+& parameter & status & initial value & minimum & maximum \\ \hline
+\multirow{5}{*}{$\mathbf{p}_{FS}$} & $m_{\ell\ell}^{(1)} [\mathrm{GeV}]$ & floating & 50 & 20 & 80 \\ 
+& $m_{\ell\ell}^{(2)}  [\mathrm{GeV}]$ & floating & 120 & 100 & 160 \\
+& $c_{2,0}$ & floating & -1800 & -5000 & 5000 \\ 
+& $c_{2,1}$ & floating & 120 & -400 & 400 \\
+& $c_{2,2}$ & fixed & 1 & - & - \\
+& $c_{2,3}$ & floating & 2.5$\cdot10^{-3}$ & 1$\cdot10^{-4}$ & 1$\cdot10^{-2}$ \\
+\end{tabular}
+
+\end{center}
+\end{table}
 
 A variety of alternative models for the flavour-symmetric has been explored to validate the results obtained with the model described above. 
 
@@ -91,12 +159,36 @@ Here $K$ is the so called kernel, for which a normal distribution is chosen, and
 
 
 \subsection{Signal model}
-While the shape of the signal depends on the details of the signal model, deviations from a simple triangular shape are small compared to the detector resolution. The signal is therefore modelled by such a triangle, convolved with a Gaussian distribution. The width of the Gaussian $\sigma_{\ell\ell}$ depends on the detector resolution in the corresponding channel and is obtained from a fit to the Z boson peak described in Section~\ref{sec:Zmodel}. The model can be parametrized as
+While the shape of the signal depends on the details of the signal model, deviations from a simple triangular shape are small compared to the detector resolution. The signal is therefore modelled by such a triangle, convolved with a Gaussian distribution. The width of the Gaussian $\sigma_{\ell\ell}$ depends on the detector resolution in the corresponding channel and is obtained from the fit to the Z boson peak in the Drell--Yan control region described in Section~\ref{sec:Zmodel}. The model can be parametrized as
 \begin{equation*}
  {\mathcal{P}}_{S}(m_{\ell\ell}) = \frac{1}{\sqrt{2\pi\sigma_{\ell\ell}}} \int_{0}^{m_{\ell\ell}^{edge}} y \cdot \textrm{exp}\left( -\frac{(m_{\ell\ell}-y)^2}{2\sigma_{\ell\ell}^{2}}\right) dy,
 \end{equation*}
 with the endpoint of the triangle $m_{\ell\ell}^{edge}$ as the only free parameter.
 
+To cross check the dependence of the results on the parametrization of the signal, two additional signal shapes are defined. Here the linear dependence on \mll is replaced by quartic dependencies with different signs, resulting in concave and convex shapes instead of the simple triangle:
+
+\begin{equation*}
+ {\mathcal{P}}^{\text{concave}}_{S}(m_{\ell\ell}) = \frac{1}{\sqrt{2\pi\sigma_{\ell\ell}}} \int_{0}^{m_{\ell\ell}^{edge}} y^4 \cdot \textrm{exp}\left( -\frac{(m_{\ell\ell}-y)^2}{2\sigma_{\ell\ell}^{2}}\right) dy,
+\end{equation*}
+
+\begin{equation*}
+ {\mathcal{P}}_{S}^{\text{convex}}(m_{\ell\ell}) = \frac{1}{\sqrt{2\pi\sigma_{\ell\ell}}} \int_{0}^{m_{\ell\ell}^{edge}} (m_{\ell\ell}^{edge,4} -(y-m_{\ell\ell}^{edge})^4) \cdot \textrm{exp}\left( -\frac{(m_{\ell\ell}-y)^2}{2\sigma_{\ell\ell}^{2}}\right) dy.
+\end{equation*}
+The parameters of the signal model are listed in Table~\ref{tab:Fit_Par_Overview_Sig}.
+\begin{table}[htbp]
+\begin{center}
+ \renewcommand{\arraystretch}{1.3}
+ \caption{List of all parameters of the signal model. Given are intial values, allowed ranges and the status of the parameters. A set of these parameters exists for both the central and forward dilepton selection.\label{tab:Fit_Par_Overview_Sig}}
+\begin{tabular}{l|c|c|c|c|ccccccccccccccccccccc}
+& parameter & status & initial value & minimum & maximum \\ \hline
+\multirow{2}{*}{$\mathbf{p}_{S}^{ee}$} & $m_{\ell\ell}^{edge} [\mathrm{GeV}]$ & floating & varying & 30 & 300 \\ 
+& $\sigma_{CB}^{ee}  [\mathrm{GeV}]$ & fixed & see Table~\ref{tab:mllReso} & - & - \\ \hline
+\multirow{2}{*}{$\mathbf{p}_{S}^{\mu\mu}$} & $m_{\ell\ell}^{edge} [\mathrm{GeV}]$ & floating & varying & 30 & 300 \\ 
+& $\sigma_{CB}^{\mu\mu}  [\mathrm{GeV}]$ & fixed & see Table~\ref{tab:mllReso} & - & - \\
+\end{tabular}
+
+\end{center}
+\end{table}
 
 \section{Combined model}
 
@@ -143,7 +235,46 @@ The full likelihood of the model as a function of \mll for a given set of parame
                         &\times& \prod_{\EM,i}\left[N_{FS}^{OF,i} \cdot {\mathcal{P}}_{FS}^i(m_{\ell\ell};\mathbf{p}_{FS}^i)\right] \\   
                         &\times& {\mathcal{G}^i\left(\Rsfof^i\right)}, \\
 \end{eqnarray*}
-where the $\mathcal{N}_i$ are Poisson factors taking into account the normalization of the different samples and the different $\mathbf{p}^i_{x}$ denote the sets of free parameters of the models. 
+where the different $\mathbf{p}^i_{x}$ denote the sets of free parameters of the models the $\mathcal{N}_i$ are Poisson factors taking into account the normalization of the different samples. These factors take the form of
+\begin{equation*}
+\mathcal{N}_i = \frac{(N_{FS}^{\ell\ell,i} + N_{Z}^{\ell\ell,i} + N_{S}^{\ell\ell,i})^{N_i^{\ell\ell}} e^{-(N_{FS}^{\ell\ell,i} + N_{Z}^{\ell\ell,i} + N_{S}^{\ell\ell,i})}}{N_i^{\ell\ell}!}
+\end{equation*} 
+for $\ell\ell = \EE, \MM$ and
+\begin{equation*}
+\mathcal{N}_i = \frac{(N_{FS}^{\ell\ell,i})^{N_i^{\ell\ell}} e^{-(N_{FS}^{\ell\ell,i})}}{N_i^{\ell\ell}!}
+\end{equation*}
+for $\ell\ell = \EM$, with $i =$ Central, Forward. The $N_i^{\ell\ell}$ is the number of observed events in the respective channel. 
+
+A full overview over all parameters of the model is shown in Table~\ref{tab:Fit_Par_Overview_Full}. In total, the model has 59 parameters, of which 21 are free parameters in the signal region, 34 describe the Drell--Yan model and four are the mean values and widths of \Rsfof used in the constraints. 
+
+
+\begin{table}[htbp]
+\begin{center}
+ \renewcommand{\arraystretch}{1.3}
+ \caption{List of parameters of the full fit model. For more details on the parameter sets $\mathbf{p}_{FS}$, $\mathbf{p}_{Z}$, and $\mathbf{p}_{S}$ see Tables~\ref{tab:Fit_Par_Overview_Z},~\ref{tab:Fit_Par_Overview_FS}, and~\ref{tab:Fit_Par_Overview_Sig}. For yield parameters the initial value and allowed range are calculated from the observed yields $N_{SF}$ and $N_{SF}$ in the signal region for both the central (C) and forward (F) dilepton selection.\label{tab:Fit_Par_Overview_Full}}
+\begin{tabular}{c|c|c|c|ccccccccccccccccccccc}
+parameter & status & initial value & minimum & maximum \\ \hline
+\multicolumn{5}{c}{Normalization parameters}\\ \hline
+$N_{FS}^{C}$ & floating & $0.7\cdot N_{OF}^{C}$ & 0 & $2\cdot N_{OF}^{C}$ \\
+$N_{FS}^{F}$ & floating & $0.7\cdot N_{OF}^{F}$ & 0 & $2\cdot N_{OF}^{F}$ \\
+$N_{S}^{C}$ & floating & 0 &  $-2\cdot(N_{OF}^{C}-0.8\cdot N_{SF}^{C})$ &  $2\cdot(N_{OF}^{C}-0.8\cdot N_{SF}^{C})$ \\
+$N_{S}^{F}$ & floating & 0 &  $-4\cdot(N_{OF}^{F}-0.8\cdot N_{SF}^{F})$ &  $4\cdot(N_{OF}^{FS}-0.8\cdot N_{SF}^{F})$ \\
+$N_{Z}^{C}$ & floating & pred. from data & 0 & $N_{SF}^{C}(81\GeV < \mll < 101\GeV)$ \\
+$N_{Z}^{F}$ & floating & pred. from data & 0 & $N_{SF}^{F}(81\GeV < \mll < 101\GeV)$ \\ \hline
+\multicolumn{5}{c}{Shape parameters} \\ \hline
+$\mathbf{p}_{Z}^{C}$ & mixed & \multicolumn{3}{c}{\multirow{2}{*}{see Table~\ref{tab:Fit_Par_Overview_Z}}}\\
+$\mathbf{p}_{Z}^{F}$ & mixed & \multicolumn{3}{c}{}\\
+$\mathbf{p}_{FS}^{C}$ & mixed & \multicolumn{3}{c}{\multirow{2}{*}{see Table~\ref{tab:Fit_Par_Overview_FS}}}\\
+$\mathbf{p}_{FS}^{F}$ & mixed & \multicolumn{3}{c}{}\\
+$\mathbf{p}_{S}^{C}$ & mixed & \multicolumn{3}{c}{\multirow{2}{*}{see Table~\ref{tab:Fit_Par_Overview_Sig}}}\\
+$\mathbf{p}_{S}^{F}$ & mixed & \multicolumn{3}{c}{}\\ \hline
+\multicolumn{5}{c}{Constraint parameters}\\ \hline
+$R_{SF/OF}^{C}$ & constrained & $R_{SF/OF}^{C,\text{meas.}}$  & $R_{SF/OF}^{C,\text{meas.}}$ - $4\cdot \sigma_{R_{SF/OF}}^{C,\text{meas.}}$ & $R_{SF/OF}^{C,\text{meas.}}$ + $4\cdot \sigma_{R_{SF/OF}}^{C,\text{meas.}}$ \\
+$R_{SF/OF}^{F}$ & constrained & $R_{SF/OF}^{F,\text{meas.}}$  & $R_{SF/OF}^{F,\text{meas.}}$ - $4\cdot \sigma_{R_{SF/OF}}^{F,\text{meas.}}$ & $R_{SF/OF}^{F,\text{meas.}}$ + $4\cdot \sigma_{R_{SF/OF}}^{F,\text{meas.}}$ \\
+\end{tabular}
+
+\end{center}
+\end{table}
 
 
 \section{Fit validation}
@@ -151,15 +282,15 @@ where the $\mathcal{N}_i$ are Poisson factors taking into account the normalizat
 \subsection{Fit performance studies using toy MC}
 \label{sec:toys}
 The performance of the fit is studied using toy datasets. These are generated by fitting the background shape for flavour-symmetric backgrounds to OF events in simulation. From this shape new opposite-flavour datasets are generated, fluctuating the normalization using a Poisson distribution. Electron-electron and muon-muon datasets are generated from the sum of the  shape for flavour-symmetric backgrounds and \Z peak model. The normalization of this shape is given by the normalization for flavour-symmetric backgrounds multiplied by \Rsfof plus the combined JZB and $E_T^{miss}$-template predictions. This yield is split into the \EE and \MM datasets according to the measured \Reeof and \Rmmof values. Each of the two yields is fluctuated independently according to a Poisson distribution when dicing the toy MC. If desired, a signal is injected in the same-flavour datasets using the nominal signal shape in a similar fashion. To reflect that the signal yield is expected to be higher in the central dilepton selection, the signal contribution in the forward selection is chosen to be smaller by a factor of three. The combined fit is performed on each of the datasets generated in this fashion. As the nominal background shape is quite resource intensive, the parametrization from the 2011 analysis is used in these studies in order to generate sufficient statistics, after verifying that this has no significant impact of the results. In general around 1000 toys are generated for each configuration.
-\paragraph{Toy studies without signal injection}
+\subsubsection{Studies without signal injection}
 The edge fit is performed on toys generated from the background models. In one case the toys are fitted with a floating edge position, in the other it fixed at $\unit{70}{\giga\electronvolt}$. In contrast to the fit on data, which only searches for excesses, negative signal yields are allowed in these studies to symmetrize the signal yield distributions. Figure~\ref{fig:toys:backgroundOnly} shows resulting distributions. On the left side, the number of fitted signal events divided by the fitted uncertainty for the central dilepton selection is shown. In the case of the fixed edge the fit results are distributed following a unit Gaussian centred around zero, as expected in absence of a signal.  For the case of a floating edge position however, the distribution exhibits two peaks, symmetrically below and above zero. This is a manifestation of the look-elsewhere-effect (LEE) introduced by the degree of freedom of the edge position. On the right side of Figure~\ref{fig:toys:backgroundOnly}, the distributions of the fitted values of \Rsfof are shown, again for the central selection. In both cases the value used in the generation of the toys of 1.013 is well reproduced. Also, the width of the distribution is identical in both cases,  illustrating that the floating edge position does not introduce biases apart from favouring results with a higher number of signal events.
 \begin{figure}[hbp]
   \centering
   \begin{minipage}[t]{0.49\textwidth}
-    \includegraphics[width=\textwidth]{plots/results/fit/nS_floatVsFixed.pdf}
+    \includegraphics[width=\textwidth]{plots/results/fit/toyResults/nS_floatVsFixed.pdf}
   \end{minipage}
   \begin{minipage}[t]{0.49\textwidth}
-    \includegraphics[width=\textwidth]{plots/results/fit/rSFOF_floatVsFixed.pdf}
+    \includegraphics[width=\textwidth]{plots/results/fit/toyResults/rSFOF_floatVsFixed.pdf}
   \end{minipage}
 
   \caption{Distribution of fit observables in toy studies for a background only scenario. Shown are the fitted number of signal events divided by their uncertainty in the central region (left) and the corresponding fitted values of \Rsfof (right). Shown are results for a floating edge (black) and a fixed edge position (blue).}
@@ -170,34 +301,62 @@ As an additional check, toys are generated with \Rsfof shifted by $\pm1\sigma$. 
 \begin{figure}[hbp]
   \centering
   \begin{minipage}[t]{0.49\textwidth}
-    \includegraphics[width=\textwidth]{plots/results/fit/nS_systShift.pdf}
+    \includegraphics[width=\textwidth]{plots/results/fit/toyResults/nS_systShift.pdf}
   \end{minipage}
   \begin{minipage}[t]{0.49\textwidth}
-    \includegraphics[width=\textwidth]{plots/results/fit/rSFOF_systShift.pdf}
+    \includegraphics[width=\textwidth]{plots/results/fit/toyResults/rSFOF_systShift.pdf}
   \end{minipage}
 
   \caption{Distribution of fit observables in toy studies for background only toys with fixed edge position. Shown are the fitted number of signal events in the central region (left) and the fitted number of signal events divided by the fitted uncertainty in the central region (right).}
   \label{fig:toys:systShift}
 \end{figure}
-\paragraph{Toy studies with signal injection}
+\subsubsection{Toy studies with signal injection}
 The fit performance in the presence of a signal is tested by injection a signal of 125 events with and edge position of 70 GeV in the central region and again a third of that number in the forward signal region. Figure \ref{fig:toys:signalInjected} shows the resulting distribution of fit results for a selection of observables in the central signal region. The distribution of the number of signal events is well described by a Gaussian with a mean of about 126 events, very close to the injected number, and a width of 41 events. Divided by the fitted uncertainty this gives a unit Gaussian with a mean of about 2.9. The edge position is also Gaussian distributed, with a mean of about $\unit{70}{\giga\electronvolt}$, also reproducing the injected value very well, with a width of about $\unit{1.8}{\giga\electronvolt}$. Comparing the distribution of \Rsfof with that in Figure~\ref{fig:toys:backgroundOnly}, it can be seen that the presence of a signal does not bias the result towards higher values. 
 \begin{figure}[hbp]
   \centering
   \begin{minipage}[t]{0.49\textwidth}
-    \includegraphics[width=\textwidth]{plots/results/fit/nSPure_signalInjected.pdf}
+    \includegraphics[width=\textwidth]{plots/results/fit/toyResults/nSPure_signalInjected.pdf}
   \end{minipage}
   \begin{minipage}[t]{0.49\textwidth}
-    \includegraphics[width=\textwidth]{plots/results/fit/nS_signalInjected.pdf}
+    \includegraphics[width=\textwidth]{plots/results/fit/toyResults/nS_signalInjected.pdf}
   \end{minipage}
   \begin{minipage}[t]{0.49\textwidth}
-    \includegraphics[width=\textwidth]{plots/results/fit/m0_signalInjected.pdf}
+    \includegraphics[width=\textwidth]{plots/results/fit/toyResults/m0_signalInjected.pdf}
   \end{minipage}
   \begin{minipage}[t]{0.49\textwidth}
-    \includegraphics[width=\textwidth]{plots/results/fit/rSFOF_signalInjected.pdf}
+    \includegraphics[width=\textwidth]{plots/results/fit/toyResults/rSFOF_signalInjected.pdf}
   \end{minipage}
   \caption{Distribution of fit observables in toy studies with a signal injected. Shown are the fitted number of signal events in the central region (upper left), the fitted number of signal events divided by the fitted uncertainty in the central region (upper right), the fitted edge position (lower left) and the fitted \Rsfof in the central region (lower right).}
   \label{fig:toys:signalInjected}
 \end{figure}
+
+To study the dependence of the fit result on the edge position, toys are generated with a signal of 125 events in the central signal region injected for different values of \mlledge between 40 and 200\GeV in steps of 10\GeV. For each configuration, about 1000 fits are performed. The initial value of \mlledge is chosen to coincide with the generated one. The distributions of the fitted \mlledge and number of signal events for each generated \mlledge are shown in Figure~\ref{fig:toys:scan}. In the case of the fitted \mlledge on the left side, the generated value is in general very well reproduced by the fit. The best results are obtained for low values of \mlledge, as the signal shape is much steeper and easier to separate from the background as for higher values. Towards higher values the spread of the results and especially the probability for very large deviation from the generated value increases, before they decrease slightly towards very high values of the generated \mlledge. A notable feature is observed for generated values of 100\GeV, where for a small number of fits the fitted value is very close to the Z boson mass. Similar behaviour is also observed for the number of fitted signal events. Here the relative size of the deviation form the generated value is much larger, as the event yields are fluctuated in the generation of the toys. 
+\begin{figure}[hbp]
+  \centering
+  \begin{minipage}[t]{0.49\textwidth}
+    \includegraphics[width=\textwidth]{plots/results/fit/toyResults/generatedM0vsfittedM0_signalInjectedN125.pdf}
+  \end{minipage}
+  \begin{minipage}[t]{0.49\textwidth}
+    \includegraphics[width=\textwidth]{plots/results/fit/toyResults/generatedM0vsfittedNS_signalInjectedN125.pdf}
+  \end{minipage}
+  \caption{Distributions of the fitted \mlledge (left) and the number of signal events (right) for each generated \mlledge. The frequency of the results is colour-coded, darker colours indicating higher values. The dashed red lines indicate the points at which the fitted result matches the generated value.}
+    \label{fig:toys:scan}
+\end{figure}
+
+To quantify the observations, a Gaussian is fitted to the distribution of both variables for each generated \mlledge. The resulting mean values together with the width of the fitted distributions are shown in Figure~\ref{fig:toys:scanFits}
+
+\begin{figure}[hbp]
+  \centering
+  \begin{minipage}[t]{0.49\textwidth}
+    \includegraphics[width=\textwidth]{plots/results/fit/toyResults/meanM0vsGenM0_signalInjectedN125.pdf}
+  \end{minipage}
+  \begin{minipage}[t]{0.49\textwidth}
+    \includegraphics[width=\textwidth]{plots/results/fit/toyResults/meanNSvsGenM0_signalInjectedN125.pdf}
+  \end{minipage}
+  \caption{Fitted means and widths of the \mlledge (left) and $N_S^{central}$ distributions (right) as a function of the generated \mlledge.}
+    \label{fig:toys:scanFits}
+\end{figure}
+
 \newpage
 
 \section{Results}
