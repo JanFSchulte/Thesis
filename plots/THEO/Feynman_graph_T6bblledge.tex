@@ -1,0 +1,110 @@
+%\documentclass{article}
+\documentclass[a4paper,12pt, border=5mm]{standalone}
+\usepackage{feynmp}
+\begin{document}
+
+\begin{fmffile}{feyn}
+\parbox{300mm}{
+
+       \begin{fmfgraph*}(200,100)
+        \fmfset{arrow_len}{cm}\fmfset{arrow_ang}{0}
+
+         \fmfleftn{i}{2}
+         \fmfrightn{o}{8}
+           \fmflabel{}{i1}
+           \fmflabel{}{i2}
+    
+    %incoming protons to gluon vertices
+  \fmf{fermion,  tension=2, lab=$P_1$}{v1,i1}
+  \fmf{fermion,  tension=2, lab=$P_2$}{v1,i2}
+           
+%           \fmf{gluon}{i1,v1,i2}
+           \fmfblob{.1w}{v1}
+           
+       % \fmf{dots, label=\chitz}{v1,v2}
+%produced SUSY particles
+       %\fmf{gluon, label=$\widetilde{g}$}{v1,v2}
+       %\fmf{gluon, label=$\widetilde{g}$}{v1,v3}
+       \fmf{fermion, label=$\widetilde{b}$, tension=3}{v1,v2}
+       \fmf{fermion, label=$\widetilde{b}^*$, tension=3}{v1,v3}
+
+       \fmf{fermion}{v2,o1}
+
+       \fmflabel{$b$}{o1}
+       
+       \fmf{dashes, label=$\footnotesize{\widetilde{\chi}^{0}_{2}}$, label.dist=1.1}{v2,v4}
+
+       \fmf{photon, label=$Z^{*}$, label.side=right, label.dist=0.9}{v4,v5}
+
+       \fmf{fermion}{v5,o2}
+       \fmflabel{$f$}{o2}
+
+       \fmf{fermion}{v5,o3}
+       \fmflabel{$\overline{f}$}{o3}
+
+       \fmf{dashes}{v4,o4}
+       \fmflabel{$\widetilde{\chi}^{0}_{1}$}{o4}
+
+
+
+       \fmf{dashes, label=$\footnotesize{\widetilde{\chi}^{0}_{2}}$, label.side=right, label.dist=1.1}{v3,v6}
+       
+       \fmf{dashes}{v6,o5}
+       \fmflabel{$\widetilde{\chi}^{0}_{1}$}{o5}
+
+       %\fmf{photon, label=$Z^{0}(*)$, tension=1}{v6,v7}
+       \fmf{photon, label=$Z^{*}$, label.side=left, label.dist=0.9}{v6,v7}
+       
+       \fmf{fermion}{v7,o6}
+       \fmflabel{$\ell^{-}$}{o6}
+       
+       \fmf{fermion}{v7,o7}
+       \fmflabel{$\ell^{+}$}{o7}
+       
+       \fmf{fermion}{v3,o8}
+       \fmflabel{$\overline{b}$}{o8}
+
+
+       %\fmf{dashes, label=$\chi^{0}_{2}$}{v3,v5}
+
+%H
+%       \fmf{dashes,label=H, label.dist=-20.}{v2,o1}
+       
+       
+       %\fmf{photon}{v4,o6}
+       %\fmflabel{$Z^{0}$}{o6}
+
+
+       
+%%%%%%%%%
+%H
+
+       
+       %\fmf{dashes}{v5,o7}
+       %\fmflabel{$\widetilde{G}$}{o7}
+
+       %\fmf{photon}{v5,o8}
+       %\fmflabel{$Z^{0}$}{o8}
+
+
+
+%%%%%%%%%
+       
+           
+           \fmffreeze
+
+           \renewcommand{\P}[3]{\fmfi{plain}{%
+          vpath(__#1,__#2) shifted (thick*(#3))}}
+          %lines on i1
+          \P{i1}{v1}{2,0}
+          \P{i1}{v1}{-2,0}
+          %lines on vi2
+          \P{i2}{v1}{2,0}
+          \P{i2}{v1}{-2,0}
+
+       \end{fmfgraph*}
+       
+}           
+\end{fmffile} 
+
+\end{document}
