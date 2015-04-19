@@ -36,6 +36,25 @@
 \usepackage[small]{caption}
 \usepackage[plainheadsepline,automark]{scrpage2}
 
+
+\newcount\colveccount
+\newcommand*\colvec[1]{
+        \global\colveccount#1
+        \begin{pmatrix}
+        \colvecnext
+}
+\def\colvecnext#1{
+        #1
+        \global\advance\colveccount-1
+        \ifnum\colveccount>0
+                \\
+                \expandafter\colvecnext
+        \else
+                \end{pmatrix}
+        \fi
+}
+
+
 \captionsetup{font={small}}
 
 % Verlinktes Inhaltsverzeichnis
@@ -114,7 +133,7 @@
 \newcommand{\rmue}{\ensuremath{r_{\mu e}}\xspace}
 \newcommand{\RT}{\ensuremath{R_\mathrm{T}}\xspace}
 \newcommand{\nvert}{\ensuremath{N_{Vertices}}}
-\newcommand{\njets}{\ensuremath{N_\text{Jets}}}
+\newcommand{\njets}{\ensuremath{N_\text{Jets}}\xspace}
 \newcommand{\mcut}{\ensuremath{m_\text{max}}}
 \newcommand{\eps}{\ensuremath{\epsilon}}
 \newcommand{\CLS}{\cls}
@@ -229,7 +248,7 @@
 \pagenumbering{arabic}
 \chapter{Introduction}
 %\input{intro}
-\chapter{The Standard Model and its extension to Supersymmetry}
+\chapter{The Standard Model and Supersymmetry}
 \input{theory}
 \chapter{Experimental setup}
 \input{setup}
@@ -246,7 +265,7 @@
 \chapter{Estimation of Standard Model backgrounds}
 \input{background}
 
-\chapter{Results of the counting experiment}
+\chapter{Counting experiment}
 \input{results}
 %\chapter{Efficiencies for \Wprime searches}
 %\input{TP}

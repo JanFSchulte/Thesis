@@ -1,78 +1,80 @@
 \contentsline {section}{\nonumberline Zusammenfassung}{i}{section*.1}
 \contentsline {section}{\nonumberline Abstract}{i}{section*.2}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-\contentsline {chapter}{\numberline {2}The Standard Model and its extension to Supersymmetry}{3}{chapter.2}
+\contentsline {chapter}{\numberline {2}The Standard Model and Supersymmetry}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}The Standard Model of particle physics}{3}{section.2.1}
-\contentsline {section}{\numberline {2.2}Motivation for extending the Standard Model and Supersymmetry}{3}{section.2.2}
-\contentsline {section}{\numberline {2.3}Production of lepton pairs in supersymmetric models}{3}{section.2.3}
-\contentsline {section}{\numberline {2.4}Kinematic edges in the dilepton invariant mass spectrum}{3}{section.2.4}
-\contentsline {chapter}{\numberline {3}Experimental setup}{5}{chapter.3}
-\contentsline {section}{\numberline {3.1}The CERN Large Hadron Collider}{5}{section.3.1}
-\contentsline {section}{\numberline {3.2}The CMS detector}{6}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}The tracking system}{7}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}The electromagnetic calorimeter}{8}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}The hadron calorimeter}{10}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}The muon system}{12}{subsection.3.2.4}
-\contentsline {section}{\numberline {3.3}Trigger and data acquisition}{14}{section.3.3}
-\contentsline {chapter}{\numberline {4}Data analysis and event selection}{17}{chapter.4}
-\contentsline {section}{\numberline {4.1}Object reconstruction}{17}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Muon reconstruction and selection}{17}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Electron reconstruction and selection}{18}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Observables reconstructed with Particle Flow}{20}{subsection.4.1.3}
-\contentsline {subsubsection}{\nonumberline The algorithm}{20}{section*.28}
-\contentsline {subsubsection}{\nonumberline Jets}{21}{section*.29}
-\contentsline {subsubsection}{\nonumberline Missing transverse energy}{23}{section*.31}
-\contentsline {subsubsection}{\nonumberline Lepton isolation}{23}{section*.33}
-\contentsline {section}{\numberline {4.2}Event processing and datasets}{25}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Primary datasets}{25}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Simulated datasets}{26}{subsection.4.2.2}
-\contentsline {subsubsection}{\nonumberline Simulation of the physical processes}{27}{section*.35}
-\contentsline {subsubsection}{\nonumberline Simulation of the detector response}{28}{section*.36}
-\contentsline {subsubsection}{\nonumberline Background Samples}{28}{section*.37}
-\contentsline {subsubsection}{\nonumberline Signal Samples}{29}{section*.39}
-\contentsline {section}{\numberline {4.3}Event selection}{29}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Event cleaning}{29}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Inclusive dilepton selection}{31}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Selections in \ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}\xspace and jet multiplicity}{34}{subsection.4.3.3}
-\contentsline {chapter}{\numberline {5}Estimation of Standard Model backgrounds}{35}{chapter.5}
-\contentsline {section}{\numberline {5.1}Flavour-symmetric backgrounds}{35}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Direct measurement of \ensuremath {R_{\text {SF/OF}}}\xspace }{36}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Determination of \ensuremath {R_{\text {SF/OF}}}\xspace with the factorization method}{36}{subsection.5.1.2}
-\contentsline {subsubsection}{\nonumberline Measurement of \ensuremath {r_{\mu e}}\xspace }{39}{section*.47}
-\contentsline {subsubsection}{\nonumberline Measurement of \ensuremath {R_\mathrm {T}}\xspace }{40}{section*.51}
-\contentsline {subsubsection}{\nonumberline Results of the factorization method}{44}{section*.56}
-\contentsline {subsection}{\numberline {5.1.3}Combined correction factors and resulting background estimates}{46}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {5.1.4}Validation of background estimates}{48}{subsection.5.1.4}
-\contentsline {section}{\numberline {5.2}Backgrounds containing a Z boson}{53}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}JZB method}{54}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}\ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}\xspace templates method}{54}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Extrapolation for off-Z regions}{54}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Resulting background prediction}{57}{subsection.5.2.4}
-\contentsline {chapter}{\numberline {6}Results of the counting experiment}{59}{chapter.6}
-\contentsline {section}{\numberline {6.1}Results and further studies}{59}{section.6.1}
-\contentsline {section}{\numberline {6.2}Interpretation in simplified models}{60}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}``Fixed-edge'' and ``slepton-edge'' models}{64}{subsection.6.2.1}
-\contentsline {subsubsection}{\nonumberline Selection efficiencies}{64}{section*.81}
-\contentsline {subsubsection}{\nonumberline Systematic uncertainties}{65}{section*.83}
-\contentsline {subsection}{\numberline {6.2.2}Statistical interpretation}{67}{subsection.6.2.2}
-\contentsline {chapter}{\numberline {7}Search for an kinematic edge}{69}{chapter.7}
-\contentsline {section}{\numberline {7.1}Background and signal models}{69}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Model for Z backgrounds}{69}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Model for flavour-symmetric backgrounds}{71}{subsection.7.1.2}
-\contentsline {subsubsection}{\nonumberline Nominal parametrization}{71}{section*.90}
-\contentsline {paragraph}{\nonumberline Parametrization from 2011 analysis}{71}{section*.92}
-\contentsline {paragraph}{\nonumberline Sum of three Gaussians}{73}{section*.93}
-\contentsline {paragraph}{\nonumberline Binned Subtraction}{73}{section*.94}
-\contentsline {paragraph}{\nonumberline Smoothed Subtraction}{74}{section*.95}
-\contentsline {subsection}{\numberline {7.1.3}Signal model}{74}{subsection.7.1.3}
-\contentsline {section}{\numberline {7.2}Combined model}{75}{section.7.2}
-\contentsline {section}{\numberline {7.3}Fit validation}{76}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Fit performance studies using toy MC}{76}{subsection.7.3.1}
-\contentsline {subsubsection}{\nonumberline Studies without signal injection}{78}{section*.98}
-\contentsline {subsubsection}{\nonumberline Toy studies with signal injection}{80}{section*.102}
-\contentsline {section}{\numberline {7.4}Results}{85}{section.7.4}
-\contentsline {chapter}{\numberline {8}Outlook to LHC Run II}{91}{chapter.8}
-\contentsline {chapter}{\numberline {9}Conclusion}{93}{chapter.9}
-\contentsline {chapter}{\numberline {A}Data and Monte Carlo Samples}{95}{appendix.A}
-\contentsline {chapter}{\numberline {B}Dependencies of \ensuremath {r_{\mu e}}\xspace }{97}{appendix.B}
-\contentsline {chapter}{\numberline {C}Dependencies of $R_T$}{101}{appendix.C}
+\contentsline {section}{\numberline {2.2}Supersymmetry}{5}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Theoretical foundation}{6}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Dilepton mass edges in SUSY}{7}{subsection.2.2.2}
+\contentsline {subsubsection}{\nonumberline Simplified models}{9}{section*.13}
+\contentsline {chapter}{\numberline {3}Experimental setup}{11}{chapter.3}
+\contentsline {section}{\numberline {3.1}The CERN Large Hadron Collider}{11}{section.3.1}
+\contentsline {section}{\numberline {3.2}The CMS detector}{12}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}The tracking system}{13}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}The electromagnetic calorimeter}{14}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}The hadron calorimeter}{16}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}The muon system}{18}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}Trigger and data acquisition}{20}{section.3.3}
+\contentsline {chapter}{\numberline {4}Data analysis and event selection}{25}{chapter.4}
+\contentsline {section}{\numberline {4.1}Object reconstruction}{25}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Muon reconstruction and selection}{25}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Electron reconstruction and selection}{26}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Observables reconstructed with Particle Flow}{28}{subsection.4.1.3}
+\contentsline {subsubsection}{\nonumberline The algorithm}{28}{section*.40}
+\contentsline {subsubsection}{\nonumberline Jets}{29}{section*.41}
+\contentsline {subsubsection}{\nonumberline Missing transverse energy}{31}{section*.43}
+\contentsline {subsubsection}{\nonumberline Lepton isolation}{31}{section*.45}
+\contentsline {section}{\numberline {4.2}Event processing and datasets}{33}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Primary datasets}{33}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Simulated datasets}{34}{subsection.4.2.2}
+\contentsline {subsubsection}{\nonumberline Simulation of the physical processes}{35}{section*.47}
+\contentsline {subsubsection}{\nonumberline Simulation of the detector response}{36}{section*.48}
+\contentsline {subsubsection}{\nonumberline Background Samples}{36}{section*.49}
+\contentsline {subsubsection}{\nonumberline Signal Samples}{37}{section*.52}
+\contentsline {section}{\numberline {4.3}Event selection}{39}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Event cleaning}{39}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Inclusive dilepton selection}{40}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Selections in \ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}\xspace and jet multiplicity}{43}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Selection in \ensuremath {m_{\ell \ell }}\xspace }{44}{subsection.4.3.4}
+\contentsline {chapter}{\numberline {5}Estimation of Standard Model backgrounds}{45}{chapter.5}
+\contentsline {section}{\numberline {5.1}Flavour-symmetric backgrounds}{45}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Direct measurement of \ensuremath {R_{\text {SF/OF}}}\xspace }{46}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Determination of \ensuremath {R_{\text {SF/OF}}}\xspace with the factorization method}{46}{subsection.5.1.2}
+\contentsline {subsubsection}{\nonumberline Measurement of \ensuremath {r_{\mu e}}\xspace }{49}{section*.60}
+\contentsline {subsubsection}{\nonumberline Measurement of \ensuremath {R_\mathrm {T}}\xspace }{50}{section*.64}
+\contentsline {subsubsection}{\nonumberline Results of the factorization method}{54}{section*.69}
+\contentsline {subsection}{\numberline {5.1.3}Combined correction factors and resulting background estimates}{56}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Validation of background estimates}{58}{subsection.5.1.4}
+\contentsline {section}{\numberline {5.2}Drell--Yan backgrounds}{63}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}JZB method}{64}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}\ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}\xspace templates method}{64}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Extrapolation to off-Z regions}{64}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Resulting background prediction}{65}{subsection.5.2.4}
+\contentsline {chapter}{\numberline {6}Counting experiment}{69}{chapter.6}
+\contentsline {section}{\numberline {6.1}Results and further studies}{69}{section.6.1}
+\contentsline {section}{\numberline {6.2}Interpretation in simplified models}{74}{section.6.2}
+\contentsline {subsubsection}{\nonumberline Selection efficiencies}{74}{section*.95}
+\contentsline {subsubsection}{\nonumberline Systematic uncertainties}{74}{section*.97}
+\contentsline {subsection}{\numberline {6.2.1}Statistical interpretation}{77}{subsection.6.2.1}
+\contentsline {chapter}{\numberline {7}Search for an kinematic edge}{79}{chapter.7}
+\contentsline {section}{\numberline {7.1}Background and signal models}{79}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Model for Drell--Yan backgrounds}{79}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Model for flavour-symmetric backgrounds}{81}{subsection.7.1.2}
+\contentsline {subsubsection}{\nonumberline Nominal parametrization}{81}{section*.104}
+\contentsline {paragraph}{\nonumberline Parametrization from 2011 analysis}{81}{section*.106}
+\contentsline {paragraph}{\nonumberline Sum of three Gaussians}{83}{section*.107}
+\contentsline {paragraph}{\nonumberline Binned Subtraction}{83}{section*.108}
+\contentsline {paragraph}{\nonumberline Smoothed Subtraction}{84}{section*.109}
+\contentsline {subsection}{\numberline {7.1.3}Signal model}{84}{subsection.7.1.3}
+\contentsline {section}{\numberline {7.2}Combined model}{87}{section.7.2}
+\contentsline {section}{\numberline {7.3}Fit validation}{90}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Fit performance on simulation}{90}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Fit performance studies using toy MC}{92}{subsection.7.3.2}
+\contentsline {subsubsection}{\nonumberline Studies without signal injection}{94}{section*.119}
+\contentsline {subsubsection}{\nonumberline Toy studies with signal injection}{96}{section*.123}
+\contentsline {section}{\numberline {7.4}Results}{101}{section.7.4}
+\contentsline {chapter}{\numberline {8}Outlook to LHC Run II}{107}{chapter.8}
+\contentsline {chapter}{\numberline {9}Conclusion}{109}{chapter.9}
+\contentsline {chapter}{\numberline {A}Data and Monte Carlo Samples}{111}{appendix.A}
+\contentsline {chapter}{\numberline {B}Dependencies of \ensuremath {r_{\mu e}}\xspace }{113}{appendix.B}
+\contentsline {chapter}{\numberline {C}Dependencies of $R_T$}{117}{appendix.C}
