@@ -3,7 +3,7 @@
 
 % Grundlegende Einstellungen
 \documentclass[fontsize=11pt,openright,paper=a4]{scrbook}
-\usepackage[bottom=4.0cm, left=3.0cm, right=3.0cm]{geometry} 
+\usepackage[bottom=3.0cm, left=3.0cm, right=3.0cm]{geometry} 
 \usepackage[squaren, thinspace ,thinqspace,binary]{SIunits}
 \usepackage[latin2]{inputenc}
 \usepackage[T1]{fontenc}
@@ -70,7 +70,7 @@
 \automark[section]{chapter}
 
 \setheadsepline{1pt}        %Separate Linie im Kopf
-\renewcommand*{\chapterheadstartvskip}{\vspace*{1pt}} % Abstand vor Kapitelüberschriften
+\renewcommand*{\chapterheadstartvskip}{\vspace*{0pt}} % Abstand vor Kapitelüberschriften
 
 \ihead[]{\leftmark}
 \ohead[]{\rightmark}
@@ -87,11 +87,11 @@
 %\changefont{pbk}{b}{sc}
 %Dokument
 \begin{document}
-\newcommand{\GeV}{\ensuremath{\,\text{Ge\hspace{-.08em}V}}\xspace}
-\newcommand{\GeVns}{\ensuremath{\text{Ge\hspace{-.08em}V}}\xspace} % no leading thinspace
+\newcommand{\GeV}{\ensuremath{\,\mathrm{Ge\hspace{-.08em}V}}\xspace}
+\newcommand{\GeVns}{\ensuremath{\mathrm{Ge\hspace{-.08em}V}}\xspace} % no leading thinspace
 \newcommand{\gev}{\GeV}
-\newcommand{\TeV}{\ensuremath{\,\text{Te\hspace{-.08em}V}}\xspace}
-\newcommand{\TeVns}{\ensuremath{\text{Te\hspace{-.08em}V}}\xspace} % no leading thinspace
+\newcommand{\TeV}{\ensuremath{\,\mathrm{Te\hspace{-.08em}V}}\xspace}
+\newcommand{\TeVns}{\ensuremath{\mathrm{Te\hspace{-.08em}V}}\xspace} % no leading thinspace
 
 \newcommand{\lumi}{$19.5\fbinv$} %{1048~\pbinv}}
 \newcommand{\fbinv}{\ensuremath{fb^{-1}\xspace}} %{1048~\pbinv}}
@@ -102,7 +102,11 @@
 \newcommand{\ttbar}{\ensuremath{t\bar{t}}\xspace}
 \newcommand{\mc}{Monte Carlo\xspace}
 \newcommand{\Red}{\color{red}}
-\newcommand{\Z}{\text{Z}\xspace}
+\newcommand{\Z}{\ensuremath{\mathrm{Z}}\xspace}
+\newcommand{\WZ}{\ensuremath{\mathrm{WZ}}\xspace}
+\newcommand{\ZZ}{\ensuremath{\mathrm{ZZ}}\xspace}
+\newcommand{\W}{\ensuremath{\mathrm{W}}\xspace}
+\newcommand{\HH}{\ensuremath{\mathrm{H}}\xspace}
 \newcommand{\Zmumu}{\ensuremath{Z\rightarrow \mu\mu}}
 \newcommand{\Zee}{\ensuremath{Z\rightarrow ee}}
 \newcommand{\Ztautau}{\ensuremath{Z\rightarrow \tau\tau}}
@@ -115,9 +119,9 @@
 \newcommand{\Et}{\ensuremath{E_{\mathrm{T}}}\xspace}
 % processes
 %\newcommand{\Ztautau}{\ensuremath{\Z\to\tau\tau}}
-\newcommand{\zjets}{\ensuremath{Z+\textrm{jets}}\xspace}
+\newcommand{\zjets}{\ensuremath{\Z+\text{jets}}\xspace}
 \newcommand{\Zjets}{\zjets}
-\newcommand{\Wjets}{\ensuremath{\text{W}+\text{jets}}\xspace}
+\newcommand{\Wjets}{\ensuremath{\W+\text{jets}}\xspace}
 \newcommand{\DYjets}{\ensuremath{\text{DY}+\text{jets}}\xspace}
 \newcommand{\gjets}{\ensuremath{\gamma+\text{jets}}\xspace}
 \newcommand{\ttll}{$\ttbar\rightarrow\ell^+\ell^-$}
@@ -273,15 +277,15 @@
 %\input{systematics}
 %\chapter{Background Estimation}
 %\input{BackgroundFit}
-\chapter{Search for an kinematic edge}
+\chapter{Search for a kinematic edge}
 \input{fit}
-\chapter{Outlook to LHC Run II}
 \chapter{Conclusion}
 %\input{conclusion}
 \appendix
 \input{appendixSamples}
 \input{appendixRmue}
 \input{appendixRT}
+\input{appendixROutIn}
 %\bibliographystyle{abbrv}
 \bibliographystyle{lucas_unsrt}
 \bibliography{thesis.bib}
