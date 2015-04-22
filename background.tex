@@ -1,5 +1,5 @@
 \label{sec:backgrounds}
-As indicated in Figure~\ref{fig:sigRegionBG}, different Standard Model processes contribute to the event sample in the signal region. To distinguish a potential signal from these backgrounds, a precise estimation of the background contributions is mandatory. While the simulation of these processes and the response of the CMS detector gives a good description of the data for the majority of the phase space, a large number of uncertainty sources are introduced in the modelling of the physical processes and the detector. Therefore a higher precision can be achieved by deriving the background estimates directly from the recorded data. Dedicated methods are applied for the flavour-symmetric and Drell--Yan backgrounds (see section~\ref{sec:SMBackgrounds}).
+As indicated in Figure~\ref{fig:sigRegionBG}, different SM processes contribute to the event sample in the signal region. To distinguish a potential signal from these backgrounds, a precise estimation of the background contributions is mandatory. While the simulation of these processes and the response of the CMS detector gives a good description of the data for the majority of the phase space, a large number of uncertainty sources are introduced in the modelling of the physical processes and the detector. Therefore a higher precision can be achieved by deriving the background estimates directly from the recorded data. Dedicated methods are applied for the flavour-symmetric and Drell--Yan backgrounds (see section~\ref{sec:SMBackgrounds}).
 
 \section{Flavour-symmetric backgrounds}
 Processes that are symmetric in the production of SF and OF lepton pairs allow for the estimation of their contribution to the SF event sample from the OF yield. The relevant backgrounds contributing to this class have been discussed in section~\ref{sec:SMBackgrounds}. An additional contribution are misidentified leptons, as will be demonstrated later. 
@@ -31,13 +31,13 @@ The observed ratio on data as a functions of \mll is shown in Figure~\ref{fig:co
 \label{fig:controlRatio}
 \end{center}
 \end{figure}
-The numerical results are summarized in Table~\ref{tab:rSFOF} for \Rsfof as well as \Reeof and \Rmmof. Good agreement between the values measured in data and simulation is observed. The extrapolation of the measured value of \Rsfof into the signal region is studied in simulation by calculating the ratio of \Rsfof observed in the signal region to that in the control region. No deviation of the values measured in the signal region from those obtained in the control region is observed within the statistical uncertainties of the simulation. This uncertainty is therefore assigned as a systematic uncertainty of the method. 
+The numerical results are summarised in Table~\ref{tab:rSFOF} for \Rsfof as well as \Reeof and \Rmmof. Good agreement between the values measured in data and simulation is observed. The extrapolation of the measured value of \Rsfof into the signal region is studied in simulation by calculating the ratio of \Rsfof observed in the signal region to that in the control region. No deviation of the values measured in the signal region from those obtained in the control region is observed within the statistical uncertainties of the simulation. This uncertainty is therefore assigned as a systematic uncertainty of the method. 
 
 \input{tab/table_Rsfof_full.tex}
 
 \subsection{Determination of \Rsfof with the factorization method}
 \label{sec:rmue}
-Asymmetries between the lepton flavours introduced by differing reconstruction and selection efficiencies can be corrected for if the ratio of efficiencies for muons and electrons $\rmuestar = \frac{\epsilon_{\mu}}{\epsilon_{e}}$ is known. Here and in the following, the ``$^{*}$'' indicates quantities that do not consider the effect of trigger efficiencies. They have, therefore, to be expressed in terms of the measurable event yields which include these effects. Under the assumption that the efficiencies for the two leptons in the event factorize, i.e. $\epsilon_{ll} = \epsilon_{l}\cdot\epsilon_{l}$, the number of dielectron and dimuon events can be expressed in terms of the the opposite-flavour yield using the relations
+Asymmetries between the lepton flavours introduced by differing reconstruction and selection efficiencies can be corrected for if the ratio of efficiencies for muons and electrons $\rmuestar = \frac{\epsilon_{\mu}}{\epsilon_{e}}$ is known. Here and in the following, the ``$^{*}$'' indicates quantities that do not consider the effect of trigger efficiencies. They have, therefore, to be expressed in terms of the measurable event yields which include these effects. Under the assumption that the efficiencies for the two leptons in the event factorize, i.e. $\epsilon_{\ell\ell} = \epsilon_{\ell}\cdot\epsilon_{\ell}$, the number of dielectron and dimuon events can be expressed in terms of the the opposite-flavour yield using the relations
 \begin{equation}
 N_{ee}^{*} = \frac{1}{2}\cdot \frac{N_{OF}^{*}}{\rmuestar}
 \end{equation}
@@ -53,7 +53,7 @@ In practice, all measured quantities are affected by the efficiencies of the dif
 \begin{equation}
 N_{SF} = \effeet \cdot N_{ee}^{*} + \effmmt \cdot N_{\mu\mu}^{*},
 \end{equation}
-where $\epsilon_{ll}^T$ denotes the trigger efficiency for the given dilepton combination.\\
+where $\epsilon_{\ell\ell}^T$ denotes the trigger efficiency for the given dilepton combination.\\
 The trigger efficiencies also affect the calculation of $N_{ee}^{*}$ and $N_{\mu\mu}^{*}$. To take this into account, \rmuestar is expressed in terms of the measured value \rmue, which is derived from the \EE and \MM event yields in the Drell-Yan control region (see Section~\ref{sec:rmue}) as 
 \begin{equation}
 \rmue  = \sqrt{\frac{N_{\mu\mu}}{N_{ee}}} \approx \sqrt{\frac{\epsilon_{\mu}^2 \effmmt}{\epsilon_{e}^2 \effeet}} = \rmuestar \cdot \sqrt{\frac{\effmmt}{\effeet}}.
@@ -79,7 +79,7 @@ R_{\mathrm{T}} = \frac{\sqrt{\effeet \effmmt}}{\effemt}.
 \label{eq:RT}
 \end{equation}
 \subsubsection{Measurement of \rmue}
-The measurement of \rmue is performed in the Drell-Yan control region as the ratio of \MM to \EE events on the Z peak, requiring $\unit{60}{\giga\electronvolt} < \mll < \unit{120}{\giga\electronvolt}$. A comparison of the recorded data to the different contributions  from Standard Model processes, estimated from simulation, is shown in Figure~\ref{fig:rmueMll}. The Drell-Yan process is the dominating source of events in this selection. Good agreement between data and simulation is observed, indicating a good understanding of this kinematic region by CMS. Towards higher masses the data is underestimated by the simulation because higher order effects are not included in the simulation and a lack of events in the simulated samples.  
+The measurement of \rmue is performed in the Drell-Yan control region as the ratio of \MM to \EE events on the Z peak, requiring $\unit{60}{\giga\electronvolt} < \mll < \unit{120}{\giga\electronvolt}$. A comparison of the recorded data to the different contributions  from SM processes, estimated from simulation, is shown in Figure~\ref{fig:rmueMll}. The Drell-Yan process is the dominating source of events in this selection. Good agreement between data and simulation is observed, indicating a good understanding of this kinematic region by CMS. Towards higher masses the data is underestimated by the simulation because higher order effects are not included in the simulation and a lack of events in the simulated samples.  
 \begin{figure}[htbp]
 \centering
 \begin{minipage}[t]{0.49\textwidth}
@@ -88,7 +88,7 @@ The measurement of \rmue is performed in the Drell-Yan control region as the rat
 \begin{minipage}[t]{0.49\textwidth}
 \includegraphics[width=\textwidth]{plots/BG/rmue/DrellYanControl_Mll_Full2012_EE_TopReweighted.pdf}
 \end{minipage}
-\caption{Distribution of \mll in the Drell-Yan control region for \MM events (left) and \EE events (right). The data is shown as the black dots, while the contributions from Standard Model processes, estimated from simulation, are shown as the stacked histograms.}
+\caption{Distribution of \mll in the Drell-Yan control region for \MM events (left) and \EE events (right). The data is shown as the black dots, while the contributions from SM processes, estimated from simulation, are shown as the stacked histograms.}
 \label{fig:rmueMll}
 \end{figure} 
 The results of the calculation of \rmue are shown in Table~\ref{tab:rMuE}. Given are the observed yields for \MM and \EE events and the resulting value of \rmue with statistical and systematic uncertainties. In the central lepton selection, the \MM yield is about 18\% higher than the \EE yield. Similar results are observed on Drell-Yan simulation. For events with leptons in the forward region, a larger asymmetry between muons and electrons is observed. Here the \MM yield is about 40\% higher than the \EE yield, as expected from the fact that the harsher pileup environment in the detector endcaps has a stronger effect on the electron efficiencies. 
@@ -123,7 +123,7 @@ The trigger efficiencies are measured utilizing an event sample collected with t
 \begin{equation}
 \epsilon_{\ell\ell}^T = \frac{N_{\text{events}}(H_T\text{ trigger} \cap \ell\ell\text{ selection} \cap \ell\ell\text{ trigger})}{N_{\text{events}}(H_T\text{ trigger} \cap \ell\ell\text{ selection})}.
 \end{equation}
-In case of \MM and OF events, two triggers are used in the event selection. Therefore, their combined efficiency is measured, requesting the logical OR of both. The resulting efficiencies are summarized in Table~\ref{tab:EffValues_Seperated}, separately for the central and forward lepton selections. The efficiencies on simulation are measured with much higher statistical precision because the trigger prescales are not applied there. The trigger efficiencies for \EE and \MM are about 97\% in both the central and forward selection. The efficiency for OF events is lower, about 95\% in the central and 90\% in the forward selection. This shows how the flavour symmetry is broken at trigger level by the inclusion of the \verb+HLT_Mu17_TkMu8+ trigger, which recovers efficiency for the trailing muon leg of the trigger and is not present in the OF triggers.   
+In case of \MM and OF events, two triggers are used in the event selection. Therefore, their combined efficiency is measured, requesting the logical OR of both. The resulting efficiencies are summarised in Table~\ref{tab:EffValues_Seperated}, separately for the central and forward lepton selections. The efficiencies on simulation are measured with much higher statistical precision because the trigger prescales are not applied there. The trigger efficiencies for \EE and \MM are about 97\% in both the central and forward selection. The efficiency for OF events is lower, about 95\% in the central and 90\% in the forward selection. This shows how the flavour symmetry is broken at trigger level by the inclusion of the \verb+HLT_Mu17_TkMu8+ trigger, which recovers efficiency for the trailing muon leg of the trigger and is not present in the OF triggers.   
 \input{tab/table_TriggerEffsExclusive_Seperated.tex}
 To assess the systematic uncertainties of the trigger efficiency measurement, potential biases due to the choice of the orthogonal trigger  are studied on simulation, using dileptonic $t\bar{t}$ events. On simulation the efficiency can be measured without the requirement of the $H_T$ triggers, as no trigger is needed to select the events. The ratio of this true trigger efficiencies to those measured with the $H_T$ triggers as a function of \mll is shown in Figure~\ref{fig:triggerEffBias}, separately for SF and OF events. In both cases all deviations from unity are in the order of 0.1\% and well compatible with it inside the statistical uncertainties. No bias of the efficiency measurement due to the \HT triggers is observed and therefore no systematic uncertainty due to this choice is assigned to the measurement.
 \begin{figure}
@@ -166,7 +166,7 @@ To assess the systematic uncertainties of the trigger efficiency measurement, th
 \label{fig:RTDependencies}
 \end{figure} 
 \subsubsection{Results of the factorization method}
-The results of the factorization methods are summarized in Table~\ref{tab:factorization}. The factor $R_T$ is calculated from the trigger efficiencies in Table~\ref{tab:EffValues_Seperated} via equation~\ref{eq:RT}. The resulting correction factors \Rsfof, \Reeof, and \Rmmof are calculated as described in equations~\ref{eq:nee}-\ref{eq:nsf}.  
+The results of the factorization methods are summarised in Table~\ref{tab:factorization}. The factor $R_T$ is calculated from the trigger efficiencies in Table~\ref{tab:EffValues_Seperated} via equation~\ref{eq:RT}. The resulting correction factors \Rsfof, \Reeof, and \Rmmof are calculated as described in equations~\ref{eq:nee}-\ref{eq:nsf}.  
 \input{tab/table_factorization_result.tex}
 As for the direct measurements in the control region, the observed deviations of \Rsfof from one are small and inside the uncertainties of the method. Because the uncertainty on \rmue cancels out to a large degree in the calculation \Rsfof, the total uncertainty is dominated by the uncertainty on $R_T$, while for \Reeof and \Rmmof the uncertainty of \rmue is the dominant one. This results in much larger uncertainties on the latter two factors. The dependency of \Rsfof on \rmue and $R_T$ as given by equation~\ref{eq:nsf} is illustrated in Figure~\ref{fig:rmuePropaganda}. The measured values of \rmue and \Rsfof are shown as straight lines, surrounded by bands indicating their uncertainties. The red line shows the value of \Rsfof corresponding to a given \rmue, under the assumption that the trigger efficiencies stay constant. The dashed black lines show the impact that the uncertainties on the trigger efficiencies have on the resulting \Rsfof. It can be seen that variations of \rmue inside its systematic uncertainties have only little effect on \Rsfof, while changes in the trigger efficiencies have a much larger impact. 
 
@@ -216,7 +216,7 @@ All events where at least one of the leptons is not matched to a generated elect
 \caption{Distribution of \mll for lepton pairs with at least one non-prompt lepton in simulation for an inclusive dilepton selection (left) and the signal selection (right). The contributions of \EE, \MM, and \EM pairs are shown as red, green, and blue lines, respectively. The combined SF pairs are shown as the black points.}
 \label{fig:nonPromptMC}
 \end{figure} 
-The event yields are summarized in Table~\ref{tab:nonPromptTableMC}. It can be seen that the contribution of non-prompt electrons exceeds that of non-prompt muons. The event yields for SF and OF lepton pairs are very similar, with a slight preference to OF leptons. This indicates that this type of backgrounds is covered by the estimates for flavour-symmetric backgrounds, at least in simulation.
+The event yields are summarised in Table~\ref{tab:nonPromptTableMC}. It can be seen that the contribution of non-prompt electrons exceeds that of non-prompt muons. The event yields for SF and OF lepton pairs are very similar, with a slight preference to OF leptons. This indicates that this type of backgrounds is covered by the estimates for flavour-symmetric backgrounds, at least in simulation.
 \input{tab/table_nonPromptMC}
 
 \paragraph*{Estimate of non-prompt contributions with tight-to-loose ratios}
@@ -291,7 +291,7 @@ Both methods described above result in background estimates for the on-\Z region
 \begin{equation}
 \Routin = \frac{\mathrm{N}_{\mathrm{out}}^{\mathrm{SF}} - \mathrm{N}_{\mathrm{out}}^{\mathrm{OF}}\Rsfof}{ \mathrm{N}_{\mathrm{in}}^{\mathrm{SF}} - \mathrm{N}_{\mathrm{in}}^{\mathrm{OF}}\Rsfof},
 \end{equation} 
-where the SF can be substituted for \EE or \MM according to the desired lepton flavour. The \mll distribution in the Drell--Yan control region is shown in Figure~\ref{fig:rOutIn}. The resulting values range from about 6-8\% for the low-mass region to 2-3\% for the high-mass region, as summarized in Table~\ref{tab:rOutIn}.
+where the SF can be substituted for \EE or \MM according to the desired lepton flavour. The \mll distribution in the Drell--Yan control region is shown in Figure~\ref{fig:rOutIn}. The resulting values range from about 6-8\% for the low-mass region to 2-3\% for the high-mass region, as summarised in Table~\ref{tab:rOutIn}.
 \begin{figure}[htbp]
 \centering
 \begin{minipage}[t]{0.49\textwidth}

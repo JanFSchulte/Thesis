@@ -5,7 +5,7 @@
 \contentsline {chapter}{\numberline {2}The Standard Model and Supersymmetry}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}The Standard Model of particle physics}{3}{section.2.1}
 \contentsline {section}{\numberline {2.2}Supersymmetry}{5}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Theoretical foundation}{6}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.1}Theoretical foundation}{5}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Dilepton mass edges in SUSY}{7}{subsection.2.2.2}
 \contentsline {subsubsection}{\nonumberline Simplified models}{9}{section*.13}
 \contentsline {section}{\numberline {2.3}Standard Model processes}{10}{section.2.3}
@@ -23,19 +23,19 @@
 \contentsline {subsection}{\numberline {4.1.2}Muon reconstruction and identification}{27}{subsection.4.1.2}
 \contentsline {subsection}{\numberline {4.1.3}Electron reconstruction and identification}{29}{subsection.4.1.3}
 \contentsline {subsection}{\numberline {4.1.4}Observables reconstructed with Particle Flow}{31}{subsection.4.1.4}
-\contentsline {subsubsection}{\nonumberline The algorithm}{31}{section*.41}
+\contentsline {subsubsection}{\nonumberline The Particle Flow algorithm}{31}{section*.41}
 \contentsline {subsubsection}{\nonumberline Jets}{31}{section*.42}
 \contentsline {subsubsection}{\nonumberline Missing transverse energy}{32}{section*.44}
 \contentsline {subsubsection}{\nonumberline Lepton isolation}{34}{section*.46}
 \contentsline {section}{\numberline {4.2}Event processing and datasets}{35}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Primary datasets}{35}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.1}Primary datasets}{36}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}Simulated datasets}{36}{subsection.4.2.2}
-\contentsline {subsubsection}{\nonumberline Simulation of the physical processes}{37}{section*.48}
-\contentsline {subsubsection}{\nonumberline Simulation of the detector response}{38}{section*.49}
-\contentsline {subsubsection}{\nonumberline Background Samples}{38}{section*.50}
-\contentsline {subsubsection}{\nonumberline Signal Samples}{39}{section*.53}
-\contentsline {section}{\numberline {4.3}Event selection}{41}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Event cleaning}{41}{subsection.4.3.1}
+\contentsline {subsubsection}{\nonumberline Simulation of the physical processes}{36}{section*.48}
+\contentsline {subsubsection}{\nonumberline Simulation of the detector response}{39}{section*.49}
+\contentsline {subsubsection}{\nonumberline Background datasets}{39}{section*.50}
+\contentsline {subsubsection}{\nonumberline Signal datasets}{41}{section*.53}
+\contentsline {section}{\numberline {4.3}Event selection}{42}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Event cleaning}{42}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Inclusive dilepton selection}{42}{subsection.4.3.2}
 \contentsline {subsection}{\numberline {4.3.3}Selections in \ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}\xspace and jet multiplicity}{45}{subsection.4.3.3}
 \contentsline {subsection}{\numberline {4.3.4}Selection in \ensuremath {m_{\ell \ell }}\xspace }{46}{subsection.4.3.4}
@@ -75,7 +75,7 @@
 \contentsline {subsection}{\numberline {7.3.2}Fit performance studies using toy MC}{94}{subsection.7.3.2}
 \contentsline {subsubsection}{\nonumberline Studies without signal injection}{94}{section*.122}
 \contentsline {subsubsection}{\nonumberline Toy studies with signal injection}{96}{section*.126}
-\contentsline {section}{\numberline {7.4}Results}{107}{section.7.4}
+\contentsline {section}{\numberline {7.4}Results}{108}{section.7.4}
 \contentsline {chapter}{\numberline {8}Conclusion}{113}{chapter.8}
 \contentsline {chapter}{\numberline {A}Simulated Samples}{115}{appendix.A}
 \contentsline {chapter}{\numberline {B}Dependencies of \ensuremath {r_{\mu e}}\xspace }{117}{appendix.B}

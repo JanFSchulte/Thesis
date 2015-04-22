@@ -193,7 +193,7 @@ The parameters of the signal model are listed in Table~\ref{tab:Fit_Par_Overview
 \end{center}
 \end{table}
 
-The signal model is fitted to simulation using four parameter points of the fixed-edge and slepton-edge models described in Section~\ref{sec:models}. The points are chosen to study edges produced in decays both via an off-shell \Z boson and sleptons and also to test the fit performance for edge positions below, on, and above the \Z boson peak. The signal parameters are summarized in table~\ref{tab:signals} and will be referenced by their labels S1-S4 in the following.
+The signal model is fitted to simulation using four parameter points of the fixed-edge and slepton-edge models described in Section~\ref{sec:models}. The points are chosen to study edges produced in decays both via an off-shell \Z boson and sleptons and also to test the fit performance for edge positions below, on, and above the \Z boson peak. The signal parameters are summarised in table~\ref{tab:signals} and will be referenced by their labels S1-S4 in the following.
 
 \begin{table}[htbp]
 
@@ -477,7 +477,9 @@ The fit performance in the presence of a signal is tested by injection of a sign
   \label{fig:toys:signalInjected}
 \end{figure}
 
-To study the dependence of the fit result on the edge position, toys are generated with a signal of 125 events in the central signal region, injected at different values of \mlledge between 40 and 200\GeV in steps of 10\GeV. For each configuration, about 1000 fits are performed. The initial value of \mlledge is chosen to coincide with the generated one. The distributions of the fitted \mlledge and number of signal events for each generated \mlledge are shown in Figure~\ref{fig:toys:scan}. In the case of the fitted \mlledge on the left side, the generated value is in general very well reproduced by the fit. However, the fact that the initial value is set to the correct position a priori introduces a large bias towards this good performance. The best results are obtained for low values of \mlledge, as the signal shape is much steeper and easier to separate from the background than for higher values. Towards higher values the spread of the results and especially the probability for very large deviation from the generated value increases, before they decrease towards very high values of the generated \mlledge. A notable feature is observed for generated values of 100\GeV, where for a small number of fits the fitted value is very close to the \Z boson mass. Similar behaviour is also observed for the number of fitted signal events. Here, the relative size of the deviation from the generated value is much larger, as the event yields are fluctuated in the generation of the toys. 
+To study the dependence of the fit result on the edge position, toys are generated with a signal of 125 events in the central signal region, injected at different values of \mlledge between 40 and 200\GeV in steps of 10\GeV. For each configuration, about 1000 fits are performed. The initial value of \mlledge is chosen to coincide with the generated one. The distributions of the fitted \mlledge and number of signal events for each generated \mlledge are shown in Figure~\ref{fig:toys:scan}. In the case of the fitted \mlledge on the left side, the generated value is in general very well reproduced by the fit. The best results are obtained for low values of \mlledge, as the signal shape is much steeper and easier to separate from the background than for higher values. Towards higher values the spread of the results and especially the probability for very large deviation from the generated value increases, before they decrease towards very high values of the generated \mlledge. A notable feature is observed for generated values of 100\GeV, where for a small number of fits the fitted value is very close to the \Z boson mass. However, the fact that the initial value is set to the correct position a priori introduces a bias towards this good performance. This is demonstrated for the example of an injected signal at $\unit{\mlledge = 70}{\giga\electronvolt}$ in Figure~\ref{fig:toys:randM0Signal}, where the fitted value is plotted versus the initial value of \mlledge. For initial values below $m_{\Z}$, the correct edge position is found with a high probability. If the initial value is located on the other side of the \Z boson peak, it is much less likely to find the signal at its injected position. 
+
+Similar behaviour is also observed for the number of fitted signal events. Here, the relative size of the deviation from the generated value is much larger, as the event yields are fluctuated in the generation of the toys. 
 \begin{figure}[!hbp]
   \centering
   \begin{minipage}[t]{0.49\textwidth}
@@ -491,6 +493,17 @@ To study the dependence of the fit result on the edge position, toys are generat
 \end{figure}
 
 The width of the distribution of the fitted \mlledge is shown on the left side of Figure~\ref{fig:toys:scanFits}. It is quantified both with the root mean square (RMS) of the distribution and the width of a Gaussian fitted in a range of $\pm\unit{3}{\giga\electronvolt}$ around the generated value. The first is sensitive to the non-Gaussian tails of the distribution while the latter is a measure of the core resolution. For generated values of \mlledge of $\unit{40}{\giga\electronvolt}$, the two values are the same, but quickly deviate for higher edge positions. The Gaussian width rises from about $\unit{1}{\giga\electronvolt}$ to about $\unit{2-2.5}{\giga\electronvolt}$ for edge position above $\unit{80}{\giga\electronvolt}$ and is roughly constant for higher edge positions. The RMS reaches values of $\unit{4}{\giga\electronvolt}$ for edges below the Z mass. For $\unit{\mlledge=100}{\giga\electronvolt}$ it is much larger, caused by the bias towards the \Z boson mass observed in Figure~\ref{fig:toys:scan}. Above the \Z boson peak, the RMS of the distribution is roughly stable at $\unit{8}{\giga\electronvolt}$ before it drops off significantly for edge positions above $\unit{180}{\giga\electronvolt}$.
+
+
+\begin{figure}[hbp]
+  \centering
+
+    \includegraphics[width=0.6\textwidth]{plots/results/fit/toyResults/fittedM0vsinitialM0_signalInjectedM70N125_NegSig.pdf}
+  \caption{Distribution of fitted versus initial values of \mlledge in the case of the randomized initial values for toys with an injected signal at $\unit{\mlledge = 70}{\giga\electronvolt}$.}
+  \label{fig:toys:randM0Signal}
+\end{figure}
+
+
 
 The right side of Figure~\ref{fig:toys:scanFits} shows the means and widths of fits of Gaussian functions to the distributions of $N_{S}^{central}$, again as a function of the generated \mlledge. The distributions do not exhibit significant non-Gaussian tails, so the RMS value is not shown in this case. The injected value of 125 events is reproduced within about 8 events for all values of \mlledge. The width increases with \mlledge from roughly 25 to 65 events at \mlledge of $\unit{100}{\giga\electronvolt}$ and decreases slightly for higher values.
 
