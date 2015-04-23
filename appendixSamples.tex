@@ -1,59 +1,81 @@
 \chapter{Simulated Samples}
+The list of a simulated samples of SM background processes is shown in Table~\ref{appTab:MCSamples}. Given is the physics process together with relevant information about the simulated decays or generator selections. Also the name of the dataset in DBS is given. Example DBS entries for the fixed-edge and slepton-edge simplified models are given in Table~\ref{appTab:MCSamples} for the points with the lowest masses in both models. The names of all other points can be constructed by replacing the masses in examples given in the Table. 
 
 
-\begin{sidewaystable}[b] 
-\small
+
+
+
+\begin{table}[htb] 
+\scriptsize
+\caption{List of background processes and the corresponding samples in DBS.}
+\label{appTab:MCSamples}
 \begin{tabular}{c|c}
  process & sample \\
 \hline 
-$t\bar{t} \rightarrow b\bar{b}\ell\nu \ell\nu$ & \verb+/TTJets_FullLeptMGDecays_8TeV-madgraph-tauola/Summer12_DR53X-PU_S10_START53_V7C-v2/AODSIM+ \\
-$t\bar{t} \rightarrow b\bar{b}q\bar{q}\ell\nu$ & \verb+/TTJets_SemiLeptMGDecays_8TeV-madgraph-tauola/Summer12_DR53X-PU_S10_START53_V7C-v1/AODSIM+ \\
-$t\bar{t} \rightarrow b\bar{b}q\bar{q}q\bar{q}$ & \verb+/TTJets_HadronicMGDecays_8TeV-madgraph/Summer12_DR53X-PU_S10_START53_V7A_ext-v1/AODSIM+ \\
+$t\bar{t} \rightarrow b\bar{b}\ell\nu \ell\nu$ & \verb+/TTJets_FullLeptMGDecays_8TeV-madgraph-tauola/*_V7C-v2/AODSIM+ \\
+$t\bar{t} \rightarrow b\bar{b}q\bar{q}\ell\nu$ & \verb+/TTJets_SemiLeptMGDecays_8TeV-madgraph-tauola/*_V7C-v1/AODSIM+ \\
+$t\bar{t} \rightarrow b\bar{b}q\bar{q}q\bar{q}$ & \verb+/TTJets_HadronicMGDecays_8TeV-madgraph/*_V7A_ext-v1/AODSIM+ \\
 \hline 
-$Z/\gamma^{*} \rightarrow \ell\ell$ 10 GeV $< m_{\ell\ell} <$ 50 GeV & \verb+/DYJetsToLL_M-10To50filter_8TeV-madgraph/Summer12_DR53X-PU_S10_START53_V7A-v1/AODSIM+ \\
-$Z/\gamma^{*} \rightarrow \ell\ell$ $m_{\ell\ell} >$ 50 GeV & \verb+/DYJetsToLL_M-50_TuneZ2Star_8TeV-madgraph-tarball/Summer12_DR53X-PU_S10_START53_V7A-v1/AODSIM+ \\
+$Z/\gamma^{*} \rightarrow \ell\ell$ 10 GeV $< m_{\ell\ell} <$ 50 GeV & \verb+/DYJetsToLL_M-10To50filter_8TeV-madgraph/*_V7A-v1/AODSIM+ \\
+$Z/\gamma^{*} \rightarrow \ell\ell$ $m_{\ell\ell} >$ 50 GeV & \verb+/DYJetsToLL_M-50_TuneZ2Star_8TeV-madgraph-tarball/*_V7A-v1/AODSIM+ \\
 \hline 
-$W \rightarrow \ell\nu$ & \verb+/WJetsToLNu_TuneZ2Star_8TeV-madgraph-tarball/Summer12_DR53X-PU_S10_START53_V7A-v2/AODSIM+ \\
+$W \rightarrow \ell\nu$ & \verb+/WJetsToLNu_TuneZ2Star_8TeV-madgraph-tarball/*_V7A-v2/AODSIM+ \\
 \hline 
-$ZZ \rightarrow \ell\ell q\bar{q}$ & \verb+/ZZJetsTo2L2Q_TuneZ2star_8TeV-madgraph-tauola/Summer12_DR53X-PU_S10_START53_V7A-v1/AODSIM+ \\
-$ZZ \rightarrow \ell\ell\nu\nu$ & \verb+/ZZJetsTo2L2Nu_TuneZ2star_8TeV-madgraph-tauola/Summer12_DR53X-PU_S10_START53_V7A-v3/AODSIM+ \\
-$ZZ \rightarrow \ell\ell\ell\ell$ & \verb+/ZZJetsTo4L_TuneZ2star_8TeV-madgraph-tauola/Summer12_DR53X-PU_S10_START53_V7A-v1/AODSIM+ \\
-$WZ \rightarrow l\nu \ell\ell$ & \verb+/WZJetsTo3LNu_TuneZ2_8TeV-madgraph-tauola/Summer12_DR53X-PU_S10_START53_V7A-v1/AODSIM+ \\
-$WZ \rightarrow qq'\ell\ell$ & \verb+/WZJetsTo2L2Q_TuneZ2star_8TeV-madgraph-tauola/Summer12_DR53X-PU_S10_START53_V7A-v1/AODSIM+ \\
-$WW \rightarrow \ell\nu \ell\nu$ & \verb+/WWJetsTo2L2Nu_TuneZ2star_8TeV-madgraph-tauola/Summer12_DR53X-PU_S10_START53_V7A-v1/AODSIM+ \\
+$ZZ \rightarrow \ell\ell q\bar{q}$ & \verb+/ZZJetsTo2L2Q_TuneZ2star_8TeV-madgraph-tauola/*_V7A-v1/AODSIM+ \\
+$ZZ \rightarrow \ell\ell\nu\nu$ & \verb+/ZZJetsTo2L2Nu_TuneZ2star_8TeV-madgraph-tauola/*_V7A-v3/AODSIM+ \\
+$ZZ \rightarrow \ell\ell\ell\ell$ & \verb+/ZZJetsTo4L_TuneZ2star_8TeV-madgraph-tauola/*_V7A-v1/AODSIM+ \\
+$WZ \rightarrow l\nu \ell\ell$ & \verb+/WZJetsTo3LNu_TuneZ2_8TeV-madgraph-tauola/*_V7A-v1/AODSIM+ \\
+$WZ \rightarrow qq'\ell\ell$ & \verb+/WZJetsTo2L2Q_TuneZ2star_8TeV-madgraph-tauola/*_V7A-v1/AODSIM+ \\
+$WW \rightarrow \ell\nu \ell\nu$ & \verb+/WWJetsTo2L2Nu_TuneZ2star_8TeV-madgraph-tauola/*_V7A-v1/AODSIM+ \\
 \hline 
-$t$ s-Channel & \verb+/T_s-channel_TuneZ2star_8TeV-powheg-tauola/Summer12_DR53X-PU_S10_START53_V7A-v1/AODSIM+ \\
-$t$ t-Channel & \verb+/T_t-channel_TuneZ2star_8TeV-powheg-tauola/Summer12_DR53X-PU_S10_START53_V7A-v1/AODSIM+ \\
-$t$ tW-Channel & \verb+/T_tW-channel-DR_TuneZ2star_8TeV-powheg-tauola/Summer12_DR53X-PU_S10_START53_V7A-v1/AODSIM+ \\
-$\bar{t}$ s-Channel & \verb+/Tbar_s-channel_TuneZ2star_8TeV-powheg-tauola/Summer12_DR53X-PU_S10_START53_V7A-v1/AODSIM+ \\
-$\bar{t}$ t-Channel & \verb+/Tbar_t-channel_TuneZ2star_8TeV-powheg-tauola/Summer12_DR53X-PU_S10_START53_V7A-v1/AODSIM+ \\
-$\bar{t}$ tW-Channel & \verb+/Tbar_tW-channel-DR_TuneZ2star_8TeV-powheg-tauola/Summer12_DR53X-PU_S10_START53_V7A-v1/AODSIM+ \\
+$t$ s-Channel & \verb+/T_s-channel_TuneZ2star_8TeV-powheg-tauola/*_V7A-v1/AODSIM+ \\
+$t$ t-Channel & \verb+/T_t-channel_TuneZ2star_8TeV-powheg-tauola/*_V7A-v1/AODSIM+ \\
+$t$ tW-Channel & \verb+/T_tW-channel-DR_TuneZ2star_8TeV-powheg-tauola/*_V7A-v1/AODSIM+ \\
+$\bar{t}$ s-Channel & \verb+/Tbar_s-channel_TuneZ2star_8TeV-powheg-tauola/*_V7A-v1/AODSIM+ \\
+$\bar{t}$ t-Channel & \verb+/Tbar_t-channel_TuneZ2star_8TeV-powheg-tauola/*_V7A-v1/AODSIM+ \\
+$\bar{t}$ tW-Channel & \verb+/Tbar_tW-channel-DR_TuneZ2star_8TeV-powheg-tauola/*_V7A-v1/AODSIM+ \\
 \hline 
-$WWW$ & \verb+/WWWJets_8TeV-madgraph/Summer12_DR53X-PU_S10_START53_V7A-v1/AODSIM+ \\
-$WW\gamma$ & \verb+/WWGJets_8TeV-madgraph/Summer12_DR53X-PU_S10_START53_V7A-v1/AODSIM+ \\
-$WWZ$ & \verb+/WWZNoGstarJets_8TeV-madgraph/Summer12_DR53X-PU_S10_START53_V7A-v1/AODSIM+ \\
-$WZZ$ & \verb+/WZZNoGstarJets_8TeV-madgraph/Summer12_DR53X-PU_S10_START53_V7A-v1/AODSIM+ \\
-$t\bar{t}\gamma$ & \verb+/TTGJets_8TeV-madgraph/Summer12_DR53X-PU_S10_START53_V7A-v1/AODSIM+ \\
-$t\bar{t}W$ & \verb+/TTWJets_8TeV-madgraph/Summer12_DR53X-PU_S10_START53_V7A-v1/AODSIM+ \\
-$t\bar{t}Z$ & \verb+/TTZJets_8TeV-madgraph_v2/Summer12_DR53X-PU_S10_START53_V7A-v1/AODSIM+ \\
-$t\bar{t}WW$ & \verb+/TTWWJets_8TeV-madgraph/Summer12_DR53X-PU_S10_START53_V7A-v1/AODSIM+ \\
+$WWW$ & \verb+/WWWJets_8TeV-madgraph/*_V7A-v1/AODSIM+ \\
+$WW\gamma$ & \verb+/WWGJets_8TeV-madgraph/*_V7A-v1/AODSIM+ \\
+$WWZ$ & \verb+/WWZNoGstarJets_8TeV-madgraph/*_V7A-v1/AODSIM+ \\
+$WZZ$ & \verb+/WZZNoGstarJets_8TeV-madgraph/*_V7A-v1/AODSIM+ \\
+$t\bar{t}\gamma$ & \verb+/TTGJets_8TeV-madgraph/*_V7A-v1/AODSIM+ \\
+$t\bar{t}W$ & \verb+/TTWJets_8TeV-madgraph/*_V7A-v1/AODSIM+ \\
+$t\bar{t}Z$ & \verb+/TTZJets_8TeV-madgraph_v2/*_V7A-v1/AODSIM+ \\
+$t\bar{t}WW$ & \verb+/TTWWJets_8TeV-madgraph/*_V7A-v1/AODSIM+ \\
 \hline 
-$t\bar{t}$ & \verb+/TTJets_MassiveBinDECAY_TuneZ2star_8TeV-madgraph-tauola/Summer12_DR53X-PU_S10_START53_V7A-v1/AODSIM+ \\
-$t\bar{t}$, $m_{top} =$ 166.5 GeV & \verb+/TTJets_mass166_5_TuneZ2star_8TeV-madgraph-tauola/Summer12_DR53X-PU_S10_START53 V7A-v1/AODSIM+ \\
-$t\bar{t}$, $m_{top} =$ 169.5 GeV & \verb+/TTJets_mass169_5_TuneZ2star_8TeV-madgraph-tauola/Summer12_DR53X-PU_S10_START53 V7A-v1/AODSIM+ \\
-$t\bar{t}$, $m_{top} =$ 175.5 GeV & \verb+/TTJets_mass175_5_TuneZ2star_8TeV-madgraph-tauola/Summer12_DR53X-PU_S10_START53 V7A-v1/AODSIM+ \\
-$t\bar{t}$, $m_{top} =$ 178.5 GeV & \verb+/TTJets_mass178_5_TuneZ2star_8TeV-madgraph-tauola/Summer12_DR53X-PU_S10_START53 V7A-v1/AODSIM+ \\
-$t\bar{t}$, Matching scale up & \verb+/TTJets_matchingup_TuneZ2star_8TeV-madgraph-tauola/Summer12_DR53X-PU_S10_START53 V7A-v1/AODSIM+ \\
-$t\bar{t}$, Matching scale down & \verb+/TTJets_matchingdown_TuneZ2star_8TeV-madgraph-tauola/Summer12_DR53X-PU_S10_START53 V7A-v1/AODSIM+ \\
-$t\bar{t}$, Factorization scale up & \verb+/TTJets_scaleup_TuneZ2star_8TeV-madgraph-tauola/Summer12_DR53X-PU_S10_START53 V7A-v1/AODSIM+ \\
-$t\bar{t}$, Factorization scale down & \verb+/TTJets_scaledown_TuneZ2star_8TeV-madgraph-tauola/Summer12_DR53X-PU_S10_START53 V7A-v1/AODSIM+ \\
-
+$t\bar{t}$ & \verb+/TTJets_MassiveBinDECAY_TuneZ2star_8TeV-madgraph-tauola/*_V7A-v1/AODSIM+ \\
+$t\bar{t}$, $m_{top} =$ 166.5 GeV & \verb+/TTJets_mass166_5_TuneZ2star_8TeV-madgraph-tauola/* V7A-v1/AODSIM+ \\
+$t\bar{t}$, $m_{top} =$ 169.5 GeV & \verb+/TTJets_mass169_5_TuneZ2star_8TeV-madgraph-tauola/* V7A-v1/AODSIM+ \\
+$t\bar{t}$, $m_{top} =$ 175.5 GeV & \verb+/TTJets_mass175_5_TuneZ2star_8TeV-madgraph-tauola/* V7A-v1/AODSIM+ \\
+$t\bar{t}$, $m_{top} =$ 178.5 GeV & \verb+/TTJets_mass178_5_TuneZ2star_8TeV-madgraph-tauola/* V7A-v1/AODSIM+ \\
+$t\bar{t}$, Matching scale up & \verb+/TTJets_matchingup_TuneZ2star_8TeV-madgraph-tauola/* V7A-v1/AODSIM+ \\
+$t\bar{t}$, Matching scale down & \verb+/TTJets_matchingdown_TuneZ2star_8TeV-madgraph-tauola/* V7A-v1/AODSIM+ \\
+$t\bar{t}$, Factorization scale up & \verb+/TTJets_scaleup_TuneZ2star_8TeV-madgraph-tauola/* V7A-v1/AODSIM+ \\
+$t\bar{t}$, Factorization scale down & \verb+/TTJets_scaledown_TuneZ2star_8TeV-madgraph-tauola/* V7A-v1/AODSIM+ \\
+\hline
+\verb+*+ & \verb+Summer12_DR53X-PU_S10_START53+ \\
 \end{tabular}
 
 
 
 
-\caption{List of background processes and the corresponding samples in DBS.}
-\label{appTab:MCSamples}
-\end{sidewaystable} 
 
+\end{table} 
+
+
+
+
+\begin{table}[htb] 
+\scriptsize
+\caption{Examples of DBS dataset names for the fixed-edge and slepton-edge simplified models. The three-digit numbers represent the number of \sbottom and \secondchi in \GeV. The names for other mass points are obtained by replacing the values for $m_{\sbottom}$ and $m_{\secondchi}$ by the desired ones. Exceptions are the sample for $m_{\sbottom}$ between $\unit{400}{\giga\electronvolt}$ and $\unit{475}{\giga\electronvolt}$, where the hash b7ae8e1adb016da4a96f7b394c3a565a has be replaced by 56193729e3030b18064f6ae9be549394.}
+\label{appTab:MCSamples}
+\begin{tabular}{c|c}
+ process & sample \\
+\hline 
+ \multirow{3}{*}{fixed-edge example} & \verb+/SUSY_Simplified_Model_Madgraph_FastSim_T6bblledge_200_100_8TeV/+\\ & \verb+cschomak-SUSY_Simplified_Model_Madgraph_FastSim_T6bblledge_200_100_8TeV+\\ & \verb+-b7ae8e1adb016da4a96f7b394c3a565a/USER+\\
+ \multirow{3}{*}{slepton-edge example} & \verb+/SUSY_Simplified_Model_Madgraph_FastSim_T6bbslepton_200_150_8TeV/+\\ & \verb+cschomak-SUSY_Simplified_Model_Madgraph_FastSim_T6bbslepton_200_150_8TeV-+\\ & \verb+-b7ae8e1adb016da4a96f7b394c3a565a/USER+\\
+\end{tabular}
+
+
+\end{table} 

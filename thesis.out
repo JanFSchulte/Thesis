@@ -1,62 +1,60 @@
-\BOOKMARK [1][-]{section*.1}{Zusammenfassung}{}% 1
-\BOOKMARK [1][-]{section*.2}{Abstract}{}% 2
-\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 3
-\BOOKMARK [1][-]{section.1.1}{Defintion of variables}{chapter.1}% 4
-\BOOKMARK [0][-]{chapter.2}{The Standard Model and Supersymmetry}{}% 5
-\BOOKMARK [1][-]{section.2.1}{The Standard Model of particle physics}{chapter.2}% 6
-\BOOKMARK [1][-]{section.2.2}{Supersymmetry}{chapter.2}% 7
-\BOOKMARK [2][-]{subsection.2.2.1}{Theoretical foundation}{section.2.2}% 8
-\BOOKMARK [2][-]{subsection.2.2.2}{Dilepton mass edges in SUSY}{section.2.2}% 9
-\BOOKMARK [1][-]{section.2.3}{Standard Model processes}{chapter.2}% 10
-\BOOKMARK [0][-]{chapter.3}{Experimental setup}{}% 11
-\BOOKMARK [1][-]{section.3.1}{CERN Large Hadron Collider}{chapter.3}% 12
-\BOOKMARK [1][-]{section.3.2}{CMS detector}{chapter.3}% 13
-\BOOKMARK [2][-]{subsection.3.2.1}{Tracking system}{section.3.2}% 14
-\BOOKMARK [2][-]{subsection.3.2.2}{Electromagnetic calorimeter}{section.3.2}% 15
-\BOOKMARK [2][-]{subsection.3.2.3}{Hadron calorimeter}{section.3.2}% 16
-\BOOKMARK [2][-]{subsection.3.2.4}{Muon system}{section.3.2}% 17
-\BOOKMARK [1][-]{section.3.3}{Trigger and data acquisition}{chapter.3}% 18
-\BOOKMARK [0][-]{chapter.4}{Data analysis and event selection}{}% 19
-\BOOKMARK [1][-]{section.4.1}{Object reconstruction}{chapter.4}% 20
-\BOOKMARK [2][-]{subsection.4.1.1}{Vertex reconstruction}{section.4.1}% 21
-\BOOKMARK [2][-]{subsection.4.1.2}{Muon reconstruction and identification}{section.4.1}% 22
-\BOOKMARK [2][-]{subsection.4.1.3}{Electron reconstruction and identification}{section.4.1}% 23
-\BOOKMARK [2][-]{subsection.4.1.4}{Observables reconstructed with Particle Flow}{section.4.1}% 24
-\BOOKMARK [1][-]{section.4.2}{Event processing and datasets}{chapter.4}% 25
-\BOOKMARK [2][-]{subsection.4.2.1}{Primary datasets}{section.4.2}% 26
-\BOOKMARK [2][-]{subsection.4.2.2}{Simulated datasets}{section.4.2}% 27
-\BOOKMARK [1][-]{section.4.3}{Event selection}{chapter.4}% 28
-\BOOKMARK [2][-]{subsection.4.3.1}{Event cleaning}{section.4.3}% 29
-\BOOKMARK [2][-]{subsection.4.3.2}{Inclusive dilepton selection}{section.4.3}% 30
-\BOOKMARK [2][-]{subsection.4.3.3}{Selections in ETmiss and jet multiplicity}{section.4.3}% 31
-\BOOKMARK [2][-]{subsection.4.3.4}{Selection in m}{section.4.3}% 32
-\BOOKMARK [0][-]{chapter.5}{Estimation of Standard Model backgrounds}{}% 33
-\BOOKMARK [1][-]{section.5.1}{Flavour-symmetric backgrounds}{chapter.5}% 34
-\BOOKMARK [2][-]{subsection.5.1.1}{Direct measurement of RSF/OF}{section.5.1}% 35
-\BOOKMARK [2][-]{subsection.5.1.2}{Determination of RSF/OF with the factorization method}{section.5.1}% 36
-\BOOKMARK [2][-]{subsection.5.1.3}{Combined correction factors and resulting background estimates}{section.5.1}% 37
-\BOOKMARK [2][-]{subsection.5.1.4}{Validation of background estimates}{section.5.1}% 38
-\BOOKMARK [1][-]{section.5.2}{Drell\205Yan backgrounds}{chapter.5}% 39
-\BOOKMARK [2][-]{subsection.5.2.1}{JZB method}{section.5.2}% 40
-\BOOKMARK [2][-]{subsection.5.2.2}{ETmiss templates method}{section.5.2}% 41
-\BOOKMARK [2][-]{subsection.5.2.3}{Extrapolation to off-Z regions}{section.5.2}% 42
-\BOOKMARK [2][-]{subsection.5.2.4}{Resulting background prediction}{section.5.2}% 43
-\BOOKMARK [0][-]{chapter.6}{Counting experiment}{}% 44
-\BOOKMARK [1][-]{section.6.1}{Results and further studies}{chapter.6}% 45
-\BOOKMARK [1][-]{section.6.2}{Interpretation in simplified models}{chapter.6}% 46
-\BOOKMARK [2][-]{subsection.6.2.1}{Statistical interpretation}{section.6.2}% 47
-\BOOKMARK [0][-]{chapter.7}{Search for a kinematic edge}{}% 48
-\BOOKMARK [1][-]{section.7.1}{Background and signal models}{chapter.7}% 49
-\BOOKMARK [2][-]{subsection.7.1.1}{Model for Drell\205Yan backgrounds}{section.7.1}% 50
-\BOOKMARK [2][-]{subsection.7.1.2}{Model for flavour-symmetric backgrounds}{section.7.1}% 51
-\BOOKMARK [2][-]{subsection.7.1.3}{Signal model}{section.7.1}% 52
-\BOOKMARK [1][-]{section.7.2}{Combined model}{chapter.7}% 53
-\BOOKMARK [1][-]{section.7.3}{Fit validation}{chapter.7}% 54
-\BOOKMARK [2][-]{subsection.7.3.1}{Fit performance on simulation}{section.7.3}% 55
-\BOOKMARK [2][-]{subsection.7.3.2}{Fit performance studies using toy MC}{section.7.3}% 56
-\BOOKMARK [1][-]{section.7.4}{Results}{chapter.7}% 57
-\BOOKMARK [0][-]{chapter.8}{Conclusion}{}% 58
-\BOOKMARK [0][-]{appendix.A}{Simulated Samples}{}% 59
-\BOOKMARK [0][-]{appendix.B}{Dependencies of re}{}% 60
-\BOOKMARK [0][-]{appendix.C}{Dependencies of RT}{}% 61
-\BOOKMARK [0][-]{appendix.D}{Dependencies of Rout/in}{}% 62
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Defintion of variables}{chapter.1}% 2
+\BOOKMARK [0][-]{chapter.2}{The Standard Model and Supersymmetry}{}% 3
+\BOOKMARK [1][-]{section.2.1}{The Standard Model of particle physics}{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.2}{Supersymmetry}{chapter.2}% 5
+\BOOKMARK [2][-]{subsection.2.2.1}{Theoretical foundation}{section.2.2}% 6
+\BOOKMARK [2][-]{subsection.2.2.2}{Dilepton mass edges in SUSY}{section.2.2}% 7
+\BOOKMARK [1][-]{section.2.3}{Standard Model processes}{chapter.2}% 8
+\BOOKMARK [0][-]{chapter.3}{Experimental setup}{}% 9
+\BOOKMARK [1][-]{section.3.1}{CERN Large Hadron Collider}{chapter.3}% 10
+\BOOKMARK [1][-]{section.3.2}{CMS detector}{chapter.3}% 11
+\BOOKMARK [2][-]{subsection.3.2.1}{Tracking system}{section.3.2}% 12
+\BOOKMARK [2][-]{subsection.3.2.2}{Electromagnetic calorimeter}{section.3.2}% 13
+\BOOKMARK [2][-]{subsection.3.2.3}{Hadron calorimeter}{section.3.2}% 14
+\BOOKMARK [2][-]{subsection.3.2.4}{Muon system}{section.3.2}% 15
+\BOOKMARK [1][-]{section.3.3}{Trigger and data acquisition}{chapter.3}% 16
+\BOOKMARK [0][-]{chapter.4}{Data analysis and event selection}{}% 17
+\BOOKMARK [1][-]{section.4.1}{Object reconstruction}{chapter.4}% 18
+\BOOKMARK [2][-]{subsection.4.1.1}{Vertex reconstruction}{section.4.1}% 19
+\BOOKMARK [2][-]{subsection.4.1.2}{Muon reconstruction and identification}{section.4.1}% 20
+\BOOKMARK [2][-]{subsection.4.1.3}{Electron reconstruction and identification}{section.4.1}% 21
+\BOOKMARK [2][-]{subsection.4.1.4}{Observables reconstructed with Particle Flow}{section.4.1}% 22
+\BOOKMARK [1][-]{section.4.2}{Event processing and datasets}{chapter.4}% 23
+\BOOKMARK [2][-]{subsection.4.2.1}{Primary datasets}{section.4.2}% 24
+\BOOKMARK [2][-]{subsection.4.2.2}{Simulated datasets}{section.4.2}% 25
+\BOOKMARK [1][-]{section.4.3}{Event selection}{chapter.4}% 26
+\BOOKMARK [2][-]{subsection.4.3.1}{Event cleaning}{section.4.3}% 27
+\BOOKMARK [2][-]{subsection.4.3.2}{Inclusive dilepton selection}{section.4.3}% 28
+\BOOKMARK [2][-]{subsection.4.3.3}{Selections in ETmiss and jet multiplicity}{section.4.3}% 29
+\BOOKMARK [2][-]{subsection.4.3.4}{Selections in m}{section.4.3}% 30
+\BOOKMARK [0][-]{chapter.5}{Estimation of Standard Model backgrounds}{}% 31
+\BOOKMARK [1][-]{section.5.1}{Flavour-symmetric backgrounds}{chapter.5}% 32
+\BOOKMARK [2][-]{subsection.5.1.1}{Direct measurement of RSF/OF}{section.5.1}% 33
+\BOOKMARK [2][-]{subsection.5.1.2}{Determination of RSF/OF with the factorisation method}{section.5.1}% 34
+\BOOKMARK [2][-]{subsection.5.1.3}{Combined correction factors and resulting background estimates}{section.5.1}% 35
+\BOOKMARK [2][-]{subsection.5.1.4}{Validation of background estimates}{section.5.1}% 36
+\BOOKMARK [1][-]{section.5.2}{Drell\205Yan backgrounds}{chapter.5}% 37
+\BOOKMARK [2][-]{subsection.5.2.1}{JZB method}{section.5.2}% 38
+\BOOKMARK [2][-]{subsection.5.2.2}{ETmiss templates method}{section.5.2}% 39
+\BOOKMARK [2][-]{subsection.5.2.3}{Extrapolation to off-Z regions}{section.5.2}% 40
+\BOOKMARK [2][-]{subsection.5.2.4}{Resulting background prediction}{section.5.2}% 41
+\BOOKMARK [0][-]{chapter.6}{Counting experiment}{}% 42
+\BOOKMARK [1][-]{section.6.1}{Results and further studies}{chapter.6}% 43
+\BOOKMARK [1][-]{section.6.2}{Interpretation in simplified models}{chapter.6}% 44
+\BOOKMARK [2][-]{subsection.6.2.1}{Statistical interpretation}{section.6.2}% 45
+\BOOKMARK [0][-]{chapter.7}{Search for a kinematic edge}{}% 46
+\BOOKMARK [1][-]{section.7.1}{Background and signal models}{chapter.7}% 47
+\BOOKMARK [2][-]{subsection.7.1.1}{Model for Drell\205Yan backgrounds}{section.7.1}% 48
+\BOOKMARK [2][-]{subsection.7.1.2}{Model for flavour-symmetric backgrounds}{section.7.1}% 49
+\BOOKMARK [2][-]{subsection.7.1.3}{Signal model}{section.7.1}% 50
+\BOOKMARK [1][-]{section.7.2}{Combined model}{chapter.7}% 51
+\BOOKMARK [1][-]{section.7.3}{Fit validation}{chapter.7}% 52
+\BOOKMARK [2][-]{subsection.7.3.1}{Fit performance on simulation}{section.7.3}% 53
+\BOOKMARK [2][-]{subsection.7.3.2}{Fit performance studies using toy MC}{section.7.3}% 54
+\BOOKMARK [1][-]{section.7.4}{Results}{chapter.7}% 55
+\BOOKMARK [0][-]{chapter.8}{Conclusion}{}% 56
+\BOOKMARK [0][-]{appendix.A}{Simulated Samples}{}% 57
+\BOOKMARK [0][-]{appendix.B}{Dependencies of re}{}% 58
+\BOOKMARK [0][-]{appendix.C}{Dependencies of RT}{}% 59
+\BOOKMARK [0][-]{appendix.D}{Dependencies of Rout/in}{}% 60

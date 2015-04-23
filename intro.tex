@@ -10,6 +10,8 @@ The full data sample of proton-proton collisions at a centre-of-mass energy of 8
 
 This work builds upon the previous achievements by Nikals Mohr and Daniel Sprenger in their doctoral theses~\cite{Mohr:1423334,Sprenger:1501963} and has been performed in part in collaboration with Marco-Andrea Buchmann~\cite{Buchmann:1704399}. The results have been published by the CMS collaboration~\cite{Khachatryan:2015lwa}. This analysis presents an update of the published result, taking into account a later reprocessing of the data sample with improved calibrations. However, the analysis techniques have not been altered and the outcome of the analysis remains unchanged.
 
+This thesis is structured as follows: The remainder of this section is dedicated to the definition of commonly used variables. Section~\ref{sec:theo} discusses the theoretical foundations relevant to the analysis. In Section~\ref{sec:setup} the LHC and the CMS detector are described. The methods used to analyse the recorded data are outlined in Section~\ref{sec:ana} and the estimation of Standard Model backgrounds is presented in Section~\ref{sec:backgrounds}. The results of the analysis in the two approaches discussed above are discussed in Sections~\ref{sec:counting} and~\ref{sec:fit}. 
+
 \section{Defintion of variables}
 \label{sec:variables}
 Throughout this thesis, quantities are expressed in natural units. In this system, the speed of light and the reduced Planck constant are set to unity:
@@ -39,11 +41,12 @@ are often used. The vectorial sum of the particle's \pt must be zero because of 
 \end{equation}
 is defined as a quantity sensitive to particles leaving the experiment undetected, but also mismeasurements and resolution effects. Usually the absolute value $\MET = \vert \METVec \vert$ is used.
 
-The amount of energy deposited in an event is characterized by the scalar sum of the \pt of all selected hadronic jets (see section~\ref{sec:PF}) 
+The amount of energy deposited in an event is characterised by the scalar sum of the \pt of all selected hadronic jets (see Section~\ref{sec:PF}) 
 \begin{equation}
 \HT = \sum\limits_{\text{jets}} \vert \pt \vert.
 \end{equation}
 
+For the sake of simplicity, particles and anti-particles are not distinguished in expressions if their meaning remains unambiguous from the context. For example, the decay $\mathrm{Z}^0 \rightarrow \ell^+\ell^-$ is simplified to $\Z \rightarrow \ell\ell$.
 %In some of the algorithms used in the triggers which select events for storage (see section~\ref{sec:trigger}), the variable $\alpha_\mathrm{T}$ is used. It is calculated for events with two jets as
 %\begin{equation}
 %\alpha_{\mathrm{T}} = E_{\mathrm{T}}^{\mathrm{j2}} / M_{T},

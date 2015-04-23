@@ -1,13 +1,12 @@
 \label{sec:fit}
-A fit to the \mll distribution is performed in search of the characteristic edge signature described in section~\ref{sec:edges}. Different functions are used to model the contributions of the potential signal, flavour-symmetric backgrounds, and Drell--Yan backgrounds. To fully exploit the available information, an unbinned maximum-likelihood fit is performed simultaneously to the \EE, \MM, and \EM event samples for both the signal and forward dilepton selection in the signal region.
+A fit to the \mll distribution is performed in search of the characteristic edge signature described in Section~\ref{sec:edges}. Different functions are used to model the contributions of the potential signal, flavour-symmetric backgrounds, and Drell--Yan backgrounds. To fully exploit the available information, an unbinned maximum-likelihood fit is performed simultaneously to the \EE, \MM, and \EM event samples for both the signal and forward dilepton selection in the signal region.
 
 \section{Background and signal models}
-
-
+The different parametrisations of the two types of background and the signal are discussed in the following. In some cases, different functional forms or even non-analytical descriptions are used to validate the chosen models. 
 
 \subsection{Model for Drell--Yan backgrounds}
 \label{sec:Zmodel}
-The background model for Drell--Yan events contains of two components: one model for the \Z boson peak and one for the contribution of the Drell--Yan continuum. The latter one is a simple falling exponential function. The peak model consists of a Breit-Wigner function with mean and widths fixed to the PDG values for the \Z boson, convolved with a double-sided crystal ball function~\cite{Crystal}. The first component models the physical peak while the latter accounts for the detector resolution and radiative corrections to the \Z boson lineshape. The double-sided crystal ball itself consists of a Gaussian core and exponential falloffs to both sides of the peak, parametrized as
+The background model for Drell--Yan events contains of two components: one model for the \Z boson peak and one for the contribution of the Drell--Yan continuum. The latter one is a simple falling exponential function. The peak model consists of a Breit-Wigner function with mean and widths fixed to the PDG values for the \Z boson, convolved with a double-sided crystal ball function~\cite{Crystal}. The first component models the physical peak while the latter accounts for the detector resolution and radiative corrections to the \Z boson lineshape. The double-sided crystal ball itself consists of a Gaussian core and exponential falloffs to both sides of the peak, parametrised as
 \begin{eqnarray*}
 \mathcal{P}_{DSCB}(m_{\ell\ell}) = \begin{cases} A_{1} (B_{1}-\frac{m_{ll}-\mu_{CB}}{\sigma_{CB}})^{-n_{1}} &\mbox{if } \frac{m_{ll}-\mu_{CB}}{\sigma_{CB}}<-\alpha_{1} \\
 \textrm{exp}\left(-\frac{(m_{ll}-\mu_{CB})^2}{2\sigma_{CB}^2}\right) &\mbox{if } -\alpha_{1}<\frac{m_{ll}-\mu_{CB}}{\sigma_{CB}}<\alpha_{2} \\
@@ -57,7 +56,7 @@ where $f_{exp}$ is the fraction that the exponential component contributes to th
 \end{table}
 
 
-This model is fitted to the data in the Drell--Yan control region separately for \EE and \MM events after flavour-symmetric backgrounds are subtracted using OF events. Afterwards, all parameters of the model are fixed and only the normalization is left floating in the fit in the signal region. The resulting fits are shown in Figure~\ref{fig:dyFits} and are a good description of the distribution in all cases. 
+This model is fitted to the data in the Drell--Yan control region separately for \EE and \MM events after flavour-symmetric backgrounds are subtracted using OF events. Afterwards, all parameters of the model are fixed and only the normalisation is left floating in the fit in the signal region. The resulting fits are shown in Figure~\ref{fig:dyFits} and are a good description of the distribution in all cases. 
 
 \begin{figure}[htbp]
 \centering
@@ -98,7 +97,7 @@ From the Gaussian core component of the double-sided crystal ball the \mll resol
 
 \subsection{Model for flavour-symmetric backgrounds}
 
-\subsubsection{Nominal parametrization}
+\subsubsection{Nominal parametrisation}
 Flavour-symmetric models are described with a model consisting of three parts. The rising flank of the distribution is modelled by a power law, the peak region with a fourth order polynomial and the falling flank with an exponential fall-off. 
 
 \begin{eqnarray*}
@@ -107,7 +106,7 @@ Flavour-symmetric models are described with a model consisting of three parts. T
 {\mathcal{P}}_{FS,3}(m_{\ell\ell}) = c_{3}\cdot e^{-\beta m_{\ell\ell}} & \mbox{if } m_{\ell\ell}^{(2)}<m_{\ell\ell}<300\GeV \\
 \end{cases} 
 \end{eqnarray*}
-where $m_{\ell\ell}^{(1)}$ and $m_{\ell\ell}^{(2)}$ are the transition points between the different parts of the model. The model is required to be normalized and also to be continuously differentiable in $m_{\ell\ell}^{(1)}$ and $m_{\ell\ell}^{(2)}$, reducing the number of free parameters to five. A full list of the parameters and their properties is given in Table~\ref{tab:Fit_Par_Overview_FS}.
+where $m_{\ell\ell}^{(1)}$ and $m_{\ell\ell}^{(2)}$ are the transition points between the different parts of the model. The model is required to be normalised and also to be continuously differentiable in $m_{\ell\ell}^{(1)}$ and $m_{\ell\ell}^{(2)}$, reducing the number of free parameters to five. A full list of the parameters and their properties is given in Table~\ref{tab:Fit_Par_Overview_FS}.
 
 \begin{table}[htbp]
 \begin{center}
@@ -128,18 +127,18 @@ where $m_{\ell\ell}^{(1)}$ and $m_{\ell\ell}^{(2)}$ are the transition points be
 
 A variety of alternative models for the flavour-symmetric has been explored to validate the results obtained with the model described above. 
 
-\paragraph{Parametrization from 2011 analysis}\mbox{} \\
-This parametrization was used in a previous version of the analysis~\cite{edge2011}: 
+\paragraph{Parametrisation from 2011 analysis}\mbox{} \\
+This parametrisation was used in a previous version of the analysis~\cite{edge2011}: 
 \begin{equation*}
  \mathcal{P}_{FSE}(m_{\ell\ell}) = c_{1} m_{\ell\ell}^{\alpha} e^{-\beta m_{\ell\ell}}
 \end{equation*}
 It was found to not describe the distrubtion of flavour-symmetric backgrounds after lepton \pt cuts had been raised with respect to the analysis of the 2011 dataset, but is still a useful tool for fit performance studies, as the low number of parameters reduces the runtime of the fit, allowing for tests using a large number of simulated datasets.
 \paragraph{Sum of three Gaussians}\mbox{} \\
-In this case the sum of three Gaussians is chosen as an analytical parametrization of the flavour-symmetric backgrounds. The free parameters of the shape are the means and widths of the Gaussians.
+In this case the sum of three Gaussians is chosen as an analytical parametrisation of the flavour-symmetric backgrounds. The free parameters of the shape are the means and widths of the Gaussians.
 \begin{equation*}
 \mathcal{P}_{FS}(m_{\ell\ell}) = \mathrm{Gauss}(\mathrm{mean}_1,\sigma_1) + \mathrm{Gauss}(\mathrm{mean}_2,\sigma_2) + \mathrm{Gauss}(\mathrm{mean}_3,\sigma_3)\\
 \end{equation*}
-The shape is found to well describe the flavour-symmetric background and to be in good agreement with the default parametrization.
+The shape is found to well describe the flavour-symmetric background and to be in good agreement with the default parametrisation.
 \paragraph{Binned Subtraction}\mbox{} \\
 
 
@@ -147,7 +146,7 @@ The shape is found to well describe the flavour-symmetric background and to be i
 
 As an alternative to analytical functions, the binned dilepton-mass distribution in the OF channel is directly used as  template of the distribution of flavour-symmetric backgrounds in the same-flavour channels. This results in a bin-by-bin subtraction of the flavour-symmetric background estimation from same-flavour yields taking into account the \Rsfof correction factor, similar to the counting experiment.
 
-This approach has the advantage of not needing any prior knowledge on the shape of the flavour-symmetric background. It is, however, more susceptible to statistical fluctuations, as they are not smoothed out. In order to minimize the impact of these fluctuations, a bin width of 5\GeV is chosen. This method is not suited to provide quantitative results because the statistical uncertainties on shape are not considered in the fit after it has been fixed on the OF data.
+This approach has the advantage of not needing any prior knowledge on the shape of the flavour-symmetric background. It is, however, more susceptible to statistical fluctuations, as they are not smoothed out. In order to minimise the impact of these fluctuations, a bin width of 5\GeV is chosen. This method is not suited to provide quantitative results because the statistical uncertainties on shape are not considered in the fit after it has been fixed on the OF data.
 
 \paragraph{Smoothed Subtraction}\mbox{} \\
 Similarly to the binned subtraction, the opposite flavour data distribution is directly used to predict the background in the same flavour distribution. The shape is constructed by adding one Gaussian distribution at the corresponding value of \mll for each event in the dataset using a one-dimensional kernel PDF (\emph{RooKeysPdf} class in RooFit). In this approach, the probability density function for a sample of a random variable of size $n$ is estimated by a kernel density
@@ -161,13 +160,13 @@ Here $K$ is the so called kernel, for which a normal distribution is chosen, and
 
 \subsection{Signal model}
 \label{sec:sigModel}
-While the shape of the signal depends on the details of the signal model, deviations from a simple triangular shape are small compared to the detector resolution. The signal is therefore modelled by such a triangle, convolved with a Gaussian distribution. The width of the Gaussian $\sigma_{\ell\ell}$ depends on the detector resolution in the corresponding channel and is obtained from the fit to the \Z boson peak in the Drell--Yan control region described in Section~\ref{sec:Zmodel}. The model can be parametrized as
+While the shape of the signal depends on the details of the signal model, deviations from a simple triangular shape are small compared to the detector resolution. The signal is therefore modelled by such a triangle, convolved with a Gaussian distribution. The width of the Gaussian $\sigma_{\ell\ell}$ depends on the detector resolution in the corresponding channel and is obtained from the fit to the \Z boson peak in the Drell--Yan control region described in Section~\ref{sec:Zmodel}. The model can be parametrised as
 \begin{equation}
  {\mathcal{P}}_{S}(m_{\ell\ell}) = \frac{1}{\sqrt{2\pi\sigma_{\ell\ell}}} \int_{0}^{m_{\ell\ell}^{edge}} y \cdot \textrm{exp}\left( -\frac{(m_{\ell\ell}-y)^2}{2\sigma_{\ell\ell}^{2}}\right) dy,
 \end{equation}
 with the endpoint of the triangle $m_{\ell\ell}^{edge}$ as the only free parameter.
 
-To cross check the dependence of the results on the parametrization of the signal, two additional signal shapes are defined. Here the linear dependence on \mll is replaced by quartic dependencies with different signs, resulting in concave and convex shapes instead of the simple triangle:
+To cross check the dependence of the results on the parametrisation of the signal, two additional signal shapes are defined. Here the linear dependence on \mll is replaced by quartic dependencies with different signs, resulting in concave and convex shapes instead of the simple triangle:
 
 \begin{equation}
 \label{eq:convex}
@@ -193,7 +192,7 @@ The parameters of the signal model are listed in Table~\ref{tab:Fit_Par_Overview
 \end{center}
 \end{table}
 
-The signal model is fitted to simulation using four parameter points of the fixed-edge and slepton-edge models described in Section~\ref{sec:models}. The points are chosen to study edges produced in decays both via an off-shell \Z boson and sleptons and also to test the fit performance for edge positions below, on, and above the \Z boson peak. The signal parameters are summarised in table~\ref{tab:signals} and will be referenced by their labels S1-S4 in the following.
+The signal model is fitted to simulation using four parameter points of the fixed-edge and slepton-edge models described in Section~\ref{sec:models}. The points are chosen to study edges produced in decays both via an off-shell \Z boson and sleptons and also to test the fit performance for edge positions below, on, and above the \Z boson peak. The signal parameters are summarised in Table~\ref{tab:signals} and will be referenced by their labels S1-S4 in the following.
 
 \begin{table}[htbp]
 
@@ -231,7 +230,7 @@ Fits to the fixed-edge model points S1 are shown in Figure~\ref{fig:signalModel:
   \begin{minipage}[t]{0.49\textwidth}
     \includegraphics[width=\textwidth]{plots/results/fit/mcFits/shapeIllustrationKX4_SignalInclusive_Combined_Full2012_KX4_MC_edge_400_150_80_Forward.pdf}
   \end{minipage}
-  \caption{Fit of the signal model to the fixed-edge model S1 (see table~\ref{tab:signals}). Shown are fits with the nominal triangular shape (top) and the convex shape with floating exponent (bottom) in both the central (left) and forward (right) signal regions.}
+  \caption{Fit of the signal model to the fixed-edge model S1 (see Table~\ref{tab:signals}). Shown are fits with the nominal triangular shape (top) and the convex shape with floating exponent (bottom) in both the central (left) and forward (right) signal regions.}
   \label{fig:signalModel:edge}
 \end{figure}
 
@@ -245,7 +244,7 @@ In Figure~\ref{fig:signalModel:slepton} a fit to the slepton-edge model point S2
   \begin{minipage}[t]{0.49\textwidth}
     \includegraphics[width=\textwidth]{plots/results/fit/mcFits/shapeIllustrationKTriangle_SignalInclusive_Combined_Full2012_KTriangle_MC_slepton_500_175_100_Forward.pdf}
   \end{minipage}
-\caption{Fit of the signal model to the slepton-edge model S2 (see table~\ref{tab:signals}). Shown are fits in both the central (left) and forward (right) signal regions.}
+\caption{Fit of the signal model to the slepton-edge model S2 (see Table~\ref{tab:signals}). Shown are fits in both the central (left) and forward (right) signal regions.}
   \label{fig:signalModel:slepton}
 \end{figure}
 
@@ -278,7 +277,7 @@ To reduce the number of free parameters, a universal fraction of \EE events in b
 \end{eqnarray*}
   \end{minipage}
 \end{center}
-The systematic uncertainty on \Rsfof is included in the fit as a constraint in form of a Gaussian PDF with mean and width set to the values measured in section~\ref{sec:combinedRSFOF}:
+The systematic uncertainty on \Rsfof is included in the fit as a constraint in form of a Gaussian PDF with mean and width set to the values measured in Section~\ref{sec:combinedRSFOF}:
 \begin{equation*}
 {\mathcal{G}}\left(\Rsfof;\Rsfof^{\text{measured}},\sigma_{\Rsfof}^{\text{measured}}\right).
 \end{equation*}
@@ -295,7 +294,7 @@ The full likelihood of the model as a function of \mll for a given set of parame
                         &\times& \prod_{\EM,i}\left[N_{FS}^{OF,i} \cdot {\mathcal{P}}_{FS}^i(m_{\ell\ell};\mathbf{p}_{FS}^i)\right] \\   
                         &\times& {\mathcal{G}^i\left(\Rsfof^i\right)}, \\
 \end{eqnarray*}
-where the different $\mathbf{p}^i_{x}$ denote the sets of free parameters of the models and the $\mathcal{N}_i$ are Poisson factors taking into account the normalization of the different samples. These factors take the form of
+where the different $\mathbf{p}^i_{x}$ denote the sets of free parameters of the models and the $\mathcal{N}_i$ are Poisson factors taking into account the normalisation of the different samples. These factors take the form of
 \begin{equation*}
 \mathcal{N}_i = \frac{(N_{FS}^{\ell\ell,i} + N_{Z}^{\ell\ell,i} + N_{S}^{\ell\ell,i})^{N_i^{\ell\ell}} e^{-(N_{FS}^{\ell\ell,i} + N_{Z}^{\ell\ell,i} + N_{S}^{\ell\ell,i})}}{N_i^{\ell\ell}!}
 \end{equation*} 
@@ -314,7 +313,7 @@ A full overview over all parameters of the model is shown in Table~\ref{tab:Fit_
  \caption{List of parameters of the full fit model. For more details on the parameter sets $\mathbf{p}_{FS}$, $\mathbf{p}_{Z}$, and $\mathbf{p}_{S}$ see Tables~\ref{tab:Fit_Par_Overview_Z},~\ref{tab:Fit_Par_Overview_FS}, and~\ref{tab:Fit_Par_Overview_Sig}. For yield parameters the initial value and allowed range are calculated from the observed yields $N_{SF}$ and $N_{OF}$ in the signal region for both the central (C) and forward (F) dilepton selection.\label{tab:Fit_Par_Overview_Full}}
 \begin{tabular}{c|c|c|c|ccccccccccccccccccccc}
 parameter & status & initial value & minimum & maximum \\ \hline
-\multicolumn{5}{c}{Normalization parameters}\\ \hline
+\multicolumn{5}{c}{Normalisation parameters}\\ \hline
 $N_{FS}^{C}$ & floating & $0.7\cdot N_{OF}^{C}$ & 0 & $2\cdot N_{OF}^{C}$ \\
 $N_{FS}^{F}$ & floating & $0.7\cdot N_{OF}^{F}$ & 0 & $2\cdot N_{OF}^{F}$ \\
 $N_{S}^{C}$ & floating & 0 &  $-0.4\cdot N_{SF}^{C}$ &  $0.4\cdot N_{SF}^{C}$ \\
@@ -340,13 +339,13 @@ $R_{SF/OF}^{F}$ & constrained & $R_{SF/OF}^{F,\text{meas.}}$  & $R_{SF/OF}^{F,\t
 \section{Fit validation}
 Before the fit is applied to data, several studies are performed to assess its performance in different scenarios. The fit is performed on simulated SM backgrounds and several benchmark signal points. As the results are subject to the fluctuations of the specific MC samples available for this study, the fit performance is studied in detail using a large number of toy datasets generated from the fit model itself. 
 \subsection{Fit performance on simulation}
-The ability of the fit to correctly describe different datasets is tested using simulation. The full list of background processes is considered and fits are performed with and without the addition of signal points from the fixed-edge and slepton-edge models described in section~\ref{sec:models}. To retain an acceptable runtime of the unbinned fit a smaller inclusive $t\bar{t}$ sample is used instead of the large samples separated into the different final states. 
+The ability of the fit to correctly describe different datasets is tested using simulation. The full list of background processes is considered and fits are performed with and without the addition of signal points from the fixed-edge and slepton-edge models described in Section~\ref{sec:models}. To retain an acceptable runtime of the unbinned fit a smaller inclusive $t\bar{t}$ sample is used instead of the large samples separated into the different final states. 
 
-The result of a fit to background-only simulation is shown in Figure~\ref{fig:mc:bgOnly}. The combined model is a good description of the simulation. A negative signal yield is fitted in both the central and forward signal region. While in the central region this is a small effect compared to the fitted uncertainty, in the forward region there is a large underfluctuation of the background at lower invariant masses, leading to a fitted signal yield of $-38\pm15.0$ events. To verify that this is indeed the global minimum, a scan of the log-likelihood versus \mlledge is performed. The result is shown in Figure~\ref{fig:mc:bgOnlyProfile}. Above the \Z boson peak the result is only little dependent on \mlledge. Below the peak, however, there is relatively broad minimum with a large rise directly above the global minimum, which reflects the fluctuation in the simulation in the forward region around $\unit{70}{\giga\electronvolt}$. Several relevant fit parameters in the central signal region are shown in table~\ref{tab:mc:signalInjected}.
+The result of a fit to background-only simulation is shown in Figure~\ref{fig:mc:bgOnly}. The combined model is a good description of the simulation. A negative signal yield is fitted in both the central and forward signal region. While in the central region this is a small effect compared to the fitted uncertainty, in the forward region there is a large underfluctuation of the background at lower invariant masses, leading to a fitted signal yield of $-38\pm15.0$ events. To verify that this is indeed the global minimum, a scan of the log-likelihood versus \mlledge is performed. The result is shown in Figure~\ref{fig:mc:bgOnlyProfile}. Above the \Z boson peak the result is only little dependent on \mlledge. Below the peak, however, there is relatively broad minimum with a large rise directly above the global minimum, which reflects the fluctuation in the simulation in the forward region around $\unit{70}{\giga\electronvolt}$. Several relevant fit parameters in the central signal region are shown in Table~\ref{tab:mc:signalInjected}.
 
 \begin{table}[htbp]
 \centering
-\caption{Fit result in the central signal region on simulation. Shown are fits to background-only simulation as well as to the signal points described in section~\ref{sec:sigModel}.}
+\caption{Fit result in the central signal region on simulation. Shown are fits to background-only simulation as well as to the signal points described in Section~\ref{sec:sigModel}.}
 \label{tab:mc:signalInjected}
 \begin{tabular}{l|c|c|c|c|c}
  & bgkd only & S1 & S2 & S3 & S4 \\ \hline
@@ -385,9 +384,9 @@ fitted $R_{SF/OF}^{central}$ & $1.004\pm0.024$ & $1.000\pm0.024$ & $1.004\pm0.01
 \label{fig:mc:bgOnlyProfile}
 \end{figure}
 
-The signal points S1-S4 discussed in section~\ref{sec:sigModel} are used to test the fits ability to reproduce the parameters of a signal. Figure~\ref{fig:mc:signalInjection} shows the results for the SF dataset in the central signal region for all four hypothesis. 
+The signal points S1-S4 discussed in Section~\ref{sec:sigModel} are used to test the fits ability to reproduce the parameters of a signal. Figure~\ref{fig:mc:signalInjection} shows the results for the SF dataset in the central signal region for all four hypothesis. 
 
-In all four cases, the correct edge position is found with good precision. In case of the fixed-edge signal point S1, the signal shape differs significantly from the triangular shape assumed in the fit. However, in the absence of background, the parameters of the signal model are reproduced with high accuracy as demonstrated in section~\ref{sec:sigModel}. Comparing the fitted values for the number of signal events ($119.3\pm40.8$ and $122.2\pm11.1$) and \mlledge ($\unit{68.8\pm3.6}{\giga\electronvolt}$ and $\unit{68.8\pm0.6}{\giga\electronvolt}$) with and without backgrounds, the presence of the backgrounds does not significantly affect the result, except for much increased uncertainties. It can be concluded that the triangular shape is suitable to extract the signal parameters of more convex shapes. A more detailed study of the biases introduced by different signal shapes in described in section~\ref{sec:toysW}. 
+In all four cases, the correct edge position is found with good precision. In case of the fixed-edge signal point S1, the signal shape differs significantly from the triangular shape assumed in the fit. However, in the absence of background, the parameters of the signal model are reproduced with high accuracy as demonstrated in Section~\ref{sec:sigModel}. Comparing the fitted values for the number of signal events ($119.3\pm40.8$ and $122.2\pm11.1$) and \mlledge ($\unit{68.8\pm3.6}{\giga\electronvolt}$ and $\unit{68.8\pm0.6}{\giga\electronvolt}$) with and without backgrounds, the presence of the backgrounds does not significantly affect the result, except for much increased uncertainties. It can be concluded that the triangular shape is suitable to extract the signal parameters of more convex shapes. A more detailed study of the biases introduced by different signal shapes in described in Section~\ref{sec:toysW}. 
 
 For the three slepton-edge signals S2-S4, the edge position is well reproduced by the fit. The fitted signal yield, however, can be significantly lower than the injected one. This effect increases with \mlledge because the fit is able to accommodate higher values of \Rsfof, increasing the background contribution. This is accompanied by a slight increase of the fitted Drell--Yan yield. Another notable feature is the contribution of the signal to the flavour-symmetric backgrounds, which is of the order of 40-80 events for the studied signal points.
 
@@ -414,7 +413,7 @@ For the three slepton-edge signals S2-S4, the edge position is well reproduced b
 
 \subsection{Fit performance studies using toy MC}
 \label{sec:toys}
-The performance of the fit is studied using toy datasets. These are generated by fitting the background shape for flavour-symmetric backgrounds to OF events in simulation. From this shape new opposite-flavour datasets are generated, fluctuating the normalization using a Poisson distribution. Electron-electron and muon-muon datasets are generated from the sum of the  shape for flavour-symmetric backgrounds and the Drell--Yan model. The normalization of this shape is given by the normalization for flavour-symmetric backgrounds multiplied by \Rsfof plus the combined JZB and $E_T^{miss}$-template predictions. This yield is split into the \EE and \MM datasets according to the measured \Reeof and \Rmmof values. Each of the two yields is fluctuated independently according to a Poisson distribution when dicing the toy MC. If desired, a signal is injected in the same-flavour datasets using the nominal signal shape in a similar fashion. To reflect that the signal yield is expected to be higher in the central dilepton selection, the signal contribution in the forward selection is chosen to be smaller by a factor of three. The combined fit is performed on each of the datasets generated in this fashion. As the nominal background shape is quite resource intensive, the parametrization from the 2011 analysis is used in these studies in order to generate sufficient statistics, after verifying that this has no significant impact of the results. In general around 1000 toys are generated for each configuration.
+The performance of the fit is studied using toy datasets. These are generated by fitting the background shape for flavour-symmetric backgrounds to OF events in simulation. From this shape new opposite-flavour datasets are generated, fluctuating the normalisation using a Poisson distribution. Electron-electron and muon-muon datasets are generated from the sum of the  shape for flavour-symmetric backgrounds and the Drell--Yan model. The normalisation of this shape is given by the normalisation for flavour-symmetric backgrounds multiplied by \Rsfof plus the combined JZB and $E_T^{miss}$-template predictions. This yield is split into the \EE and \MM datasets according to the measured \Reeof and \Rmmof values. Each of the two yields is fluctuated independently according to a Poisson distribution when dicing the toy MC. If desired, a signal is injected in the same-flavour datasets using the nominal signal shape in a similar fashion. To reflect that the signal yield is expected to be higher in the central dilepton selection, the signal contribution in the forward selection is chosen to be smaller by a factor of three. The combined fit is performed on each of the datasets generated in this fashion. As the nominal background shape is quite resource intensive, the parametrisation from the 2011 analysis is used in these studies in order to generate sufficient statistics, after verifying that this has no significant impact of the results. In general around 1000 toys are generated for each configuration.
 \subsubsection{Studies without signal injection}
 \label{sec:toysWO}
 The edge fit is performed on toys generated from the background models. In one case, the toys are fitted with a floating edge position. In the other, it is fixed at $\unit{70}{\giga\electronvolt}$. Figure~\ref{fig:toys:backgroundOnly} shows resulting distributions. On the left side, the number of fitted signal events in the central region divided by its uncertainty is shown. In case of the fixed edge the fit results are distributed following a unit Gaussian centred around zero, as expected in absence of a signal.  For the case of a floating edge position, however, the distribution exhibits two peaks, symmetrically below and above zero. This is a manifestation of the ``look-elsewhere-effect'' introduced by the degree of freedom of the edge position. On the right side of Figure~\ref{fig:toys:backgroundOnly}, the distributions of the fitted values of \Rsfof are shown, again for the central selection. In both cases, the value used in the generation of the toys of 1.013 is well reproduced. Also, the width of the distribution is identical in both cases,  illustrating that the floating edge position does not introduce biases apart from favouring results with a higher number of signal events.
@@ -431,13 +430,13 @@ The edge fit is performed on toys generated from the background models. In one c
   \label{fig:toys:backgroundOnly}
 \end{figure}
 
-The distribution of the fitted edge position versus the initial value is shown in Figure~\ref{fig:toys:backgroundOnlyFloatEdge}. The initial values has been randomized between 0 and $\unit{300}{\giga\electronvolt}$. To ensure that the initial value is inside the allowed range for \mlledge, diced values below $\unit{35}{\giga\electronvolt}$ are set to this value. In absence of a signal a strong correlation between the initial and observed value of \mlledge is observed. This suggests that the fit tends to converge to the next local minimum of the negative log-likelihood. It is therefore necessary to choose a suitable initial value close to the global minimum before the fit is performed. 
+The distribution of the fitted edge position versus the initial value is shown in Figure~\ref{fig:toys:backgroundOnlyFloatEdge}. The initial values has been randomised between 0 and $\unit{300}{\giga\electronvolt}$. To ensure that the initial value is inside the allowed range for \mlledge, diced values below $\unit{35}{\giga\electronvolt}$ are set to this value. In absence of a signal a strong correlation between the initial and observed value of \mlledge is observed. This suggests that the fit tends to converge to the next local minimum of the negative log-likelihood. It is therefore necessary to choose a suitable initial value close to the global minimum before the fit is performed. 
 
 \begin{figure}[hbp]
   \centering
 
     \includegraphics[width=0.6\textwidth]{plots/results/fit/toyResults/fittedM0vsinitialM0_backgroundOnly_randM0_NegSig.pdf}
-  \caption{Distribution of fitted versus initial values of \mlledge in the case of the randomized initial values for toys without an injected signal.}
+  \caption{Distribution of fitted versus initial values of \mlledge in the case of the randomised initial values for toys without an injected signal.}
   \label{fig:toys:backgroundOnlyFloatEdge}
 \end{figure}
 
@@ -499,7 +498,7 @@ The width of the distribution of the fitted \mlledge is shown on the left side o
   \centering
 
     \includegraphics[width=0.6\textwidth]{plots/results/fit/toyResults/fittedM0vsinitialM0_signalInjectedM70N125_NegSig.pdf}
-  \caption{Distribution of fitted versus initial values of \mlledge in the case of the randomized initial values for toys with an injected signal at $\unit{\mlledge = 70}{\giga\electronvolt}$.}
+  \caption{Distribution of fitted versus initial values of \mlledge in the case of the randomised initial values for toys with an injected signal at $\unit{\mlledge = 70}{\giga\electronvolt}$.}
   \label{fig:toys:randM0Signal}
 \end{figure}
 
@@ -519,7 +518,7 @@ The right side of Figure~\ref{fig:toys:scanFits} shows the means and widths of f
     \label{fig:toys:scanFits}
 \end{figure}
 
-To test deviations from the assumed signal shape, toys are generated with a signal injected at $\unit{\mlledge = 70}{\giga\electronvolt}$ and a size of 125 events, but following the convex and concave signal shapes described in section~\ref{sec:sigModel}. They are then fitted using the nominal triangular signal shape. Resulting distributions are shown in Figure~\ref{fig:toys:signalInjectedShapeBias}. When fitting a convex signal with the triangular shape a bias towards higher signal yields of 20 events is introduced, together with a preference of slightly higher values for \mlledge. This higher signal yield is achieved by systematically reducing the value of \Rsfof. Less strong effects are observed in the case of a convex signal. Here, a bias towards a reduced signal yield of about 10 events is present, together with a much wider distribution of the fitted \mlledge. In this case, no change in the distribution of the fitted \Rsfof compared to the nominal signal shape is observed. 
+To test deviations from the assumed signal shape, toys are generated with a signal injected at $\unit{\mlledge = 70}{\giga\electronvolt}$ and a size of 125 events, but following the convex and concave signal shapes described in Section~\ref{sec:sigModel}. They are then fitted using the nominal triangular signal shape. Resulting distributions are shown in Figure~\ref{fig:toys:signalInjectedShapeBias}. When fitting a convex signal with the triangular shape a bias towards higher signal yields of 20 events is introduced, together with a preference of slightly higher values for \mlledge. This higher signal yield is achieved by systematically reducing the value of \Rsfof. Less strong effects are observed in the case of a convex signal. Here, a bias towards a reduced signal yield of about 10 events is present, together with a much wider distribution of the fitted \mlledge. In this case, no change in the distribution of the fitted \Rsfof compared to the nominal signal shape is observed. 
 
 \begin{figure}[!hbp]
   \centering
@@ -587,10 +586,10 @@ The p-Value of the fit result is in both cases given by the fraction of results 
 
 As the applicability of Wilk's theorem has been established, local p-Values and significances can be calculated analytically from the $\chi^2$ function for two degrees of freedom. The p-Value is defined as the integral of the function above the value of $-2\Delta(log(L))$ observed on data for a fit performed with fixed edge position. Performing such a fit on data with \mlledge set to the observed value, this results in a p-Value of 0.014, corresponding to a significance of $2.5\sigma$. This is well compatible with the result observed using toy MC. The local significances reported in Table~\ref{tab:fitResult} and those discussed in the following are calculated using the analytical calculation as it is much faster and not affected by statistical uncertainties. Also, the toys have the small caveat that a different background shape than in the nominal fit is used. 
 
-As further validation of the result on data, the results obtained with different parametrizations of the flavour-symmetric background are compared to the nominal result in Table~\ref{tab:fitComparison}. For the sake of clarity, only yields in the central signal region are shown. However, similar agreement is observed in the forward signal region. In general, there is good agreement between all considered parametrizations. The best agreement is seen in the number of fitted flavour-symmetric events in the OF sample, which is expected as here the fit is most simple, consisting only of the shape for flavour-symmetric backgrounds. Good agreement is also observed for $m_{\ell\ell}^{egde}$ and the number of signal events, which are stable against the choice of background model. The largest differences are observed for \Rsfof and the yield of the Drell--Yan model, which the fit can trade off against each other, depending on the parametrization of the flavour-symmetric background. Here, the largest deviations are observed for the shape used in the analysis of the $\unit{7}{\tera\electronvolt}$ dataset. As this shape is known to not satisfactorily described the flavour-symmetric background, it is encouraging to see that the fit result is stable against such biases. The observed local significance is very similar among all analytical parametrizations. In the case of the KDE and the binned parametrization, the shape of the distribution is not free in the fit, as discussed above, excluding the statistical uncertainty of the OF sample from the fit and resulting in an systematically larger local significance. 
+As further validation of the result on data, the results obtained with different parametrisations of the flavour-symmetric background are compared to the nominal result in Table~\ref{tab:fitComparison}. For the sake of clarity, only yields in the central signal region are shown. However, similar agreement is observed in the forward signal region. In general, there is good agreement between all considered parametrisations. The best agreement is seen in the number of fitted flavour-symmetric events in the OF sample, which is expected as here the fit is most simple, consisting only of the shape for flavour-symmetric backgrounds. Good agreement is also observed for $m_{\ell\ell}^{egde}$ and the number of signal events, which are stable against the choice of background model. The largest differences are observed for \Rsfof and the yield of the Drell--Yan model, which the fit can trade off against each other, depending on the parametrisation of the flavour-symmetric background. Here, the largest deviations are observed for the shape used in the analysis of the $\unit{7}{\tera\electronvolt}$ dataset. As this shape is known to not satisfactorily described the flavour-symmetric background, it is encouraging to see that the fit result is stable against such biases. The observed local significance is very similar among all analytical parametrisations. In the case of the KDE and the binned parametrisation, the shape of the distribution is not free in the fit, as discussed above, excluding the statistical uncertainty of the OF sample from the fit and resulting in an systematically larger local significance. 
 
 \input{tab/table_fit_comparison.tex}
 
-To compare the fit result with that of the counting experiment, the fitted event yields in the low-mass region for central dilepton events have been derived. They are shown in Table~\ref{tab:fitResultLowMass}, together with the background predictions and the observed yield of the counting experiment in that region. Also, the fitted yield for Drell--Yan backgrounds  in the on-\Z region is compared to the prediction. The fitted yield exceeds that of the prediction by 26 events, a difference that is well covered by the uncertainties of the fit and the prediction. In the low-mass region good agreement between counting experiment and fit is observed, also. The Drell--Yan background is again fitted higher than expected from the prediction, as the ratio between the off-shell component and the peak is fixed and the normalization of this model is determined dominantly on the Z boson peak. In the fit the contribution of flavour-symmetric backgrounds is increased, caused by the increased value of \Rsfof. This is reflected in a signal yield that is lower by 11 events. For all considered components the use of shape information has allowed for reduced uncertainties on the event yields, most notably on the yield for flavour-symmetric backgrounds. 
+To compare the fit result with that of the counting experiment, the fitted event yields in the low-mass region for central dilepton events have been derived. They are shown in Table~\ref{tab:fitResultLowMass}, together with the background predictions and the observed yield of the counting experiment in that region. Also, the fitted yield for Drell--Yan backgrounds  in the on-\Z region is compared to the prediction. The fitted yield exceeds that of the prediction by 26 events, a difference that is well covered by the uncertainties of the fit and the prediction. In the low-mass region good agreement between counting experiment and fit is observed, also. The Drell--Yan background is again fitted higher than expected from the prediction, as the ratio between the off-shell component and the peak is fixed and the normalisation of this model is determined dominantly on the Z boson peak. In the fit the contribution of flavour-symmetric backgrounds is increased, caused by the increased value of \Rsfof. This is reflected in a signal yield that is lower by 11 events. For all considered components the use of shape information has allowed for reduced uncertainties on the event yields, most notably on the yield for flavour-symmetric backgrounds. 
 
 \input{tab/table_fit_CountingCompare.tex}
