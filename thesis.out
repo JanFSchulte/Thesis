@@ -1,10 +1,10 @@
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.1.1}{Defintion of variables}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.1}{Definition of variables}{chapter.1}% 2
 \BOOKMARK [0][-]{chapter.2}{The Standard Model and Supersymmetry}{}% 3
 \BOOKMARK [1][-]{section.2.1}{The Standard Model of particle physics}{chapter.2}% 4
 \BOOKMARK [1][-]{section.2.2}{Supersymmetry}{chapter.2}% 5
 \BOOKMARK [2][-]{subsection.2.2.1}{Theoretical foundation}{section.2.2}% 6
-\BOOKMARK [2][-]{subsection.2.2.2}{Dilepton mass edges in SUSY}{section.2.2}% 7
+\BOOKMARK [2][-]{subsection.2.2.2}{Dilepton mass edges in Supersymmetry}{section.2.2}% 7
 \BOOKMARK [1][-]{section.2.3}{Standard Model processes}{chapter.2}% 8
 \BOOKMARK [0][-]{chapter.3}{Experimental setup}{}% 9
 \BOOKMARK [1][-]{section.3.1}{CERN Large Hadron Collider}{chapter.3}% 10
@@ -51,10 +51,11 @@
 \BOOKMARK [1][-]{section.7.2}{Combined model}{chapter.7}% 51
 \BOOKMARK [1][-]{section.7.3}{Fit validation}{chapter.7}% 52
 \BOOKMARK [2][-]{subsection.7.3.1}{Fit performance on simulation}{section.7.3}% 53
-\BOOKMARK [2][-]{subsection.7.3.2}{Fit performance studies using toy MC}{section.7.3}% 54
-\BOOKMARK [1][-]{section.7.4}{Results}{chapter.7}% 55
+\BOOKMARK [2][-]{subsection.7.3.2}{Fit performance studies using toy datasets}{section.7.3}% 54
+\BOOKMARK [1][-]{section.7.4}{Fit results on data}{chapter.7}% 55
 \BOOKMARK [0][-]{chapter.8}{Conclusion}{}% 56
-\BOOKMARK [0][-]{appendix.A}{Simulated Samples}{}% 57
-\BOOKMARK [0][-]{appendix.B}{Dependencies of re}{}% 58
-\BOOKMARK [0][-]{appendix.C}{Dependencies of RT}{}% 59
-\BOOKMARK [0][-]{appendix.D}{Dependencies of Rout/in}{}% 60
+\BOOKMARK [0][-]{appendix.A}{Trigger paths}{}% 57
+\BOOKMARK [0][-]{appendix.B}{Simulated Samples}{}% 58
+\BOOKMARK [0][-]{appendix.C}{Dependencies of re}{}% 59
+\BOOKMARK [0][-]{appendix.D}{Dependencies of RT}{}% 60
+\BOOKMARK [0][-]{appendix.E}{Dependencies of Rout/in}{}% 61

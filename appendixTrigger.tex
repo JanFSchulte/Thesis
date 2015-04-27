@@ -1,0 +1,49 @@
+\chapter{Trigger paths}
+\label{app:trigger}
+An overview of the dilepton trigger paths used in the analysis is given in Table~\ref{tab:HLTs}. Shown are the names of the HLT paths and the underlying L1 trigger requirements. Numbers indicate thresholds in $\mathrm{GeV}$, while \verb+Open+ indicates a threshold of $\unit{0}{\giga\electronvolt}$. Auxiliary trigger used in the analysis are shown in Table~\ref{tab:HLTs2}. 
+\begin{table}[htp]
+\centering
+\caption{Dilepton HLT paths used in this analyis.}
+\label{tab:HLTs}
+\begin{tabular}{c|c|c}
+$\ell\ell$ & L1 seed & HLT path \\\hline
+\multirow{2}{*}{$ee$} & \multirow{2}{*}{\Q{L1_DoubleEG_13_7}} & \verb+HLT_Ele17_CaloIdT_CaloIsoVL_TrkIdVL_TrkIsoVL+\\
+& & \verb+_Ele8_CaloIdT_CaloIsoVL_TrkIdVL_TrkIsoVL+ \\ \hline
+\multirow{2}{*}{$\mu\mu$} & \verb+L1_DoubleMu_10_Open+ & \multirow{2}{*}{\Q{HLT_Mu17_Mu8} or \Q{HLT_Mu17_TkMu8}} \\
+ &  \verb+L1_DoubleMu_10_3p5+ & \\ \hline
+ \multirow{3}{*}{$e\mu$} & \verb+L1_Mu3p5_EG12+ & \multirow{2}{*}{\Q{HLT_Mu8_Ele17_CaloIdT_CaloIsoVL_TrkIdVL_TrkIsoVL}} \\
+ & \verb+L1_MuOpen_EG12+ &  \\
+ &  \verb+L1_Mu12_EG7+ & \verb+HLT_Mu17_Ele8_CaloIdT_CaloIsoVL_TrkIdVL_TrkIsoVL+\\
+\end{tabular}
+\end{table}
+
+\begin{table}[htp]
+\centering
+\caption{Auxiliary HLT paths used in this analyis. In the case of the $\alpha_{\mathrm{T}}$ triggers, for each \HT threshold a set of triggers with different requirements on the $\alpha_{\mathrm{T}}$ variable exists.}
+\label{tab:HLTs2}
+\begin{tabular}{c|c|c}
+ & object & HLT path \\\hline
+\multirow{2}{*}{Single lepton} & $ee$ & \verb+HLT_Ele27_WP80+\\
+ & $\mu\mu$ & \verb+HLT_IsoMu24+ \\
+\hline
+\multirow{12}{*}{Trigger efficiencies} &  \multirow{6}{*}{\HT} & \verb+HLT_PFNoPUHT650+\\
+ & &  \verb+HLT_PFNoPUHT700+\\
+ & &  \verb+HLT_PFNoPUHT750+\\
+  & &  \verb+HLT_PFHT650+\\
+ & &  \verb+HLT_PFHT700+\\
+  & &  \verb+HLT_PFHT750+\\
+ &  \multirow{6}{*}{$\alpha_{\mathrm{T}}$} & \verb+HLT_HT200_AlphaT*+\\
+  &  & \verb+HLT_HT250_AlphaT*+\\
+    &  & \verb+HLT_HT300_AlphaT*+\\
+      &  & \verb+HLT_HT350_AlphaT*+\\
+        &  & \verb+HLT_HT400_AlphaT*+\\
+            &  & \verb+HLT_HT450_AlphaT*+\\    
+   \hline
+  \multirow{6}{*}{Non-prompt studies} & \multirow{2}{*}{$\mu$} & \verb+HLT_Mu17+  \\
+  & & \verb+HLT_Mu8+ \\
+  & \multirow{4}{*}{$e$} & \verb+HLT_Ele17_CaloIdT_CaloIsoVL_TrkIdVL_TrkIsoVL_Jet30+ \\
+  & & \verb+HLT_Ele17_CaloIdT_CaloIsoVL_TrkIdVL_TrkIsoVL+ \\
+  & & \verb+HLT_Ele8_CaloIdT_CaloIsoVL_TrkIdVL_TrkIsoVL_Jet30+\\
+  & & \verb+HLT_Ele8_CaloIdT_CaloIsoVL_TrkIdVL_TrkIsoVL+\\
+\end{tabular}
+\end{table}

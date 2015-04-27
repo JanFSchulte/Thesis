@@ -38,7 +38,7 @@
 
 \usepackage[small]{caption}
 \usepackage[plainheadsepline,automark]{scrpage2}
-
+\usepackage[Q=yes]{examplep}
 
 \newcount\colveccount
 \newcommand*\colvec[1]{
@@ -96,8 +96,8 @@
 \newcommand{\TeV}{\ensuremath{\,\mathrm{Te\hspace{-.08em}V}}\xspace}
 \newcommand{\TeVns}{\ensuremath{\mathrm{Te\hspace{-.08em}V}}\xspace} % no leading thinspace
 
-\newcommand{\lumi}{$19.5\fbinv$} %{1048~\pbinv}}
-\newcommand{\fbinv}{\ensuremath{fb^{-1}\xspace}} %{1048~\pbinv}}
+\newcommand{\lumi}{$19.5\,\fbinv$} %{1048~\pbinv}}
+\newcommand{\fbinv}{\ensuremath{\mathrm{fb}^{-1}\xspace}} %{1048~\pbinv}}
 \newcommand{\updated}{\textcolor{green}{This has been updated to the full luminosity}}
 \newcommand{\notupdated}{\textcolor{red}{Not updated (possibly can't be updated ATM)}}
 \newcommand{\significanceNumber}{$2.2\sigma$\xspace}
@@ -285,6 +285,7 @@
 \chapter{Conclusion}
 \input{conclusion}
 \appendix
+\input{appendixTrigger}
 \input{appendixSamples}
 \input{appendixRmue}
 \input{appendixRT}
