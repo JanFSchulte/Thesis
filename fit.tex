@@ -6,7 +6,7 @@ The different parametrisations of the two types of background and the signal are
 
 \subsection{Model for Drell--Yan backgrounds}
 \label{sec:Zmodel}
-The background model for Drell--Yan events contains of two components: one model for the \Z boson peak and one for the contribution of the Drell--Yan continuum. The latter one can be described by a simple falling exponential function. The peak model consists of a Breit-Wigner function with mean and widths fixed to the PDG values for the \Z boson, convolved with a double-sided crystal ball function (DSCB)~\cite{Crystal}. The first component models the physical peak while the latter accounts for the detector resolution and radiative corrections to the \Z boson lineshape. The double-sided crystal ball itself consists of a Gaussian core and exponential falloffs to both sides of the peak, parametrised as
+The background model for Drell--Yan events contains of two components: one model for the \Z boson peak and one for the contribution of the Drell--Yan continuum. The latter one can be described by a simple falling exponential function $\mathcal{P}_{exp}$. The peak model consists of a Breit-Wigner function $\mathcal{P}_{BW}$ with mean and widths fixed to the PDG values for the \Z boson, convolved with a double-sided crystal ball function (DSCB)~\cite{Crystal}. The first component models the physical peak while the latter accounts for the detector resolution and radiative corrections to the \Z boson lineshape. The double-sided crystal ball itself consists of a Gaussian core and exponential falloffs to both sides of the peak, parametrised as
 \begin{eqnarray*}
 \mathcal{P}_{DSCB}(m_{\ell\ell}) = \begin{cases} A_{1} (B_{1}-\frac{m_{ll}-\mu_{CB}}{\sigma_{CB}})^{-n_{1}} &\mbox{if } \frac{m_{ll}-\mu_{CB}}{\sigma_{CB}}<-\alpha_{1} \\
 \textrm{exp}\left(-\frac{(m_{ll}-\mu_{CB})^2}{2\sigma_{CB}^2}\right) &\mbox{if } -\alpha_{1}<\frac{m_{ll}-\mu_{CB}}{\sigma_{CB}}<\alpha_{2} \\
@@ -17,11 +17,11 @@ where $\sigma_{CB}$ and $\mu_{CB}$ are the parameters of the central Gaussian an
 \begin{eqnarray*}
 A_{i} = \left(\frac{n_{i}}{|\alpha_{i}|}\right)^{n_{i}} \cdot \textrm{exp}\left(-\frac{|\alpha_{i}|^2}{2}\right) \quad \textrm{and}\quad B_{i} = \frac{n_{i}}{|\alpha_{i}|}-|\alpha_{i}| .
 \end{eqnarray*}
-Taking into account also the exponential function describing the Drell--Yan continuum, the full description is therefore 
+Convolving $\mathcal{P}_{DSCB}$ and $\mathcal{P}_{DSCB}$, and taking into account also the exponential function describing the Drell--Yan continuum, the full description is therefore 
 \begin{eqnarray*}
 \mathcal{P}_{DY} (m_{\ell\ell}) = (1-f_\text{peak})\mathcal{P}_{exp}(m_{\ell\ell})+ f_\text{peak}\int \mathcal{P}_{DSCB}(m_{\ell\ell})\mathcal{P}_{BW}(m_{\ell\ell}-m') dm',
 \end{eqnarray*}
-where $f_{exp}$ is the fraction that the exponential component contributes to the full PDF. A full list of the parameters of the model is given in Table~\ref{tab:Fit_Par_Overview_Z}.
+where $f_{\text{peak}}$ is the fraction that the peak component contributes to the full PDF. A full list of the parameters of the model is given in Table~\ref{tab:Fit_Par_Overview_Z}.
 
 
 \begin{table}[htbp]
@@ -33,7 +33,7 @@ where $f_{exp}$ is the fraction that the exponential component contributes to th
 \multirow{10}{*}{$\mathbf{p}_{Z}^{ee}$} & $m_{\mathrm{Z}} [\mathrm{GeV}]$ & fixed & 91.1876 & - & - \\ 
 & $\sigma_{\mathrm{Z}}  [\mathrm{GeV}]$ & fixed & 2.4952 & - & - \\
 & $\mu_{CB}^{ee} [\mathrm{GeV}]$ & floating & 3.0 & -10 & 10 \\ 
-& $\sigma_{CB}^{ee}$ & floating & 1.6 & 0 & 20 \\
+& $\sigma_{CB}^{ee} [\mathrm{GeV}]$ & floating & 1.6 & 0 & 20 \\
 & $\alpha_{1}^{ee}$ & floating & 1.16 & 0 & 10 \\
 & $\alpha_{2}^{ee}$ & floating & 2.5 & 0 & 10 \\
 & $n_{1}^{ee}$ & floating & 2.9 & 0 & 20 \\
@@ -43,7 +43,7 @@ where $f_{exp}$ is the fraction that the exponential component contributes to th
 \multirow{10}{*}{$\mathbf{p}_{Z}^{\mu\mu}$} & $m_{\mathrm{Z}} [\mathrm{GeV}]$ & fixed & 91.1876 & - & - \\ 
 & $\sigma_{\mathrm{Z}} [\mathrm{GeV}]$  & fixed & 2.4952 & - & - \\
 & $\mu_{CB}^{\mu\mu} [\mathrm{GeV}]$ & floating & 3.0 & -10 & 10 \\
-&  $\sigma_{CB}^{\mu\mu}$ & floating & 1.6 & 0 & 20 \\
+&  $\sigma_{CB}^{\mu\mu} [\mathrm{GeV}]$ & floating & 1.6 & 0 & 20 \\
 &  $\alpha_{1}^{\mu\mu}$ & floating & 1.16 & 0 & 10 \\
 &  $\alpha_{2}^{\mu\mu}$ & floating & 2.5 & 0 & 10 \\
 &  $n_{1}^{\mu\mu}$ & floating & 2.9 & 0 & 20 \\
@@ -72,7 +72,7 @@ This model is fitted to the data in the Drell--Yan control region separately for
 \begin{minipage}[t]{0.49\textwidth}
 \includegraphics[width=\textwidth]{plots/results/fit/expoFitMM_Log_Forward.pdf}
 \end{minipage}
-\caption{Fit to the \mll distribution in the Drell--Yan control region separately for \EE (left) and \MM (right) events in the central (top) and forward (bottom) dilepton selection. The data is shown as black points while the resulting fit is shown in blue. The red and green lines show the contributions of the continuum model and the peak model to the combined fit.}
+\caption{Fit to the \mll distribution in the Drell--Yan control region separately for \EE (left) and \MM (right) events in the central (top) and forward (bottom) dilepton selection. The data is shown as black points while the resulting fit is shown in blue. The red and green lines show the contributions of the continuum model and the convolution of the Breit-Wigner with the double-sided crystal ball to the combined fit.}
 \label{fig:dyFits}
 \end{figure}
 From the Gaussian core component of the double-sided crystal ball the \mll resolution $\sigma_{CB}$ in the different channels is obtained, which is used as an input in the modelling of a potential signal. The resulting resolution values are shown in Table~\ref{tab:mllReso}. The fitted values range from about $\unit{1.4}{\giga\electronvolt}$ to $\unit{2.7}{\giga\electronvolt}$ depending on lepton flavour and rapidity. In general it is smaller for \MM pairs and for lepton pairs in the central part of the detector.  
@@ -133,9 +133,9 @@ This parametrisation was used in a previous version of the analysis~\cite{edge20
 \end{equation*}
 It was found to not describe the distribution of flavour-symmetric backgrounds after lepton \pt cuts had been raised with respect to the analysis of the 2011 dataset, but is still a useful tool for fit performance studies, as the low number of parameters reduces the runtime of the fit, allowing for tests using a large number of simulated datasets.
 \paragraph{Sum of three Gaussians}\mbox{} \\
-In this case the sum of three Gaussians is chosen as an analytical parametrisation of the flavour-symmetric backgrounds. The free parameters of the shape are the means and widths of the Gaussians.
+In this case the sum of three Gaussians is chosen as an analytical parametrisation of the flavour-symmetric backgrounds. The free parameters of the shape are the means $\mu_i$ and widths $\sigma_i$ of the Gaussians.
 \begin{equation*}
-\mathcal{P}_{FS}(m_{\ell\ell}) = \mathrm{Gauss}(\mathrm{mean}_1,\sigma_1) + \mathrm{Gauss}(\mathrm{mean}_2,\sigma_2) + \mathrm{Gauss}(\mathrm{mean}_3,\sigma_3)\\
+\mathcal{P}_{FS}(m_{\ell\ell}) = \mathrm{Gauss}(\mu_1,\sigma_1) + \mathrm{Gauss}(\mu_2,\sigma_2) + \mathrm{Gauss}(\mu_3,\sigma_3)\\
 \end{equation*}
 The shape is found to well describe the flavour-symmetric background and to be in good agreement with the nominal parametrisation.
 \paragraph{Binned Subtraction}\mbox{} \\
@@ -148,32 +148,32 @@ As an alternative to analytical functions, the binned dilepton-mass distribution
 This approach has the advantage of not needing any prior knowledge on the shape of the flavour-symmetric background. It is, however, more susceptible to statistical fluctuations, as they are not smoothed out (for a smoothed approach see below). In order to minimise the impact of these fluctuations, a bin width of 5\GeV is chosen. This method is not suited to provide quantitative results because the statistical uncertainties on shape are not considered in the fit after it has been fixed on the OF data.
 
 \paragraph{Smoothed Subtraction}\mbox{} \\
-Similarly to the binned subtraction, the opposite flavour data distribution is directly used to predict the background in the same flavour distribution using a kernel density estimator (KDE). The shape is constructed as a sum of Gaussian distributions, one for each each event in the considered dataset with the mean set to the \mll value of that event. For this the implementation of one-dimensional kernel PDFs in RooFit is used (\emph{RooKeysPdf} class). In this approach, the probability density function for a sample of a random variable of size $n$ is estimated by a kernel density
+Similarly to the binned subtraction, the opposite flavour data distribution is directly used to predict the background in the same flavour distribution using a kernel density estimator (KDE). The shape is constructed as a sum of Gaussian distributions, one for each event in the considered dataset with the mean set to the \mll value of that event. For this the implementation of one-dimensional kernel PDFs in RooFit is used (\emph{RooKeysPdf} class). In this approach, the probability density function for a sample of a random variable of size $n$ is estimated by a kernel density
 
-\begin{equation}
-\hat{f}_h(x) = \frac{1}{nh}\sum\limits_{i=1}^n K(\frac{x-x_i}{h}).
-\end{equation}
-Here $K$ is the so called kernel, for which a Gaussian distribution is chosen in this analysis, and $h$ is a smoothing parameter\cite{kernelDensity}. The width of the Gaussians is adapted depending on the density of events at a given point. For both borders, the low-$m_{\ell\ell}$ and the high-$m_{\ell\ell}$ border, parts of the Gaussians extending beyond the considered range of $m_{ll}$ are mirrored back into the considered range to achieve the correct integral. Again,this method is not suited to provide quantitative results because no uncertainties on the background shape can be included because it has to be fixed on the OF data before the combined fit can be performed.
+\begin{equation*}
+\hat{f}_h(\mll) = \frac{1}{nh}\sum\limits_{i=1}^n K\left(\frac{\mll-m_{\ell\ell,i}}{h}\right).
+\end{equation*}
+Here $K$ is the so called kernel, for which a Gaussian distribution is chosen in this analysis, and $h$ is a smoothing parameter~\cite{kernelDensity}. The width of the Gaussians is adapted depending on the density of events at a given point. For both borders, the low-$m_{\ell\ell}$ and the high-$m_{\ell\ell}$ border, parts of the Gaussians extending beyond the considered range of \mll are mirrored back into the considered range to achieve the correct integral. Again,this method is not suited to provide quantitative results because no uncertainties on the background shape can be included because it has to be fixed on the OF data before the combined fit can be performed.
 
 
 
 \subsection{Signal model}
 \label{sec:sigModel}
 The signal is modelled by a simple triangular shape, which will be shown to be a good approximation of its actual shape, which is model dependent. The signal parametrisation is therefore given by a triangle, convolved with a Gaussian distribution. The width of the Gaussian $\sigma_{\ell\ell}$ depends on the detector resolution in the corresponding channel and is obtained from the fit to the \Z boson peak in the Drell--Yan control region described in Section~\ref{sec:Zmodel}. The model can be parametrised as
-\begin{equation}
- {\mathcal{P}}_{S}(m_{\ell\ell}) = \frac{1}{\sqrt{2\pi\sigma_{\ell\ell}}} \int_{0}^{m_{\ell\ell}^{edge}} y \cdot \textrm{exp}\left( -\frac{(m_{\ell\ell}-y)^2}{2\sigma_{\ell\ell}^{2}}\right) dy,
-\end{equation}
+\begin{equation*}
+ {\mathcal{P}}_{S}(m_{\ell\ell}) = \frac{1}{\sqrt{2\pi\sigma_{\ell\ell}^2}} \int_{0}^{m_{\ell\ell}^{edge}} y \cdot \textrm{exp}\left( -\frac{(m_{\ell\ell}-y)^2}{2\sigma_{\ell\ell}^{2}}\right) dy,
+\end{equation*}
 with the endpoint of the triangle $m_{\ell\ell}^{edge}$ as the only free parameter. as the starting point is always $\unit{0}{\giga\electronvolt}$.
 
 To cross check the dependence of the results on the parametrisation of the signal, two additional signal shapes with strongly differing shapes are defined. Here the linear dependence on \mll is replaced by quartic dependencies with different signs, resulting in concave and convex shapes instead of the simple triangle:
 
 \begin{equation}
 \label{eq:convex}
- {\mathcal{P}}^{\text{convex}}_{S}(m_{\ell\ell}) = \frac{1}{\sqrt{2\pi\sigma_{\ell\ell}}} \int_{0}^{m_{\ell\ell}^{edge}} y^4 \cdot \textrm{exp}\left( -\frac{(m_{\ell\ell}-y)^2}{2\sigma_{\ell\ell}^{2}}\right) dy,
+ {\mathcal{P}}^{\text{convex}}_{S}(m_{\ell\ell}) = \frac{1}{\sqrt{2\pi\sigma_{\ell\ell}^2}} \int_{0}^{m_{\ell\ell}^{edge}} y^4 \cdot \textrm{exp}\left( -\frac{(m_{\ell\ell}-y)^2}{2\sigma_{\ell\ell}^{2}}\right) dy,
 \end{equation}
 
 \begin{equation}
- {\mathcal{P}}_{S}^{\text{concave}}(m_{\ell\ell}) = \frac{1}{\sqrt{2\pi\sigma_{\ell\ell}}} \int_{0}^{m_{\ell\ell}^{edge}} (m_{\ell\ell}^{edge,4} -(y-m_{\ell\ell}^{edge})^4) \cdot \textrm{exp}\left( -\frac{(m_{\ell\ell}-y)^2}{2\sigma_{\ell\ell}^{2}}\right) dy.
+ {\mathcal{P}}_{S}^{\text{concave}}(m_{\ell\ell}) = \frac{1}{\sqrt{2\pi\sigma_{\ell\ell}^2}} \int_{0}^{m_{\ell\ell}^{edge}} (m_{\ell\ell}^{edge,4} -(y-m_{\ell\ell}^{edge})^4) \cdot \textrm{exp}\left( -\frac{(m_{\ell\ell}-y)^2}{2\sigma_{\ell\ell}^{2}}\right) dy.
 \end{equation}
 The parameters of the signal model are listed in Table~\ref{tab:Fit_Par_Overview_Sig}.
 \begin{table}[htbp]
@@ -213,7 +213,7 @@ gen. \mlledge [GeV]    & 70  & 74.3 & 98.6 & 170.2 \\
 
 If more than two leptons are reconstructed in an event, the wrong combination might be chosen, leading to a flavour-symmetric, background-like contribution of the signal. This happens more often in the slepton-edge model because of the much higher branching fraction into leptons. Therefore, a model for flavour-symmetric backgrounds is also fitted to the signal. For these tests, the KDE shape is used because of its fast convergence. 
 
-Fits to the fixed-edge model points S1 are shown in Figure~\ref{fig:signalModel:edge}. After subtraction of the very small flavour-symmetric contribution, this model predicts  about 122 events in the central and 15 events in the forward region with a mass difference of $\unit{70}{\giga\electronvolt}$. In the upper plots fits are shown using the nominal triangular shape, which is clearly not a good approximation of the actual shape of the signal, which is peaked towards the \Z boson mass as the decay of the \secondchi occurs exclusively via an off-shell \Z boson. However, the signal parameters \mlledge and $N_S$ are still reproduced very well. In the lower two plots, the convex signal shape was used, but the exponent, which is 4 in equation~\ref{eq:convex}, is left as a free parameter. The resulting shape is a much better description of the signal, with a fitted exponent of about 2.62. However, no significant change in the other signal parameters is observed. 
+Fits to the fixed-edge model points S1 are shown in Figure~\ref{fig:signalModel:edge}. After subtraction of the very small flavour-symmetric contribution, this model predicts  about 122 events in the central and 15 events in the forward region with a mass difference of $\unit{70}{\giga\electronvolt}$, in agreement with the expectation that the decay products of heavy SUSY particles are located dominantly in the central region of the detector. In the upper plots fits are shown using the nominal triangular shape, which is clearly not a good approximation of the actual shape of the signal, which is peaked towards the \Z boson mass as the decay of the \secondchi occurs exclusively via an off-shell \Z boson. However, the signal parameters \mlledge and $N_S$ are still reproduced very well. In the lower two plots, the convex signal shape was used, but the exponent, which is 4 in Equation~\ref{eq:convex}, is left as a free parameter. The resulting shape is a much better description of the signal, with a fitted exponent of about 2.62. However, no significant change in the other signal parameters is observed. 
 
 \begin{figure}[hbp]
   \centering
@@ -276,14 +276,14 @@ To reduce the number of free parameters, a universal fraction of \EE events in b
 \end{eqnarray*}
   \end{minipage}
 \end{center}
-The systematic uncertainty on \Rsfof is included in the fit as a constraint in form of a Gaussian PDF with mean and width set to the values measured in Section~\ref{sec:combinedRSFOF}:
+The systematic uncertainty on \Rsfof is included in the fit as a constraint in form of a Gaussian function with mean and width set to the values measured in Section~\ref{sec:combinedRSFOF}:
 \begin{equation*}
-{\mathcal{G}}\left(\Rsfof;\Rsfof^{\text{measured}},\sigma_{\Rsfof}^{\text{measured}}\right).
+\mathrm{Gauss}\left(\Rsfof;\Rsfof^{\text{measured}},\sigma_{\Rsfof}^{\text{measured}}\right).
 \end{equation*}
 The full likelihood of the model as a function of \mll for a given set of parameters $\mathbf{p}$ that is fit to the data in the six channels (\EE,\MM, and OF for central and forward lepton selection) is constructed by multiplying the PDFs of the different channels and is given by
 
 \begin{eqnarray*}
-{\mathcal{L}}(m_{\ell\ell};\mathbf{p}) =&&   \prod_{\text{i = central,forward}} \mathcal{N}_i\\
+{\mathcal{L}}(m_{\ell\ell};\mathbf{p}) =&&   \prod\limits_{i\text{ } \epsilon \text{ central, forward}} \mathcal{N}_i\\
                         &\times& \prod_{\EE,i}\left[N_{FS}^{ee,i} \cdot {\mathcal{P}}_{FS}^i(m_{\ell\ell};\mathbf{p}_{FS}^i) %
                                                   + N_{Z}^{ee,i} \cdot {\mathcal{P}}_{Z}^i(m_{\ell\ell};\mathbf{p}_{Z}^{ee,i}) %
                                                   + N_{S}^{ee,i} \cdot {\mathcal{P}}_{S}^i(m_{\ell\ell};\mathbf{p}_{S}^{ee,i})\right] \\
@@ -291,7 +291,7 @@ The full likelihood of the model as a function of \mll for a given set of parame
                                                   + N_{Z}^{\mu\mu,i} \cdot {\mathcal{P}}_{Z}^i(m_{\ell\ell};\mathbf{p}_{Z}^{\mu\mu,i}) %
                                                   + N_{S}^{\mu\mu,i} \cdot {\mathcal{P}}_{S}^i(m_{\ell\ell};\mathbf{p}_{S}^{\mu\mu,i})\right] \\
                         &\times& \prod_{\EM,i}\left[N_{FS}^{OF,i} \cdot {\mathcal{P}}_{FS}^i(m_{\ell\ell};\mathbf{p}_{FS}^i)\right] \\   
-                        &\times& {\mathcal{G}^i\left(\Rsfof^i\right)}, \\
+                        &\times& {\mathrm{Gauss}^i\left(\Rsfof^i\right)}, \\
 \end{eqnarray*}
 where the different $\mathbf{p}^i_{x}$ denote the sets of free parameters of the models and the $\mathcal{N}_i$ are Poisson factors describing the normalisation of the different samples. These factors take the form of
 \begin{equation*}
@@ -340,7 +340,7 @@ Before the fit is applied to data, several studies are performed to assess its p
 \subsection{Fit performance on simulation}
 The ability of the fit to correctly describe different datasets is tested using the simulation of SM and signal processes described in Section~\ref{sec:MCGen}, normalized to \lumi. The full list of background processes is considered and fits are performed with and without the addition of signal points from the fixed-edge and slepton-edge models described in Section~\ref{sec:models}. To retain an acceptable runtime of the unbinned fit a smaller inclusive $t\bar{t}$ sample is used instead of the large samples separated into the different final states. 
 
-The result of a fit to background-only simulation is shown in Figure~\ref{fig:mc:bgOnly}. The combined model is a good description of the simulation. A negative signal yield is fitted in both the central and forward signal region. While in the central region this is a small effect compared to the fitted uncertainty, in the forward region there is a large underfluctuation of the background at lower invariant masses, leading to a fitted signal yield of $-38\pm15.0$ events. To verify that this is indeed the global minimum, a scan of the log-likelihood versus \mlledge is performed. The result is shown in Figure~\ref{fig:mc:bgOnlyProfile}. Above the \Z boson peak the result is only little dependent on \mlledge. Below the peak, however, there is relatively broad minimum with a large rise directly above the global minimum, which reflects the fluctuation in the simulation in the forward region around $\unit{70}{\giga\electronvolt}$. Several relevant fit parameters in the central signal region are shown in Table~\ref{tab:mc:signalInjected}.
+The result of a fit to background-only simulation is shown in Figure~\ref{fig:mc:bgOnly}. The combined model is a good description of the simulation. A negative signal yield is fitted in both the central and forward signal region. While in the central region this is a small effect compared to the fitted uncertainty, in the forward region there is a large underfluctuation of the background at lower invariant masses, leading to a fitted signal yield of $-38\pm15$ events. To verify that this is indeed the global minimum, a scan of the log-likelihood versus \mlledge is performed. The result is shown in Figure~\ref{fig:mc:bgOnlyProfile}. Above the \Z boson peak the result is only little dependent on \mlledge. Below the peak, however, there is relatively broad minimum with a large rise directly above the global minimum, which reflects the fluctuation in the simulation in the forward region around $\unit{70}{\giga\electronvolt}$. Several relevant fit parameters in the central signal region are shown in Table~\ref{tab:mc:signalInjected}.
 
 \begin{table}[htbp]
 \centering
@@ -349,12 +349,12 @@ The result of a fit to background-only simulation is shown in Figure~\ref{fig:mc
 \begin{tabular}{l|c|c|c|c|c}
  & bgkd only & S1 & S2 & S3 & S4 \\ \hline
 gen. \mlledge [GeV] & -  & 70 & 74.3 & 98.6 & 170.2 \\
-fitted \mlledge [GeV] & $63.2\pm3.1$ & $68.8\pm2.5$ & $73.9\pm1.1$ & $98.6\pm2.3$ & $169.6\pm1.6$\\
-gen. $N_{S}^{central}$ & $0$ & $122.1$ & $259.1$ & $266.6$ & $547.5$\\
-fitted $N_{S}^{central}$ & $-21.5\pm34.9$ & $116.9\pm40.4$ & $239.0\pm26.1$ & $245.6\pm68.1$ & $441.8\pm70.4$ \\
-fitted $N_{DY}^{central}$ & $90.5\pm22.5$ & $87.1\pm22.5$ & $90.5\pm15.2$ & $93.6\pm27.0$ & $96.3\pm23.8$ \\
-fitted $N_{FS}^{central}$ & $2802\pm49$ & $2803\pm49$ & $2840\pm29$ & $2841\pm49$ & $2876\pm50$ \\
-fitted $R_{SF/OF}^{central}$ & $1.004\pm0.024$ & $1.000\pm0.024$ & $1.004\pm0.013$ & $1.003\pm0.025$ & $1.022\pm0.026$ \\
+fitted \mlledge [GeV] & 63.2$\pm$3.1 & 68.8$\pm$2.5 & 73.7$\pm$1.7 & 98.6$\pm$2.3 & 169.6$\pm$1.6\\
+gen. $N_{S}^{\text{central}}$ & 0 & 122.1 & 259.1 & 266.6 & 547.5\\
+fitted $N_{S}^{\text{central}}$ & -21.5$\pm$34.9 & 116.9$\pm$40.4 & 237.8$\pm$42.3 & 245.6$\pm$68.1 & 441.8$\pm$70.4 \\
+fitted $N_{DY}^{\text{central}}$ & 90.5$\pm$22.5 & 87.1$\pm$22.5 & 89.9$\pm$22.6 & 93.6$\pm$27.0 & 96.3$\pm$23.8 \\
+fitted $N_{FS}^{\text{central}}$ & 2802$\pm$49 & 2803$\pm$49 & 2840$\pm$29 & 2841$\pm$49 & 2876$\pm$50 \\
+fitted $R_{SF/OF}^{\text{central}}$ & 1.004$\pm$0.024 & 1.000$\pm$0.024 & 1.004$\pm$0.024 & 1.003$\pm$0.025 & 1.022$\pm$0.026 \\
 \end{tabular}
 \end{table}
 
@@ -429,7 +429,7 @@ The edge fit is performed on toys generated from the background models. In one c
   \label{fig:toys:backgroundOnly}
 \end{figure}
 
-The distribution of the fitted edge position versus the initial value is shown in Figure~\ref{fig:toys:backgroundOnlyFloatEdge}. The initial values has been randomised between 0 and $\unit{300}{\giga\electronvolt}$. To ensure that the initial value is inside the allowed range for \mlledge, diced values below $\unit{35}{\giga\electronvolt}$ are set to this value. In absence of a signal a strong correlation between the initial and observed value of \mlledge is observed. This suggests that the fit tends to converge to the next local minimum of the negative log-likelihood. It is therefore necessary to choose a suitable initial value close to the global minimum before the fit is performed. 
+The distribution of the fitted edge position versus the initial value is shown in Figure~\ref{fig:toys:backgroundOnlyFloatEdge}. The initial values has been randomised between 0 and $\unit{300}{\giga\electronvolt}$. To ensure that the initial value is inside the allowed range for \mlledge and not too close to the lower boundary, diced values below $\unit{35}{\giga\electronvolt}$ are set to this value. In absence of a signal a strong correlation between the initial and observed value of \mlledge is observed. This suggests that the fit tends to converge to the next local minimum of the negative log-likelihood. It is therefore necessary to choose a suitable initial value close to the global minimum before the fit is performed. 
 
 \begin{figure}[hbp]
   \centering
@@ -572,20 +572,20 @@ A scan of the log-likelihood as a function of the edge position $m_{\ell\ell}^{e
 \label{fig:fit:likelihoodScan}
 \end{figure}
 
-The local fit significance is calculated applying Wilk's Theorem~\cite{wilks1938}, which states that the distribution of $-2(log(L_1)-log(L_0))$ ($-2\Delta(log(L))$ in short) is distributed as a $\chi^2$ distribution with n degrees of freedom, where n is the number of free parameters of the signal model and $L_0$ and $L_1$ are the likelihood values of the background only and the signal plus background hypothesis. The p-Value of a result can be obtained by simply integrating this $\chi^2$ distribution for values larger than the one observed in data. However, Wilk's Theorem does not hold in cases where one parameter of the signal model is not defined in the background only model. This is the case for signal models including the position of a bump, or in this case an edge, as a free parameter. 
+The local fit significance is calculated applying Wilk's Theorem~\cite{wilks1938}, which states that the distribution of $-2\left(\log\left(L_1\right)-\log\left(L_0\right)\right)$ ($-2\Delta\left(\log\left(L\right)\right)$ in short) is distributed as a $\chi^2$ distribution with n degrees of freedom, where n is the number of free parameters of the signal model and $L_0$ and $L_1$ are the likelihood values of the background only and the signal plus background hypothesis. The p-Value of a result can be obtained by simply integrating this $\chi^2$ distribution for values larger than the one observed in data. However, Wilk's Theorem does not hold in cases where one parameter of the signal model is not defined in the background only model. This is the case for signal models including the position of a bump, or in this case an edge, as a free parameter. 
 
 The applicability of Wilk's theorem is demonstrated using the toy fits described in Section~\ref{sec:toysWO}. They can also be used to calculate the significance directly and are also able to provide global results.
-Considered are toy dataset without signal injection. The fits are performed both with a floating edge position and fixed \mlledge. Figure~\ref{fig:fit:toySignif} shows the resulting distributions of $-2\Delta(log(L))$ for both scenarios. The $\chi^2$ distributions for 2 and 3 degrees of freedom are shown for illustration. In the case of the fixed edge the results of the fits follow the distribution for 2 degrees of freedom, as expected from the presence of the free parameters $N_{S}^{\text{central}}$ and $N_{S}^{\text{forward}}$. This proves the applicability of Wilk's theorem in this case. The floating edge position, however, clearly does not simply act as an additional degree of freedom as the distribution of the toy results is shifted to higher values of $-2\Delta(log(L))$, indicating that Wilk's theorem does indeed not hold for this type of models.
-The p-Value of the fit result is in both cases given by the fraction of results for which $-2\Delta(log(L))$ exceeds the one observed on data. The result for a fixed edge can then be interpreted as a local p-Value while the one for a floating edge gives a global p-Value taking into account the so called ``Look-elsewhere-effect''~\cite{GrossVittels}. However, as the signal yield is allowed to be negative, the resulting p-Values have to be reduced by a factor of two to take into account that we only consider positive signals to have physical meaning~\cite{GrossVittels}. This corrected p-Value is translated into a significance interpreting it as the one-sided tail probability of a unit Gaussian. The resulting uncorrected p-Values are $0.012^{+0.004}_{-0.003}$, corresponding to $2.5\sigma$, in the local and $0.091^{+0.009}_{-0.009}$, corresponding to $1.7\sigma$, in the global case.
+Considered are toy dataset without signal injection. The fits are performed both with a floating edge position and fixed \mlledge. Figure~\ref{fig:fit:toySignif} shows the resulting distributions of $-2\Delta\left(\log\left(L\right)\right)$ for both scenarios. The $\chi^2$ distributions for two and three degrees of freedom are shown for illustration. In the case of the fixed edge the results of the fits follow the distribution for two degrees of freedom, as expected from the presence of the free parameters $N_{S}^{\text{central}}$ and $N_{S}^{\text{forward}}$. This proves the applicability of Wilk's theorem in this case. The floating edge position, however, clearly does not simply act as an additional degree of freedom as the distribution of the toy results is shifted to higher values of $-2\Delta\left(\log\left(L\right)\right)$, indicating that Wilk's theorem does indeed not hold for this type of models.
+The p-Value of the fit result is in both cases given by the fraction of results for which  $-2\Delta\left(\log\left(L\right)\right)$ exceeds the one observed on data. The result for a fixed edge can then be interpreted as a local p-Value while the one for a floating edge gives a global p-Value taking into account the so called ``Look-elsewhere-effect''~\cite{GrossVittels}. However, as the signal yield is allowed to be negative, the resulting p-Values have to be reduced by a factor of two to take into account that we only consider positive signals to have physical meaning~\cite{GrossVittels}. This corrected p-Value is translated into a significance interpreting it as the one-sided tail probability of a unit Gaussian. The resulting uncorrected p-Values are $0.012^{+0.004}_{-0.003}$, corresponding to $2.5\sigma$, in the local and $0.091^{+0.009}_{-0.009}$, corresponding to $1.7\sigma$, in the global case.
 
 \begin{figure}[htbp]
 \centering
   \includegraphics[width=0.6\textwidth]{plots/results/fit/toyResults/significanceStudy_BackgroundOnly.pdf}
-\caption{Calculation of the fit significance using background only toy datasets. Shown are the distribution of $-2\Delta(log(L))$ for fits with floating (black) and fixed (blue) edge position. Also shown are $\chi^2$ distributions for 2 (blue) and 3 (black) degrees of freedoms. The dashed red line indicates the value of $-2\Delta(log(L))$ observed on data in case of a floating edge.}
+\caption{Calculation of the fit significance using background only toy datasets. Shown are the distribution of $-2\Delta(log(L))$ for fits with floating (black) and fixed (blue) edge position. Also shown are $\chi^2$ distributions for two (blue) and three (black) degrees of freedoms. The dashed red line indicates the value of $-2\Delta(log(L))$ observed on data in case of a floating edge.}
 \label{fig:fit:toySignif}
 \end{figure}
 
-As the applicability of Wilk's theorem has been established for the case of fixed edge positions, local p-Values and significances can be calculated analytically from the $\chi^2$ function for two degrees of freedom. The p-Value is defined as the integral of the function above the value of $-2\Delta(log(L))$ observed on data for a fit performed with fixed edge position. Performing such a fit on data with \mlledge set to the observed value, this results in a p-Value of 0.014, corresponding to a significance of $2.5\sigma$. This is well compatible with the result observed using toy datasets. The local significances reported in Table~\ref{tab:fitResult} and those discussed in the following are calculated using the analytical calculation as it is much faster and not affected by statistical uncertainties. Also, the toys have the small caveat that a different background shape than in the nominal fit is used. 
+As the applicability of Wilk's theorem has been established for the case of fixed edge positions, local p-Values and significances can be calculated analytically from the $\chi^2$ function for two degrees of freedom. The p-Value is defined as the integral of the function above the value of  $-2\Delta\left(\log\left(L\right)\right)$ observed on data for a fit performed with fixed edge position. Performing such a fit on data with \mlledge set to the observed value, this results in a p-Value of 0.014, corresponding to a significance of $2.5\sigma$. This is well compatible with the result observed using toy datasets. The local significances reported in Table~\ref{tab:fitResult} and those discussed in the following are calculated using the analytical calculation as it is much faster and not affected by statistical uncertainties. Also, the toys have the small caveat that a different background shape than in the nominal fit is used. 
 
 As further validation of the result on data, the results obtained with different parametrisations of the flavour-symmetric background are compared to the nominal result in Table~\ref{tab:fitComparison}. In each case first a fit has been performed with a floating edge position to find the best value for \mlledge followed by a fit with a fixed edge a that position to calculate the local significance. For the sake of clarity, only yields in the central signal region are shown. However, similar agreement is observed in the forward signal region. In general, there is good agreement between all considered parametrisations. The best agreement is seen in the number of fitted flavour-symmetric events in the OF sample, which is expected as here the fit is most simple, consisting only of the shape for flavour-symmetric backgrounds. Good agreement is also observed for $m_{\ell\ell}^{egde}$ and the number of signal events, which are stable against the choice of background model. The largest differences are observed for \Rsfof and the yield of the Drell--Yan model, which the fit can trade off against each other, depending on the parametrisation of the flavour-symmetric background. Here, the largest deviations are observed for the shape used in the analysis of the $\unit{7}{\tera\electronvolt}$ dataset. As this shape is known to not satisfactorily described the flavour-symmetric background, it is encouraging to see that the fit result is stable against such biases. The observed local significance is very similar among all analytical parametrisations. In the case of the KDE and the binned parametrisation, the shape of the distribution is not free in the fit, as discussed above, excluding the statistical uncertainty of the OF sample from the fit and resulting in an systematically larger local significance. 
 

@@ -2,15 +2,15 @@ The desire to understand the fundamental building blocks and underlying structur
 
 This is the purpose of the Large Hadron Collider (LHC), which collides protons at centre-of-mass energies of several $\mathrm{TeV}$. In addition to many precision measurements of established phenomena at this previously inaccessible energy scale, discovering the Higgs boson and thereby completing the Standard Model has been a large success of this undertaking. Now the focus lies even more on going beyond the Standard Model into the realm of new physics. Many ideas exists on how to extend the existing theory and an extensive search program is conducted in search of the new particles and interactions predicted by those models. 
 
-One of the most attractive concepts is that of Supersymmetry, which introduces a symmetry between fermions and bosons. In this framework, a partner particle to each of the known Standard Model particles exists, differing in spin by $\frac{1}{2}\hbar$. In principle these partners have the same mass as their Standard Model counterparts. However, none of them have been discovered yet, which implies that Supersymmetry is broken allowing higher masses of the supersymmetric particles.
+One of the most attractive concepts is that of Supersymmetry, which introduces a symmetry between fermions and bosons. In this framework, a partner particle to each of the known Standard Model particles exists, differing in spin by $\frac{1}{2}\hbar$. In principle these partners have the same mass as their Standard Model counterparts. However, none of them have been discovered yet, which implies that Supersymmetry is broken, allowing for higher masses of the supersymmetric particles.
 
-In this analysis, evidence for the existence of heavy supersymmetric particles is sought, exploiting a characteristic signature of their decay. In the decay of a neutralino particle, two charged leptons of the same flavour and opposite sign can be produced together with a lighter neutralino which escapes detection. This correlated production of the leptons results in a characteristic edge in the distribution of their invariant mass.
+In this analysis, evidence for the existence of heavy supersymmetric particles is sought, exploiting a characteristic signature of their decay. In the decay of a neutralino particle, two charged leptons of the same flavour and opposite sign can be produced together with a lighter neutralino, which escapes detection. This correlated production of the leptons results in a characteristic edge in the distribution of their invariant mass.
 
 The full data sample of proton-proton collisions at a centre-of-mass energy of 8\TeV recorded by the Compact Muon Solenoid (CMS) experiment in 2012, corresponding to an integrated luminosity of \lumi, is used. The presence of a supersymmetric signal in the data is assessed in two ways. First, event counts in different selections are compared to the expectation from Standard Model backgrounds. In a second approach, the characteristic edge signature is used in a shape analysis to separate a possible signal from the backgrounds. In the both cases, the background contributions are estimated entirely from data. 
 
 This work builds upon the previous achievements by Nikals Mohr and Daniel Sprenger in their doctoral theses~\cite{Mohr:1423334,Sprenger:1501963} and has been performed in part in collaboration with Marco-Andrea Buchmann~\cite{Buchmann:1704399}. The results have been published by the CMS collaboration~\cite{Khachatryan:2015lwa}. This analysis presents an update of the published result, taking into account a later reprocessing of the data sample with improved calibrations. However, the analysis techniques have not been altered and the outcome of the analysis remains largely unchanged.
 
-This thesis is structured as follows: The remainder of this section is dedicated to the definition of commonly used variables. Section~\ref{sec:theo} discusses the theoretical foundations relevant to the analysis. In Section~\ref{sec:setup} the LHC and the CMS detector are described. The methods used to analyse the recorded data are outlined in Section~\ref{sec:ana} and the estimation of Standard Model backgrounds is presented in Section~\ref{sec:backgrounds}. The results of the analysis in the two approaches discussed above are discussed in Sections~\ref{sec:counting} and~\ref{sec:fit}. 
+This thesis is structured as follows: The remainder of this section is dedicated to the definition of commonly used variables. Section~\ref{sec:theo} discusses the theoretical foundations relevant to the analysis. In Section~\ref{sec:setup} the LHC and the CMS detector are described. The methods used to analyse the recorded data are outlined in Section~\ref{sec:ana} and the estimation of Standard Model backgrounds from data is presented in Section~\ref{sec:backgrounds}. The results of the analysis in the two approaches discussed above are presented in Sections~\ref{sec:counting} and~\ref{sec:fit}. 
 
 \section{Definition of variables}
 \label{sec:variables}
@@ -28,7 +28,7 @@ The CMS experiment uses a right-handed coordinate system where the x- and y-axis
 \end{equation}
 is commonly used, which coincides with the rapidity $y = \frac{1}{2} \ln\left(\frac{E+p_z}{E-p_z}\right)$ for $E\approx |p|$. The geometric distance of two objects in the detector is given by
 \begin{equation}
-\Delta R = \sqrt{(\phi_1 - \phi_2)^2 + (\eta_1 - \eta_2)^2}
+\Delta R = \sqrt{(\phi_1 - \phi_2)^2 + (\eta_1 - \eta_2)^2}.
 \end{equation}
 
 As the collisions at hadron colliders involve interactions of partons carrying unknown fractions of the protons' momenta, the momentum of the initial state along the beam axis is unknown. As the momenta of the partons transverse to the beam are negligible compared to those in z direction, the transverse plane provides a well defined initial state. Therefore, the transverse momentum and energy
@@ -39,7 +39,7 @@ are often used. The vectorial sum of the particles' \pt must be zero because of 
 \begin{equation}
 \METVec = - \sum\limits_{\text{particles}} \vec{p}_{\mathrm{T}}
 \end{equation}
-is defined as a quantity sensitive to particles leaving the experiment undetected, but also mismeasurements and resolution effects. Usually the absolute value $\MET = \vert \METVec \vert$ is used.
+is defined as a quantity sensitive to particles leaving the experiment undetected, but also to mismeasurements and resolution effects. Usually, the absolute value $\MET = \abs{ \METVec}$ is used.
 
 The amount of energy deposited in an event is characterised by the scalar sum of the \pt of all selected hadronic jets (see Section~\ref{sec:PF}) 
 \begin{equation}

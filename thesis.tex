@@ -2,7 +2,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Grundlegende Einstellungen
-\documentclass[fontsize=11pt,openright,paper=a4]{scrbook}
+\documentclass[fontsize=11pt,openright,paper=a4,pointlessnumbers]{scrbook}
 \usepackage[bottom=3.0cm, left=3.0cm, right=3.0cm]{geometry} 
 \usepackage[squaren, thinspace ,thinqspace,binary]{SIunits}
 \usepackage[latin2]{inputenc}
@@ -17,7 +17,7 @@
 \usepackage{amsmath}
 %\usepackage{amsfonts}
 \usepackage{amssymb}
-%\usepackage[english]{babel} % neue deutsche Rechtschreibung
+\usepackage[english]{babel} % neue deutsche Rechtschreibung
 \usepackage{graphicx}
 %\usepackage{picins}
 \usepackage{wasysym}
@@ -35,6 +35,22 @@
 \usepackage{footnote}
 \makesavenoteenv{tabular}
 \makesavenoteenv{table}
+
+\usepackage{mathtools}
+
+\DeclarePairedDelimiter\abs{\lvert}{\rvert}%
+\DeclarePairedDelimiter\norm{\lVert}{\rVert}%
+
+% Swap the definition of \abs* and \norm*, so that \abs
+% and \norm resizes the size of the brackets, and the 
+% starred version does not.
+\makeatletter
+\let\oldabs\abs
+\def\abs{\@ifstar{\oldabs}{\oldabs*}}
+%
+\let\oldnorm\norm
+\def\norm{\@ifstar{\oldnorm}{\oldnorm*}}
+\makeatother
 
 \usepackage[small]{caption}
 \usepackage[plainheadsepline,automark]{scrpage2}
