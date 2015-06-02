@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.30)  4 MAY 2015 17:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.30)  1 JUN 2015 17:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -708,7 +708,7 @@ LaTeX Info: Redefining \nameref on input line 108.
 \@outlinefile=\write4
 \openout4 = `thesis.out'.
 
- (./title.tex
+ (./title_preliminary.tex
 
 Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              You should note, that in 1994 font command `\bf' has
@@ -751,94 +751,66 @@ Class scrbook Warning: Usage of deprecated font command `\bf'!
 (scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
 (scrbook)              by `\normalfont \bfseries ' on input line 13.
 
-
-Class scrbook Warning: Usage of deprecated font command `\bf'!
-(scrbook)              You should note, that in 1994 font command `\bf' has
-(scrbook)              been defined for compatiblitiy to Script 2.0 only.
-(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrbook)              shouldn't use such commands any longer and within
-(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrbook)              See `fntguide.pdf' for more information about
-(scrbook)              recommended font commands.
-(scrbook)              Note also, that KOMA-Script will remove the definition
-(scrbook)              of `\bf' anytime until release of about version 3.20.
-(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 17.
-
-
-Class scrbook Warning: Usage of deprecated font command `\bf'!
-(scrbook)              You should note, that in 1994 font command `\bf' has
-(scrbook)              been defined for compatiblitiy to Script 2.0 only.
-(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrbook)              shouldn't use such commands any longer and within
-(scrbook)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrbook)              See `fntguide.pdf' for more information about
-(scrbook)              recommended font commands.
-(scrbook)              Note also, that KOMA-Script will remove the definition
-(scrbook)              of `\bf' anytime until release of about version 3.20.
-(scrbook)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrbook)              by `\normalfont \bfseries ' on input line 18.
-
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 25.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 16.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 25.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 16.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 25.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 16.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 25.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 16.
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 25.
+(Font)              <10.95> on input line 16.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 25.
+(Font)              <8> on input line 16.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 25.
-LaTeX Font Info:    Try loading font information for U+msa on input line 25.
+(Font)              <6> on input line 16.
+LaTeX Font Info:    Try loading font information for U+msa on input line 16.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 25.
+LaTeX Font Info:    Try loading font information for U+msb on input line 16.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 25.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 16.
 
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 25.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 16.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [2
 
-]) (./thesis.toc
-[1
+])
+(./zusammenfassung.tex) (./abstract.tex) [1] [2] (./thesis.toc [3
 
 ])
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
- [2]
+ [4]
 Chapter 1.
 
 Class scrbook Warning: \float@addtolists detected!
@@ -859,9 +831,8 @@ Class scrbook Warning: \float@addtolists detected!
 age.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.13 T
-      his thesis is structured as follows: The remainder of this section is ...
-[1
+l.12 
+      [1
 
 
 ]
@@ -878,8 +849,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.47 \end{equation}
-                    [2]) [3] [4
+l.45 \begin{equation}
+                      [2]) [3] [4
 
 ]
 Chapter 2.
@@ -891,7 +862,7 @@ Overfull \hbox (25.50943pt too wide) in paragraph at lines 13--28
 [5]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 47.
- [6] <plots/THEO/unification.png, id=426, 754.82pt x 614.295pt>
+ [6] <plots/THEO/unification.png, id=445, 754.82pt x 614.295pt>
 File: plots/THEO/unification.png Graphic file (type png)
 
 <use plots/THEO/unification.png>
@@ -901,7 +872,11 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 57.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 57.
- [7] [8 <./plots/THEO/unification.png (PNG copy)>]
+
+Underfull \vbox (badness 7168) has occurred while \output is active []
+
+ [7]
+[8 <./plots/THEO/unification.png (PNG copy)>]
 Package epstopdf Info: Source file: <plots/THEO/prospino_lhc8.eps>
 (epstopdf)                    date: 2015-04-19 13:58:03
 (epstopdf)                    size: 21014 bytes
@@ -914,7 +889,7 @@ ps-converted-to.pdf plots/THEO/prospino_lhc8.eps>
 (epstopdf)             \includegraphics on input line 109.
 Package epstopdf Info: Output file is already uptodate.
 
-<plots/THEO/prospino_lhc8-eps-converted-to.pdf, id=449, 370.38374pt x 284.06125
+<plots/THEO/prospino_lhc8-eps-converted-to.pdf, id=469, 370.38374pt x 284.06125
 pt>
 File: plots/THEO/prospino_lhc8-eps-converted-to.pdf Graphic file (type pdf)
  <use plots/THEO/prospino_lhc8-eps-converted-to.pdf>
@@ -922,7 +897,7 @@ Package pdftex.def Info: plots/THEO/prospino_lhc8-eps-converted-to.pdf used on
 input line 109.
 (pdftex.def)             Requested size: 222.23195pt x 170.43805pt.
  [9]
-<plots/THEO/FeynmanGraph_slepton.pdf, id=469, 292.09125pt x 177.66376pt>
+<plots/THEO/FeynmanGraph_slepton.pdf, id=489, 292.09125pt x 177.66376pt>
 File: plots/THEO/FeynmanGraph_slepton.pdf Graphic file (type pdf)
 
 <use plots/THEO/FeynmanGraph_slepton.pdf>
@@ -930,16 +905,15 @@ Package pdftex.def Info: plots/THEO/FeynmanGraph_slepton.pdf used on input line
  125.
 (pdftex.def)             Requested size: 209.13013pt x 127.20753pt.
 
-<plots/THEO/FeynmanGraph_Z_decay.pdf, id=470, 276.03125pt x 174.6525pt>
+<plots/THEO/FeynmanGraph_Z_decay.pdf, id=490, 276.03125pt x 174.6525pt>
 File: plots/THEO/FeynmanGraph_Z_decay.pdf Graphic file (type pdf)
 
 <use plots/THEO/FeynmanGraph_Z_decay.pdf>
 Package pdftex.def Info: plots/THEO/FeynmanGraph_Z_decay.pdf used on input line
  128.
 (pdftex.def)             Requested size: 209.13013pt x 132.32686pt.
- [10 <./plots/THEO/prospino_lhc8-eps-converted-to.pdf> <./plots/THEO/FeynmanGra
-ph_slepton.pdf> <./plots/THEO/FeynmanGraph_Z_decay.pdf>]
-<plots/THEO/Feynman_graph_T6bblledgeZ.pdf, id=533, 819.06pt x 422.57875pt>
+ [10 <./plots/THEO/prospino_lhc8-eps-converted-to.pdf>]
+<plots/THEO/Feynman_graph_T6bblledgeZ.pdf, id=521, 819.06pt x 422.57875pt>
 File: plots/THEO/Feynman_graph_T6bblledgeZ.pdf Graphic file (type pdf)
 
 <use plots/THEO/Feynman_graph_T6bblledgeZ.pdf>
@@ -947,40 +921,57 @@ Package pdftex.def Info: plots/THEO/Feynman_graph_T6bblledgeZ.pdf used on input
  line 152.
 (pdftex.def)             Requested size: 209.13013pt x 107.89478pt.
 
-<plots/THEO/Feynman_graph_T6bbslepton.pdf, id=534, 819.06pt x 394.47375pt>
+<plots/THEO/Feynman_graph_T6bbslepton.pdf, id=522, 819.06pt x 394.47375pt>
 File: plots/THEO/Feynman_graph_T6bbslepton.pdf Graphic file (type pdf)
 
 <use plots/THEO/Feynman_graph_T6bbslepton.pdf>
 Package pdftex.def Info: plots/THEO/Feynman_graph_T6bbslepton.pdf used on input
  line 155.
 (pdftex.def)             Requested size: 209.13013pt x 100.71887pt.
- [11 <./plots/THEO/Feynman_graph_T6bblledgeZ.pdf> <./plots/THEO/Feynman_graph_T
-6bbslepton.pdf>]
-<plots/THEO/SUSY_masses.pdf, id=573, 569.12625pt x 553.06625pt>
+ [11 <./plots/THEO/FeynmanGraph_slepton.pdf> <./plots/THEO/FeynmanGraph_Z_decay
+.pdf> <./plots/THEO/Feynman_graph_T6bblledgeZ.pdf> <./plots/THEO/Feynman_graph_
+T6bbslepton.pdf>]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 164.
+
+
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+<plots/THEO/SUSY_masses_Raw.pdf, id=601, 569.12625pt x 553.06625pt>
+File: plots/THEO/SUSY_masses_Raw.pdf Graphic file (type pdf)
+
+<use plots/THEO/SUSY_masses_Raw.pdf>
+Package pdftex.def Info: plots/THEO/SUSY_masses_Raw.pdf used on input line 170.
+
+(pdftex.def)             Requested size: 170.73918pt x 165.92114pt.
+
+<plots/THEO/SUSY_masses.pdf, id=602, 569.12625pt x 553.06625pt>
 File: plots/THEO/SUSY_masses.pdf Graphic file (type pdf)
 
 <use plots/THEO/SUSY_masses.pdf>
-Package pdftex.def Info: plots/THEO/SUSY_masses.pdf used on input line 169.
+Package pdftex.def Info: plots/THEO/SUSY_masses.pdf used on input line 173.
 (pdftex.def)             Requested size: 170.73918pt x 165.92114pt.
- [12 <./plots/THEO/SUSY_masses.pdf, page is rotated 90 degrees>]
-<plots/THEO/crosssections2012_v5.pdf, id=630, 597.23125pt x 845.1575pt>
+ [12]
+<plots/THEO/crosssections2012_v5.pdf, id=616, 597.23125pt x 845.1575pt>
 File: plots/THEO/crosssections2012_v5.pdf Graphic file (type pdf)
 
 <use plots/THEO/crosssections2012_v5.pdf>
 Package pdftex.def Info: plots/THEO/crosssections2012_v5.pdf used on input line
- 189.
+ 194.
 (pdftex.def)             Requested size: 298.61488pt x 422.57771pt.
-) [13] [14 <./plots/THEO/crosssections2012_v5.pdf>]
+) [13 <./plots/THEO/SUSY_masses_Raw.pdf, page is rotated 90 degrees> <./plots/T
+HEO/SUSY_masses.pdf, page is rotated 90 degrees>] [14 <./plots/THEO/crosssectio
+ns2012_v5.pdf>]
 Chapter 3.
 (./setup.tex (./LHC.tex
-<plots/LHC/LHC_scetch.png, id=665, 1535.7375pt x 1068.99374pt>
+<plots/LHC/LHC_scetch.png, id=739, 1535.7375pt x 1068.99374pt>
 File: plots/LHC/LHC_scetch.png Graphic file (type png)
 
 <use plots/LHC/LHC_scetch.png>
 Package pdftex.def Info: plots/LHC/LHC_scetch.png used on input line 8.
 (pdftex.def)             Requested size: 320.09355pt x 222.7989pt.
 
-<plots/LHC/peak_lumi_per_day_pp_2012.pdf, id=671, 578.16pt x 433.62pt>
+<plots/LHC/peak_lumi_per_day_pp_2012.pdf, id=745, 578.16pt x 433.62pt>
 File: plots/LHC/peak_lumi_per_day_pp_2012.pdf Graphic file (type pdf)
 
 <use plots/LHC/peak_lumi_per_day_pp_2012.pdf>
@@ -988,7 +979,7 @@ Package pdftex.def Info: plots/LHC/peak_lumi_per_day_pp_2012.pdf used on input
 line 18.
 (pdftex.def)             Requested size: 209.13013pt x 156.84413pt.
 
-<plots/LHC/int_lumi_cumulative_pp_2.pdf, id=672, 578.16pt x 433.62pt>
+<plots/LHC/int_lumi_cumulative_pp_2.pdf, id=746, 578.16pt x 433.62pt>
 File: plots/LHC/int_lumi_cumulative_pp_2.pdf Graphic file (type pdf)
 
 <use plots/LHC/int_lumi_cumulative_pp_2.pdf>
@@ -996,7 +987,7 @@ Package pdftex.def Info: plots/LHC/int_lumi_cumulative_pp_2.pdf used on input l
 ine 21.
 (pdftex.def)             Requested size: 209.13013pt x 156.84413pt.
 ) (./CMS.tex
-<plots/CMS/cms_design.png, id=677, 3189.9175pt x 2253.41875pt>
+<plots/CMS/cms_design.png, id=751, 3189.9175pt x 2253.41875pt>
 File: plots/CMS/cms_design.png Graphic file (type png)
 
 <use plots/CMS/cms_design.png>
@@ -1010,41 +1001,41 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 [16 <./plots/LHC/LHC_scetch.png> <./plots/LHC/peak_lumi_per_day_pp_2012.pdf> <.
 /plots/LHC/int_lumi_cumulative_pp_2.pdf>]
-<plots/CMS/Tracker.png, id=828, 589.4522pt x 274.02374pt>
+<plots/CMS/Tracker.png, id=901, 589.4522pt x 274.02374pt>
 File: plots/CMS/Tracker.png Graphic file (type png)
 
 <use plots/CMS/Tracker.png>
 Package pdftex.def Info: plots/CMS/Tracker.png used on input line 12.
 (pdftex.def)             Requested size: 362.7753pt x 168.64694pt.
  [17 <./plots/CMS/cms_design.png>] [18 <./plots/CMS/Tracker.png>]
-<plots/CMS/TrackerMaterial.png, id=847, 281.55188pt x 292.09125pt>
+<plots/CMS/TrackerMaterial.png, id=920, 281.55188pt x 292.09125pt>
 File: plots/CMS/TrackerMaterial.png Graphic file (type png)
 
 <use plots/CMS/TrackerMaterial.png>
 Package pdftex.def Info: plots/CMS/TrackerMaterial.png used on input line 28.
 (pdftex.def)             Requested size: 256.07744pt x 265.67863pt.
 
-<plots/CMS/ECAL.png, id=850, 537.50812pt x 392.21532pt>
+<plots/CMS/ECAL.png, id=923, 537.50812pt x 392.21532pt>
 File: plots/CMS/ECAL.png Graphic file (type png)
 
 <use plots/CMS/ECAL.png>
 Package pdftex.def Info: plots/CMS/ECAL.png used on input line 36.
 (pdftex.def)             Requested size: 256.07744pt x 186.8548pt.
  [19 <./plots/CMS/TrackerMaterial.png>]
-<plots/CMS/HCAL.png, id=859, 584.93532pt x 392.21532pt>
+<plots/CMS/HCAL.png, id=933, 584.93532pt x 392.21532pt>
 File: plots/CMS/HCAL.png Graphic file (type png)
 
 <use plots/CMS/HCAL.png>
 Package pdftex.def Info: plots/CMS/HCAL.png used on input line 55.
 (pdftex.def)             Requested size: 256.07744pt x 171.71347pt.
  [20 <./plots/CMS/ECAL.png>] [21 <./plots/CMS/HCAL.png>] <plots/CMS/DT.png, id=
-878, 484.05844pt x 276.28218pt>
+951, 484.05844pt x 276.28218pt>
 File: plots/CMS/DT.png Graphic file (type png)
  <use plots/CMS/DT.png>
 Package pdftex.def Info: plots/CMS/DT.png used on input line 72.
 (pdftex.def)             Requested size: 256.07744pt x 146.16325pt.
 
-[22] <plots/CMS/CSC.png, id=888, 575.14874pt x 286.82156pt>
+[22] <plots/CMS/CSC.png, id=961, 575.14874pt x 286.82156pt>
 File: plots/CMS/CSC.png Graphic file (type png)
 
 <use plots/CMS/CSC.png>
@@ -1053,23 +1044,20 @@ Package pdftex.def Info: plots/CMS/CSC.png used on input line 80.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23 <./plots/CMS/DT.png>]) (./DAQTrig.tex
-Underfull \vbox (badness 4621) has occurred while \output is active []
-
- [24 <./plots/CMS/CSC.png>] <plots/CMS/L1Schema.png, id=910, 392.96812pt x 291.
-33844pt>
+ [23 <./plots/CMS/DT.png>]) (./DAQTrig.tex [24 <./plots/CMS/CSC.png>]
+<plots/CMS/L1Schema.png, id=984, 392.96812pt x 291.33844pt>
 File: plots/CMS/L1Schema.png Graphic file (type png)
 
 <use plots/CMS/L1Schema.png>
 Package pdftex.def Info: plots/CMS/L1Schema.png used on input line 18.
 (pdftex.def)             Requested size: 209.13013pt x 155.04878pt.
 
-<plots/CMS/DAQ.png, id=911, 2003.23407pt x 1072.75781pt>
+<plots/CMS/DAQ.png, id=985, 2081.52657pt x 869.49844pt>
 File: plots/CMS/DAQ.png Graphic file (type png)
 
 <use plots/CMS/DAQ.png>
 Package pdftex.def Info: plots/CMS/DAQ.png used on input line 21.
-(pdftex.def)             Requested size: 209.13013pt x 111.97995pt.
+(pdftex.def)             Requested size: 209.13013pt x 87.35295pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1078,180 +1066,173 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 Chapter 4.
-(./ana.tex [29] [30]
+(./ana.tex [29]
+Underfull \vbox (badness 2119) has occurred while \output is active []
+
+ [30]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31]
 [32] [33]
-<plots/RECO/bTagEfficiency.png, id=1012, 1609.51312pt x 1083.29718pt>
+<plots/RECO/bTagEfficiency.png, id=1085, 1609.51312pt x 1083.29718pt>
 File: plots/RECO/bTagEfficiency.png Graphic file (type png)
 
 <use plots/RECO/bTagEfficiency.png>
-Package pdftex.def Info: plots/RECO/bTagEfficiency.png used on input line 135.
+Package pdftex.def Info: plots/RECO/bTagEfficiency.png used on input line 136.
 (pdftex.def)             Requested size: 256.07744pt x 172.35583pt.
 
-<plots/RECO/bTagMisID.png, id=1013, 1824.06468pt x 727.21687pt>
+<plots/RECO/bTagMisID.png, id=1086, 1824.06468pt x 727.21687pt>
 File: plots/RECO/bTagMisID.png Graphic file (type png)
 
 <use plots/RECO/bTagMisID.png>
-Package pdftex.def Info: plots/RECO/bTagMisID.png used on input line 137.
+Package pdftex.def Info: plots/RECO/bTagMisID.png used on input line 138.
 (pdftex.def)             Requested size: 256.07744pt x 102.08707pt.
  [34] [35 <./plots/RECO/bTagEfficiency.png> <./plots/RECO/bTagMisID.png>]
-<plots/RECO/METResolution.png, id=1035, 1316.66907pt x 940.26282pt>
+<plots/RECO/METResolution.png, id=1109, 1316.66907pt x 940.26282pt>
 File: plots/RECO/METResolution.png Graphic file (type png)
 
 <use plots/RECO/METResolution.png>
-Package pdftex.def Info: plots/RECO/METResolution.png used on input line 155.
+Package pdftex.def Info: plots/RECO/METResolution.png used on input line 156.
 (pdftex.def)             Requested size: 263.32915pt x 188.04922pt.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 156.
-
-Underfull \vbox (badness 3701) has occurred while \output is active []
-
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 157.
  [36 <./plots/RECO/METResolution.png>]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 177.
-
- (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [37]
-Overfull \hbox (39.27817pt too wide) in paragraph at lines 190--228
+[37]
+Overfull \hbox (39.27817pt too wide) in paragraph at lines 191--229
  [] 
  []
 
-
-Underfull \vbox (badness 3189) has occurred while \output is active []
-
- [38]
-[39] [40]
-Overfull \hbox (33.15329pt too wide) in paragraph at lines 271--319
+[38] [39] [40]
+Overfull \hbox (33.15329pt too wide) in paragraph at lines 272--321
  [] 
  []
 
 [41]
-<plots/SELECTION/Inclusive_nVtx_Full2012_SF_TopReweighted_NOPU.pdf, id=1149, 56
+<plots/SELECTION/Inclusive_nVtx_Full2012_SF_TopReweighted_NOPU.pdf, id=1221, 56
 9.12625pt x 552.0625pt>
 File: plots/SELECTION/Inclusive_nVtx_Full2012_SF_TopReweighted_NOPU.pdf Graphic
  file (type pdf)
 
 <use plots/SELECTION/Inclusive_nVtx_Full2012_SF_TopReweighted_NOPU.pdf>
 Package pdftex.def Info: plots/SELECTION/Inclusive_nVtx_Full2012_SF_TopReweight
-ed_NOPU.pdf used on input line 331.
+ed_NOPU.pdf used on input line 333.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
-<plots/SELECTION/Inclusive_nVtx_Full2012_SF_TopReweighted.pdf, id=1150, 569.126
+<plots/SELECTION/Inclusive_nVtx_Full2012_SF_TopReweighted.pdf, id=1222, 569.126
 25pt x 552.0625pt>
 File: plots/SELECTION/Inclusive_nVtx_Full2012_SF_TopReweighted.pdf Graphic file
  (type pdf)
 
 <use plots/SELECTION/Inclusive_nVtx_Full2012_SF_TopReweighted.pdf>
 Package pdftex.def Info: plots/SELECTION/Inclusive_nVtx_Full2012_SF_TopReweight
-ed.pdf used on input line 334.
+ed.pdf used on input line 336.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
  [42]
 [43] [44 <./plots/SELECTION/Inclusive_nVtx_Full2012_SF_TopReweighted_NOPU.pdf, 
 page is rotated 90 degrees> <./plots/SELECTION/Inclusive_nVtx_Full2012_SF_TopRe
 weighted.pdf, page is rotated 90 degrees>]
-<plots/SELECTION/metFilter.pdf, id=1267, 569.12625pt x 552.0625pt>
-File: plots/SELECTION/metFilter.pdf Graphic file (type pdf)
+<plots/SELECTION/METFilter2.png, id=1341, 1294.8375pt x 1232.35406pt>
+File: plots/SELECTION/METFilter2.png Graphic file (type png)
 
-<use plots/SELECTION/metFilter.pdf>
-Package pdftex.def Info: plots/SELECTION/metFilter.pdf used on input line 358.
-(pdftex.def)             Requested size: 227.64647pt x 220.82108pt.
- [45 <./plots/SELECTION/metFilter.pdf, page is rotated 90 degrees>]
-<plots/SELECTION/iso_Inclusive_Full2012_TrailingIso_None_MC.pdf, id=1324, 569.1
+<use plots/SELECTION/METFilter2.png>
+Package pdftex.def Info: plots/SELECTION/METFilter2.png used on input line 360.
+
+(pdftex.def)             Requested size: 194.21724pt x 184.84514pt.
+ [45 <./plots/SELECTION/METFilter2.png>]
+<plots/SELECTION/iso_Inclusive_Full2012_TrailingIso_None_MC.pdf, id=1354, 569.1
 2625pt x 552.0625pt>
 File: plots/SELECTION/iso_Inclusive_Full2012_TrailingIso_None_MC.pdf Graphic fi
 le (type pdf)
 
 <use plots/SELECTION/iso_Inclusive_Full2012_TrailingIso_None_MC.pdf>
 Package pdftex.def Info: plots/SELECTION/iso_Inclusive_Full2012_TrailingIso_Non
-e_MC.pdf used on input line 374.
+e_MC.pdf used on input line 376.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
-<plots/SELECTION/isoEff_Inclusive_Full2012_nVtx_None_MC.pdf, id=1325, 569.12625
+<plots/SELECTION/isoEff_Inclusive_Full2012_nVtx_None_MC.pdf, id=1355, 569.12625
 pt x 552.0625pt>
 File: plots/SELECTION/isoEff_Inclusive_Full2012_nVtx_None_MC.pdf Graphic file (
 type pdf)
 
 <use plots/SELECTION/isoEff_Inclusive_Full2012_nVtx_None_MC.pdf>
 Package pdftex.def Info: plots/SELECTION/isoEff_Inclusive_Full2012_nVtx_None_MC
-.pdf used on input line 377.
+.pdf used on input line 379.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
  [46 <./plots/SELECTION/iso_Inclusive_Full2012_TrailingIso_None_MC.pdf, page is
  rotated 90 degrees> <./plots/SELECTION/isoEff_Inclusive_Full2012_nVtx_None_MC.
 pdf, page is rotated 90 degrees>]
-<plots/SELECTION/gapJustification.pdf, id=1422, 569.12625pt x 553.06625pt>
+<plots/SELECTION/gapJustification.pdf, id=1452, 569.12625pt x 553.06625pt>
 File: plots/SELECTION/gapJustification.pdf Graphic file (type pdf)
 
 <use plots/SELECTION/gapJustification.pdf>
 Package pdftex.def Info: plots/SELECTION/gapJustification.pdf used on input lin
-e 394.
+e 396.
 (pdftex.def)             Requested size: 209.13013pt x 203.23041pt.
 
-<plots/SELECTION/dRJustification_eeVSmm.pdf, id=1423, 569.12625pt x 553.06625pt
+<plots/SELECTION/dRJustification_eeVSmm.pdf, id=1453, 569.12625pt x 553.06625pt
 >
 File: plots/SELECTION/dRJustification_eeVSmm.pdf Graphic file (type pdf)
  <use plots/SELECTION/dRJustification_eeVSmm.pdf>
 Package pdftex.def Info: plots/SELECTION/dRJustification_eeVSmm.pdf used on inp
-ut line 397.
+ut line 399.
 (pdftex.def)             Requested size: 209.13013pt x 203.23041pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 406.
+(Font)              <12> on input line 408.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 406.
+(hyperref)                removing `subscript' on input line 408.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 406.
+(hyperref)                removing `superscript' on input line 408.
 
 [47]
-<plots/SELECTION/metJetsScatter_ttbar.pdf, id=1432, 569.12625pt x 553.06625pt>
+<plots/SELECTION/metJetsScatter_ttbar.pdf, id=1462, 569.12625pt x 553.06625pt>
 File: plots/SELECTION/metJetsScatter_ttbar.pdf Graphic file (type pdf)
 
 <use plots/SELECTION/metJetsScatter_ttbar.pdf>
 Package pdftex.def Info: plots/SELECTION/metJetsScatter_ttbar.pdf used on input
- line 416.
+ line 418.
 (pdftex.def)             Requested size: 209.13013pt x 203.23041pt.
 
-<plots/SELECTION/metJetsScatter_DY.pdf, id=1433, 569.12625pt x 553.06625pt>
+<plots/SELECTION/metJetsScatter_DY.pdf, id=1463, 569.12625pt x 553.06625pt>
 File: plots/SELECTION/metJetsScatter_DY.pdf Graphic file (type pdf)
 
 <use plots/SELECTION/metJetsScatter_DY.pdf>
 Package pdftex.def Info: plots/SELECTION/metJetsScatter_DY.pdf used on input li
-ne 419.
+ne 421.
 (pdftex.def)             Requested size: 209.13013pt x 203.23041pt.
 
-<plots/SELECTION/metJetsScatter_SUSY_edge_550_275.pdf, id=1436, 569.12625pt x 5
+<plots/SELECTION/metJetsScatter_SUSY_edge_550_275.pdf, id=1466, 569.12625pt x 5
 53.06625pt>
 File: plots/SELECTION/metJetsScatter_SUSY_edge_550_275.pdf Graphic file (type p
 df)
  <use plots/SELECTION/metJetsScatter_SUSY_edge_550_275.pdf>
 Package pdftex.def Info: plots/SELECTION/metJetsScatter_SUSY_edge_550_275.pdf u
-sed on input line 429.
+sed on input line 431.
 (pdftex.def)             Requested size: 209.13013pt x 203.23041pt.
 
-<plots/SELECTION/metJetsScatter_SUSY_slepton_500_175.pdf, id=1437, 569.12625pt 
+<plots/SELECTION/metJetsScatter_SUSY_slepton_500_175.pdf, id=1467, 569.12625pt 
 x 553.06625pt>
 File: plots/SELECTION/metJetsScatter_SUSY_slepton_500_175.pdf Graphic file (typ
 e pdf)
  <use plots/SELECTION/metJetsScatter_SUSY_slepton_500_175.pdf>
 Package pdftex.def Info: plots/SELECTION/metJetsScatter_SUSY_slepton_500_175.pd
-f used on input line 432.
+f used on input line 434.
 (pdftex.def)             Requested size: 209.13013pt x 203.23041pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 438.
+(hyperref)                removing `subscript' on input line 440.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\ell' on input line 438.
+(hyperref)                removing `\ell' on input line 440.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\ell' on input line 438.
+(hyperref)                removing `\ell' on input line 440.
 
 [48 <./plots/SELECTION/gapJustification.pdf, page is rotated 90 degrees> <./plo
 ts/SELECTION/dRJustification_eeVSmm.pdf, page is rotated 90 degrees>] [49 <./pl
@@ -1259,24 +1240,24 @@ ots/SELECTION/metJetsScatter_ttbar.pdf, page is rotated 90 degrees> <./plots/SE
 LECTION/metJetsScatter_DY.pdf, page is rotated 90 degrees> <./plots/SELECTION/m
 etJetsScatter_SUSY_edge_550_275.pdf, page is rotated 90 degrees> <./plots/SELEC
 TION/metJetsScatter_SUSY_slepton_500_175.pdf, page is rotated 90 degrees>]
-<plots/SELECTION/SignalCentral_Mll_Full2012_SF_TopReweighted_MCOnly.pdf, id=171
-0, 569.12625pt x 552.0625pt>
+<plots/SELECTION/SignalCentral_Mll_Full2012_SF_TopReweighted_MCOnly.pdf, id=174
+2, 569.12625pt x 552.0625pt>
 File: plots/SELECTION/SignalCentral_Mll_Full2012_SF_TopReweighted_MCOnly.pdf Gr
 aphic file (type pdf)
 
 <use plots/SELECTION/SignalCentral_Mll_Full2012_SF_TopReweighted_MCOnly.pdf>
 Package pdftex.def Info: plots/SELECTION/SignalCentral_Mll_Full2012_SF_TopRewei
-ghted_MCOnly.pdf used on input line 444.
+ghted_MCOnly.pdf used on input line 446.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
-<plots/SELECTION/SignalForward_Mll_Full2012_SF_TopReweighted_MCOnly.pdf, id=171
-1, 569.12625pt x 552.0625pt>
+<plots/SELECTION/SignalForward_Mll_Full2012_SF_TopReweighted_MCOnly.pdf, id=174
+3, 569.12625pt x 552.0625pt>
 File: plots/SELECTION/SignalForward_Mll_Full2012_SF_TopReweighted_MCOnly.pdf Gr
 aphic file (type pdf)
 
 <use plots/SELECTION/SignalForward_Mll_Full2012_SF_TopReweighted_MCOnly.pdf>
 Package pdftex.def Info: plots/SELECTION/SignalForward_Mll_Full2012_SF_TopRewei
-ghted_MCOnly.pdf used on input line 447.
+ghted_MCOnly.pdf used on input line 449.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 )
 [50 <./plots/SELECTION/SignalCentral_Mll_Full2012_SF_TopReweighted_MCOnly.pdf, 
@@ -1291,7 +1272,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `subscript' on input line 15.
 
 
-<plots/BG/control/rSFOF_ControlCentral_Full2012_Mll_None_MC.pdf, id=1826, 569.1
+<plots/BG/control/rSFOF_ControlCentral_Full2012_Mll_None_MC.pdf, id=1856, 569.1
 2625pt x 194.7275pt>
 File: plots/BG/control/rSFOF_ControlCentral_Full2012_Mll_None_MC.pdf Graphic fi
 le (type pdf)
@@ -1301,7 +1282,7 @@ Package pdftex.def Info: plots/BG/control/rSFOF_ControlCentral_Full2012_Mll_Non
 e_MC.pdf used on input line 19.
 (pdftex.def)             Requested size: 284.56242pt x 97.3635pt.
 
-<plots/BG/control/rSFOF_ControlForward_Full2012_Mll_None_MC.pdf, id=1827, 569.1
+<plots/BG/control/rSFOF_ControlForward_Full2012_Mll_None_MC.pdf, id=1857, 569.1
 2625pt x 194.7275pt>
 File: plots/BG/control/rSFOF_ControlForward_Full2012_Mll_None_MC.pdf Graphic fi
 le (type pdf)
@@ -1311,7 +1292,7 @@ Package pdftex.def Info: plots/BG/control/rSFOF_ControlForward_Full2012_Mll_Non
 e_MC.pdf used on input line 20.
 (pdftex.def)             Requested size: 284.56242pt x 97.3635pt.
 
-<plots/BG/control/rSFOF_ControlCentral_Full2012_Mll_None.pdf, id=1829, 569.1262
+<plots/BG/control/rSFOF_ControlCentral_Full2012_Mll_None.pdf, id=1859, 569.1262
 5pt x 194.7275pt>
 File: plots/BG/control/rSFOF_ControlCentral_Full2012_Mll_None.pdf Graphic file 
 (type pdf)
@@ -1321,7 +1302,7 @@ Package pdftex.def Info: plots/BG/control/rSFOF_ControlCentral_Full2012_Mll_Non
 e.pdf used on input line 29.
 (pdftex.def)             Requested size: 284.56242pt x 97.3635pt.
 
-<plots/BG/control/rSFOF_ControlForward_Full2012_Mll_None.pdf, id=1830, 569.1262
+<plots/BG/control/rSFOF_ControlForward_Full2012_Mll_None.pdf, id=1860, 569.1262
 5pt x 194.7275pt>
 File: plots/BG/control/rSFOF_ControlForward_Full2012_Mll_None.pdf Graphic file 
 (type pdf)
@@ -1340,453 +1321,487 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 [55 <./plots/BG/control/rSFOF_ControlCentral_Full2012_Mll_None.pdf, page is rot
 ated 90 degrees> <./plots/BG/control/rSFOF_ControlForward_Full2012_Mll_None.pdf
 , page is rotated 90 degrees>] [56]
-<plots/BG/rmue/DrellYanControl_Mll_Full2012_MuMu_TopReweighted.pdf, id=2023, 56
+<plots/BG/rmue/DrellYanControl_Mll_Full2012_MuMu_TopReweighted.pdf, id=2054, 56
 9.12625pt x 552.0625pt>
 File: plots/BG/rmue/DrellYanControl_Mll_Full2012_MuMu_TopReweighted.pdf Graphic
  file (type pdf)
 
 <use plots/BG/rmue/DrellYanControl_Mll_Full2012_MuMu_TopReweighted.pdf>
 Package pdftex.def Info: plots/BG/rmue/DrellYanControl_Mll_Full2012_MuMu_TopRew
-eighted.pdf used on input line 89.
+eighted.pdf used on input line 92.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
-<plots/BG/rmue/DrellYanControl_Mll_Full2012_EE_TopReweighted.pdf, id=2024, 569.
+<plots/BG/rmue/DrellYanControl_Mll_Full2012_EE_TopReweighted.pdf, id=2055, 569.
 12625pt x 552.0625pt>
 File: plots/BG/rmue/DrellYanControl_Mll_Full2012_EE_TopReweighted.pdf Graphic f
 ile (type pdf)
 
 <use plots/BG/rmue/DrellYanControl_Mll_Full2012_EE_TopReweighted.pdf>
 Package pdftex.def Info: plots/BG/rmue/DrellYanControl_Mll_Full2012_EE_TopRewei
-ghted.pdf used on input line 92.
+ghted.pdf used on input line 95.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
 (./tab/table_rMuE_result.tex)
-<plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_Mll_None.pdf, id=2029, 569.126
+<plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_Mll_None.pdf, id=2060, 569.126
 25pt x 552.0625pt>
 File: plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_Mll_None.pdf Graphic file
  (type pdf)
 
 <use plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_Mll_None.pdf>
 Package pdftex.def Info: plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_Mll_No
-ne.pdf used on input line 103.
+ne.pdf used on input line 106.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
-<plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_Mll_None.pdf, id=2030, 569.126
+<plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_Mll_None.pdf, id=2061, 569.126
 25pt x 552.0625pt>
 File: plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_Mll_None.pdf Graphic file
  (type pdf)
 
 <use plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_Mll_None.pdf>
 Package pdftex.def Info: plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_Mll_No
-ne.pdf used on input line 106.
+ne.pdf used on input line 109.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
-<plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_MET_None.pdf, id=2031, 569.126
+<plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_MET_None.pdf, id=2062, 569.126
 25pt x 552.0625pt>
 File: plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_MET_None.pdf Graphic file
  (type pdf)
 
 <use plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_MET_None.pdf>
 Package pdftex.def Info: plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_MET_No
-ne.pdf used on input line 109.
+ne.pdf used on input line 112.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
-<plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_MET_None.pdf, id=2032, 569.126
+<plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_MET_None.pdf, id=2063, 569.126
 25pt x 552.0625pt>
 File: plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_MET_None.pdf Graphic file
  (type pdf)
 
 <use plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_MET_None.pdf>
 Package pdftex.def Info: plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_MET_No
-ne.pdf used on input line 112.
+ne.pdf used on input line 115.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
-<plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_NJets_None.pdf, id=2033, 569.1
+<plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_NJets_None.pdf, id=2064, 569.1
 2625pt x 552.0625pt>
 File: plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_NJets_None.pdf Graphic fi
 le (type pdf)
 
 <use plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_NJets_None.pdf>
 Package pdftex.def Info: plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_NJets_
-None.pdf used on input line 115.
+None.pdf used on input line 118.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
-<plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_NJets_None.pdf, id=2034, 569.1
+<plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_NJets_None.pdf, id=2065, 569.1
 2625pt x 552.0625pt>
 File: plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_NJets_None.pdf Graphic fi
 le (type pdf)
 
 <use plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_NJets_None.pdf>
 Package pdftex.def Info: plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_NJets_
-None.pdf used on input line 118.
+None.pdf used on input line 121.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
 
-LaTeX Warning: Float too large for page by 10.30269pt on input line 122.
+LaTeX Warning: Float too large for page by 22.30269pt on input line 125.
 
 [57] [58 <./plots/BG/rmue/DrellYanControl_Mll_Full2012_MuMu_TopReweighted.pdf, 
 page is rotated 90 degrees> <./plots/BG/rmue/DrellYanControl_Mll_Full2012_EE_To
 pReweighted.pdf, page is rotated 90 degrees>]
-(./tab/table_TriggerEffsExclusive_Seperated.tex
-Overfull \hbox (2.27892pt too wide) in paragraph at lines 5--32
- [][] 
- []
 
-)
+LaTeX Warning: Reference `{sec:trigger}' on page 59 undefined on input line 132
+.
+
+(./tab/table_TriggerEffsExclusive_Seperated.tex)
 <plots/BG/trigger/Triggereff_AlphaTSyst_PFHT_HighHTExclusive_Full2012_Mll_None.
-pdf, id=2143, 569.12625pt x 553.06625pt>
+pdf, id=2172, 569.12625pt x 553.06625pt>
 File: plots/BG/trigger/Triggereff_AlphaTSyst_PFHT_HighHTExclusive_Full2012_Mll_
 None.pdf Graphic file (type pdf)
 
 <use plots/BG/trigger/Triggereff_AlphaTSyst_PFHT_HighHTExclusive_Full2012_Mll_N
 one.pdf>
 Package pdftex.def Info: plots/BG/trigger/Triggereff_AlphaTSyst_PFHT_HighHTExcl
-usive_Full2012_Mll_None.pdf used on input line 134.
-(pdftex.def)             Requested size: 199.19717pt x 193.57608pt.
- [59] [60 <./plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_Mll_None.pdf, page
- is rotated 90 degrees> <./plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_Mll_
-None.pdf, page is rotated 90 degrees> <./plots/BG/rmue/rMuE_ZPeakControlCentral
-_Full2012_MET_None.pdf, page is rotated 90 degrees> <./plots/BG/rmue/rMuE_ZPeak
-ControlForward_Full2012_MET_None.pdf, page is rotated 90 degrees> <./plots/BG/r
-mue/rMuE_ZPeakControlCentral_Full2012_NJets_None.pdf, page is rotated 90 degree
-s> <./plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_NJets_None.pdf, page is r
-otated 90 degrees>]
+usive_Full2012_Mll_None.pdf used on input line 138.
+(pdftex.def)             Requested size: 213.42181pt x 207.39932pt.
+
+Overfull \hbox (4.29169pt too wide) in paragraph at lines 138--139
+[][] 
+ []
+
+
+<plots/BG/trigger/Triggereff_AlphaTSyst_AlphaT_HighHTExclusive_Full2012_Mll_Non
+e.pdf, id=2173, 569.12625pt x 553.06625pt>
+File: plots/BG/trigger/Triggereff_AlphaTSyst_AlphaT_HighHTExclusive_Full2012_Ml
+l_None.pdf Graphic file (type pdf)
+
+<use plots/BG/trigger/Triggereff_AlphaTSyst_AlphaT_HighHTExclusive_Full2012_Mll
+_None.pdf>
+Package pdftex.def Info: plots/BG/trigger/Triggereff_AlphaTSyst_AlphaT_HighHTEx
+clusive_Full2012_Mll_None.pdf used on input line 141.
+(pdftex.def)             Requested size: 213.42181pt x 207.39932pt.
+
+Overfull \hbox (4.29169pt too wide) in paragraph at lines 141--142
+[][] 
+ []
+
+[59] [60 <./plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_Mll_None.pdf, page 
+is rotated 90 degrees> <./plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_Mll_N
+one.pdf, page is rotated 90 degrees> <./plots/BG/rmue/rMuE_ZPeakControlCentral_
+Full2012_MET_None.pdf, page is rotated 90 degrees> <./plots/BG/rmue/rMuE_ZPeakC
+ontrolForward_Full2012_MET_None.pdf, page is rotated 90 degrees> <./plots/BG/rm
+ue/rMuE_ZPeakControlCentral_Full2012_NJets_None.pdf, page is rotated 90 degrees
+> <./plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_NJets_None.pdf, page is ro
+tated 90 degrees>]
 <plots/BG/trigger/Triggereff_SingleLepton_HighHTExclusive_Full2012_TrailingPt_l
-eadingPt30Single.pdf, id=2415, 569.12625pt x 553.06625pt>
+eadingPt30Single.pdf, id=2444, 569.12625pt x 553.06625pt>
 File: plots/BG/trigger/Triggereff_SingleLepton_HighHTExclusive_Full2012_Trailin
 gPt_leadingPt30Single.pdf Graphic file (type pdf)
 
 <use plots/BG/trigger/Triggereff_SingleLepton_HighHTExclusive_Full2012_Trailing
 Pt_leadingPt30Single.pdf>
 Package pdftex.def Info: plots/BG/trigger/Triggereff_SingleLepton_HighHTExclusi
-ve_Full2012_TrailingPt_leadingPt30Single.pdf used on input line 143.
-(pdftex.def)             Requested size: 199.19717pt x 193.57608pt.
+ve_Full2012_TrailingPt_leadingPt30Single.pdf used on input line 151.
+(pdftex.def)             Requested size: 256.10445pt x 248.8775pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [61 <./plots/BG/trigger/Triggereff_AlphaTSyst_PFHT_HighHTExclusive_Full2012_Ml
+l_None.pdf, page is rotated 90 degrees> <./plots/BG/trigger/Triggereff_AlphaTSy
+st_AlphaT_HighHTExclusive_Full2012_Mll_None.pdf, page is rotated 90 degrees>]
 <plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveCentral_Full2012
-_Mll_None.pdf, id=2418, 569.12625pt x 553.06625pt>
+_Mll_None.pdf, id=2541, 569.12625pt x 553.06625pt>
 File: plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveCentral_Ful
 l2012_Mll_None.pdf Graphic file (type pdf)
 
 <use plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveCentral_Full
 2012_Mll_None.pdf>
 Package pdftex.def Info: plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTE
-xclusiveCentral_Full2012_Mll_None.pdf used on input line 153.
+xclusiveCentral_Full2012_Mll_None.pdf used on input line 163.
 (pdftex.def)             Requested size: 209.13013pt x 203.23041pt.
 
 <plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveForward_Full2012
-_Mll_None.pdf, id=2419, 569.12625pt x 553.06625pt>
+_Mll_None.pdf, id=2542, 569.12625pt x 553.06625pt>
 File: plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveForward_Ful
 l2012_Mll_None.pdf Graphic file (type pdf)
 
 <use plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveForward_Full
 2012_Mll_None.pdf>
 Package pdftex.def Info: plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTE
-xclusiveForward_Full2012_Mll_None.pdf used on input line 156.
+xclusiveForward_Full2012_Mll_None.pdf used on input line 166.
 (pdftex.def)             Requested size: 209.13013pt x 203.23041pt.
 
 <plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveCentral_Full2012
-_MET_None.pdf, id=2420, 569.12625pt x 553.06625pt>
+_MET_None.pdf, id=2543, 569.12625pt x 553.06625pt>
 File: plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveCentral_Ful
 l2012_MET_None.pdf Graphic file (type pdf)
 
 <use plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveCentral_Full
 2012_MET_None.pdf>
 Package pdftex.def Info: plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTE
-xclusiveCentral_Full2012_MET_None.pdf used on input line 159.
+xclusiveCentral_Full2012_MET_None.pdf used on input line 169.
 (pdftex.def)             Requested size: 209.13013pt x 203.23041pt.
 
 <plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveForward_Full2012
-_MET_None.pdf, id=2421, 569.12625pt x 553.06625pt>
+_MET_None.pdf, id=2544, 569.12625pt x 553.06625pt>
 File: plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveForward_Ful
 l2012_MET_None.pdf Graphic file (type pdf)
 
 <use plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveForward_Full
 2012_MET_None.pdf>
 Package pdftex.def Info: plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTE
-xclusiveForward_Full2012_MET_None.pdf used on input line 162.
+xclusiveForward_Full2012_MET_None.pdf used on input line 172.
 (pdftex.def)             Requested size: 209.13013pt x 203.23041pt.
 
 <plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveCentral_Full2012
-_NJets_None.pdf, id=2422, 569.12625pt x 553.06625pt>
+_NJets_None.pdf, id=2545, 569.12625pt x 553.06625pt>
 File: plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveCentral_Ful
 l2012_NJets_None.pdf Graphic file (type pdf)
 
 <use plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveCentral_Full
 2012_NJets_None.pdf>
 Package pdftex.def Info: plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTE
-xclusiveCentral_Full2012_NJets_None.pdf used on input line 165.
+xclusiveCentral_Full2012_NJets_None.pdf used on input line 175.
 (pdftex.def)             Requested size: 209.13013pt x 203.23041pt.
 
 <plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveForward_Full2012
-_NJets_None.pdf, id=2423, 569.12625pt x 553.06625pt>
+_NJets_None.pdf, id=2546, 569.12625pt x 553.06625pt>
 File: plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveForward_Ful
 l2012_NJets_None.pdf Graphic file (type pdf)
 
 <use plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveForward_Full
 2012_NJets_None.pdf>
 Package pdftex.def Info: plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTE
-xclusiveForward_Full2012_NJets_None.pdf used on input line 168.
+xclusiveForward_Full2012_NJets_None.pdf used on input line 178.
 (pdftex.def)             Requested size: 209.13013pt x 203.23041pt.
 
 
-LaTeX Warning: Float too large for page by 11.4092pt on input line 172.
+LaTeX Warning: Float too large for page by 11.4092pt on input line 182.
 
-[61 <./plots/BG/trigger/Triggereff_AlphaTSyst_PFHT_HighHTExclusive_Full2012_Mll
-_None.pdf, page is rotated 90 degrees>] [62 <./plots/BG/trigger/Triggereff_Sing
-leLepton_HighHTExclusive_Full2012_TrailingPt_leadingPt30Single.pdf, page is rot
-ated 90 degrees>] (./tab/table_factorization_result.tex)
-<plots/BG/rmue/rMuEPropaganda_central.pdf, id=2526, 569.12625pt x 552.0625pt>
+(./tab/table_factorization_result.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [62 <./plots/BG/trigger/Triggereff_SingleLepton_HighHTExclusive_Full2012_Trail
+ingPt_leadingPt30Single.pdf, page is rotated 90 degrees>] [63 <./plots/BG/trigg
+er/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveCentral_Full2012_Mll_None.pdf, 
+page is rotated 90 degrees> <./plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_H
+ighHTExclusiveForward_Full2012_Mll_None.pdf, page is rotated 90 degrees> <./plo
+ts/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveCentral_Full2012_MET
+_None.pdf, page is rotated 90 degrees> <./plots/BG/trigger/Triggereff_SFvsOF_Sy
+st_AlphaT_HighHTExclusiveForward_Full2012_MET_None.pdf, page is rotated 90 degr
+ees> <./plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveCentral_F
+ull2012_NJets_None.pdf, page is rotated 90 degrees> <./plots/BG/trigger/Trigger
+eff_SFvsOF_Syst_AlphaT_HighHTExclusiveForward_Full2012_NJets_None.pdf, page is 
+rotated 90 degrees>])
+<plots/BG/rmue/rMuEPropaganda_central.pdf, id=2866, 569.12625pt x 552.0625pt>
 File: plots/BG/rmue/rMuEPropaganda_central.pdf Graphic file (type pdf)
 
 <use plots/BG/rmue/rMuEPropaganda_central.pdf>
 Package pdftex.def Info: plots/BG/rmue/rMuEPropaganda_central.pdf used on input
- line 182.
+ line 192.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
-<plots/BG/rmue/rMuEPropaganda_forward.pdf, id=2527, 569.12625pt x 552.0625pt>
+<plots/BG/rmue/rMuEPropaganda_forward.pdf, id=2867, 569.12625pt x 552.0625pt>
 File: plots/BG/rmue/rMuEPropaganda_forward.pdf Graphic file (type pdf)
 
 <use plots/BG/rmue/rMuEPropaganda_forward.pdf>
 Package pdftex.def Info: plots/BG/rmue/rMuEPropaganda_forward.pdf used on input
- line 185.
+ line 195.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
-(./tab/table_rSFOF_combination_result.tex [63] [64 <./plots/BG/trigger/Triggere
-ff_SFvsOF_Syst_AlphaT_HighHTExclusiveCentral_Full2012_Mll_None.pdf, page is rot
-ated 90 degrees> <./plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclus
-iveForward_Full2012_Mll_None.pdf, page is rotated 90 degrees> <./plots/BG/trigg
-er/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveCentral_Full2012_MET_None.pdf, 
-page is rotated 90 degrees> <./plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_H
-ighHTExclusiveForward_Full2012_MET_None.pdf, page is rotated 90 degrees> <./plo
-ts/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveCentral_Full2012_NJe
-ts_None.pdf, page is rotated 90 degrees> <./plots/BG/trigger/Triggereff_SFvsOF_
-Syst_AlphaT_HighHTExclusiveForward_Full2012_NJets_None.pdf, page is rotated 90 
-degrees>]) (./tab/table_cutNCount_FlavSymBkgs.tex
+(./tab/table_rSFOF_combination_result.tex [64 <./plots/BG/rmue/rMuEPropaganda_c
+entral.pdf, page is rotated 90 degrees> <./plots/BG/rmue/rMuEPropaganda_forward
+.pdf, page is rotated 90 degrees>] [65]) (./tab/table_cutNCount_FlavSymBkgs.tex
+
 Overfull \hbox (25.01537pt too wide) in paragraph at lines 11--30
  [][] 
  []
 
-) (./tab/table_MC_SFOF_Full2012.tex [65 <./plots/BG/rmue/rMuEPropaganda_central
-.pdf, page is rotated 90 degrees> <./plots/BG/rmue/rMuEPropaganda_forward.pdf, 
-page is rotated 90 degrees>] [66]) [67]
-<plots/BG/nonPrompt/nonPromptMC_Inclusive_Full2012_Mll_None.pdf, id=2910, 569.1
+) (./tab/table_MC_SFOF_Full2012.tex [66]) [67]
+<plots/BG/nonPrompt/nonPromptMC_Inclusive_Full2012_Mll_None.pdf, id=2983, 569.1
 2625pt x 552.0625pt>
 File: plots/BG/nonPrompt/nonPromptMC_Inclusive_Full2012_Mll_None.pdf Graphic fi
 le (type pdf)
 
 <use plots/BG/nonPrompt/nonPromptMC_Inclusive_Full2012_Mll_None.pdf>
 Package pdftex.def Info: plots/BG/nonPrompt/nonPromptMC_Inclusive_Full2012_Mll_
-None.pdf used on input line 220.
+None.pdf used on input line 230.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
-<plots/BG/nonPrompt/nonPromptMC_SignalInclusive_Full2012_Mll_None.pdf, id=2911,
+<plots/BG/nonPrompt/nonPromptMC_SignalInclusive_Full2012_Mll_None.pdf, id=2984,
  569.12625pt x 552.0625pt>
 File: plots/BG/nonPrompt/nonPromptMC_SignalInclusive_Full2012_Mll_None.pdf Grap
 hic file (type pdf)
 
 <use plots/BG/nonPrompt/nonPromptMC_SignalInclusive_Full2012_Mll_None.pdf>
 Package pdftex.def Info: plots/BG/nonPrompt/nonPromptMC_SignalInclusive_Full201
-2_Mll_None.pdf used on input line 223.
+2_Mll_None.pdf used on input line 233.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
-(./tab/table_nonPromptMC.tex) [68 <./plots/BG/nonPrompt/nonPromptMC_Inclusive_F
-ull2012_Mll_None.pdf, page is rotated 90 degrees> <./plots/BG/nonPrompt/nonProm
-ptMC_SignalInclusive_Full2012_Mll_None.pdf, page is rotated 90 degrees>]
+(./tab/table_nonPromptMC.tex) [68]
 <plots/BG/nonPrompt/fakeRate_ele_Inclusive_Full2012_TrailingPt_range100.pdf, id
-=3010, 569.12625pt x 552.0625pt>
+=2999, 569.12625pt x 552.0625pt>
 File: plots/BG/nonPrompt/fakeRate_ele_Inclusive_Full2012_TrailingPt_range100.pd
 f Graphic file (type pdf)
 
 <use plots/BG/nonPrompt/fakeRate_ele_Inclusive_Full2012_TrailingPt_range100.pdf
 >
 Package pdftex.def Info: plots/BG/nonPrompt/fakeRate_ele_Inclusive_Full2012_Tra
-ilingPt_range100.pdf used on input line 242.
+ilingPt_range100.pdf used on input line 252.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
 <plots/BG/nonPrompt/fakeRate_mu_Inclusive_Full2012_TrailingPt_range100.pdf, id=
-3011, 569.12625pt x 552.0625pt>
+3000, 569.12625pt x 552.0625pt>
 File: plots/BG/nonPrompt/fakeRate_mu_Inclusive_Full2012_TrailingPt_range100.pdf
  Graphic file (type pdf)
 
 <use plots/BG/nonPrompt/fakeRate_mu_Inclusive_Full2012_TrailingPt_range100.pdf>
 Package pdftex.def Info: plots/BG/nonPrompt/fakeRate_mu_Inclusive_Full2012_Trai
-lingPt_range100.pdf used on input line 245.
+lingPt_range100.pdf used on input line 255.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
 <plots/BG/nonPrompt/fakeRate_ele_Inclusive_Full2012_TrailingEta_None.pdf, id=30
-12, 569.12625pt x 552.0625pt>
+01, 569.12625pt x 552.0625pt>
 File: plots/BG/nonPrompt/fakeRate_ele_Inclusive_Full2012_TrailingEta_None.pdf G
 raphic file (type pdf)
 
 <use plots/BG/nonPrompt/fakeRate_ele_Inclusive_Full2012_TrailingEta_None.pdf>
 Package pdftex.def Info: plots/BG/nonPrompt/fakeRate_ele_Inclusive_Full2012_Tra
-ilingEta_None.pdf used on input line 248.
+ilingEta_None.pdf used on input line 258.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
-<plots/BG/nonPrompt/fakeRate_mu_Inclusive_Full2012_TrailingEta_None.pdf, id=301
-3, 569.12625pt x 552.0625pt>
+<plots/BG/nonPrompt/fakeRate_mu_Inclusive_Full2012_TrailingEta_None.pdf, id=300
+2, 569.12625pt x 552.0625pt>
 File: plots/BG/nonPrompt/fakeRate_mu_Inclusive_Full2012_TrailingEta_None.pdf Gr
 aphic file (type pdf)
 
 <use plots/BG/nonPrompt/fakeRate_mu_Inclusive_Full2012_TrailingEta_None.pdf>
 Package pdftex.def Info: plots/BG/nonPrompt/fakeRate_mu_Inclusive_Full2012_Trai
-lingEta_None.pdf used on input line 251.
+lingEta_None.pdf used on input line 261.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
+[69 <./plots/BG/nonPrompt/nonPromptMC_Inclusive_Full2012_Mll_None.pdf, page is 
+rotated 90 degrees> <./plots/BG/nonPrompt/nonPromptMC_SignalInclusive_Full2012_
+Mll_None.pdf, page is rotated 90 degrees>] [70 <./plots/BG/nonPrompt/fakeRate_e
+le_Inclusive_Full2012_TrailingPt_range100.pdf, page is rotated 90 degrees> <./p
+lots/BG/nonPrompt/fakeRate_mu_Inclusive_Full2012_TrailingPt_range100.pdf, page 
+is rotated 90 degrees> <./plots/BG/nonPrompt/fakeRate_ele_Inclusive_Full2012_Tr
+ailingEta_None.pdf, page is rotated 90 degrees> <./plots/BG/nonPrompt/fakeRate_
+mu_Inclusive_Full2012_TrailingEta_None.pdf, page is rotated 90 degrees>]
 <plots/BG/nonPrompt/promptRate_ele_Inclusive_Full2012_TrailingPt_range100.pdf, 
-id=3015, 569.12625pt x 552.0625pt>
+id=3277, 569.12625pt x 552.0625pt>
 File: plots/BG/nonPrompt/promptRate_ele_Inclusive_Full2012_TrailingPt_range100.
 pdf Graphic file (type pdf)
 
 <use plots/BG/nonPrompt/promptRate_ele_Inclusive_Full2012_TrailingPt_range100.p
 df>
 Package pdftex.def Info: plots/BG/nonPrompt/promptRate_ele_Inclusive_Full2012_T
-railingPt_range100.pdf used on input line 262.
+railingPt_range100.pdf used on input line 272.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
 <plots/BG/nonPrompt/promptRate_mu_Inclusive_Full2012_TrailingPt_range100.pdf, i
-d=3016, 569.12625pt x 552.0625pt>
+d=3278, 569.12625pt x 552.0625pt>
 File: plots/BG/nonPrompt/promptRate_mu_Inclusive_Full2012_TrailingPt_range100.p
 df Graphic file (type pdf)
 
 <use plots/BG/nonPrompt/promptRate_mu_Inclusive_Full2012_TrailingPt_range100.pd
 f>
 Package pdftex.def Info: plots/BG/nonPrompt/promptRate_mu_Inclusive_Full2012_Tr
-ailingPt_range100.pdf used on input line 265.
+ailingPt_range100.pdf used on input line 275.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
 <plots/BG/nonPrompt/promptRate_ele_Inclusive_Full2012_TrailingEta_None.pdf, id=
-3017, 569.12625pt x 552.0625pt>
+3279, 569.12625pt x 552.0625pt>
 File: plots/BG/nonPrompt/promptRate_ele_Inclusive_Full2012_TrailingEta_None.pdf
  Graphic file (type pdf)
 
 <use plots/BG/nonPrompt/promptRate_ele_Inclusive_Full2012_TrailingEta_None.pdf>
 Package pdftex.def Info: plots/BG/nonPrompt/promptRate_ele_Inclusive_Full2012_T
-railingEta_None.pdf used on input line 268.
+railingEta_None.pdf used on input line 278.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
 <plots/BG/nonPrompt/promptRate_mu_Inclusive_Full2012_TrailingEta_None.pdf, id=3
-018, 569.12625pt x 552.0625pt>
+280, 569.12625pt x 552.0625pt>
 File: plots/BG/nonPrompt/promptRate_mu_Inclusive_Full2012_TrailingEta_None.pdf 
 Graphic file (type pdf)
 
 <use plots/BG/nonPrompt/promptRate_mu_Inclusive_Full2012_TrailingEta_None.pdf>
 Package pdftex.def Info: plots/BG/nonPrompt/promptRate_mu_Inclusive_Full2012_Tr
-ailingEta_None.pdf used on input line 271.
+ailingEta_None.pdf used on input line 281.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
-Overfull \hbox (31.66469pt too wide) in alignment at lines 279--284
+Overfull \hbox (31.66469pt too wide) in alignment at lines 289--294
  [][][] []
  []
 
-(./tab/table_nonPrompt.tex [69] [70 <./plots/BG/nonPrompt/fakeRate_ele_Inclusiv
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [71 <./plots/BG/nonPrompt/promptRate_ele_Inclusive_Full2012_TrailingPt_range10
+0.pdf, page is rotated 90 degrees> <./plots/BG/nonPrompt/promptRate_mu_Inclusiv
 e_Full2012_TrailingPt_range100.pdf, page is rotated 90 degrees> <./plots/BG/non
-Prompt/fakeRate_mu_Inclusive_Full2012_TrailingPt_range100.pdf, page is rotated 
-90 degrees> <./plots/BG/nonPrompt/fakeRate_ele_Inclusive_Full2012_TrailingEta_N
-one.pdf, page is rotated 90 degrees> <./plots/BG/nonPrompt/fakeRate_mu_Inclusiv
-e_Full2012_TrailingEta_None.pdf, page is rotated 90 degrees>] [71 <./plots/BG/n
-onPrompt/promptRate_ele_Inclusive_Full2012_TrailingPt_range100.pdf, page is rot
-ated 90 degrees> <./plots/BG/nonPrompt/promptRate_mu_Inclusive_Full2012_Trailin
-gPt_range100.pdf, page is rotated 90 degrees> <./plots/BG/nonPrompt/promptRate_
-ele_Inclusive_Full2012_TrailingEta_None.pdf, page is rotated 90 degrees> <./plo
-ts/BG/nonPrompt/promptRate_mu_Inclusive_Full2012_TrailingEta_None.pdf, page is 
-rotated 90 degrees>])
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 290.
- (/usr/share/texmf/tex/latex/lm/t1lmr.fd
+Prompt/promptRate_ele_Inclusive_Full2012_TrailingEta_None.pdf, page is rotated 
+90 degrees> <./plots/BG/nonPrompt/promptRate_mu_Inclusive_Full2012_TrailingEta_
+None.pdf, page is rotated 90 degrees>] (./tab/table_nonPrompt.tex)
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 300.
+
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [72]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 297.
+(hyperref)                removing `subscript' on input line 307.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 297.
+(hyperref)                removing `superscript' on input line 307.
 
-
-<plots/BG/rOutIn/rOutIn_SF_DrellYanControlCentral_Full2012.pdf, id=3397, 569.12
+[73]
+<plots/BG/rOutIn/rOutIn_SF_DrellYanControlCentral_Full2012.pdf, id=3478, 569.12
 625pt x 552.0625pt>
 File: plots/BG/rOutIn/rOutIn_SF_DrellYanControlCentral_Full2012.pdf Graphic fil
 e (type pdf)
 
 <use plots/BG/rOutIn/rOutIn_SF_DrellYanControlCentral_Full2012.pdf>
 Package pdftex.def Info: plots/BG/rOutIn/rOutIn_SF_DrellYanControlCentral_Full2
-012.pdf used on input line 311.
+012.pdf used on input line 321.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
-<plots/BG/rOutIn/rOutIn_SF_DrellYanControlForward_Full2012.pdf, id=3398, 569.12
+<plots/BG/rOutIn/rOutIn_SF_DrellYanControlForward_Full2012.pdf, id=3479, 569.12
 625pt x 552.0625pt>
 File: plots/BG/rOutIn/rOutIn_SF_DrellYanControlForward_Full2012.pdf Graphic fil
 e (type pdf)
 
 <use plots/BG/rOutIn/rOutIn_SF_DrellYanControlForward_Full2012.pdf>
 Package pdftex.def Info: plots/BG/rOutIn/rOutIn_SF_DrellYanControlForward_Full2
-012.pdf used on input line 314.
+012.pdf used on input line 324.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
-(./tab/table_ROutIn.tex [73])
+(./tab/table_ROutIn.tex)
 <plots/BG/rOutIn/rOutInSyst_DrellYanControlCentral_Full2012_MET_LowMass_SF_None
-.pdf, id=3408, 569.12625pt x 552.0625pt>
+.pdf, id=3482, 569.12625pt x 552.0625pt>
 File: plots/BG/rOutIn/rOutInSyst_DrellYanControlCentral_Full2012_MET_LowMass_SF
 _None.pdf Graphic file (type pdf)
 
 <use plots/BG/rOutIn/rOutInSyst_DrellYanControlCentral_Full2012_MET_LowMass_SF_
 None.pdf>
 Package pdftex.def Info: plots/BG/rOutIn/rOutInSyst_DrellYanControlCentral_Full
-2012_MET_LowMass_SF_None.pdf used on input line 326.
+2012_MET_LowMass_SF_None.pdf used on input line 336.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
 <plots/BG/rOutIn/rOutInSyst_DrellYanControlCentral_Full2012_NJets_LowMass_SF_No
-ne.pdf, id=3409, 569.12625pt x 552.0625pt>
+ne.pdf, id=3483, 569.12625pt x 552.0625pt>
 File: plots/BG/rOutIn/rOutInSyst_DrellYanControlCentral_Full2012_NJets_LowMass_
 SF_None.pdf Graphic file (type pdf)
 
 <use plots/BG/rOutIn/rOutInSyst_DrellYanControlCentral_Full2012_NJets_LowMass_S
 F_None.pdf>
 Package pdftex.def Info: plots/BG/rOutIn/rOutInSyst_DrellYanControlCentral_Full
-2012_NJets_LowMass_SF_None.pdf used on input line 329.
+2012_NJets_LowMass_SF_None.pdf used on input line 339.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
 <plots/BG/rOutIn/rOutInSyst_DrellYanControlForward_Full2012_MET_LowMass_SF_None
-.pdf, id=3410, 569.12625pt x 552.0625pt>
+.pdf, id=3484, 569.12625pt x 552.0625pt>
 File: plots/BG/rOutIn/rOutInSyst_DrellYanControlForward_Full2012_MET_LowMass_SF
 _None.pdf Graphic file (type pdf)
 
 <use plots/BG/rOutIn/rOutInSyst_DrellYanControlForward_Full2012_MET_LowMass_SF_
 None.pdf>
 Package pdftex.def Info: plots/BG/rOutIn/rOutInSyst_DrellYanControlForward_Full
-2012_MET_LowMass_SF_None.pdf used on input line 332.
+2012_MET_LowMass_SF_None.pdf used on input line 342.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
 <plots/BG/rOutIn/rOutInSyst_DrellYanControlForward_Full2012_NJets_LowMass_SF_No
-ne.pdf, id=3411, 569.12625pt x 552.0625pt>
+ne.pdf, id=3485, 569.12625pt x 552.0625pt>
 File: plots/BG/rOutIn/rOutInSyst_DrellYanControlForward_Full2012_NJets_LowMass_
 SF_None.pdf Graphic file (type pdf)
 
 <use plots/BG/rOutIn/rOutInSyst_DrellYanControlForward_Full2012_NJets_LowMass_S
 F_None.pdf>
 Package pdftex.def Info: plots/BG/rOutIn/rOutInSyst_DrellYanControlForward_Full
-2012_NJets_LowMass_SF_None.pdf used on input line 335.
+2012_NJets_LowMass_SF_None.pdf used on input line 345.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
  (./tab/table_cutNCount_ZBkgs.tex
+Underfull \vbox (badness 2452) has occurred while \output is active []
+
+ [74 <./plots/BG/rOutIn/rOutIn_SF_DrellYanControlCentral_Full2012.pdf, page is 
+rotated 90 degrees> <./plots/BG/rOutIn/rOutIn_SF_DrellYanControlForward_Full201
+2.pdf, page is rotated 90 degrees>] [75 <./plots/BG/rOutIn/rOutInSyst_DrellYanC
+ontrolCentral_Full2012_MET_LowMass_SF_None.pdf, page is rotated 90 degrees> <./
+plots/BG/rOutIn/rOutInSyst_DrellYanControlCentral_Full2012_NJets_LowMass_SF_Non
+e.pdf, page is rotated 90 degrees> <./plots/BG/rOutIn/rOutInSyst_DrellYanContro
+lForward_Full2012_MET_LowMass_SF_None.pdf, page is rotated 90 degrees> <./plots
+/BG/rOutIn/rOutInSyst_DrellYanControlForward_Full2012_NJets_LowMass_SF_None.pdf
+, page is rotated 90 degrees>]
 Overfull \hbox (4.3128pt too wide) in paragraph at lines 6--51
  [] 
  []
 
-)) [74 <./plots/BG/rOutIn/rOutIn_SF_DrellYanControlCentral_Full2012.pdf, page i
-s rotated 90 degrees> <./plots/BG/rOutIn/rOutIn_SF_DrellYanControlForward_Full2
-012.pdf, page is rotated 90 degrees>] [75 <./plots/BG/rOutIn/rOutInSyst_DrellYa
-nControlCentral_Full2012_MET_LowMass_SF_None.pdf, page is rotated 90 degrees> <
-./plots/BG/rOutIn/rOutInSyst_DrellYanControlCentral_Full2012_NJets_LowMass_SF_N
-one.pdf, page is rotated 90 degrees> <./plots/BG/rOutIn/rOutInSyst_DrellYanCont
-rolForward_Full2012_MET_LowMass_SF_None.pdf, page is rotated 90 degrees> <./plo
-ts/BG/rOutIn/rOutInSyst_DrellYanControlForward_Full2012_NJets_LowMass_SF_None.p
-df, page is rotated 90 degrees>] [76] [77] [78
+)) [76] [77] [78
 
 ]
 Chapter 6.
 (./results.tex
-<plots/results/mllResult_SignalCentral_Full2012_SF.pdf, id=3703, 569.12625pt x 
+<plots/results/mllResult_SignalCentral_Full2012_SF.pdf, id=3777, 569.12625pt x 
 552.0625pt>
 File: plots/results/mllResult_SignalCentral_Full2012_SF.pdf Graphic file (type 
 pdf)
@@ -1795,7 +1810,7 @@ Package pdftex.def Info: plots/results/mllResult_SignalCentral_Full2012_SF.pdf
 used on input line 10.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
-<plots/results/mllResult_SignalForward_Full2012_SF.pdf, id=3704, 569.12625pt x 
+<plots/results/mllResult_SignalForward_Full2012_SF.pdf, id=3778, 569.12625pt x 
 552.0625pt>
 File: plots/results/mllResult_SignalForward_Full2012_SF.pdf Graphic file (type 
 pdf)
@@ -1818,7 +1833,7 @@ Overfull \hbox (11.47057pt too wide) in paragraph at lines 11--37
 ) [80 <./plots/results/mllResult_SignalCentral_Full2012_SF.pdf, page is rotated
  90 degrees> <./plots/results/mllResult_SignalForward_Full2012_SF.pdf, page is 
 rotated 90 degrees>]
-<plots/results/YieldvsLumi_Bins_SignalCentral_Mll_edgeMassFull2012.pdf, id=3812
+<plots/results/YieldvsLumi_Bins_SignalCentral_Mll_edgeMassFull2012.pdf, id=3888
 , 569.12625pt x 552.0625pt>
 File: plots/results/YieldvsLumi_Bins_SignalCentral_Mll_edgeMassFull2012.pdf Gra
 phic file (type pdf)
@@ -1828,7 +1843,7 @@ Package pdftex.def Info: plots/results/YieldvsLumi_Bins_SignalCentral_Mll_edgeM
 assFull2012.pdf used on input line 35.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
-<plots/results/YieldvsLumi_Bins_SignalForward_Mll_edgeMassFull2012.pdf, id=3813
+<plots/results/YieldvsLumi_Bins_SignalForward_Mll_edgeMassFull2012.pdf, id=3889
 , 569.12625pt x 552.0625pt>
 File: plots/results/YieldvsLumi_Bins_SignalForward_Mll_edgeMassFull2012.pdf Gra
 phic file (type pdf)
@@ -1838,9 +1853,11 @@ Package pdftex.def Info: plots/results/YieldvsLumi_Bins_SignalForward_Mll_edgeM
 assFull2012.pdf used on input line 38.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
-[81 <./plots/results/YieldvsLumi_Bins_SignalCentral_Mll_edgeMassFull2012.pdf, p
-age is rotated 90 degrees> <./plots/results/YieldvsLumi_Bins_SignalForward_Mll_
-edgeMassFull2012.pdf, page is rotated 90 degrees>] [82]
+Underfull \vbox (badness 2573) has occurred while \output is active []
+
+ [81 <./plots/results/YieldvsLumi_Bins_SignalCentral_Mll_edgeMassFull2012.pdf, 
+page is rotated 90 degrees> <./plots/results/YieldvsLumi_Bins_SignalForward_Mll
+_edgeMassFull2012.pdf, page is rotated 90 degrees>] [82]
 (./tab/table_cutNCount_CrossChecks_central.tex
 Overfull \hbox (24.34732pt too wide) in paragraph at lines 8--53
  [][] 
@@ -1848,7 +1865,7 @@ Overfull \hbox (24.34732pt too wide) in paragraph at lines 8--53
 
 )
 <plots/results/rSFOFDependencies/rSFOFDependency_SignalCentral_NBJets_Full2012_
-SF_lowMass.pdf, id=3915, 569.12625pt x 552.0625pt>
+SF_lowMass.pdf, id=3989, 569.12625pt x 552.0625pt>
 File: plots/results/rSFOFDependencies/rSFOFDependency_SignalCentral_NBJets_Full
 2012_SF_lowMass.pdf Graphic file (type pdf)
 
@@ -1859,7 +1876,7 @@ Central_NBJets_Full2012_SF_lowMass.pdf used on input line 73.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
 <plots/results/rSFOFDependencies/rSFOFDependency_SignalCentral_NJets_Full2012_S
-F_lowMass.pdf, id=3916, 569.12625pt x 552.0625pt>
+F_lowMass.pdf, id=3990, 569.12625pt x 552.0625pt>
 File: plots/results/rSFOFDependencies/rSFOFDependency_SignalCentral_NJets_Full2
 012_SF_lowMass.pdf Graphic file (type pdf)
 
@@ -1870,7 +1887,7 @@ Central_NJets_Full2012_SF_lowMass.pdf used on input line 76.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
 <plots/results/rSFOFDependencies/rSFOFDependency_SignalCentral_LeadingPt_Full20
-12_SF_lowMass.pdf, id=3917, 569.12625pt x 552.0625pt>
+12_SF_lowMass.pdf, id=3991, 569.12625pt x 552.0625pt>
 File: plots/results/rSFOFDependencies/rSFOFDependency_SignalCentral_LeadingPt_F
 ull2012_SF_lowMass.pdf Graphic file (type pdf)
 
@@ -1881,7 +1898,7 @@ Central_LeadingPt_Full2012_SF_lowMass.pdf used on input line 79.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
 <plots/results/rSFOFDependencies/rSFOFDependency_SignalCentral_TrailingPt_Full2
-012_SF_lowMass.pdf, id=3918, 569.12625pt x 552.0625pt>
+012_SF_lowMass.pdf, id=3992, 569.12625pt x 552.0625pt>
 File: plots/results/rSFOFDependencies/rSFOFDependency_SignalCentral_TrailingPt_
 Full2012_SF_lowMass.pdf Graphic file (type pdf)
 
@@ -1892,7 +1909,7 @@ Central_TrailingPt_Full2012_SF_lowMass.pdf used on input line 82.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
 <plots/results/rSFOFDependencies/rSFOFDependency_SignalCentral_HT_Full2012_SF_l
-owMass.pdf, id=3919, 569.12625pt x 552.0625pt>
+owMass.pdf, id=3993, 569.12625pt x 552.0625pt>
 File: plots/results/rSFOFDependencies/rSFOFDependency_SignalCentral_HT_Full2012
 _SF_lowMass.pdf Graphic file (type pdf)
 
@@ -1903,7 +1920,7 @@ Central_HT_Full2012_SF_lowMass.pdf used on input line 85.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
 <plots/results/rSFOFDependencies/rSFOFDependency_SignalCentral_MET_Full2012_SF_
-lowMass.pdf, id=3920, 569.12625pt x 552.0625pt>
+lowMass.pdf, id=3994, 569.12625pt x 552.0625pt>
 File: plots/results/rSFOFDependencies/rSFOFDependency_SignalCentral_MET_Full201
 2_SF_lowMass.pdf Graphic file (type pdf)
 
@@ -1917,8 +1934,8 @@ Central_MET_Full2012_SF_lowMass.pdf used on input line 88.
 LaTeX Warning: Float too large for page by 34.30269pt on input line 92.
 
 (./interpretation.tex
-<plots/limits/T6bblledge_70_GeV_Edge_Barrel_lowMll_signalEfficiency.pdf, id=392
-4, 569.12625pt x 412.54124pt>
+<plots/limits/T6bblledge_70_GeV_Edge_Barrel_lowMll_signalEfficiency.pdf, id=399
+8, 569.12625pt x 412.54124pt>
 File: plots/limits/T6bblledge_70_GeV_Edge_Barrel_lowMll_signalEfficiency.pdf Gr
 aphic file (type pdf)
 
@@ -1928,7 +1945,7 @@ alEfficiency.pdf used on input line 9.
 (pdftex.def)             Requested size: 209.13013pt x 151.59291pt.
 
 <plots/limits/T6bbllslepton_m_n_1_100_Barrel_signalEfficiency_Reweighted.pdf, i
-d=3925, 569.12625pt x 412.54124pt>
+d=3999, 569.12625pt x 412.54124pt>
 File: plots/limits/T6bbllslepton_m_n_1_100_Barrel_signalEfficiency_Reweighted.p
 df Graphic file (type pdf)
 
@@ -1937,17 +1954,21 @@ f>
 Package pdftex.def Info: plots/limits/T6bbllslepton_m_n_1_100_Barrel_signalEffi
 ciency_Reweighted.pdf used on input line 12.
 (pdftex.def)             Requested size: 209.13013pt x 151.59291pt.
- [83] [84] [85 <./plots/results/rSFOFDependencies/rSFOFDependency_SignalCentral
-_NBJets_Full2012_SF_lowMass.pdf, page is rotated 90 degrees> <./plots/results/r
-SFOFDependencies/rSFOFDependency_SignalCentral_NJets_Full2012_SF_lowMass.pdf, p
-age is rotated 90 degrees> <./plots/results/rSFOFDependencies/rSFOFDependency_S
-ignalCentral_LeadingPt_Full2012_SF_lowMass.pdf, page is rotated 90 degrees> <./
-plots/results/rSFOFDependencies/rSFOFDependency_SignalCentral_TrailingPt_Full20
-12_SF_lowMass.pdf, page is rotated 90 degrees> <./plots/results/rSFOFDependenci
-es/rSFOFDependency_SignalCentral_HT_Full2012_SF_lowMass.pdf, page is rotated 90
- degrees> <./plots/results/rSFOFDependencies/rSFOFDependency_SignalCentral_MET_
-Full2012_SF_lowMass.pdf, page is rotated 90 degrees>]
-<plots/limits/T6bblledge_70_GeV_Edge_Endcap_syst_err.pdf, id=4215, 569.12625pt 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [83]
+[84] [85 <./plots/results/rSFOFDependencies/rSFOFDependency_SignalCentral_NBJet
+s_Full2012_SF_lowMass.pdf, page is rotated 90 degrees> <./plots/results/rSFOFDe
+pendencies/rSFOFDependency_SignalCentral_NJets_Full2012_SF_lowMass.pdf, page is
+ rotated 90 degrees> <./plots/results/rSFOFDependencies/rSFOFDependency_SignalC
+entral_LeadingPt_Full2012_SF_lowMass.pdf, page is rotated 90 degrees> <./plots/
+results/rSFOFDependencies/rSFOFDependency_SignalCentral_TrailingPt_Full2012_SF_
+lowMass.pdf, page is rotated 90 degrees> <./plots/results/rSFOFDependencies/rSF
+OFDependency_SignalCentral_HT_Full2012_SF_lowMass.pdf, page is rotated 90 degre
+es> <./plots/results/rSFOFDependencies/rSFOFDependency_SignalCentral_MET_Full20
+12_SF_lowMass.pdf, page is rotated 90 degrees>]
+<plots/limits/T6bblledge_70_GeV_Edge_Endcap_syst_err.pdf, id=4286, 569.12625pt 
 x 412.54124pt>
 File: plots/limits/T6bblledge_70_GeV_Edge_Endcap_syst_err.pdf Graphic file (typ
 e pdf)
@@ -1956,7 +1977,7 @@ Package pdftex.def Info: plots/limits/T6bblledge_70_GeV_Edge_Endcap_syst_err.pd
 f used on input line 47.
 (pdftex.def)             Requested size: 209.13013pt x 151.59291pt.
 
-<plots/limits/T6bbllslepton_m_n_1_100_Barrel_syst_err_Reweighted.pdf, id=4216, 
+<plots/limits/T6bbllslepton_m_n_1_100_Barrel_syst_err_Reweighted.pdf, id=4287, 
 569.12625pt x 412.54124pt>
 File: plots/limits/T6bbllslepton_m_n_1_100_Barrel_syst_err_Reweighted.pdf Graph
 ic file (type pdf)
@@ -1966,14 +1987,16 @@ Package pdftex.def Info: plots/limits/T6bbllslepton_m_n_1_100_Barrel_syst_err_R
 eweighted.pdf used on input line 50.
 (pdftex.def)             Requested size: 209.13013pt x 151.59291pt.
 
-[86 <./plots/limits/T6bblledge_70_GeV_Edge_Barrel_lowMll_signalEfficiency.pdf, 
-page is rotated 90 degrees> <./plots/limits/T6bbllslepton_m_n_1_100_Barrel_sign
-alEfficiency_Reweighted.pdf, page is rotated 90 degrees>] [87 <./plots/limits/T
-6bblledge_70_GeV_Edge_Endcap_syst_err.pdf, page is rotated 90 degrees> <./plots
-/limits/T6bbllslepton_m_n_1_100_Barrel_syst_err_Reweighted.pdf, page is rotated
- 90 degrees>]
-<plots/limits/Fixed_Edge_sbottom_neutralino2_Exclusion_witXsecLimit.pdf, id=440
-6, 569.12625pt x 489.83pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [86 <./plots/limits/T6bblledge_70_GeV_Edge_Barrel_lowMll_signalEfficiency.pdf,
+ page is rotated 90 degrees> <./plots/limits/T6bbllslepton_m_n_1_100_Barrel_sig
+nalEfficiency_Reweighted.pdf, page is rotated 90 degrees>] [87 <./plots/limits/
+T6bblledge_70_GeV_Edge_Endcap_syst_err.pdf, page is rotated 90 degrees> <./plot
+s/limits/T6bbllslepton_m_n_1_100_Barrel_syst_err_Reweighted.pdf, page is rotate
+d 90 degrees>]
+<plots/limits/Fixed_Edge_sbottom_neutralino2_Exclusion_witXsecLimit.pdf, id=448
+2, 569.12625pt x 489.83pt>
 File: plots/limits/Fixed_Edge_sbottom_neutralino2_Exclusion_witXsecLimit.pdf Gr
 aphic file (type pdf)
 
@@ -1983,7 +2006,7 @@ witXsecLimit.pdf used on input line 71.
 (pdftex.def)             Requested size: 209.13013pt x 179.99355pt.
 
 <plots/limits/Fixed_Neutralino_sbottom_neutralino2_Exclusion_witXsecLimit.pdf, 
-id=4407, 569.12625pt x 489.83pt>
+id=4483, 569.12625pt x 489.83pt>
 File: plots/limits/Fixed_Neutralino_sbottom_neutralino2_Exclusion_witXsecLimit.
 pdf Graphic file (type pdf)
 
@@ -1998,8 +2021,8 @@ ino2_Exclusion_witXsecLimit.pdf, page is rotated 90 degrees>]
 Chapter 7.
 (./fit.tex [89
 
-] [90]
-<plots/results/fit/expoFitEE_Log_Central.pdf, id=4515, 464.73625pt x 569.12625p
+]
+<plots/results/fit/expoFitEE_Log_Central.pdf, id=4588, 464.73625pt x 569.12625p
 t>
 File: plots/results/fit/expoFitEE_Log_Central.pdf Graphic file (type pdf)
  <use plots/results/fit/expoFitEE_Log_Central.pdf>
@@ -2007,7 +2030,7 @@ Package pdftex.def Info: plots/results/fit/expoFitEE_Log_Central.pdf used on in
 put line 64.
 (pdftex.def)             Requested size: 209.13013pt x 256.10445pt.
 
-<plots/results/fit/expoFitMM_Log_Central.pdf, id=4516, 464.73625pt x 569.12625p
+<plots/results/fit/expoFitMM_Log_Central.pdf, id=4589, 464.73625pt x 569.12625p
 t>
 File: plots/results/fit/expoFitMM_Log_Central.pdf Graphic file (type pdf)
  <use plots/results/fit/expoFitMM_Log_Central.pdf>
@@ -2015,7 +2038,7 @@ Package pdftex.def Info: plots/results/fit/expoFitMM_Log_Central.pdf used on in
 put line 67.
 (pdftex.def)             Requested size: 209.13013pt x 256.10445pt.
 
-<plots/results/fit/expoFitEE_Log_Forward.pdf, id=4517, 464.73625pt x 569.12625p
+<plots/results/fit/expoFitEE_Log_Forward.pdf, id=4590, 464.73625pt x 569.12625p
 t>
 File: plots/results/fit/expoFitEE_Log_Forward.pdf Graphic file (type pdf)
  <use plots/results/fit/expoFitEE_Log_Forward.pdf>
@@ -2023,23 +2046,27 @@ Package pdftex.def Info: plots/results/fit/expoFitEE_Log_Forward.pdf used on in
 put line 70.
 (pdftex.def)             Requested size: 209.13013pt x 256.10445pt.
 
-<plots/results/fit/expoFitMM_Log_Forward.pdf, id=4518, 464.73625pt x 569.12625p
+<plots/results/fit/expoFitMM_Log_Forward.pdf, id=4591, 464.73625pt x 569.12625p
 t>
 File: plots/results/fit/expoFitMM_Log_Forward.pdf Graphic file (type pdf)
  <use plots/results/fit/expoFitMM_Log_Forward.pdf>
 Package pdftex.def Info: plots/results/fit/expoFitMM_Log_Forward.pdf used on in
 put line 73.
 (pdftex.def)             Requested size: 209.13013pt x 256.10445pt.
- [91] [92 <./plots/results/fit/expoFitEE_Log_Central.pdf> <./plots/results/fit/
-expoFitMM_Log_Central.pdf> <./plots/results/fit/expoFitEE_Log_Forward.pdf> <./p
-lots/results/fit/expoFitMM_Log_Forward.pdf>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [90]
+[91 <./plots/results/fit/expoFitEE_Log_Central.pdf> <./plots/results/fit/expoFi
+tMM_Log_Central.pdf> <./plots/results/fit/expoFitEE_Log_Forward.pdf> <./plots/r
+esults/fit/expoFitMM_Log_Forward.pdf>] [92]
 Underfull \hbox (badness 10000) in paragraph at lines 141--142
 
  []
 
 [93] [94]
 <plots/results/fit/mcFits/shapeIllustrationKTriangle_SignalInclusive_Combined_F
-ull2012_KTriangle_MC_edge_400_150_80_Central.pdf, id=4733, 465.74pt x 569.12625
+ull2012_KTriangle_MC_edge_400_150_80_Central.pdf, id=4813, 465.74pt x 569.12625
 pt>
 File: plots/results/fit/mcFits/shapeIllustrationKTriangle_SignalInclusive_Combi
 ned_Full2012_KTriangle_MC_edge_400_150_80_Central.pdf Graphic file (type pdf)
@@ -2052,7 +2079,7 @@ n input line 221.
 (pdftex.def)             Requested size: 209.13013pt x 255.54866pt.
 
 <plots/results/fit/mcFits/shapeIllustrationKTriangle_SignalInclusive_Combined_F
-ull2012_KTriangle_MC_edge_400_150_80_Forward.pdf, id=4734, 465.74pt x 569.12625
+ull2012_KTriangle_MC_edge_400_150_80_Forward.pdf, id=4814, 465.74pt x 569.12625
 pt>
 File: plots/results/fit/mcFits/shapeIllustrationKTriangle_SignalInclusive_Combi
 ned_Full2012_KTriangle_MC_edge_400_150_80_Forward.pdf Graphic file (type pdf)
@@ -2065,7 +2092,7 @@ n input line 224.
 (pdftex.def)             Requested size: 209.13013pt x 255.54866pt.
 
 <plots/results/fit/mcFits/shapeIllustrationKX4_SignalInclusive_Combined_Full201
-2_KX4_MC_edge_400_150_80_Central.pdf, id=4735, 465.74pt x 569.12625pt>
+2_KX4_MC_edge_400_150_80_Central.pdf, id=4815, 465.74pt x 569.12625pt>
 File: plots/results/fit/mcFits/shapeIllustrationKX4_SignalInclusive_Combined_Fu
 ll2012_KX4_MC_edge_400_150_80_Central.pdf Graphic file (type pdf)
 
@@ -2077,7 +2104,7 @@ clusive_Combined_Full2012_KX4_MC_edge_400_150_80_Central.pdf used on input line
 (pdftex.def)             Requested size: 209.13013pt x 255.54866pt.
 
 <plots/results/fit/mcFits/shapeIllustrationKX4_SignalInclusive_Combined_Full201
-2_KX4_MC_edge_400_150_80_Forward.pdf, id=4736, 465.74pt x 569.12625pt>
+2_KX4_MC_edge_400_150_80_Forward.pdf, id=4816, 465.74pt x 569.12625pt>
 File: plots/results/fit/mcFits/shapeIllustrationKX4_SignalInclusive_Combined_Fu
 ll2012_KX4_MC_edge_400_150_80_Forward.pdf Graphic file (type pdf)
 
@@ -2087,9 +2114,9 @@ Package pdftex.def Info: plots/results/fit/mcFits/shapeIllustrationKX4_SignalIn
 clusive_Combined_Full2012_KX4_MC_edge_400_150_80_Forward.pdf used on input line
  230.
 (pdftex.def)             Requested size: 209.13013pt x 255.54866pt.
- [95]
+
 <plots/results/fit/mcFits/shapeIllustrationKTriangle_SignalInclusive_Combined_F
-ull2012_KTriangle_MC_slepton_500_175_100_Central.pdf, id=4748, 465.74pt x 569.1
+ull2012_KTriangle_MC_slepton_500_175_100_Central.pdf, id=4820, 465.74pt x 569.1
 2625pt>
 File: plots/results/fit/mcFits/shapeIllustrationKTriangle_SignalInclusive_Combi
 ned_Full2012_KTriangle_MC_slepton_500_175_100_Central.pdf Graphic file (type pd
@@ -2103,7 +2130,7 @@ ed on input line 241.
 (pdftex.def)             Requested size: 209.13013pt x 255.54866pt.
 
 <plots/results/fit/mcFits/shapeIllustrationKTriangle_SignalInclusive_Combined_F
-ull2012_KTriangle_MC_slepton_500_175_100_Forward.pdf, id=4749, 465.74pt x 569.1
+ull2012_KTriangle_MC_slepton_500_175_100_Forward.pdf, id=4821, 465.74pt x 569.1
 2625pt>
 File: plots/results/fit/mcFits/shapeIllustrationKTriangle_SignalInclusive_Combi
 ned_Full2012_KTriangle_MC_slepton_500_175_100_Forward.pdf Graphic file (type pd
@@ -2116,14 +2143,13 @@ gnalInclusive_Combined_Full2012_KTriangle_MC_slepton_500_175_100_Forward.pdf us
 ed on input line 244.
 (pdftex.def)             Requested size: 209.13013pt x 255.54866pt.
 
-Overfull \hbox (29.59262pt too wide) in alignment at lines 285--295
- [][][] []
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[96] [97 <./plots/results/fit/mcFits/shapeIllustrationKTriangle_SignalInclusive
-_Combined_Full2012_KTriangle_MC_edge_400_150_80_Central.pdf> <./plots/results/f
-it/mcFits/shapeIllustrationKTriangle_SignalInclusive_Combined_Full2012_KTriangl
-e_MC_edge_400_150_80_Forward.pdf
+ [95]
+[96 <./plots/results/fit/mcFits/shapeIllustrationKTriangle_SignalInclusive_Comb
+ined_Full2012_KTriangle_MC_edge_400_150_80_Central.pdf> <./plots/results/fit/mc
+Fits/shapeIllustrationKTriangle_SignalInclusive_Combined_Full2012_KTriangle_MC_
+edge_400_150_80_Forward.pdf
 
 pdfTeX warning: pdflatex (file ./plots/results/fit/mcFits/shapeIllustrationKTri
 angle_SignalInclusive_Combined_Full2012_KTriangle_MC_edge_400_150_80_Forward.pd
@@ -2140,7 +2166,20 @@ l2012_KX4_MC_edge_400_150_80_Forward.pdf
 pdfTeX warning: pdflatex (file ./plots/results/fit/mcFits/shapeIllustrationKX4_
 SignalInclusive_Combined_Full2012_KX4_MC_edge_400_150_80_Forward.pdf): PDF incl
 usion: multiple pdfs with page group included in a single page
+>] [97 <./plots/results/fit/mcFits/shapeIllustrationKTriangle_SignalInclusive_C
+ombined_Full2012_KTriangle_MC_slepton_500_175_100_Central.pdf> <./plots/results
+/fit/mcFits/shapeIllustrationKTriangle_SignalInclusive_Combined_Full2012_KTrian
+gle_MC_slepton_500_175_100_Forward.pdf
+
+pdfTeX warning: pdflatex (file ./plots/results/fit/mcFits/shapeIllustrationKTri
+angle_SignalInclusive_Combined_Full2012_KTriangle_MC_slepton_500_175_100_Forwar
+d.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
+Overfull \hbox (29.59262pt too wide) in alignment at lines 285--295
+ [][][] []
+ []
+
+
 Overfull \hbox (54.25249pt too wide) in paragraph at lines 313--333
  [] 
  []
@@ -2152,7 +2191,7 @@ Overfull \hbox (22.3986pt too wide) in paragraph at lines 349--359
 
 
 <plots/results/fit/mcFits/fit2012_ETHTriangle_SignalInclusive_Combined_Full2012
-_ETHTriangle_MC_Central.pdf, id=5653, 465.74pt x 569.12625pt>
+_ETHTriangle_MC_Central.pdf, id=6150, 465.74pt x 569.12625pt>
 File: plots/results/fit/mcFits/fit2012_ETHTriangle_SignalInclusive_Combined_Ful
 l2012_ETHTriangle_MC_Central.pdf Graphic file (type pdf)
 
@@ -2163,7 +2202,7 @@ lusive_Combined_Full2012_ETHTriangle_MC_Central.pdf used on input line 364.
 (pdftex.def)             Requested size: 209.13013pt x 255.54866pt.
 
 <plots/results/fit/mcFits/fit2012OFOS_ETHTriangle_SignalInclusive_Combined_Full
-2012_ETHTriangle_MC_Central.pdf, id=5654, 465.74pt x 569.12625pt>
+2012_ETHTriangle_MC_Central.pdf, id=6151, 465.74pt x 569.12625pt>
 File: plots/results/fit/mcFits/fit2012OFOS_ETHTriangle_SignalInclusive_Combined
 _Full2012_ETHTriangle_MC_Central.pdf Graphic file (type pdf)
 
@@ -2175,7 +2214,7 @@ lInclusive_Combined_Full2012_ETHTriangle_MC_Central.pdf used on input line 367.
 (pdftex.def)             Requested size: 209.13013pt x 255.54866pt.
 
 <plots/results/fit/mcFits/fit2012_ETHTriangle_SignalInclusive_Combined_Full2012
-_ETHTriangle_MC_Forward.pdf, id=5655, 465.74pt x 569.12625pt>
+_ETHTriangle_MC_Forward.pdf, id=6152, 465.74pt x 569.12625pt>
 File: plots/results/fit/mcFits/fit2012_ETHTriangle_SignalInclusive_Combined_Ful
 l2012_ETHTriangle_MC_Forward.pdf Graphic file (type pdf)
 
@@ -2186,7 +2225,7 @@ lusive_Combined_Full2012_ETHTriangle_MC_Forward.pdf used on input line 370.
 (pdftex.def)             Requested size: 209.13013pt x 255.54866pt.
 
 <plots/results/fit/mcFits/fit2012OFOS_ETHTriangle_SignalInclusive_Combined_Full
-2012_ETHTriangle_MC_Forward.pdf, id=5656, 465.74pt x 569.12625pt>
+2012_ETHTriangle_MC_Forward.pdf, id=6153, 465.74pt x 569.12625pt>
 File: plots/results/fit/mcFits/fit2012OFOS_ETHTriangle_SignalInclusive_Combined
 _Full2012_ETHTriangle_MC_Forward.pdf Graphic file (type pdf)
 
@@ -2197,7 +2236,7 @@ lInclusive_Combined_Full2012_ETHTriangle_MC_Forward.pdf used on input line 373.
 
 (pdftex.def)             Requested size: 209.13013pt x 255.54866pt.
 
-<plots/results/fit/mcFits/MC.pdf, id=5657, 569.12625pt x 552.0625pt>
+<plots/results/fit/mcFits/MC.pdf, id=6154, 569.12625pt x 552.0625pt>
 File: plots/results/fit/mcFits/MC.pdf Graphic file (type pdf)
 
 <use plots/results/fit/mcFits/MC.pdf>
@@ -2205,8 +2244,22 @@ Package pdftex.def Info: plots/results/fit/mcFits/MC.pdf used on input line 381
 .
 (pdftex.def)             Requested size: 256.07744pt x 248.40898pt.
 
+Underfull \vbox (badness 1675) has occurred while \output is active []
+
+ [100]
+[101 <./plots/results/fit/mcFits/fit2012_ETHTriangle_SignalInclusive_Combined_F
+ull2012_ETHTriangle_MC_Central.pdf> <./plots/results/fit/mcFits/fit2012OFOS_ETH
+Triangle_SignalInclusive_Combined_Full2012_ETHTriangle_MC_Central.pdf> <./plots
+/results/fit/mcFits/fit2012_ETHTriangle_SignalInclusive_Combined_Full2012_ETHTr
+iangle_MC_Forward.pdf
+
+pdfTeX warning: pdflatex (file ./plots/results/fit/mcFits/fit2012_ETHTriangle_S
+ignalInclusive_Combined_Full2012_ETHTriangle_MC_Forward.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+> <./plots/results/fit/mcFits/fit2012OFOS_ETHTriangle_SignalInclusive_Combined_
+Full2012_ETHTriangle_MC_Forward.pdf>]
 <plots/results/fit/mcFits/fit2012_ETHTriangle_SignalInclusive_Combined_Full2012
-_ETHTriangle_MC_SignalInjected_edge_400_150_80_Central.pdf, id=5662, 465.74pt x
+_ETHTriangle_MC_SignalInjected_edge_400_150_80_Central.pdf, id=6630, 465.74pt x
  569.12625pt>
 File: plots/results/fit/mcFits/fit2012_ETHTriangle_SignalInclusive_Combined_Ful
 l2012_ETHTriangle_MC_SignalInjected_edge_400_150_80_Central.pdf Graphic file (t
@@ -2220,7 +2273,7 @@ pdf used on input line 395.
 (pdftex.def)             Requested size: 209.13013pt x 255.54866pt.
 
 <plots/results/fit/mcFits/fit2012_ETHTriangle_SignalInclusive_Combined_Full2012
-_ETHTriangle_MC_SignalInjected_slepton_500_175_100_Central.pdf, id=5663, 465.74
+_ETHTriangle_MC_SignalInjected_slepton_500_175_100_Central.pdf, id=6631, 465.74
 pt x 569.12625pt>
 File: plots/results/fit/mcFits/fit2012_ETHTriangle_SignalInclusive_Combined_Ful
 l2012_ETHTriangle_MC_SignalInjected_slepton_500_175_100_Central.pdf Graphic fil
@@ -2234,7 +2287,7 @@ ral.pdf used on input line 398.
 (pdftex.def)             Requested size: 209.13013pt x 255.54866pt.
 
 <plots/results/fit/mcFits/fit2012_ETHTriangle_SignalInclusive_Combined_Full2012
-_ETHTriangle_MC_SignalInjected_slepton_500_200_100_Central.pdf, id=5664, 465.74
+_ETHTriangle_MC_SignalInjected_slepton_500_200_100_Central.pdf, id=6632, 465.74
 pt x 569.12625pt>
 File: plots/results/fit/mcFits/fit2012_ETHTriangle_SignalInclusive_Combined_Ful
 l2012_ETHTriangle_MC_SignalInjected_slepton_500_200_100_Central.pdf Graphic fil
@@ -2248,7 +2301,7 @@ ral.pdf used on input line 401.
 (pdftex.def)             Requested size: 209.13013pt x 255.54866pt.
 
 <plots/results/fit/mcFits/fit2012_ETHTriangle_SignalInclusive_Combined_Full2012
-_ETHTriangle_MC_SignalInjected_slepton_450_275_100_Central.pdf, id=5665, 465.74
+_ETHTriangle_MC_SignalInjected_slepton_450_275_100_Central.pdf, id=6633, 465.74
 pt x 569.12625pt>
 File: plots/results/fit/mcFits/fit2012_ETHTriangle_SignalInclusive_Combined_Ful
 l2012_ETHTriangle_MC_SignalInjected_slepton_450_275_100_Central.pdf Graphic fil
@@ -2260,8 +2313,8 @@ Package pdftex.def Info: plots/results/fit/mcFits/fit2012_ETHTriangle_SignalInc
 lusive_Combined_Full2012_ETHTriangle_MC_SignalInjected_slepton_450_275_100_Cent
 ral.pdf used on input line 404.
 (pdftex.def)             Requested size: 209.13013pt x 255.54866pt.
- [100]
-<plots/results/fit/toyResults/nS_floatVsFixed.pdf, id=5677, 569.12625pt x 552.0
+
+<plots/results/fit/toyResults/nS_floatVsFixed.pdf, id=6636, 569.12625pt x 552.0
 625pt>
 File: plots/results/fit/toyResults/nS_floatVsFixed.pdf Graphic file (type pdf)
  <use plots/results/fit/toyResults/nS_floatVsFixed.pdf>
@@ -2269,7 +2322,7 @@ Package pdftex.def Info: plots/results/fit/toyResults/nS_floatVsFixed.pdf used
 on input line 422.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
-<plots/results/fit/toyResults/rSFOF_floatVsFixed.pdf, id=5678, 569.12625pt x 55
+<plots/results/fit/toyResults/rSFOF_floatVsFixed.pdf, id=6637, 569.12625pt x 55
 2.0625pt>
 File: plots/results/fit/toyResults/rSFOF_floatVsFixed.pdf Graphic file (type pd
 f)
@@ -2277,181 +2330,13 @@ f)
 Package pdftex.def Info: plots/results/fit/toyResults/rSFOF_floatVsFixed.pdf us
 ed on input line 425.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
-
-<plots/results/fit/toyResults/fittedM0vsinitialM0_backgroundOnly_randM0_NegSig.
-pdf, id=5680, 569.12625pt x 440.64626pt>
-File: plots/results/fit/toyResults/fittedM0vsinitialM0_backgroundOnly_randM0_Ne
-gSig.pdf Graphic file (type pdf)
-
-<use plots/results/fit/toyResults/fittedM0vsinitialM0_backgroundOnly_randM0_Neg
-Sig.pdf>
-Package pdftex.def Info: plots/results/fit/toyResults/fittedM0vsinitialM0_backg
-roundOnly_randM0_NegSig.pdf used on input line 437.
-(pdftex.def)             Requested size: 256.07744pt x 198.27553pt.
-
-<plots/results/fit/toyResults/nS_systShift.pdf, id=5682, 569.12625pt x 552.0625
-pt>
-File: plots/results/fit/toyResults/nS_systShift.pdf Graphic file (type pdf)
- <use plots/results/fit/toyResults/nS_systShift.pdf>
-Package pdftex.def Info: plots/results/fit/toyResults/nS_systShift.pdf used on 
-input line 446.
-(pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
-
-<plots/results/fit/toyResults/rSFOF_systShift.pdf, id=5683, 569.12625pt x 552.0
-625pt>
-File: plots/results/fit/toyResults/rSFOF_systShift.pdf Graphic file (type pdf)
- <use plots/results/fit/toyResults/rSFOF_systShift.pdf>
-Package pdftex.def Info: plots/results/fit/toyResults/rSFOF_systShift.pdf used 
-on input line 449.
-(pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
- [101] [102]
-<plots/results/fit/toyResults/nSPure_signalInjected.pdf, id=5698, 569.12625pt x
- 552.0625pt>
-File: plots/results/fit/toyResults/nSPure_signalInjected.pdf Graphic file (type
- pdf)
- <use plots/results/fit/toyResults/nSPure_signalInjected.pdf>
-Package pdftex.def Info: plots/results/fit/toyResults/nSPure_signalInjected.pdf
- used on input line 463.
-(pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
-
-<plots/results/fit/toyResults/nS_signalInjected.pdf, id=5699, 569.12625pt x 552
-.0625pt>
-File: plots/results/fit/toyResults/nS_signalInjected.pdf Graphic file (type pdf
-)
- <use plots/results/fit/toyResults/nS_signalInjected.pdf>
-Package pdftex.def Info: plots/results/fit/toyResults/nS_signalInjected.pdf use
-d on input line 466.
-(pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
-
-<plots/results/fit/toyResults/m0_signalInjected.pdf, id=5700, 569.12625pt x 552
-.0625pt>
-File: plots/results/fit/toyResults/m0_signalInjected.pdf Graphic file (type pdf
-)
- <use plots/results/fit/toyResults/m0_signalInjected.pdf>
-Package pdftex.def Info: plots/results/fit/toyResults/m0_signalInjected.pdf use
-d on input line 469.
-(pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
-
-<plots/results/fit/toyResults/rSFOF_signalInjected.pdf, id=5701, 569.12625pt x 
-552.0625pt>
-File: plots/results/fit/toyResults/rSFOF_signalInjected.pdf Graphic file (type 
-pdf)
- <use plots/results/fit/toyResults/rSFOF_signalInjected.pdf>
-Package pdftex.def Info: plots/results/fit/toyResults/rSFOF_signalInjected.pdf 
-used on input line 472.
-(pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
-
-<plots/results/fit/toyResults/generatedM0vsfittedM0_signalInjectedN125.pdf, id=
-5704, 569.12625pt x 440.64626pt>
-File: plots/results/fit/toyResults/generatedM0vsfittedM0_signalInjectedN125.pdf
- Graphic file (type pdf)
-
-<use plots/results/fit/toyResults/generatedM0vsfittedM0_signalInjectedN125.pdf>
-Package pdftex.def Info: plots/results/fit/toyResults/generatedM0vsfittedM0_sig
-nalInjectedN125.pdf used on input line 484.
-(pdftex.def)             Requested size: 209.13013pt x 161.92043pt.
-
-<plots/results/fit/toyResults/generatedM0vsfittedNS_signalInjectedN125.pdf, id=
-5705, 569.12625pt x 440.64626pt>
-File: plots/results/fit/toyResults/generatedM0vsfittedNS_signalInjectedN125.pdf
- Graphic file (type pdf)
-
-<use plots/results/fit/toyResults/generatedM0vsfittedNS_signalInjectedN125.pdf>
-Package pdftex.def Info: plots/results/fit/toyResults/generatedM0vsfittedNS_sig
-nalInjectedN125.pdf used on input line 487.
-(pdftex.def)             Requested size: 209.13013pt x 161.92043pt.
-
-<plots/results/fit/toyResults/fittedM0vsinitialM0_signalInjectedM70N125_NegSig.
-pdf, id=5708, 569.12625pt x 440.64626pt>
-File: plots/results/fit/toyResults/fittedM0vsinitialM0_signalInjectedM70N125_Ne
-gSig.pdf Graphic file (type pdf)
-
-<use plots/results/fit/toyResults/fittedM0vsinitialM0_signalInjectedM70N125_Neg
-Sig.pdf>
-Package pdftex.def Info: plots/results/fit/toyResults/fittedM0vsinitialM0_signa
-lInjectedM70N125_NegSig.pdf used on input line 499.
-(pdftex.def)             Requested size: 256.07744pt x 198.27553pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [103]
-<plots/results/fit/toyResults/WidthsvsGenM0Ratio_signalInjectedN125.pdf, id=571
-8, 569.12625pt x 552.0625pt>
-File: plots/results/fit/toyResults/WidthsvsGenM0Ratio_signalInjectedN125.pdf Gr
-aphic file (type pdf)
-
-<use plots/results/fit/toyResults/WidthsvsGenM0Ratio_signalInjectedN125.pdf>
-Package pdftex.def Info: plots/results/fit/toyResults/WidthsvsGenM0Ratio_signal
-InjectedN125.pdf used on input line 511.
-(pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
-
-<plots/results/fit/toyResults/meanNSvsGenM0_signalInjectedN125.pdf, id=5719, 56
-9.12625pt x 552.0625pt>
-File: plots/results/fit/toyResults/meanNSvsGenM0_signalInjectedN125.pdf Graphic
- file (type pdf)
-
-<use plots/results/fit/toyResults/meanNSvsGenM0_signalInjectedN125.pdf>
-Package pdftex.def Info: plots/results/fit/toyResults/meanNSvsGenM0_signalInjec
-tedN125.pdf used on input line 514.
-(pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
-
-<plots/results/fit/toyResults/nSPure_shapeBias.pdf, id=5722, 569.12625pt x 552.
-0625pt>
-File: plots/results/fit/toyResults/nSPure_shapeBias.pdf Graphic file (type pdf)
-
- <use plots/results/fit/toyResults/nSPure_shapeBias.pdf>
-Package pdftex.def Info: plots/results/fit/toyResults/nSPure_shapeBias.pdf used
- on input line 525.
-(pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
-
-<plots/results/fit/toyResults/nS_shapeBias.pdf, id=5723, 569.12625pt x 552.0625
-pt>
-File: plots/results/fit/toyResults/nS_shapeBias.pdf Graphic file (type pdf)
- <use plots/results/fit/toyResults/nS_shapeBias.pdf>
-Package pdftex.def Info: plots/results/fit/toyResults/nS_shapeBias.pdf used on 
-input line 528.
-(pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
-
-<plots/results/fit/toyResults/m0_shapeBias.pdf, id=5724, 569.12625pt x 552.0625
-pt>
-File: plots/results/fit/toyResults/m0_shapeBias.pdf Graphic file (type pdf)
- <use plots/results/fit/toyResults/m0_shapeBias.pdf>
-Package pdftex.def Info: plots/results/fit/toyResults/m0_shapeBias.pdf used on 
-input line 531.
-(pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
-
-<plots/results/fit/toyResults/rSFOF_shapeBias.pdf, id=5725, 569.12625pt x 552.0
-625pt>
-File: plots/results/fit/toyResults/rSFOF_shapeBias.pdf Graphic file (type pdf)
- <use plots/results/fit/toyResults/rSFOF_shapeBias.pdf>
-Package pdftex.def Info: plots/results/fit/toyResults/rSFOF_shapeBias.pdf used 
-on input line 534.
-(pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
- [104] [105 <./plots/results/fit/mcFits/shapeIllustrationKTriangle_SignalInclus
-ive_Combined_Full2012_KTriangle_MC_slepton_500_175_100_Central.pdf> <./plots/re
-sults/fit/mcFits/shapeIllustrationKTriangle_SignalInclusive_Combined_Full2012_K
-Triangle_MC_slepton_500_175_100_Forward.pdf
-
-pdfTeX warning: pdflatex (file ./plots/results/fit/mcFits/shapeIllustrationKTri
-angle_SignalInclusive_Combined_Full2012_KTriangle_MC_slepton_500_175_100_Forwar
-d.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [106 <./plots/results/fit/mcFits/fit2012_ETHTriangle_SignalInclusive_Combine
-d_Full2012_ETHTriangle_MC_Central.pdf> <./plots/results/fit/mcFits/fit2012OFOS_
-ETHTriangle_SignalInclusive_Combined_Full2012_ETHTriangle_MC_Central.pdf> <./pl
-ots/results/fit/mcFits/fit2012_ETHTriangle_SignalInclusive_Combined_Full2012_ET
-HTriangle_MC_Forward.pdf
-
-pdfTeX warning: pdflatex (file ./plots/results/fit/mcFits/fit2012_ETHTriangle_S
-ignalInclusive_Combined_Full2012_ETHTriangle_MC_Forward.pdf): PDF inclusion: mu
-ltiple pdfs with page group included in a single page
-> <./plots/results/fit/mcFits/fit2012OFOS_ETHTriangle_SignalInclusive_Combined_
-Full2012_ETHTriangle_MC_Forward.pdf>] [107 <./plots/results/fit/mcFits/MC.pdf, 
-page is rotated 90 degrees>] [108 <./plots/results/fit/mcFits/fit2012_ETHTriang
-le_SignalInclusive_Combined_Full2012_ETHTriangle_MC_SignalInjected_edge_400_150
-_80_Central.pdf> <./plots/results/fit/mcFits/fit2012_ETHTriangle_SignalInclusiv
-e_Combined_Full2012_ETHTriangle_MC_SignalInjected_slepton_500_175_100_Central.p
-df> <./plots/results/fit/mcFits/fit2012_ETHTriangle_SignalInclusive_Combined_Fu
-ll2012_ETHTriangle_MC_SignalInjected_slepton_500_200_100_Central.pdf
+ [102 <./plots/results/fit/mcFits/MC.pdf, page is rotated 90 degrees>] [103 <./
+plots/results/fit/mcFits/fit2012_ETHTriangle_SignalInclusive_Combined_Full2012_
+ETHTriangle_MC_SignalInjected_edge_400_150_80_Central.pdf> <./plots/results/fit
+/mcFits/fit2012_ETHTriangle_SignalInclusive_Combined_Full2012_ETHTriangle_MC_Si
+gnalInjected_slepton_500_175_100_Central.pdf> <./plots/results/fit/mcFits/fit20
+12_ETHTriangle_SignalInclusive_Combined_Full2012_ETHTriangle_MC_SignalInjected_
+slepton_500_200_100_Central.pdf
 
 pdfTeX warning: pdflatex (file ./plots/results/fit/mcFits/fit2012_ETHTriangle_S
 ignalInclusive_Combined_Full2012_ETHTriangle_MC_SignalInjected_slepton_500_200_
@@ -2464,30 +2349,181 @@ pdfTeX warning: pdflatex (file ./plots/results/fit/mcFits/fit2012_ETHTriangle_S
 ignalInclusive_Combined_Full2012_ETHTriangle_MC_SignalInjected_slepton_450_275_
 100_Central.pdf): PDF inclusion: multiple pdfs with page group included in a si
 ngle page
->] [109 <./plots/results/fit/toyResults/nS_floatVsFixed.pdf, page is rotated 90
- degrees> <./plots/results/fit/toyResults/rSFOF_floatVsFixed.pdf, page is rotat
-ed 90 degrees> <./plots/results/fit/toyResults/fittedM0vsinitialM0_backgroundOn
-ly_randM0_NegSig.pdf, page is rotated 90 degrees>] [110 <./plots/results/fit/to
-yResults/nS_systShift.pdf, page is rotated 90 degrees> <./plots/results/fit/toy
-Results/rSFOF_systShift.pdf, page is rotated 90 degrees>] [111 <./plots/results
-/fit/toyResults/nSPure_signalInjected.pdf, page is rotated 90 degrees> <./plots
-/results/fit/toyResults/nS_signalInjected.pdf, page is rotated 90 degrees> <./p
-lots/results/fit/toyResults/m0_signalInjected.pdf, page is rotated 90 degrees> 
-<./plots/results/fit/toyResults/rSFOF_signalInjected.pdf, page is rotated 90 de
-grees>] [112 <./plots/results/fit/toyResults/generatedM0vsfittedM0_signalInject
-edN125.pdf, page is rotated 90 degrees> <./plots/results/fit/toyResults/generat
-edM0vsfittedNS_signalInjectedN125.pdf, page is rotated 90 degrees> <./plots/res
-ults/fit/toyResults/fittedM0vsinitialM0_signalInjectedM70N125_NegSig.pdf, page 
-is rotated 90 degrees>] [113 <./plots/results/fit/toyResults/WidthsvsGenM0Ratio
-_signalInjectedN125.pdf, page is rotated 90 degrees> <./plots/results/fit/toyRe
-sults/meanNSvsGenM0_signalInjectedN125.pdf, page is rotated 90 degrees>]
-[114 <./plots/results/fit/toyResults/nSPure_shapeBias.pdf, page is rotated 90 d
-egrees> <./plots/results/fit/toyResults/nS_shapeBias.pdf, page is rotated 90 de
-grees> <./plots/results/fit/toyResults/m0_shapeBias.pdf, page is rotated 90 deg
-rees> <./plots/results/fit/toyResults/rSFOF_shapeBias.pdf, page is rotated 90 d
-egrees>]
+>]
+<plots/results/fit/toyResults/fittedM0vsinitialM0_backgroundOnly_randM0_NegSig.
+pdf, id=7283, 569.12625pt x 440.64626pt>
+File: plots/results/fit/toyResults/fittedM0vsinitialM0_backgroundOnly_randM0_Ne
+gSig.pdf Graphic file (type pdf)
+
+<use plots/results/fit/toyResults/fittedM0vsinitialM0_backgroundOnly_randM0_Neg
+Sig.pdf>
+Package pdftex.def Info: plots/results/fit/toyResults/fittedM0vsinitialM0_backg
+roundOnly_randM0_NegSig.pdf used on input line 437.
+(pdftex.def)             Requested size: 256.07744pt x 198.27553pt.
+
+<plots/results/fit/toyResults/nS_systShift.pdf, id=7285, 569.12625pt x 552.0625
+pt>
+File: plots/results/fit/toyResults/nS_systShift.pdf Graphic file (type pdf)
+ <use plots/results/fit/toyResults/nS_systShift.pdf>
+Package pdftex.def Info: plots/results/fit/toyResults/nS_systShift.pdf used on 
+input line 446.
+(pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
+
+<plots/results/fit/toyResults/rSFOF_systShift.pdf, id=7286, 569.12625pt x 552.0
+625pt>
+File: plots/results/fit/toyResults/rSFOF_systShift.pdf Graphic file (type pdf)
+ <use plots/results/fit/toyResults/rSFOF_systShift.pdf>
+Package pdftex.def Info: plots/results/fit/toyResults/rSFOF_systShift.pdf used 
+on input line 449.
+(pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
+ [104 <./plots/results/fit/toyResults/nS_floatVsFixed.pdf, page is rotated 90 d
+egrees> <./plots/results/fit/toyResults/rSFOF_floatVsFixed.pdf, page is rotated
+ 90 degrees>]
+[105 <./plots/results/fit/toyResults/fittedM0vsinitialM0_backgroundOnly_randM0_
+NegSig.pdf, page is rotated 90 degrees>]
+<plots/results/fit/toyResults/nSPure_signalInjected.pdf, id=7431, 569.12625pt x
+ 552.0625pt>
+File: plots/results/fit/toyResults/nSPure_signalInjected.pdf Graphic file (type
+ pdf)
+ <use plots/results/fit/toyResults/nSPure_signalInjected.pdf>
+Package pdftex.def Info: plots/results/fit/toyResults/nSPure_signalInjected.pdf
+ used on input line 463.
+(pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
+
+<plots/results/fit/toyResults/nS_signalInjected.pdf, id=7432, 569.12625pt x 552
+.0625pt>
+File: plots/results/fit/toyResults/nS_signalInjected.pdf Graphic file (type pdf
+)
+ <use plots/results/fit/toyResults/nS_signalInjected.pdf>
+Package pdftex.def Info: plots/results/fit/toyResults/nS_signalInjected.pdf use
+d on input line 466.
+(pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
+
+<plots/results/fit/toyResults/m0_signalInjected.pdf, id=7433, 569.12625pt x 552
+.0625pt>
+File: plots/results/fit/toyResults/m0_signalInjected.pdf Graphic file (type pdf
+)
+ <use plots/results/fit/toyResults/m0_signalInjected.pdf>
+Package pdftex.def Info: plots/results/fit/toyResults/m0_signalInjected.pdf use
+d on input line 469.
+(pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
+
+<plots/results/fit/toyResults/rSFOF_signalInjected.pdf, id=7434, 569.12625pt x 
+552.0625pt>
+File: plots/results/fit/toyResults/rSFOF_signalInjected.pdf Graphic file (type 
+pdf)
+ <use plots/results/fit/toyResults/rSFOF_signalInjected.pdf>
+Package pdftex.def Info: plots/results/fit/toyResults/rSFOF_signalInjected.pdf 
+used on input line 472.
+(pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
+
+Underfull \vbox (badness 1748) has occurred while \output is active []
+
+ [106 <./plots/results/fit/toyResults/nS_systShift.pdf, page is rotated 90 degr
+ees> <./plots/results/fit/toyResults/rSFOF_systShift.pdf, page is rotated 90 de
+grees>]
+[107 <./plots/results/fit/toyResults/nSPure_signalInjected.pdf, page is rotated
+ 90 degrees> <./plots/results/fit/toyResults/nS_signalInjected.pdf, page is rot
+ated 90 degrees> <./plots/results/fit/toyResults/m0_signalInjected.pdf, page is
+ rotated 90 degrees> <./plots/results/fit/toyResults/rSFOF_signalInjected.pdf, 
+page is rotated 90 degrees>]
+<plots/results/fit/toyResults/generatedM0vsfittedM0_signalInjectedN125.pdf, id=
+7707, 569.12625pt x 440.64626pt>
+File: plots/results/fit/toyResults/generatedM0vsfittedM0_signalInjectedN125.pdf
+ Graphic file (type pdf)
+
+<use plots/results/fit/toyResults/generatedM0vsfittedM0_signalInjectedN125.pdf>
+Package pdftex.def Info: plots/results/fit/toyResults/generatedM0vsfittedM0_sig
+nalInjectedN125.pdf used on input line 484.
+(pdftex.def)             Requested size: 209.13013pt x 161.92043pt.
+
+<plots/results/fit/toyResults/generatedM0vsfittedNS_signalInjectedN125.pdf, id=
+7708, 569.12625pt x 440.64626pt>
+File: plots/results/fit/toyResults/generatedM0vsfittedNS_signalInjectedN125.pdf
+ Graphic file (type pdf)
+
+<use plots/results/fit/toyResults/generatedM0vsfittedNS_signalInjectedN125.pdf>
+Package pdftex.def Info: plots/results/fit/toyResults/generatedM0vsfittedNS_sig
+nalInjectedN125.pdf used on input line 487.
+(pdftex.def)             Requested size: 209.13013pt x 161.92043pt.
+
+<plots/results/fit/toyResults/fittedM0vsinitialM0_signalInjectedM70N125_NegSig.
+pdf, id=7711, 569.12625pt x 440.64626pt>
+File: plots/results/fit/toyResults/fittedM0vsinitialM0_signalInjectedM70N125_Ne
+gSig.pdf Graphic file (type pdf)
+
+<use plots/results/fit/toyResults/fittedM0vsinitialM0_signalInjectedM70N125_Neg
+Sig.pdf>
+Package pdftex.def Info: plots/results/fit/toyResults/fittedM0vsinitialM0_signa
+lInjectedM70N125_NegSig.pdf used on input line 499.
+(pdftex.def)             Requested size: 256.07744pt x 198.27553pt.
+
+<plots/results/fit/toyResults/WidthsvsGenM0Ratio_signalInjectedN125.pdf, id=771
+3, 569.12625pt x 552.0625pt>
+File: plots/results/fit/toyResults/WidthsvsGenM0Ratio_signalInjectedN125.pdf Gr
+aphic file (type pdf)
+
+<use plots/results/fit/toyResults/WidthsvsGenM0Ratio_signalInjectedN125.pdf>
+Package pdftex.def Info: plots/results/fit/toyResults/WidthsvsGenM0Ratio_signal
+InjectedN125.pdf used on input line 511.
+(pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
+
+<plots/results/fit/toyResults/meanNSvsGenM0_signalInjectedN125.pdf, id=7714, 56
+9.12625pt x 552.0625pt>
+File: plots/results/fit/toyResults/meanNSvsGenM0_signalInjectedN125.pdf Graphic
+ file (type pdf)
+
+<use plots/results/fit/toyResults/meanNSvsGenM0_signalInjectedN125.pdf>
+Package pdftex.def Info: plots/results/fit/toyResults/meanNSvsGenM0_signalInjec
+tedN125.pdf used on input line 514.
+(pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
+
+[108 <./plots/results/fit/toyResults/generatedM0vsfittedM0_signalInjectedN125.p
+df, page is rotated 90 degrees> <./plots/results/fit/toyResults/generatedM0vsfi
+ttedNS_signalInjectedN125.pdf, page is rotated 90 degrees>] [109 <./plots/resul
+ts/fit/toyResults/fittedM0vsinitialM0_signalInjectedM70N125_NegSig.pdf, page is
+ rotated 90 degrees> <./plots/results/fit/toyResults/WidthsvsGenM0Ratio_signalI
+njectedN125.pdf, page is rotated 90 degrees> <./plots/results/fit/toyResults/me
+anNSvsGenM0_signalInjectedN125.pdf, page is rotated 90 degrees>]
+<plots/results/fit/toyResults/nSPure_shapeBias.pdf, id=7944, 569.12625pt x 552.
+0625pt>
+File: plots/results/fit/toyResults/nSPure_shapeBias.pdf Graphic file (type pdf)
+
+ <use plots/results/fit/toyResults/nSPure_shapeBias.pdf>
+Package pdftex.def Info: plots/results/fit/toyResults/nSPure_shapeBias.pdf used
+ on input line 525.
+(pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
+
+<plots/results/fit/toyResults/nS_shapeBias.pdf, id=7945, 569.12625pt x 552.0625
+pt>
+File: plots/results/fit/toyResults/nS_shapeBias.pdf Graphic file (type pdf)
+ <use plots/results/fit/toyResults/nS_shapeBias.pdf>
+Package pdftex.def Info: plots/results/fit/toyResults/nS_shapeBias.pdf used on 
+input line 528.
+(pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
+
+<plots/results/fit/toyResults/m0_shapeBias.pdf, id=7946, 569.12625pt x 552.0625
+pt>
+File: plots/results/fit/toyResults/m0_shapeBias.pdf Graphic file (type pdf)
+ <use plots/results/fit/toyResults/m0_shapeBias.pdf>
+Package pdftex.def Info: plots/results/fit/toyResults/m0_shapeBias.pdf used on 
+input line 531.
+(pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
+
+<plots/results/fit/toyResults/rSFOF_shapeBias.pdf, id=7947, 569.12625pt x 552.0
+625pt>
+File: plots/results/fit/toyResults/rSFOF_shapeBias.pdf Graphic file (type pdf)
+ <use plots/results/fit/toyResults/rSFOF_shapeBias.pdf>
+Package pdftex.def Info: plots/results/fit/toyResults/rSFOF_shapeBias.pdf used 
+on input line 534.
+(pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
+ [110] [111 <./plots/results/fit/toyResults/nSPure_shapeBias.pdf, page is rotat
+ed 90 degrees> <./plots/results/fit/toyResults/nS_shapeBias.pdf, page is rotate
+d 90 degrees> <./plots/results/fit/toyResults/m0_shapeBias.pdf, page is rotated
+ 90 degrees> <./plots/results/fit/toyResults/rSFOF_shapeBias.pdf, page is rotat
+ed 90 degrees>]
 <plots/results/fit/fit2012_ETHTriangle_SignalInclusive_Combined_Full2012_ETHTri
-angle_Central.pdf, id=8064, 465.74pt x 569.12625pt>
+angle_Central.pdf, id=8132, 465.74pt x 569.12625pt>
 File: plots/results/fit/fit2012_ETHTriangle_SignalInclusive_Combined_Full2012_E
 THTriangle_Central.pdf Graphic file (type pdf)
 
@@ -2498,7 +2534,7 @@ Combined_Full2012_ETHTriangle_Central.pdf used on input line 549.
 (pdftex.def)             Requested size: 209.13013pt x 255.54866pt.
 
 <plots/results/fit/fit2012_ETHTriangle_SignalInclusive_Combined_Full2012_ETHTri
-angle_Forward.pdf, id=8065, 465.74pt x 569.12625pt>
+angle_Forward.pdf, id=8133, 465.74pt x 569.12625pt>
 File: plots/results/fit/fit2012_ETHTriangle_SignalInclusive_Combined_Full2012_E
 THTriangle_Forward.pdf Graphic file (type pdf)
 
@@ -2509,7 +2545,7 @@ Combined_Full2012_ETHTriangle_Forward.pdf used on input line 552.
 (pdftex.def)             Requested size: 209.13013pt x 255.54866pt.
 
 <plots/results/fit/fit2012OFOS_ETHTriangle_SignalInclusive_Combined_Full2012_ET
-HTriangle_Central.pdf, id=8066, 465.74pt x 569.12625pt>
+HTriangle_Central.pdf, id=8134, 465.74pt x 569.12625pt>
 File: plots/results/fit/fit2012OFOS_ETHTriangle_SignalInclusive_Combined_Full20
 12_ETHTriangle_Central.pdf Graphic file (type pdf)
 
@@ -2520,7 +2556,7 @@ ive_Combined_Full2012_ETHTriangle_Central.pdf used on input line 555.
 (pdftex.def)             Requested size: 209.13013pt x 255.54866pt.
 
 <plots/results/fit/fit2012OFOS_ETHTriangle_SignalInclusive_Combined_Full2012_ET
-HTriangle_Forward.pdf, id=8067, 465.74pt x 569.12625pt>
+HTriangle_Forward.pdf, id=8135, 465.74pt x 569.12625pt>
 File: plots/results/fit/fit2012OFOS_ETHTriangle_SignalInclusive_Combined_Full20
 12_ETHTriangle_Forward.pdf Graphic file (type pdf)
 
@@ -2530,15 +2566,15 @@ Package pdftex.def Info: plots/results/fit/fit2012OFOS_ETHTriangle_SignalInclus
 ive_Combined_Full2012_ETHTriangle_Forward.pdf used on input line 558.
 (pdftex.def)             Requested size: 209.13013pt x 255.54866pt.
  (./tab/table_fit_Result.tex)
-<plots/results/fit/signal.pdf, id=8069, 569.12625pt x 552.0625pt>
+<plots/results/fit/signal.pdf, id=8137, 569.12625pt x 552.0625pt>
 File: plots/results/fit/signal.pdf Graphic file (type pdf)
 
 <use plots/results/fit/signal.pdf>
 Package pdftex.def Info: plots/results/fit/signal.pdf used on input line 570.
 (pdftex.def)             Requested size: 256.07744pt x 248.40898pt.
- [115
+ [112
 
-] [116 <./plots/results/fit/fit2012_ETHTriangle_SignalInclusive_Combined_Full20
+] [113 <./plots/results/fit/fit2012_ETHTriangle_SignalInclusive_Combined_Full20
 12_ETHTriangle_Central.pdf> <./plots/results/fit/fit2012_ETHTriangle_SignalIncl
 usive_Combined_Full2012_ETHTriangle_Forward.pdf
 
@@ -2548,33 +2584,28 @@ s with page group included in a single page
 > <./plots/results/fit/fit2012OFOS_ETHTriangle_SignalInclusive_Combined_Full201
 2_ETHTriangle_Central.pdf> <./plots/results/fit/fit2012OFOS_ETHTriangle_SignalI
 nclusive_Combined_Full2012_ETHTriangle_Forward.pdf>]
-<plots/results/fit/toyResults/significanceStudy_BackgroundOnly.pdf, id=8540, 56
+<plots/results/fit/toyResults/significanceStudy_BackgroundOnly.pdf, id=8609, 56
 9.12625pt x 552.0625pt>
 File: plots/results/fit/toyResults/significanceStudy_BackgroundOnly.pdf Graphic
  file (type pdf)
 
 <use plots/results/fit/toyResults/significanceStudy_BackgroundOnly.pdf>
 Package pdftex.def Info: plots/results/fit/toyResults/significanceStudy_Backgro
-undOnly.pdf used on input line 583.
+undOnly.pdf used on input line 584.
 (pdftex.def)             Requested size: 256.07744pt x 248.40898pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [117 <./plots/results/fit/signal.pdf, page is rotated 90 degrees>]
+ [114 <./plots/results/fit/signal.pdf, page is rotated 90 degrees>]
 (./tab/table_fit_comparison.tex
-Overfull \hbox (28.92538pt too wide) in paragraph at lines 9--24
- [][] 
- []
-
-)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [118 <./plots/results/fit/toyResults/significanceStudy_BackgroundOnly.pdf, pag
-e is rotated 90 degrees>] (./tab/table_fit_CountingCompare.tex)) [119] [120
-
-]
+ [115 <./plots/results/fit/toyResults/significanceStudy_BackgroundOnly.pdf, pag
+e is rotated 90 degrees>]) (./tab/table_fit_CountingCompare.tex)) [116]
 Chapter 8.
-(./conclusion.tex [121]) (./appendixTrigger.tex [122]
+(./conclusion.tex [117
+
+]) (./appendixTrigger.tex [118]
 Appendix A.
 
 Overfull \hbox (8.36955pt too wide) in paragraph at lines 8--18
@@ -2586,9 +2617,9 @@ Overfull \hbox (15.40057pt too wide) in paragraph at lines 24--49
  [][] 
  []
 
-) (./appendixSamples.tex [123
+) (./appendixSamples.tex [119
 
-] [124
+] [120
 
 ]
 Appendix B.
@@ -2603,14 +2634,12 @@ Underfull \hbox (badness 1540) in paragraph at lines 71--71
 m/m/it/10 m[]$ \T1/lmss/m/n/10 be-tween $[]$ and
  []
 
-
-Underfull \hbox (badness 1552) in paragraph at lines 71--71
-[]$\T1/lmss/m/n/10 , where the hash b7ae8e1adb016da4a96f7b394c3a565a has be re-
-placed by
- []
-
-) (./appendixRmue.tex [125] [126]
+) (./appendixRmue.tex [121] [122]
 Appendix C.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `subscript' on input line 1.
@@ -2619,13 +2648,17 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\mu' on input line 1.
 
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <20.74> on input line 1.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <14.4> on input line 1.
 
 <plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_TrailingPt_leadingPt30.pdf, id
-=8689, 569.12625pt x 552.0625pt>
+=8754, 569.12625pt x 552.0625pt>
 File: plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_TrailingPt_leadingPt30.pd
 f Graphic file (type pdf)
 
@@ -2636,7 +2669,7 @@ ngPt_leadingPt30.pdf used on input line 7.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
 <plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_TrailingPt_leadingPt30.pdf, id
-=8690, 569.12625pt x 552.0625pt>
+=8755, 569.12625pt x 552.0625pt>
 File: plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_TrailingPt_leadingPt30.pd
 f Graphic file (type pdf)
 
@@ -2647,7 +2680,7 @@ ngPt_leadingPt30.pdf used on input line 10.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
 <plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_LeadingPt_trailingPt20.pdf, id
-=8691, 569.12625pt x 552.0625pt>
+=8756, 569.12625pt x 552.0625pt>
 File: plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_LeadingPt_trailingPt20.pd
 f Graphic file (type pdf)
 
@@ -2658,7 +2691,7 @@ gPt_trailingPt20.pdf used on input line 13.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
 <plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_LeadingPt_trailingPt20.pdf, id
-=8692, 569.12625pt x 552.0625pt>
+=8757, 569.12625pt x 552.0625pt>
 File: plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_LeadingPt_trailingPt20.pd
 f Graphic file (type pdf)
 
@@ -2668,7 +2701,7 @@ Package pdftex.def Info: plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_Leadin
 gPt_trailingPt20.pdf used on input line 16.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
-<plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_TrailingEta_None.pdf, id=8693,
+<plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_TrailingEta_None.pdf, id=8758,
  569.12625pt x 552.0625pt>
 File: plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_TrailingEta_None.pdf Grap
 hic file (type pdf)
@@ -2678,7 +2711,7 @@ Package pdftex.def Info: plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_Traili
 ngEta_None.pdf used on input line 26.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
-<plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_TrailingEta_None.pdf, id=8694,
+<plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_TrailingEta_None.pdf, id=8759,
  569.12625pt x 552.0625pt>
 File: plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_TrailingEta_None.pdf Grap
 hic file (type pdf)
@@ -2688,7 +2721,7 @@ Package pdftex.def Info: plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_Traili
 ngEta_None.pdf used on input line 29.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
-<plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_DeltaR_None.pdf, id=8695, 569.
+<plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_DeltaR_None.pdf, id=8760, 569.
 12625pt x 552.0625pt>
 File: plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_DeltaR_None.pdf Graphic f
 ile (type pdf)
@@ -2698,7 +2731,7 @@ Package pdftex.def Info: plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_DeltaR
 _None.pdf used on input line 32.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
-<plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_DeltaR_None.pdf, id=8696, 569.
+<plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_DeltaR_None.pdf, id=8761, 569.
 12625pt x 552.0625pt>
 File: plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_DeltaR_None.pdf Graphic f
 ile (type pdf)
@@ -2707,15 +2740,8 @@ ile (type pdf)
 Package pdftex.def Info: plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_DeltaR
 _None.pdf used on input line 35.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
- [127
 
- <./plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_TrailingPt_leadingPt30.pdf,
- page is rotated 90 degrees> <./plots/BG/rmue/rMuE_ZPeakControlForward_Full2012
-_TrailingPt_leadingPt30.pdf, page is rotated 90 degrees> <./plots/BG/rmue/rMuE_
-ZPeakControlCentral_Full2012_LeadingPt_trailingPt20.pdf, page is rotated 90 deg
-rees> <./plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_LeadingPt_trailingPt20
-.pdf, page is rotated 90 degrees>]
-<plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_HT_None.pdf, id=8877, 569.1262
+<plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_HT_None.pdf, id=8762, 569.1262
 5pt x 552.0625pt>
 File: plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_HT_None.pdf Graphic file 
 (type pdf)
@@ -2725,7 +2751,7 @@ Package pdftex.def Info: plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_HT_Non
 e.pdf used on input line 45.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
-<plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_HT_None.pdf, id=8878, 569.1262
+<plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_HT_None.pdf, id=8763, 569.1262
 5pt x 552.0625pt>
 File: plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_HT_None.pdf Graphic file 
 (type pdf)
@@ -2735,7 +2761,7 @@ Package pdftex.def Info: plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_HT_Non
 e.pdf used on input line 48.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
-<plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_nVtx_None.pdf, id=8879, 569.12
+<plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_nVtx_None.pdf, id=8764, 569.12
 625pt x 552.0625pt>
 File: plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_nVtx_None.pdf Graphic fil
 e (type pdf)
@@ -2745,7 +2771,7 @@ Package pdftex.def Info: plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_nVtx_N
 one.pdf used on input line 51.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
-<plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_nVtx_None.pdf, id=8880, 569.12
+<plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_nVtx_None.pdf, id=8765, 569.12
 625pt x 552.0625pt>
 File: plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_nVtx_None.pdf Graphic fil
 e (type pdf)
@@ -2755,27 +2781,40 @@ Package pdftex.def Info: plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_nVtx_N
 one.pdf used on input line 54.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 )
-(./appendixRT.tex [128 <./plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_Trail
-ingEta_None.pdf, page is rotated 90 degrees> <./plots/BG/rmue/rMuE_ZPeakControl
-Forward_Full2012_TrailingEta_None.pdf, page is rotated 90 degrees> <./plots/BG/
-rmue/rMuE_ZPeakControlCentral_Full2012_DeltaR_None.pdf, page is rotated 90 degr
-ees> <./plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_DeltaR_None.pdf, page i
-s rotated 90 degrees>] [129 <./plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_
-HT_None.pdf, page is rotated 90 degrees> <./plots/BG/rmue/rMuE_ZPeakControlForw
-ard_Full2012_HT_None.pdf, page is rotated 90 degrees> <./plots/BG/rmue/rMuE_ZPe
-akControlCentral_Full2012_nVtx_None.pdf, page is rotated 90 degrees> <./plots/B
-G/rmue/rMuE_ZPeakControlForward_Full2012_nVtx_None.pdf, page is rotated 90 degr
-ees>] [130
+(./appendixRT.tex [123
 
-]
+] [124 <./plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_TrailingPt_leadingPt3
+0.pdf, page is rotated 90 degrees> <./plots/BG/rmue/rMuE_ZPeakControlForward_Fu
+ll2012_TrailingPt_leadingPt30.pdf, page is rotated 90 degrees> <./plots/BG/rmue
+/rMuE_ZPeakControlCentral_Full2012_LeadingPt_trailingPt20.pdf, page is rotated 
+90 degrees> <./plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_LeadingPt_traili
+ngPt20.pdf, page is rotated 90 degrees>] [125 <./plots/BG/rmue/rMuE_ZPeakContro
+lCentral_Full2012_TrailingEta_None.pdf, page is rotated 90 degrees> <./plots/BG
+/rmue/rMuE_ZPeakControlForward_Full2012_TrailingEta_None.pdf, page is rotated 9
+0 degrees> <./plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_DeltaR_None.pdf, 
+page is rotated 90 degrees> <./plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_
+DeltaR_None.pdf, page is rotated 90 degrees>] [126 <./plots/BG/rmue/rMuE_ZPeakC
+ontrolCentral_Full2012_HT_None.pdf, page is rotated 90 degrees> <./plots/BG/rmu
+e/rMuE_ZPeakControlForward_Full2012_HT_None.pdf, page is rotated 90 degrees> <.
+/plots/BG/rmue/rMuE_ZPeakControlCentral_Full2012_nVtx_None.pdf, page is rotated
+ 90 degrees> <./plots/BG/rmue/rMuE_ZPeakControlForward_Full2012_nVtx_None.pdf, 
+page is rotated 90 degrees>]
 Appendix D.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `subscript' on input line 1.
 
 
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
 <plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveCentral_Full2012
-_TrailingPt_leadingPt20.pdf, id=9243, 569.12625pt x 553.06625pt>
+_TrailingPt_leadingPt20.pdf, id=9309, 569.12625pt x 553.06625pt>
 File: plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveCentral_Ful
 l2012_TrailingPt_leadingPt20.pdf Graphic file (type pdf)
 
@@ -2786,7 +2825,7 @@ xclusiveCentral_Full2012_TrailingPt_leadingPt20.pdf used on input line 8.
 (pdftex.def)             Requested size: 209.13013pt x 203.23041pt.
 
 <plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveForward_Full2012
-_TrailingPt_leadingPt20.pdf, id=9244, 569.12625pt x 553.06625pt>
+_TrailingPt_leadingPt20.pdf, id=9310, 569.12625pt x 553.06625pt>
 File: plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveForward_Ful
 l2012_TrailingPt_leadingPt20.pdf Graphic file (type pdf)
 
@@ -2797,7 +2836,7 @@ xclusiveForward_Full2012_TrailingPt_leadingPt20.pdf used on input line 11.
 (pdftex.def)             Requested size: 209.13013pt x 203.23041pt.
 
 <plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveCentral_Full2012
-_LeadingPt_trailingPt20.pdf, id=9245, 569.12625pt x 553.06625pt>
+_LeadingPt_trailingPt20.pdf, id=9311, 569.12625pt x 553.06625pt>
 File: plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveCentral_Ful
 l2012_LeadingPt_trailingPt20.pdf Graphic file (type pdf)
 
@@ -2808,7 +2847,7 @@ xclusiveCentral_Full2012_LeadingPt_trailingPt20.pdf used on input line 14.
 (pdftex.def)             Requested size: 209.13013pt x 203.23041pt.
 
 <plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveForward_Full2012
-_LeadingPt_trailingPt20.pdf, id=9246, 569.12625pt x 553.06625pt>
+_LeadingPt_trailingPt20.pdf, id=9312, 569.12625pt x 553.06625pt>
 File: plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveForward_Ful
 l2012_LeadingPt_trailingPt20.pdf Graphic file (type pdf)
 
@@ -2819,7 +2858,7 @@ xclusiveForward_Full2012_LeadingPt_trailingPt20.pdf used on input line 17.
 (pdftex.def)             Requested size: 209.13013pt x 203.23041pt.
 
 <plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveCentral_Full2012
-_TrailingEta_None.pdf, id=9247, 569.12625pt x 553.06625pt>
+_TrailingEta_None.pdf, id=9313, 569.12625pt x 553.06625pt>
 File: plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveCentral_Ful
 l2012_TrailingEta_None.pdf Graphic file (type pdf)
 
@@ -2830,7 +2869,7 @@ xclusiveCentral_Full2012_TrailingEta_None.pdf used on input line 27.
 (pdftex.def)             Requested size: 209.13013pt x 203.23041pt.
 
 <plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveForward_Full2012
-_TrailingEta_None.pdf, id=9248, 569.12625pt x 553.06625pt>
+_TrailingEta_None.pdf, id=9314, 569.12625pt x 553.06625pt>
 File: plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveForward_Ful
 l2012_TrailingEta_None.pdf Graphic file (type pdf)
 
@@ -2841,7 +2880,7 @@ xclusiveForward_Full2012_TrailingEta_None.pdf used on input line 30.
 (pdftex.def)             Requested size: 209.13013pt x 203.23041pt.
 
 <plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveCentral_Full2012
-_HT_None.pdf, id=9249, 569.12625pt x 553.06625pt>
+_HT_None.pdf, id=9315, 569.12625pt x 553.06625pt>
 File: plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveCentral_Ful
 l2012_HT_None.pdf Graphic file (type pdf)
 
@@ -2852,7 +2891,7 @@ xclusiveCentral_Full2012_HT_None.pdf used on input line 33.
 (pdftex.def)             Requested size: 209.13013pt x 203.23041pt.
 
 <plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveForward_Full2012
-_HT_None.pdf, id=9250, 569.12625pt x 553.06625pt>
+_HT_None.pdf, id=9316, 569.12625pt x 553.06625pt>
 File: plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveForward_Ful
 l2012_HT_None.pdf Graphic file (type pdf)
 
@@ -2863,7 +2902,7 @@ xclusiveForward_Full2012_HT_None.pdf used on input line 36.
 (pdftex.def)             Requested size: 209.13013pt x 203.23041pt.
 
 <plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveCentral_Full2012
-_nVtx_None.pdf, id=9251, 569.12625pt x 553.06625pt>
+_nVtx_None.pdf, id=9317, 569.12625pt x 553.06625pt>
 File: plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveCentral_Ful
 l2012_nVtx_None.pdf Graphic file (type pdf)
 
@@ -2874,7 +2913,7 @@ xclusiveCentral_Full2012_nVtx_None.pdf used on input line 45.
 (pdftex.def)             Requested size: 209.13013pt x 203.23041pt.
 
 <plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveForward_Full2012
-_nVtx_None.pdf, id=9252, 569.12625pt x 553.06625pt>
+_nVtx_None.pdf, id=9318, 569.12625pt x 553.06625pt>
 File: plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveForward_Ful
 l2012_nVtx_None.pdf Graphic file (type pdf)
 
@@ -2883,34 +2922,43 @@ l2012_nVtx_None.pdf Graphic file (type pdf)
 Package pdftex.def Info: plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTE
 xclusiveForward_Full2012_nVtx_None.pdf used on input line 48.
 (pdftex.def)             Requested size: 209.13013pt x 203.23041pt.
-) (./appendixROutIn.tex [131 <./plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_
-HighHTExclusiveCentral_Full2012_TrailingPt_leadingPt20.pdf, page is rotated 90 
-degrees> <./plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveForwa
-rd_Full2012_TrailingPt_leadingPt20.pdf, page is rotated 90 degrees> <./plots/BG
-/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveCentral_Full2012_LeadingP
-t_trailingPt20.pdf, page is rotated 90 degrees> <./plots/BG/trigger/Triggereff_
-SFvsOF_Syst_AlphaT_HighHTExclusiveForward_Full2012_LeadingPt_trailingPt20.pdf, 
-page is rotated 90 degrees>] [132 <./plots/BG/trigger/Triggereff_SFvsOF_Syst_Al
-phaT_HighHTExclusiveCentral_Full2012_TrailingEta_None.pdf, page is rotated 90 d
-egrees> <./plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveForwar
-d_Full2012_TrailingEta_None.pdf, page is rotated 90 degrees> <./plots/BG/trigge
-r/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveCentral_Full2012_HT_None.pdf, pa
-ge is rotated 90 degrees> <./plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_Hig
-hHTExclusiveForward_Full2012_HT_None.pdf, page is rotated 90 degrees>] [133 <./
-plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveCentral_Full2012_
-nVtx_None.pdf, page is rotated 90 degrees> <./plots/BG/trigger/Triggereff_SFvsO
-F_Syst_AlphaT_HighHTExclusiveForward_Full2012_nVtx_None.pdf, page is rotated 90
- degrees>] [134
+) (./appendixROutIn.tex [127
+
+ <./plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveCentral_Full2
+012_TrailingPt_leadingPt20.pdf, page is rotated 90 degrees> <./plots/BG/trigger
+/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveForward_Full2012_TrailingPt_leadi
+ngPt20.pdf, page is rotated 90 degrees> <./plots/BG/trigger/Triggereff_SFvsOF_S
+yst_AlphaT_HighHTExclusiveCentral_Full2012_LeadingPt_trailingPt20.pdf, page is 
+rotated 90 degrees> <./plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExc
+lusiveForward_Full2012_LeadingPt_trailingPt20.pdf, page is rotated 90 degrees>]
+ [128 <./plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveCentral_
+Full2012_TrailingEta_None.pdf, page is rotated 90 degrees> <./plots/BG/trigger/
+Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveForward_Full2012_TrailingEta_None.
+pdf, page is rotated 90 degrees> <./plots/BG/trigger/Triggereff_SFvsOF_Syst_Alp
+haT_HighHTExclusiveCentral_Full2012_HT_None.pdf, page is rotated 90 degrees> <.
+/plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiveForward_Full2012
+_HT_None.pdf, page is rotated 90 degrees>] [129 <./plots/BG/trigger/Triggereff_
+SFvsOF_Syst_AlphaT_HighHTExclusiveCentral_Full2012_nVtx_None.pdf, page is rotat
+ed 90 degrees> <./plots/BG/trigger/Triggereff_SFvsOF_Syst_AlphaT_HighHTExclusiv
+eForward_Full2012_nVtx_None.pdf, page is rotated 90 degrees>] [130
 
 ]
 Appendix E.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `subscript' on input line 1.
 
 
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 1.
+
+
 <plots/BG/rOutIn/rOutInSyst_DrellYanControlCentral_Full2012_MET_HighMass_SF_Non
-e.pdf, id=9707, 569.12625pt x 552.0625pt>
+e.pdf, id=9774, 569.12625pt x 552.0625pt>
 File: plots/BG/rOutIn/rOutInSyst_DrellYanControlCentral_Full2012_MET_HighMass_S
 F_None.pdf Graphic file (type pdf)
 
@@ -2921,7 +2969,7 @@ Package pdftex.def Info: plots/BG/rOutIn/rOutInSyst_DrellYanControlCentral_Full
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
 <plots/BG/rOutIn/rOutInSyst_DrellYanControlCentral_Full2012_NJets_HighMass_SF_N
-one.pdf, id=9708, 569.12625pt x 552.0625pt>
+one.pdf, id=9775, 569.12625pt x 552.0625pt>
 File: plots/BG/rOutIn/rOutInSyst_DrellYanControlCentral_Full2012_NJets_HighMass
 _SF_None.pdf Graphic file (type pdf)
 
@@ -2932,7 +2980,7 @@ Package pdftex.def Info: plots/BG/rOutIn/rOutInSyst_DrellYanControlCentral_Full
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
 <plots/BG/rOutIn/rOutInSyst_DrellYanControlForward_Full2012_MET_HighMass_SF_Non
-e.pdf, id=9709, 569.12625pt x 552.0625pt>
+e.pdf, id=9776, 569.12625pt x 552.0625pt>
 File: plots/BG/rOutIn/rOutInSyst_DrellYanControlForward_Full2012_MET_HighMass_S
 F_None.pdf Graphic file (type pdf)
 
@@ -2943,7 +2991,7 @@ Package pdftex.def Info: plots/BG/rOutIn/rOutInSyst_DrellYanControlForward_Full
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
 
 <plots/BG/rOutIn/rOutInSyst_DrellYanControlForward_Full2012_NJets_HighMass_SF_N
-one.pdf, id=9710, 569.12625pt x 552.0625pt>
+one.pdf, id=9777, 569.12625pt x 552.0625pt>
 File: plots/BG/rOutIn/rOutInSyst_DrellYanControlForward_Full2012_NJets_HighMass
 _SF_None.pdf Graphic file (type pdf)
 
@@ -2952,15 +3000,27 @@ SF_None.pdf>
 Package pdftex.def Info: plots/BG/rOutIn/rOutInSyst_DrellYanControlForward_Full
 2012_NJets_HighMass_SF_None.pdf used on input line 17.
 (pdftex.def)             Requested size: 209.13013pt x 202.86157pt.
-) (./thesis.bbl [135 <./plots/BG/rOutIn/rOutInSyst_DrellYanControlCentral_Full2
+) (./thesis.bbl [131 <./plots/BG/rOutIn/rOutInSyst_DrellYanControlCentral_Full2
 012_MET_HighMass_SF_None.pdf, page is rotated 90 degrees> <./plots/BG/rOutIn/rO
 utInSyst_DrellYanControlCentral_Full2012_NJets_HighMass_SF_None.pdf, page is ro
 tated 90 degrees> <./plots/BG/rOutIn/rOutInSyst_DrellYanControlForward_Full2012
 _MET_HighMass_SF_None.pdf, page is rotated 90 degrees> <./plots/BG/rOutIn/rOutI
 nSyst_DrellYanControlForward_Full2012_NJets_HighMass_SF_None.pdf, page is rotat
-ed 90 degrees>] [136
+ed 90 degrees>] [132
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [133]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [134]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [135]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [136]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [137]
@@ -2972,39 +3032,35 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [139]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [140]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [140])
+(./acknowledgement.tex [141] [142
 
- [141]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [142]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [143])
+] [143])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 318.
-
-[144]
+ [144]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 318.
  (./thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 318.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 318.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 52D278CAF928C284C15E716E7FECA165;4492.
+(rerunfilecheck)             Checksum: 6D583AC95723A0AE2FCC0A86D8903D7E;4607.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 318.
  ) 
 Here is how much of TeX's memory you used:
- 14270 strings out of 494935
- 260664 string characters out of 6178122
- 379214 words of memory out of 5000000
- 16442 multiletter control sequences out of 15000+600000
- 141783 words of font info for 125 fonts, out of 8000000 for 9000
+ 14316 strings out of 494935
+ 261920 string characters out of 6178122
+ 381193 words of memory out of 5000000
+ 16467 multiletter control sequences out of 15000+600000
+ 138999 words of font info for 124 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 40i,15n,57p,2241b,670s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,15n,57p,3198b,670s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
@@ -3014,28 +3070,28 @@ ips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/share/texmf/fonts
-/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx8.pfb><
-/usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1
-/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/
-share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/publi
-c/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/te
-xmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr
-12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts
-/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></us
-r/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/
-lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/te
-xmf/fonts/type1/public/lm/lmsso8.pfb></usr/share/texmf/fonts/type1/public/lm/lm
-sy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fo
-nts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb
-></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/typ
-e1/public/lm/lmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/symbols/msbm10.pfb>
-Output written on thesis.pdf (148 pages, 8391918 bytes).
+/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb>
+</usr/share/texmf/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1
+/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+r10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fon
+ts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/tex
+mf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+sso8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/f
+onts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt8.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on thesis.pdf (150 pages, 8551885 bytes).
 PDF statistics:
- 10306 PDF objects out of 10688 (max. 8388607)
- 5881 compressed objects within 59 object streams
- 505 named destinations out of 1000 (max. 500000)
- 1284 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 10399 PDF objects out of 10688 (max. 8388607)
+ 5943 compressed objects within 60 object streams
+ 514 named destinations out of 1000 (max. 500000)
+ 1310 words of extra memory for PDF output out of 10000 (max. 10000000)
 

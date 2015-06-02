@@ -1,13 +1,15 @@
 \select@language {english}
+\contentsline {section}{\nonumberline Zusammenfassung}{i}{section*.1}
+\contentsline {section}{\nonumberline Abstract}{i}{section*.2}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Definition of variables}{2}{section.1.1}
 \contentsline {chapter}{\numberline {2}The Standard Model and Supersymmetry}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}The Standard Model of particle physics}{5}{section.2.1}
 \contentsline {section}{\numberline {2.2}Supersymmetry}{7}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Theoretical foundation}{7}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.1}Theoretical foundation}{8}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Dilepton mass edges in Supersymmetry}{9}{subsection.2.2.2}
-\contentsline {subsubsection}{\nonumberline Simplified models}{11}{section*.11}
-\contentsline {section}{\numberline {2.3}Standard Model processes}{12}{section.2.3}
+\contentsline {subsubsection}{\nonumberline Simplified models}{11}{section*.13}
+\contentsline {section}{\numberline {2.3}Standard Model background processes}{12}{section.2.3}
 \contentsline {chapter}{\numberline {3}Experimental setup}{15}{chapter.3}
 \contentsline {section}{\numberline {3.1}CERN Large Hadron Collider}{15}{section.3.1}
 \contentsline {section}{\numberline {3.2}CMS detector}{17}{section.3.2}
@@ -15,23 +17,23 @@
 \contentsline {subsection}{\numberline {3.2.2}Electromagnetic calorimeter}{19}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}Hadron calorimeter}{20}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {3.2.4}Muon system}{22}{subsection.3.2.4}
-\contentsline {section}{\numberline {3.3}Trigger and data acquisition}{24}{section.3.3}
+\contentsline {subsection}{\numberline {3.2.5}Trigger and data acquisition}{24}{subsection.3.2.5}
 \contentsline {chapter}{\numberline {4}Data analysis and event selection}{29}{chapter.4}
 \contentsline {section}{\numberline {4.1}Object reconstruction}{29}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Vertex reconstruction}{29}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Muon reconstruction and identification}{29}{subsection.4.1.2}
 \contentsline {subsection}{\numberline {4.1.3}Electron reconstruction and identification}{30}{subsection.4.1.3}
 \contentsline {subsection}{\numberline {4.1.4}Observables reconstructed with particle flow}{32}{subsection.4.1.4}
-\contentsline {subsubsection}{\nonumberline Jets}{33}{section*.39}
-\contentsline {subsubsection}{\nonumberline Missing transverse energy}{34}{section*.41}
-\contentsline {subsubsection}{\nonumberline Lepton isolation}{37}{section*.43}
+\contentsline {subsubsection}{\nonumberline Jets}{33}{section*.41}
+\contentsline {subsubsection}{\nonumberline Missing transverse energy}{34}{section*.43}
+\contentsline {subsubsection}{\nonumberline Lepton isolation}{37}{section*.45}
 \contentsline {section}{\numberline {4.2}Event processing and datasets}{37}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Primary datasets}{38}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}Simulated datasets}{38}{subsection.4.2.2}
-\contentsline {subsubsection}{\nonumberline Simulation of the physical processes}{40}{section*.45}
-\contentsline {subsubsection}{\nonumberline Simulation of the detector response}{41}{section*.46}
-\contentsline {subsubsection}{\nonumberline Background datasets}{41}{section*.47}
-\contentsline {subsubsection}{\nonumberline Signal datasets}{42}{section*.50}
+\contentsline {subsubsection}{\nonumberline Simulation of the physical processes}{40}{section*.47}
+\contentsline {subsubsection}{\nonumberline Simulation of the detector response}{41}{section*.48}
+\contentsline {subsubsection}{\nonumberline Background datasets}{41}{section*.49}
+\contentsline {subsubsection}{\nonumberline Signal datasets}{42}{section*.52}
 \contentsline {section}{\numberline {4.3}Event selection}{44}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Event cleaning}{44}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Inclusive dilepton selection}{45}{subsection.4.3.2}
@@ -41,42 +43,42 @@
 \contentsline {section}{\numberline {5.1}Flavour-symmetric backgrounds}{53}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Direct measurement of \ensuremath {R_{\text {SF/OF}}}\xspace }{54}{subsection.5.1.1}
 \contentsline {subsection}{\numberline {5.1.2}Determination of \ensuremath {R_{\text {SF/OF}}}\xspace with the factorisation method}{55}{subsection.5.1.2}
-\contentsline {subsubsection}{\nonumberline Measurement of $\mathbf {r_{\mu e}}$}{57}{section*.61}
-\contentsline {subsubsection}{\nonumberline Measurement of \ensuremath {R_\mathrm {T}}\xspace }{59}{section*.65}
-\contentsline {subsubsection}{\nonumberline Results of the factorisation method}{63}{section*.70}
-\contentsline {subsection}{\numberline {5.1.3}Combined correction factors and resulting background estimates}{63}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {5.1.4}Validation of background estimates}{65}{subsection.5.1.4}
+\contentsline {subsubsection}{\nonumberline Measurement of $\mathbf {r_{\mu e}}$}{57}{section*.63}
+\contentsline {subsubsection}{\nonumberline Measurement of \ensuremath {R_\mathrm {T}}\xspace }{59}{section*.67}
+\contentsline {subsubsection}{\nonumberline Results of the factorisation method}{64}{section*.72}
+\contentsline {subsection}{\numberline {5.1.3}Combined correction factors and resulting background estimates}{64}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Validation of background estimates}{67}{subsection.5.1.4}
 \contentsline {section}{\numberline {5.2}Drell--Yan backgrounds}{72}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}JZB method}{72}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.1}JZB method}{73}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}\ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}\xspace templates method}{73}{subsection.5.2.2}
 \contentsline {subsection}{\numberline {5.2.3}Extrapolation to off-Z regions}{73}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Resulting background prediction}{74}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.4}Resulting background prediction}{76}{subsection.5.2.4}
 \contentsline {chapter}{\numberline {6}Counting experiment}{79}{chapter.6}
 \contentsline {section}{\numberline {6.1}Results and further studies}{79}{section.6.1}
 \contentsline {section}{\numberline {6.2}Interpretation in simplified models}{83}{section.6.2}
-\contentsline {subsubsection}{\nonumberline Selection efficiencies}{83}{section*.96}
-\contentsline {subsubsection}{\nonumberline Systematic uncertainties}{83}{section*.98}
+\contentsline {subsubsection}{\nonumberline Selection efficiencies}{83}{section*.98}
+\contentsline {subsubsection}{\nonumberline Systematic uncertainties in signal modelling}{86}{section*.100}
 \contentsline {subsection}{\numberline {6.2.1}Statistical interpretation}{87}{subsection.6.2.1}
 \contentsline {chapter}{\numberline {7}Search for a kinematic edge}{89}{chapter.7}
 \contentsline {section}{\numberline {7.1}Background and signal models}{89}{section.7.1}
 \contentsline {subsection}{\numberline {7.1.1}Model for Drell--Yan backgrounds}{89}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Model for flavour-symmetric backgrounds}{91}{subsection.7.1.2}
-\contentsline {subsubsection}{\nonumberline Nominal parametrisation}{91}{section*.105}
-\contentsline {paragraph}{\nonumberline Parametrisation from 2011 analysis}{93}{section*.107}
-\contentsline {paragraph}{\nonumberline Sum of three Gaussians}{93}{section*.108}
-\contentsline {paragraph}{\nonumberline Binned Subtraction}{93}{section*.109}
-\contentsline {paragraph}{\nonumberline Smoothed Subtraction}{94}{section*.110}
+\contentsline {subsection}{\numberline {7.1.2}Model for flavour-symmetric backgrounds}{92}{subsection.7.1.2}
+\contentsline {subsubsection}{\nonumberline Nominal parametrisation}{92}{section*.107}
+\contentsline {paragraph}{\nonumberline Parametrisation from 2011 analysis}{93}{section*.109}
+\contentsline {paragraph}{\nonumberline Sum of three Gaussians}{93}{section*.110}
+\contentsline {paragraph}{\nonumberline Binned Subtraction}{93}{section*.111}
+\contentsline {paragraph}{\nonumberline Smoothed Subtraction}{93}{section*.112}
 \contentsline {subsection}{\numberline {7.1.3}Signal model}{94}{subsection.7.1.3}
-\contentsline {section}{\numberline {7.2}Combined model}{96}{section.7.2}
+\contentsline {section}{\numberline {7.2}Combined model}{97}{section.7.2}
 \contentsline {section}{\numberline {7.3}Fit validation}{98}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Fit performance on simulation}{98}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Fit performance studies using toy datasets}{100}{subsection.7.3.2}
-\contentsline {subsubsection}{\nonumberline Studies without signal injection}{101}{section*.120}
-\contentsline {subsubsection}{\nonumberline Toy studies with signal injection}{103}{section*.124}
-\contentsline {section}{\numberline {7.4}Fit results on data}{115}{section.7.4}
-\contentsline {chapter}{\numberline {8}Conclusion}{121}{chapter.8}
-\contentsline {chapter}{\numberline {A}Trigger paths}{123}{appendix.A}
-\contentsline {chapter}{\numberline {B}Simulated Samples}{125}{appendix.B}
-\contentsline {chapter}{\numberline {C}Dependencies of \ensuremath {r_{\mu e}}\xspace }{127}{appendix.C}
-\contentsline {chapter}{\numberline {D}Dependencies of \ensuremath {R_\mathrm {T}}\xspace }{131}{appendix.D}
-\contentsline {chapter}{\numberline {E}Dependencies of \ensuremath {R_\text {out/in}}\xspace }{135}{appendix.E}
+\contentsline {subsection}{\numberline {7.3.1}Fit performance on simulation}{100}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Fit performance studies using toy datasets}{102}{subsection.7.3.2}
+\contentsline {subsubsection}{\nonumberline Studies without signal injection}{104}{section*.122}
+\contentsline {subsubsection}{\nonumberline Toy studies with signal injection}{106}{section*.126}
+\contentsline {section}{\numberline {7.4}Fit results on data}{112}{section.7.4}
+\contentsline {chapter}{\numberline {8}Conclusion}{117}{chapter.8}
+\contentsline {chapter}{\numberline {A}Trigger paths}{119}{appendix.A}
+\contentsline {chapter}{\numberline {B}Simulated Samples}{121}{appendix.B}
+\contentsline {chapter}{\numberline {C}Dependencies of $\mathbf {r}_{\mu e}$}{123}{appendix.C}
+\contentsline {chapter}{\numberline {D}Dependencies of $\mathbf {R}_{\mathrm {T}}$}{127}{appendix.D}
+\contentsline {chapter}{\numberline {E}Dependencies of $\mathbf {R}_{\text {out/in}}$}{131}{appendix.E}
