@@ -35,10 +35,10 @@
 \contentsline {subsubsection}{\nonumberline Background datasets}{41}{section*.49}
 \contentsline {subsubsection}{\nonumberline Signal datasets}{42}{section*.52}
 \contentsline {section}{\numberline {4.3}Event selection}{44}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Event cleaning}{44}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Inclusive dilepton selection}{45}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Selections in \ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}\xspace and jet multiplicity}{47}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Selections in \ensuremath {m_{\ell \ell }}\xspace }{48}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.1}Event cleaning}{45}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Inclusive dilepton selection}{46}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Selections in \ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}\xspace and jet multiplicity}{48}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Selections in \ensuremath {m_{\ell \ell }}\xspace }{49}{subsection.4.3.4}
 \contentsline {chapter}{\numberline {5}Estimation of Standard Model backgrounds}{53}{chapter.5}
 \contentsline {section}{\numberline {5.1}Flavour-symmetric backgrounds}{53}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Direct measurement of \ensuremath {R_{\text {SF/OF}}}\xspace }{54}{subsection.5.1.1}
@@ -48,37 +48,39 @@
 \contentsline {subsubsection}{\nonumberline Results of the factorisation method}{64}{section*.72}
 \contentsline {subsection}{\numberline {5.1.3}Combined correction factors and resulting background estimates}{64}{subsection.5.1.3}
 \contentsline {subsection}{\numberline {5.1.4}Validation of background estimates}{67}{subsection.5.1.4}
-\contentsline {section}{\numberline {5.2}Drell--Yan backgrounds}{72}{section.5.2}
+\contentsline {section}{\numberline {5.2}Drell--Yan backgrounds}{73}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}JZB method}{73}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}\ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}\xspace templates method}{73}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Extrapolation to off-Z regions}{73}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Resulting background prediction}{76}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.2}\ensuremath {E_{\mathrm {T}}^{\mathrm {miss}}}\xspace templates method}{74}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Extrapolation to off-Z regions}{74}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Resulting background prediction}{75}{subsection.5.2.4}
 \contentsline {chapter}{\numberline {6}Counting experiment}{79}{chapter.6}
 \contentsline {section}{\numberline {6.1}Results and further studies}{79}{section.6.1}
-\contentsline {section}{\numberline {6.2}Interpretation in simplified models}{83}{section.6.2}
-\contentsline {subsubsection}{\nonumberline Selection efficiencies}{83}{section*.98}
-\contentsline {subsubsection}{\nonumberline Systematic uncertainties in signal modelling}{86}{section*.100}
-\contentsline {subsection}{\numberline {6.2.1}Statistical interpretation}{87}{subsection.6.2.1}
-\contentsline {chapter}{\numberline {7}Search for a kinematic edge}{89}{chapter.7}
-\contentsline {section}{\numberline {7.1}Background and signal models}{89}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Model for Drell--Yan backgrounds}{89}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Model for flavour-symmetric backgrounds}{92}{subsection.7.1.2}
-\contentsline {subsubsection}{\nonumberline Nominal parametrisation}{92}{section*.107}
-\contentsline {paragraph}{\nonumberline Parametrisation from 2011 analysis}{93}{section*.109}
-\contentsline {paragraph}{\nonumberline Sum of three Gaussians}{93}{section*.110}
-\contentsline {paragraph}{\nonumberline Binned Subtraction}{93}{section*.111}
-\contentsline {paragraph}{\nonumberline Smoothed Subtraction}{93}{section*.112}
-\contentsline {subsection}{\numberline {7.1.3}Signal model}{94}{subsection.7.1.3}
-\contentsline {section}{\numberline {7.2}Combined model}{97}{section.7.2}
-\contentsline {section}{\numberline {7.3}Fit validation}{98}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Fit performance on simulation}{100}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Fit performance studies using toy datasets}{102}{subsection.7.3.2}
-\contentsline {subsubsection}{\nonumberline Studies without signal injection}{104}{section*.122}
-\contentsline {subsubsection}{\nonumberline Toy studies with signal injection}{106}{section*.126}
-\contentsline {section}{\numberline {7.4}Fit results on data}{112}{section.7.4}
-\contentsline {chapter}{\numberline {8}Conclusion}{117}{chapter.8}
-\contentsline {chapter}{\numberline {A}Trigger paths}{119}{appendix.A}
-\contentsline {chapter}{\numberline {B}Simulated Samples}{121}{appendix.B}
-\contentsline {chapter}{\numberline {C}Dependencies of $\mathbf {r}_{\mu e}$}{123}{appendix.C}
-\contentsline {chapter}{\numberline {D}Dependencies of $\mathbf {R}_{\mathrm {T}}$}{127}{appendix.D}
-\contentsline {chapter}{\numberline {E}Dependencies of $\mathbf {R}_{\text {out/in}}$}{131}{appendix.E}
+\contentsline {chapter}{\numberline {7}Search for a kinematic edge}{83}{chapter.7}
+\contentsline {section}{\numberline {7.1}Background and signal models}{83}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Model for Drell--Yan backgrounds}{83}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Model for flavour-symmetric backgrounds}{86}{subsection.7.1.2}
+\contentsline {subsubsection}{\nonumberline Nominal parametrisation}{86}{section*.97}
+\contentsline {subsubsection}{\nonumberline Parametrisation from 2011 analysis}{87}{section*.99}
+\contentsline {subsubsection}{\nonumberline Sum of three Gaussians}{87}{section*.100}
+\contentsline {subsubsection}{\nonumberline Binned Subtraction}{87}{section*.101}
+\contentsline {subsubsection}{\nonumberline Smoothed Subtraction}{87}{section*.102}
+\contentsline {subsection}{\numberline {7.1.3}Signal model}{88}{subsection.7.1.3}
+\contentsline {section}{\numberline {7.2}Combined model}{90}{section.7.2}
+\contentsline {section}{\numberline {7.3}Fit validation}{93}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Fit performance on simulation}{93}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Fit performance studies using toy datasets}{97}{subsection.7.3.2}
+\contentsline {subsubsection}{\nonumberline Studies without signal injection}{99}{section*.113}
+\contentsline {subsubsection}{\nonumberline Toy studies with signal injection}{100}{section*.117}
+\contentsline {section}{\numberline {7.4}Fit results on data}{106}{section.7.4}
+\contentsline {chapter}{\numberline {8}Interpretation of the search results}{113}{chapter.8}
+\contentsline {section}{\numberline {8.1}Investigating the excess in the low-mass central region}{113}{section.8.1}
+\contentsline {section}{\numberline {8.2}Interpretation in simplified models}{115}{section.8.2}
+\contentsline {subsubsection}{\nonumberline Selection efficiencies}{115}{section*.132}
+\contentsline {subsubsection}{\nonumberline Systematic uncertainties in signal modelling}{118}{section*.134}
+\contentsline {subsection}{\numberline {8.2.1}Statistical interpretation}{119}{subsection.8.2.1}
+\contentsline {chapter}{\numberline {9}Conclusion}{123}{chapter.9}
+\contentsline {chapter}{\numberline {A}Trigger paths}{125}{appendix.A}
+\contentsline {chapter}{\numberline {B}Simulated Samples}{127}{appendix.B}
+\contentsline {chapter}{\numberline {C}Dependencies of $\mathbf {r}_{\mu e}$}{129}{appendix.C}
+\contentsline {chapter}{\numberline {D}Dependencies of $\mathbf {R}_{\mathrm {T}}$}{133}{appendix.D}
+\contentsline {chapter}{\numberline {E}Dependencies of $\mathbf {R}_{\text {out/in}}$}{137}{appendix.E}

@@ -1,0 +1,71 @@
+\label{sec:newInt}
+In this chapter, the results of the analysis are studied further. First a more detailed investigation of the properties of the excess at low \mll is conducted. Afterwards, the implications of these results on the  simplified models discussed in section~\ref{sec:models} are examined.
+\section{Investigating the excess in the low-mass central region}
+While a significance of $2.2\sigma$ is no clear indication for the presence of new physics, more detailed studies of the properties of this excess are conducted. 
+
+The development of the excess during the data taking period in 2012 is shown on the left side of Figure~\ref{fig:timeDependece}, while the right side shows the low-mass forward region for comparison. The data sample is split into 10 bins, each corresponding to 2\,$\mathrm{fb}^{-1}$ within 1\%, except for the last which corresponds to only  about 1.5\,$\mathrm{fb}^{-1}$. For each of these bins the observed SF yield and the prediction for flavour-symmetric backgrounds from OF is shown, together with the difference of the two. The very small contribution from Drell--Yan backgrounds of typically less than 1 event per bin is neglected in this representation of the result. For the first four bins, corresponding to the first 8\,$\mathrm{fb}^{-1}$ of data collected in 2012, the SF yield is significantly higher than the prediction from OF. This effect diminishes in the fifth bin, where the SF yield decreases and the prediction from OF increases. In the following five bins, representing the second half of the data sample, good agreement is observed between the observed SF yield and the prediction from OF. This change in behaviour between the two halves is caused in roughly equal proportion by a decrease in the observed SF yield and an increase in the observed OF yield per bin. No known changes in data taking conditions occurred at this time. In contrast to this observations, the SF yield and the background prediction are compatible within uncertainties for all bins in the low-mass forward region. The difference between the two therefore fluctuates around zero.
+
+\begin{figure}[tb]
+\centering
+\begin{minipage}[t]{0.49\textwidth}
+  \includegraphics[width=\textwidth]{plots/results/YieldvsLumi_Bins_SignalCentral_Mll_edgeMassFull2012.pdf}
+\end{minipage}
+\begin{minipage}[t]{0.49\textwidth}
+\includegraphics[width=\textwidth]{plots/results/YieldvsLumi_Bins_SignalForward_Mll_edgeMassFull2012.pdf}
+\end{minipage}
+
+\caption{Observed SF yields and background prediction from OF as well as the difference of these two in the low-mass central (left) and forward (right) signal region in 10 bins of roughly equal integrated luminosity. The bins are shown in the order the data has been recorded. Non-flavour-symmetric backgrounds are not included in this representation of the result.}
+\label{fig:timeDependece}
+\end{figure}
+
+To get a clearer picture of the properties of the excess and also to check for some of the more obvious possible systematic effects that might cause it, the counting experiment in the low-mass central region is repeated several times, varying the selection requirements. As discussed in Section~\ref{sec:eventSel}, the event selection has not been changed significantly after the excess has been observed and in particular had been defined before the studies presented here were performed. The results are shown in Table~\ref{tab:CountingCrosschecks}. As no Drell-Yan prediction for the on-\Z region is available for the different selection configurations, the observed yield in the on-Z region is extrapolated into the low-mass region after subtraction of flavour-symmetric background using the prediction from OF. For the background prediction from OF the \Rsfof factor derived for the default selection is used in all these cross-checks presented here.
+
+As the dominant $t\bar{t}$ background in the signal region produces b-tagged jets, it seems natural to test the excess for its b-tag content. Splitting the data sample into events with at least one and events without a b-tag, it is evident that, while constituting about 23\% of the total yield, less than 10\% of the excess is located in events without a b-tagged jet. 
+
+In addition to the default selection of $\pt > \unit{20}{\giga\electronvolt}$, four other configurations for the lepton transverse momentum requirement are tested. Three of them feature asymmetric cuts on the \pt of the leading and trailing lepton. The selection of $\pt > 20(10)\GeV$ and $ \pt > 30(10)\GeV$ extend the acceptance of the analysis to lower trailing lepton \pt. For both of these selections, an increased signal yield is observed. On the other hand, raising the trailing \pt threshold to 30\GeV disproportionally reduces the observed excess, retaining only about 13\% of the excess yield compared to 23\% of the overall event yield. 
+
+Although it has already been established in Section~\ref{sec:validation} that non-prompt leptons only account for a small part of the selected data sample and are also fully flavour-symmetric, the counting experiment is repeated with significantly tighter isolation requirements. The relative isolation is required to be smaller than 5\%, reducing the size of the selected sample by about one third. The number of observed signal events is reduced by almost exactly the same amount. This further increases the confidence that the observed effect is due to prompt lepton production.
+
+To test for a possible pileup dependence of the observed effect, the sample is split into three subsets of similar size depending on the number of reconstructed vertices ($N_{\mathrm{Vertex}}$). The events are categorised as either low-pileup ($N_{\mathrm{Vertex}} < $13), medium-pileup (13 $\leq N_{\mathrm{Vertex}} <$ 17) or high-pileup ($N_{\mathrm{Vertex}} \geq $17). The excess is observed consistently in all three subsets, excluding a possible pileup dependence of the excess. 
+
+Three additional \MET reconstruction algorithms are tested. Track-corrected (TC) \MET and type-I corrected PF \MET have been described in Section~\ref{sec:PF}. In addition to these general algorithms, an analysis-specific definition of missing $H_{\mathrm{T}}$ is used, which is calculated using only selected jets and leptons. It is defined as the absolute value of the negative vector sum of the transverse momenta of these objects: 
+\begin{equation*}
+H_{\mathrm{T}}^{\mathrm{miss}} = \abs{ -\left(\sum\limits_{\mathrm{jets}}\vec{p}_{\mathrm{T}} + \sum\limits_{\mathrm{leptons}}\vec{p}_{\mathrm{T}}\right) }.
+\end{equation*}
+The signal region requirements of $\unit{100}{\giga\electronvolt}$ and $\unit{150}{\giga\electronvolt}$, depending on \njets, are applied for each of these \MET values.  Both the use of type-I corrected PF \MET and missing $H_{\mathrm{T}}$ lead to higher event yields in the signal region. Judging by the size of the Drell--Yan background, TC \MET and $H_{\mathrm{T}}^{\mathrm{miss}}$ have significantly worse \MET resolution compared to both types of PF \MET. The excess is present in all three cases and is therefore not likely to be caused by a faulty \MET reconstruction. 
+
+Separating the data sample into events with low \HT ($\unit{100}{\giga\electronvolt} < \HT <\unit{300}{\giga\electronvolt}$) and high \HT ($\HT > \unit{300}{\giga\electronvolt}$) creates two subsets of roughly the same size. The excess is present in both subsets with similar strength. 
+ 
+
+\input{tab/table_cutNCount_CrossChecks_central.tex}
+
+The distributions of several observables in the low-mass central signal region are shown in Figure~\ref{fig:dependencies}. Each time the observed data are compared to the prediction from OF events. The contribution from Drell--Yan backgrounds is neglected. The excess is located predominantly in events with one or two b-tagged jets, but no excess is observed for higher b-tag multiplicities. Furthermore, it is located almost exclusively in events with three jets. It is present in events with a \pt of the leading lepton of up to $\unit{60}{\giga\electronvolt}$. For events with a trailing lepton \pt above $\unit{25}{\giga\electronvolt}$, only a small deviation from the expectation is observed. The excess seems to favour low values of \MET and is roughly uniformly distributed in \HT. 
+
+In all performed studies, no evidence for systematic effects causing the observed excess is found. The three major distinguishing features of the events causing the deviation, in addition to their low values of \mll, are the presence of at least one b-tagged jet, a jet multiplicity of three, and trailing leptons with very low \pt. However, as the distributions of these observables are still very similar to those of the dominant \ttbar background, the excess is still consistent with a statistical fluctuations of the background. 
+
+\begin{figure}[htbp]
+\centering
+\begin{minipage}[t]{0.49\textwidth}
+  \includegraphics[width=\textwidth]{plots/results/rSFOFDependencies/rSFOFDependency_SignalCentral_NBJets_Full2012_SF_lowMass.pdf}
+\end{minipage}
+\begin{minipage}[t]{0.49\textwidth}
+\includegraphics[width=\textwidth]{plots/results/rSFOFDependencies/rSFOFDependency_SignalCentral_NJets_Full2012_SF_lowMass.pdf}
+\end{minipage}
+\begin{minipage}[t]{0.49\textwidth}
+  \includegraphics[width=\textwidth]{plots/results/rSFOFDependencies/rSFOFDependency_SignalCentral_LeadingPt_Full2012_SF_lowMass.pdf}
+\end{minipage}
+\begin{minipage}[t]{0.49\textwidth}
+\includegraphics[width=\textwidth]{plots/results/rSFOFDependencies/rSFOFDependency_SignalCentral_TrailingPt_Full2012_SF_lowMass.pdf}
+\end{minipage}
+\begin{minipage}[t]{0.49\textwidth}
+  \includegraphics[width=\textwidth]{plots/results/rSFOFDependencies/rSFOFDependency_SignalCentral_HT_Full2012_SF_lowMass.pdf}
+\end{minipage}
+\begin{minipage}[t]{0.49\textwidth}
+\includegraphics[width=\textwidth]{plots/results/rSFOFDependencies/rSFOFDependency_SignalCentral_MET_Full2012_SF_lowMass.pdf}
+\end{minipage}
+\caption{Distribution of the number of b-tagged jets (top left), jets (top right), \pt of the leading (middle left) and trailing (middle right) lepton, \HT (bottom left), and \MET (bottom right) in the low-mass central signal region. The data is shown as black dots, while the total background prediction from data is shown as a blue histogram. The blue error bars indicate the combined statistical and systematic background uncertainty in each bin. The contribution from Drell--Yan backgrounds is neglected.}
+\label{fig:dependencies}
+\end{figure}
+
+
+\input{interpretation}
