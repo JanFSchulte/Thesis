@@ -1,0 +1,279 @@
+%%%%%%%%%%%%     Einstellungen      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Grundlegende Einstellungen
+\documentclass[fontsize=11pt,openright,paper=a4,pointlessnumbers,bibtotoc]{scrbook}
+\usepackage[bottom=3.0cm, left=3.0cm, right=3.0cm]{geometry} 
+\usepackage[squaren, thinspace ,thinqspace,binary]{SIunits}
+\usepackage[latin2]{inputenc}
+\usepackage[T1]{fontenc}
+\newcommand{\changefont}[3]{
+\fontfamily{#1} \fontseries{#2} \fontshape{#3} \selectfont}
+%\changefont{pbk}{b}{sc}
+\usepackage{lmodern}
+\renewcommand*\familydefault{\sfdefault} %% Only if the base font of the document is to be sans serif
+\usepackage[T1]{fontenc}
+%\changefont{phv}{m}{n}
+\usepackage{amsmath}
+%\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[english]{babel} % neue deutsche Rechtschreibung
+\usepackage{graphicx}
+%\usepackage{picins}
+\usepackage{wasysym}
+\usepackage{subfigure}
+\usepackage{afterpage}
+\usepackage{color}
+\usepackage{float}
+\usepackage{mathrsfs}
+\usepackage{tabularx}
+\usepackage{slashed}
+\usepackage{xspace}
+\usepackage{rotating}
+\usepackage{multirow}
+%\usepackage{ptdr-definitions}
+\usepackage{footnote}
+\makesavenoteenv{tabular}
+\makesavenoteenv{table}
+
+\usepackage{mathtools}
+
+
+
+
+
+
+
+
+\DeclarePairedDelimiter\abs{\lvert}{\rvert}%
+\DeclarePairedDelimiter\norm{\lVert}{\rVert}%
+
+% Swap the definition of \abs* and \norm*, so that \abs
+% and \norm resizes the size of the brackets, and the 
+% starred version does not.
+\makeatletter
+\let\oldabs\abs
+\def\abs{\@ifstar{\oldabs}{\oldabs*}}
+%
+\let\oldnorm\norm
+\def\norm{\@ifstar{\oldnorm}{\oldnorm*}}
+\makeatother
+
+\usepackage[small]{caption}
+\usepackage[plainheadsepline,automark]{scrpage2}
+\usepackage[Q=yes]{examplep}
+
+\newcount\colveccount
+\newcommand*\colvec[1]{
+        \global\colveccount#1
+        \begin{pmatrix}
+        \colvecnext
+}
+\def\colvecnext#1{
+        #1
+        \global\advance\colveccount-1
+        \ifnum\colveccount>0
+                \\
+                \expandafter\colvecnext
+        \else
+                \end{pmatrix}
+        \fi
+}
+
+
+\captionsetup{font={small}}
+
+% Verlinktes Inhaltsverzeichnis
+\usepackage[bookmarks,colorlinks=true,linkcolor=black]{hyperref}
+
+\parskip 10pt
+\setlength{\parindent}{0mm}
+% Header
+\pagestyle{scrheadings}
+% loescht voreingestellte Stile
+\clearscrheadings
+\clearscrplain
+\automark[section]{chapter}
+
+\setheadsepline{1pt}        %Separate Linie im Kopf
+\renewcommand*{\chapterheadstartvskip}{\vspace*{0pt}} % Abstand vor Kapitelüberschriften
+
+\ihead[]{\leftmark}
+\ohead[]{\rightmark}
+\ofoot[\pagemark]{\pagemark}
+
+\cfoot[]{}
+
+\author{Jan-Frederik Schulte}
+\title{CMS Dilepton edge search}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%     Titelseite/Inhalt      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\changefont{pbk}{b}{sc}
+%Dokument
+\begin{document}
+\newcommand{\GeV}{\ensuremath{\,\mathrm{Ge\hspace{-.08em}V}}\xspace}
+\newcommand{\GeVns}{\ensuremath{\mathrm{Ge\hspace{-.08em}V}}\xspace} % no leading thinspace
+\newcommand{\gev}{\GeV}
+\newcommand{\TeV}{\ensuremath{\,\mathrm{Te\hspace{-.08em}V}}\xspace}
+\newcommand{\TeVns}{\ensuremath{\mathrm{Te\hspace{-.08em}V}}\xspace} % no leading thinspace
+
+\newcommand{\lumi}{$19.5\,\fbinv$} %{1048~\pbinv}}
+\newcommand{\fbinv}{\ensuremath{\mathrm{fb}^{-1}\xspace}} %{1048~\pbinv}}
+\newcommand{\updated}{\textcolor{green}{This has been updated to the full luminosity}}
+\newcommand{\notupdated}{\textcolor{red}{Not updated (possibly can't be updated ATM)}}
+\newcommand{\significanceNumber}{$2.2\sigma$\xspace}
+%\newcommand{\invpb}{\ensuremath{\textrm{pb-1}}}
+\newcommand{\ttbar}{\ensuremath{t\bar{t}}\xspace}
+\newcommand{\mc}{Monte Carlo\xspace}
+\newcommand{\Red}{\color{red}}
+\newcommand{\Z}{\ensuremath{\mathrm{Z}}\xspace}
+\newcommand{\WZ}{\ensuremath{\mathrm{WZ}}\xspace}
+\newcommand{\ZZ}{\ensuremath{\mathrm{ZZ}}\xspace}
+\newcommand{\W}{\ensuremath{\mathrm{W}}\xspace}
+\newcommand{\HH}{\ensuremath{\mathrm{H}}\xspace}
+\newcommand{\Zmumu}{\ensuremath{Z\rightarrow \mu\mu}}
+\newcommand{\Zee}{\ensuremath{Z\rightarrow ee}}
+\newcommand{\Ztautau}{\ensuremath{Z\rightarrow \tau\tau}}
+\newcommand{\Zll}{\ensuremath{Z\rightarrow ee,\mu\mu}}
+\newcommand{\JZB}{\ensuremath{\textrm{JZB}}\xspace}
+\newcommand{\jzb}{\JZB}
+\newcommand{\mll}{\ensuremath{m_{\ell\ell}}\xspace}
+\newcommand{\mlledge}{\ensuremath{m_{\ell\ell}^{edge}}\xspace}
+\newcommand{\pt}{\ensuremath{p_{\mathrm{T}}}\xspace}
+\newcommand{\Et}{\ensuremath{E_{\mathrm{T}}}\xspace}
+% processes
+%\newcommand{\Ztautau}{\ensuremath{\Z\to\tau\tau}}
+\newcommand{\zjets}{\ensuremath{\Z+\text{jets}}\xspace}
+\newcommand{\Zjets}{\zjets}
+\newcommand{\Wjets}{\ensuremath{\W+\text{jets}}\xspace}
+\newcommand{\DYjets}{\ensuremath{\text{DY}+\text{jets}}\xspace}
+\newcommand{\gjets}{\ensuremath{\gamma+\text{jets}}\xspace}
+\newcommand{\ttll}{$\ttbar\rightarrow\ell^+\ell^-$}
+\newcommand{\tttau}{$\ttbar\rightarrow\tau^+\ell^-$}
+\newcommand{\tthad}{$\ttbar\rightarrow{}q\bar{q}$}
+
+\newcommand{\cls}{\ensuremath{\mathrm{CL_S}}}
+\newcommand{\tauh}{\ensuremath{\tau_\text{h}}}
+\newcommand{\effeet}{\ensuremath{\epsilon_{ee}^T}\xspace}
+\newcommand{\effmmt}{\ensuremath{\epsilon_{\mu\mu}^T}\xspace}
+\newcommand{\effemt}{\ensuremath{\epsilon_{e\mu}^T}\xspace}
+\newcommand{\rmuestar}{\ensuremath{r_{\mu e}^{*}}\xspace}
+\newcommand{\rmue}{\ensuremath{r_{\mu e}}\xspace}
+\newcommand{\RT}{\ensuremath{R_\mathrm{T}}\xspace}
+\newcommand{\nvert}{\ensuremath{N_{Vertices}}}
+\newcommand{\njets}{\ensuremath{N_\text{Jets}}\xspace}
+\newcommand{\mcut}{\ensuremath{m_\text{max}}}
+\newcommand{\eps}{\ensuremath{\epsilon}}
+\newcommand{\CLS}{\cls}
+\newcommand{\Routin}{\ensuremath{R_\text{out/in}}\xspace}
+\newcommand{\Rsfof}{\ensuremath{R_{\text{SF/OF}}}\xspace}
+\newcommand{\Rmmof}{\ensuremath{R_\text{$\mu\mu$/OF}}\xspace}
+\newcommand{\Reeof}{\ensuremath{R_\text{$ee$/OF}}\xspace}
+\newcommand{\etalep}{\ensuremath{\eta_\text{lep}}\xspace}
+
+\newcommand{\sSeven}{\ensuremath{\sqrt{s}=7\TeV}\xspace}
+\newcommand{\sEight}{\ensuremath{\sqrt{s}=8\TeV}\xspace}
+\newcommand{\lepSec}{The applied lepton selection changed in the \sEight-MC with respect to the \sSeven-MC}
+
+\newcommand{\EM}{\ensuremath{e^\pm\mu^\mp}\xspace}
+\newcommand{\EE}{\ensuremath{e^\pm e^\mp}\xspace}
+\newcommand{\MM}{\ensuremath{\mu^\pm\mu^\mp}\xspace}
+
+%PAS things
+\newcommand{\Ht}{\HT}
+\newcommand{\HT}{\ensuremath{H_\mathrm{T}}\xspace}
+\newcommand{\Met}{\MET}
+\newcommand{\MET}{\ensuremath{E_{\mathrm{T}}^{\mathrm{miss}}}\xspace}
+\newcommand{\METVec}{\ensuremath{\vec{E}_{\mathrm{T}}^{\mathrm{miss}}}\xspace}
+\newcommand{\ptll} {\ensuremath{\pt_{\ell\ell}}}
+\newcommand{\CTEQ} {{\textsc{cteq}}}
+
+% Miscellaneous macros
+\newcommand{\forward}{forward\xspace}
+\newcommand{\central}{central\xspace}
+\newcommand{\inclusive}{inclusive\xspace}
+\newcommand{\cfAN}[1]{(cf.~#1)}
+\newcommand{\acAN}[1]{\cite{EdgeAN} Sec.~#1}
+\newcommand{\acANApp}[1]{\cite{EdgeAN} App.~#1}
+\newcommand{\benAN}[1]{\cite{TemplatesAN} Sec.~#1}
+\newcommand{\fixme}[1]{{\color{red}\sffamily{\bfseries{}FIXME:} #1}}
+
+
+\newcommand{\LowMetCentral}{\emph{LowMetCentral}}
+\newcommand{\LowJetsCentral}{\emph{LowJetsCentral}}
+\newcommand{\HighCentral}{\emph{HighCentral}}
+\newcommand{\LowMetForward}{\emph{LowMetForward}}
+\newcommand{\LowJetsForward}{\emph{LowJetsForward}}
+\newcommand{\HighForward}{\emph{HighForward}}
+
+%%%% FOR THE JZB SECTION %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\definecolor{SFZP}{rgb}   {0.0 , 0.0 , 0.0} % signal region in black
+\definecolor{OFZP}{rgb}   {0.6 , 0.0 , 0.0}
+\definecolor{OFSB}{rgb}   {0.0 , 0.6 , 0.0}
+\definecolor{SFSB}{rgb}   {0.0 , 0.0 , 0.6}
+\definecolor{Bpred}{rgb}  {1.0 , 0.0 , 0.0} % average B pred in red 
+
+\newcommand{\Bpred}{\ensuremath{{\color{Bpred}JZB^\mathrm{pred}_\mathrm{bkgd}}}}
+\newcommand{\SFZPJZBPOS}{\ensuremath{{\color{SFZP} \textrm{JZB}^\mathrm{SF}_\mathrm{pos}}}} % signal region
+\newcommand{\SFZPJZBNEG}{\ensuremath{{\color{SFZP} \textrm{JZB}^\mathrm{SF}_\mathrm{neg}}}} % JZB negative region
+\newcommand{\OFZPJZBNEG}{\ensuremath{{\color{OFZP} \textrm{JZB}^\mathrm{OF}_\mathrm{neg}}}}
+\newcommand{\OFZPJZBPOS}{\ensuremath{{\color{OFZP} \textrm{JZB}^\mathrm{OF}_\mathrm{pos}}}}
+\newcommand{\SFSBJZBNEG}{\ensuremath{{\color{SFSB} \textrm{JZB}^\mathrm{SFSB}_\mathrm{neg}}}}
+\newcommand{\SFSBJZBPOS}{\ensuremath{{\color{SFSB} \textrm{JZB}^\mathrm{SFSB}_\mathrm{pos}}}}
+\newcommand{\OFSBJZBNEG}{\ensuremath{{\color{OFSB} \textrm{JZB}^\mathrm{OFSB}_\mathrm{neg}}}}
+\newcommand{\OFSBJZBPOS}{\ensuremath{{\color{OFSB} \textrm{JZB}^\mathrm{OFSB}_\mathrm{pos}}}}
+
+\newcommand{\secondchi}{\ensuremath{{\tilde{\chi}^0_2}}\xspace}
+\newcommand{\firstchi}{\ensuremath{{\tilde{\chi}^0_1}}\xspace}
+\newcommand{\sbottom}{\ensuremath{\tilde{b}}\xspace}
+\newcommand{\slepton}{\ensuremath{\tilde{l}}\xspace}
+
+%\newcommand{\SFZPJZchi2B}{\ensuremath{{\color{SFZP} \textrm{JZB}^\mathrm{SF}}}} % JZB negative region
+%\newcommand{\OFZPJZB}{\ensuremath{{\color{OFZP} \textrm{JZB}^\mathrm{OF}}}}
+%\newcommand{\SFSBJZB}{\ensuremath{{\color{SFSB} \textrm{JZB}^\mathrm{SFSB}}}}
+%\newcommand{\OFSBJZB}{\ensuremath{{\color{OFSB} \textrm{JZB}^\mathrm{OFSB}}}}
+%
+\newcommand{\SFZP}{{\color{SFZP} SFZP}} % JZB negative region
+\newcommand{\OFZP}{{\color{OFZP} OFZP}}
+\newcommand{\SFSB}{{\color{SFSB} SFSB}}
+\newcommand{\OFSB}{{\color{OFSB} OFSB}}
+
+\newcommand{\TODO}[1]{\textcolor{red}{TO DO: #1}}
+
+\newcommand{\PFSE}{\ensuremath{ \mathcal{P}_{FSE}}}
+
+\newcommand{\eepm}{\Pep\Pem}
+\newcommand{\mmpm}{\Pgmp\Pgmm}
+\newcommand{\empm}{\ensuremath{\Pe^\pm \Pgm^\mp}}
+
+
+\newcommand{\SFZPJZB}{\ensuremath{{\color{SFZP} \textrm{JZB}^\mathrm{SF}}}} % JZB negative region
+\newcommand{\OFZPJZB}{\ensuremath{{\color{OFZP} \textrm{JZB}^\mathrm{OF}}}}
+\newcommand{\SFSBJZB}{\ensuremath{{\color{SFSB} \textrm{JZB}^\mathrm{SFSB}}}}
+\newcommand{\OFSBJZB}{\ensuremath{{\color{OFSB} \textrm{JZB}^\mathrm{OFSB}}}}
+
+
+
+
+%Titelseite
+%\input{title_preliminary}
+%\pagenumbering{roman}
+\section*{Liste der Vorveröffentlichungen der Doktorabeit ``Search for Supersymmetry in opposite-sign same-flavour dilepton events with the CMS detector'' von Jan-Frederik Schulte.}
+Ergebnisse dieser Doktorarbeit wurden von der CMS Kollaboration vorab in einem Artikel im Journal for High Energy Physics veröffentlicht: 
+\begin{itemize}
+\item CMS Collaboration, ``Search for physics beyond the standard model in events with two leptons, jets, and missing transverse momentum in pp collisions at $\sqrt{s}$ = 8 TeV'', $\textit{JHEP}$ $\textbf{1504}$ (2015) 124, doi:10.1007/JHEP04(2015)124, arXiv:1502.06031.
+\end{itemize}
+
+
+
+
+
+
+%Inhalt
+%\tableofcontents
+
+
+
+\end{document}

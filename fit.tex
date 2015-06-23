@@ -24,7 +24,7 @@ Convolving $\mathcal{P}_{BW}$ and $\mathcal{P}_{DSCB}$, and taking into account 
 where $f_{\text{peak}}$ is the fraction that the peak component contributes to the full probability density function. A full list of the parameters of the model is given in Table~\ref{tab:Fit_Par_Overview_Z}.
 
 
-\begin{table}[htbp]
+\begin{table}[tbp]
 \begin{center}
  \renewcommand{\arraystretch}{1.3}
  \caption{List of all parameters of the model for Drell--Yan backgrounds for the fit in the Drell--Yan control region. Given are intial values, allowed ranges and the type of the parameters. Sets of these parameters exist for both the central and forward dilepton selection.\label{tab:Fit_Par_Overview_Z}}
@@ -172,7 +172,7 @@ A comparison of the three types of signal shapes is shown in Figure~\ref{fig:mc:
 \label{fig:mc:shapes}
 \end{figure}
 
-The parameters of the signal model are listed in Table~\ref{tab:Fit_Par_Overview_Sig}.
+The parameters of the nominal signal model are listed in Table~\ref{tab:Fit_Par_Overview_Sig}.
 \begin{table}[b]
 \begin{center}
  \renewcommand{\arraystretch}{1.3}
@@ -314,8 +314,8 @@ $N_{FS}^{C}$ & floating & $0.7\cdot N_{OF}^{C}$ & 0 & $2\cdot N_{OF}^{C}$ \\
 $N_{FS}^{F}$ & floating & $0.7\cdot N_{OF}^{F}$ & 0 & $2\cdot N_{OF}^{F}$ \\
 $N_{S}^{C}$ & floating & 0 &  $-0.4\cdot N_{SF}^{C}$ &  $0.4\cdot N_{SF}^{C}$ \\
 $N_{S}^{F}$ & floating & 0 &  $-0.8\cdot N_{SF}^{F}$ &  $0.8\cdot N_{SF}^{F}$ \\
-$N_{Z}^{C}$ & floating & pred. from data & 0 & $N_{SF}^{C}(81\GeV < \mll < 101\GeV)$ \\
-$N_{Z}^{F}$ & floating & pred. from data & 0 & $N_{SF}^{F}(81\GeV < \mll < 101\GeV)$ \\ \hline
+$N_{Z}^{C}$ & floating & pred. from data & 0 & $N_{SF}^{C}(\text{on-Z})$ \\
+$N_{Z}^{F}$ & floating & pred. from data & 0 & $N_{SF}^{F}(\text{on-Z})$ \\ \hline
 \multicolumn{5}{c}{Shape parameters} \\ \hline
 $\mathbf{p}_{Z}^{C}$ & mixed & \multicolumn{3}{c}{\multirow{2}{*}{see Table~\ref{tab:Fit_Par_Overview_Z}}}\\
 $\mathbf{p}_{Z}^{F}$ & mixed & \multicolumn{3}{c}{}\\
@@ -355,7 +355,7 @@ fitted $R_{SF/OF}^{\text{central}}$ & 1.004$\pm$0.024 & 1.000$\pm$0.024 & 1.004$
 \end{tabular}
 \end{table}
 
-\begin{figure}[hbp]
+\begin{figure}[tbp]
   \centering
   \begin{minipage}[t]{0.49\textwidth}
     \includegraphics[width=\textwidth]{plots/results/fit/mcFits/fit2012_ETHTriangle_SignalInclusive_Combined_Full2012_ETHTriangle_MC_Central.pdf}
@@ -373,7 +373,7 @@ fitted $R_{SF/OF}^{\text{central}}$ & 1.004$\pm$0.024 & 1.000$\pm$0.024 & 1.004$
   \label{fig:mc:bgOnly}
 \end{figure}
 
-\begin{figure}[htbp]
+\begin{figure}[tbp]
 \centering
   \includegraphics[width=0.6\textwidth]{plots/results/fit/mcFits/MC.pdf}
 \caption{Scan of the observed log-likelihood in the signal region subtracted by the minimal value as a function of $m_{\ell\ell}^{edge}$.}
@@ -386,7 +386,7 @@ In all four cases, the correct edge position is found with good precision. In ca
 
 For the three slepton-edge signals S2-S4, the edge position is well reproduced by the fit. The fitted signal yield, however, can be lower than the injected one. This effect increases with \mlledge because the fit is able to accommodate higher values of \Rsfof, increasing the background contribution. This is accompanied by a slight increase of the fitted Drell--Yan yield. Another notable feature is the contribution of the signal to the flavour-symmetric backgrounds, which is of the order of 40-80 events for the studied signal points.
 
-\begin{figure}[hbp]
+\begin{figure}[tbp]
   \centering
   \begin{minipage}[t]{0.49\textwidth}
     \includegraphics[width=\textwidth]{plots/results/fit/mcFits/fit2012_ETHTriangle_SignalInclusive_Combined_Full2012_ETHTriangle_MC_SignalInjected_edge_400_150_80_Central.pdf}
@@ -415,7 +415,7 @@ The performance of the fit is furthermore studied using toy datasets. These are 
 The edge fit is performed on toys generated from the background models. In one case, the toys are fitted with a floating edge position. In the other, the edge is fixed at $\unit{70}{\giga\electronvolt}$. Figure~\ref{fig:toys:backgroundOnly} shows the resulting distributions. On the left side, the number of fitted signal events in the central region divided by its uncertainty is shown. In the case of a fixed edge the fit results are distributed following a unit-Gaussian centred around zero, as expected in absence of a signal.  For the case of a floating edge position, however, the distribution exhibits two peaks, symmetrically below and above zero. This is a manifestation of the ``look-elsewhere-effect'' introduced by the degree of freedom of the edge position, which allows the fit to find a value of \mlledge where introducing a positive or negative signal improves the likelihood value because of the statistical fluctuations of the dataset. As this may result in lower values of the negative log-likelihood compared to the case of the fixed edge, a bias is introduced towards edge positions where a signal component can be accommodated.
 
 On the right side of Figure~\ref{fig:toys:backgroundOnly}, the distributions of the fitted values of \Rsfof are shown, again for the central selection. In both cases, the value used in the generation of the toys of 1.013 is well reproduced. Also, the width of the distribution is identical in both cases,  illustrating that the floating edge position does not introduce biases apart from favouring edge positions where the fluctuations of the dataset allow for a signal component, as discussed above.
-\begin{figure}[h]
+\begin{figure}[hbp]
   \centering
   \begin{minipage}[t]{0.49\textwidth}
     \includegraphics[width=\textwidth]{plots/results/fit/toyResults/nS_floatVsFixed.pdf}
@@ -430,7 +430,7 @@ On the right side of Figure~\ref{fig:toys:backgroundOnly}, the distributions of 
 
 The distribution of the fitted edge position versus the initial value is shown in Figure~\ref{fig:toys:backgroundOnlyFloatEdge}. The initial values has been randomised between 0 and $\unit{300}{\giga\electronvolt}$. To ensure that the initial value is inside the allowed range for \mlledge and not too close to the lower boundary, diced values below $\unit{35}{\giga\electronvolt}$ are rejected. In absence of a signal a strong correlation between the initial and observed value of \mlledge is observed. This suggests that the fit tends to converge at the next local minimum of the negative log-likelihood. It is therefore necessary to choose a suitable initial value close to the global minimum and validate the results with a scan of the log-likelihood, as shown in Figure~\ref{fig:mc:bgOnlyProfile}. 
 
-\begin{figure}[htbp]
+\begin{figure}[tbp]
   \centering
 
     \includegraphics[width=0.6\textwidth]{plots/results/fit/toyResults/fittedM0vsinitialM0_backgroundOnly_randM0_NegSig.pdf}
@@ -439,7 +439,7 @@ The distribution of the fitted edge position versus the initial value is shown i
 \end{figure}
 
 As an additional check, toys are generated with \Rsfof shifted by $\pm1\sigma$ from its nominal value. These toys are afterwards fitted with \Rsfof constrained to the nominal value and the results are shown in Figure~\ref{fig:toys:systShift}. The same distributions are shown as above. For the signal yield divided by its uncertainty, the double peak structure observed in the nominal configuration changes to a single peak that is shifted to negative signal yields for the toys generated with lower and to positive signal yields for those generated with higher values of \Rsfof. This is caused by the fact that \Rsfof is constrained to the nominal value in the fit. For the fitted values of \Rsfof, the width of the distribution is unchanged, but the systematic shifts in the generation of the toys is reflected in their means. The fit is therefore able to correct for systematic biases in \Rsfof. However, the observed shifts of the mean (0.025 and -0.023) are smaller than those introduced in the generation of the toys ($\pm0.037$, the uncertainty of \Rsfof), suggesting that part of the systematic shift is absorbed by the fit by introducing a signal contribution. Still, this is a significant improvement over the counting experiment approach, where no such correction is possible.  
-\begin{figure}[thbp]
+\begin{figure}[tbp]
   \centering
   \begin{minipage}[t]{0.49\textwidth}
     \includegraphics[width=\textwidth]{plots/results/fit/toyResults/nS_systShift.pdf}
@@ -455,7 +455,7 @@ As an additional check, toys are generated with \Rsfof shifted by $\pm1\sigma$ f
 \label{sec:toysW}
 The fit performance in the presence of a signal is tested by injection of a signal of 125 events with an edge position of 70 GeV in the central region and a third of that number in the forward region. As for the backgrounds, the signal yields is fluctuated according to a Poisson distribution in the generation of the toys. Figure \ref{fig:toys:signalInjected} shows the resulting distribution of fit results for a selection of observables in the central signal region. The distribution of the number of signal events is well described by a Gaussian with a mean of about 124 events, very close to the injected number, and a width of 41 events. Divided by the fitted uncertainty, this gives a unit-Gaussian with a mean of about 2.9. The edge position is also Gaussian distributed, with a mean of about $\unit{70}{\giga\electronvolt}$, also reproducing the injected value very well, and a width of about $\unit{1.8}{\giga\electronvolt}$. Comparing the distribution of \Rsfof with that in Figure~\ref{fig:toys:backgroundOnly}, it shows that the presence of a signal does not bias the result towards higher values. 
 
-\begin{figure}[hbp]
+\begin{figure}[tbp]
   \centering
   \begin{minipage}[t]{0.49\textwidth}
     \includegraphics[width=\textwidth]{plots/results/fit/toyResults/nSPure_signalInjected.pdf}
@@ -476,7 +476,7 @@ The fit performance in the presence of a signal is tested by injection of a sign
 To study the dependence of the fit result on the edge position, toys are generated with a signal of 125 events, again fluctuated according to a Poisson distribution, in the central signal region, injected at different values of \mlledge between 40 and 200\GeV in steps of 10\GeV. For each configuration, about 1000 fits are performed. The initial value of \mlledge is chosen to coincide with the generated one. The distributions of the fitted \mlledge and number of signal events for each generated \mlledge are shown in Figure~\ref{fig:toys:scan}. In the case of the fitted \mlledge on the left side, the generated value is in general very well reproduced by the fit. The best results are obtained for low values of \mlledge, as the signal shape is much steeper and easier to separate from the background than for higher values. Towards higher values the spread of the results and especially the probability for very large deviations from the generated value increases, before they decrease towards very high values of the generated \mlledge. A notable feature is observed for generated values of 100\GeV, where for a small number of fits, the fitted value is very close to the \Z boson mass. However, the fact that the initial value is set to the correct position a priori introduces a bias towards better performance. This is demonstrated for the example of an injected signal at $\unit{\mlledge = 70}{\giga\electronvolt}$ in Figure~\ref{fig:toys:randM0Signal}, where the fitted value is plotted versus the initial value of \mlledge. For initial values below $m_{\Z}$, the correct edge position is found with a high probability. If the initial value is located on the other side of the \Z boson peak, it is much less likely to find the signal at its injected position. 
 
 Similar behaviour is also observed for the number of fitted signal events, as shown on the right side of Figure~\ref{fig:toys:scan}. Here, the relative size of the deviation from the generated value is much larger as in the case of \mlledge, as the event yields are fluctuated in the generation of the toys. 
-\begin{figure}[htbp]
+\begin{figure}[tbp]
   \centering
   \begin{minipage}[t]{0.49\textwidth}
     \includegraphics[width=\textwidth]{plots/results/fit/toyResults/generatedM0vsfittedM0_signalInjectedN125.pdf}
@@ -490,7 +490,7 @@ Similar behaviour is also observed for the number of fitted signal events, as sh
 
 The width of the distribution of the fitted \mlledge is shown on the left side of Figure~\ref{fig:toys:scanFits} as a function of the injected value. It is quantified both with the root mean square (RMS) of the distribution and the width of a Gaussian fitted in a range of $\pm\unit{3}{\giga\electronvolt}$ around the generated value. The first is sensitive to the non-Gaussian tails of the distribution, while the latter is a measure of the core resolution. For generated values of \mlledge of $\unit{40}{\giga\electronvolt}$, the two values are the same, but quickly deviate for higher edge positions. The Gaussian width rises from about $\unit{1}{\giga\electronvolt}$ to about $\unit{2-2.5}{\giga\electronvolt}$ for edge position above $\unit{80}{\giga\electronvolt}$ and is roughly constant for higher edge positions. The RMS reaches values of $\unit{4}{\giga\electronvolt}$ for edges below the Z mass. For $\unit{\mlledge=100}{\giga\electronvolt}$ the width is much larger, caused by the bias towards the \Z boson mass observed in Figure~\ref{fig:toys:scan}. Above the \Z boson peak, the RMS of the distribution is roughly stable at $\unit{8}{\giga\electronvolt}$, before it drops off again for edge positions above $\unit{180}{\giga\electronvolt}$. Here, the separation between \mlledge, where most of the signal is located, and the \Z boson peak becomes large.
 
-\begin{figure}[hbp]
+\begin{figure}[tbp]
   \centering
 
     \includegraphics[width=0.6\textwidth]{plots/results/fit/toyResults/fittedM0vsinitialM0_signalInjectedM70N125_NegSig.pdf}
@@ -500,7 +500,7 @@ The width of the distribution of the fitted \mlledge is shown on the left side o
 
 The right side of Figure~\ref{fig:toys:scanFits} shows the means and widths of fits of Gaussian functions to the distributions of $N_{S}^{central}$, again as a function of the generated \mlledge. The distributions do not exhibit significant non-Gaussian tails, so the RMS value is not shown in this case. The injected value, fluctuated around 125 events, is reproduced within about 8 events for all values of \mlledge. The width increases with \mlledge from roughly 25 to 65 events at \mlledge of $\unit{100}{\giga\electronvolt}$ and decreases slightly for higher values.
 
-\begin{figure}[!hbp]
+\begin{figure}[tbp]
   \centering
   \begin{minipage}[t]{0.49\textwidth}
     \includegraphics[width=\textwidth]{plots/results/fit/toyResults/WidthsvsGenM0Ratio_signalInjectedN125.pdf}

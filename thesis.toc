@@ -1,6 +1,6 @@
 \select@language {english}
 \contentsline {section}{\nonumberline Zusammenfassung}{i}{section*.1}
-\contentsline {section}{\nonumberline Abstract}{i}{section*.2}
+\contentsline {section}{\nonumberline Abstract}{ii}{section*.2}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Definition of variables}{2}{section.1.1}
 \contentsline {chapter}{\numberline {2}The Standard Model and Supersymmetry}{5}{chapter.2}
@@ -54,7 +54,6 @@
 \contentsline {subsection}{\numberline {5.2.3}Extrapolation to off-Z regions}{74}{subsection.5.2.3}
 \contentsline {subsection}{\numberline {5.2.4}Resulting background prediction}{75}{subsection.5.2.4}
 \contentsline {chapter}{\numberline {6}Counting experiment}{79}{chapter.6}
-\contentsline {section}{\numberline {6.1}Results and further studies}{79}{section.6.1}
 \contentsline {chapter}{\numberline {7}Search for a kinematic edge}{83}{chapter.7}
 \contentsline {section}{\numberline {7.1}Background and signal models}{83}{section.7.1}
 \contentsline {subsection}{\numberline {7.1.1}Model for Drell--Yan backgrounds}{83}{subsection.7.1.1}
@@ -71,7 +70,7 @@
 \contentsline {subsection}{\numberline {7.3.2}Fit performance studies using toy datasets}{97}{subsection.7.3.2}
 \contentsline {subsubsection}{\nonumberline Studies without signal injection}{99}{section*.113}
 \contentsline {subsubsection}{\nonumberline Toy studies with signal injection}{100}{section*.117}
-\contentsline {section}{\numberline {7.4}Fit results on data}{106}{section.7.4}
+\contentsline {section}{\numberline {7.4}Fit results on data}{107}{section.7.4}
 \contentsline {chapter}{\numberline {8}Interpretation of the search results}{113}{chapter.8}
 \contentsline {section}{\numberline {8.1}Investigating the excess in the low-mass central region}{113}{section.8.1}
 \contentsline {section}{\numberline {8.2}Interpretation in simplified models}{115}{section.8.2}
@@ -84,3 +83,5 @@
 \contentsline {chapter}{\numberline {C}Dependencies of $\mathbf {r}_{\mu e}$}{129}{appendix.C}
 \contentsline {chapter}{\numberline {D}Dependencies of $\mathbf {R}_{\mathrm {T}}$}{133}{appendix.D}
 \contentsline {chapter}{\numberline {E}Dependencies of $\mathbf {R}_{\text {out/in}}$}{137}{appendix.E}
+\contentsline {chapter}{\nonumberline Bibliography}{143}{appendix*.153}
+\contentsline {chapter}{Acknowledgement}{153}{appendix*.154}
